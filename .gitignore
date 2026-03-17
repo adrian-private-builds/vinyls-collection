@@ -3,3 +3,4 @@ collection.json
 sync.log
 *.pyc
 __pycache__/
+index.html.bak

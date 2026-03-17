@@ -230,7 +230,11 @@ def generate_html(releases, username, added_count):
         for r in groups[letter]:
             cover = r.get("local_cover", "")
             if cover:
-                img_tag = f'<img src="{escape(cover)}" alt="{escape(r["title"])}" loading="lazy">'
+                fallback = escape(r.get("thumb", ""))
+                onerror = f' onerror="this.onerror=null;this.src=\'{fallback}\'"' if fallback else ""
+                img_tag = f'<img src="{escape(cover)}" alt="{escape(r["title"])}" loading="lazy"{onerror}>'
+            elif r.get("thumb"):
+                img_tag = f'<img src="{escape(r["thumb"])}" alt="{escape(r["title"])}" loading="lazy">'
             else:
                 initial = r["artist"][0].upper() if r["artist"] else "?"
                 img_tag = f'<div class="cover-placeholder">{initial}</div>'
@@ -758,8 +762,10 @@ function artistSortKey(name) {{
 // ── Card renderer ─────────────────────────────────────────────────────────────
 
 function renderCard(r) {{
-  const coverHtml = r.local_cover
-    ? '<img src="' + esc(r.local_cover) + '" alt="' + esc(r.title) + '" loading="lazy">'
+  const coverSrc = r.local_cover || r.thumb || '';
+  const onerr = (r.local_cover && r.thumb) ? ' onerror="this.onerror=null;this.src=\'' + esc(r.thumb) + '\'"' : '';
+  const coverHtml = coverSrc
+    ? '<img src="' + esc(coverSrc) + '" alt="' + esc(r.title) + '" loading="lazy"' + onerr + '>'
     : '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
   const yr = r.master_year || r.year || '';
   const yearHtml  = yr ? '<span class="year">' + yr + '</span>' : '';
@@ -846,8 +852,10 @@ function setSort(mode) {{
 function openModal(idx) {{
   const r = COLLECTION[idx];
   const cover = document.getElementById('modal-cover');
-  cover.innerHTML = r.local_cover
-    ? '<img src="' + esc(r.local_cover) + '" alt="">'
+  const mSrc = r.local_cover || r.thumb || '';
+  const mErr = (r.local_cover && r.thumb) ? ' onerror="this.onerror=null;this.src=\'' + esc(r.thumb) + '\'"' : '';
+  cover.innerHTML = mSrc
+    ? '<img src="' + esc(mSrc) + '" alt=""' + mErr + '>'
     : '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
   document.getElementById('modal-title').textContent  = r.title;
   document.getElementById('modal-artist').textContent = r.artist;
