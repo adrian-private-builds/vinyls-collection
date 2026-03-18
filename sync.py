@@ -688,10 +688,64 @@ def generate_html(releases, username, added_count):
   .modal-close:hover {{ color: var(--text); }}
 
   @media (max-width: 700px) {{
-    header, .letter-nav, .content, footer {{ padding-left: 1.5rem; padding-right: 1.5rem; }}
+    /* Header */
+    header {{
+      padding: 2rem 1.25rem 1.25rem;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }}
+    .header-right {{
+      text-align: left;
+    }}
+    .header-left h1 {{
+      font-size: clamp(2rem, 11vw, 3rem);
+    }}
+
+    /* Nav */
+    .letter-nav {{
+      padding: 0.6rem 1.25rem;
+      gap: 0.15rem;
+    }}
+    .nav-letter {{
+      font-size: 0.65rem;
+      padding: 0.2rem 0.3rem;
+    }}
+
+    /* Content */
+    .content {{ padding: 1.5rem 1.25rem; }}
     .album-grid {{ grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 1rem; }}
-    .modal {{ flex-direction: column; }}
-    .modal-cover {{ width: 100%; min-width: unset; aspect-ratio: 1; max-height: 50vw; }}
+
+    /* Footer */
+    footer {{ padding: 1.5rem 1.25rem; }}
+
+    /* Random button */
+    .btn-random {{
+      bottom: 1.25rem;
+      right: 1.25rem;
+      padding: 0.5rem 0.9rem;
+    }}
+
+    /* Modal */
+    .modal-overlay {{ padding: 0; align-items: flex-end; }}
+    .modal {{
+      flex-direction: column;
+      max-height: 92vh;
+      width: 100%;
+      border-bottom: none;
+    }}
+    .modal-cover {{
+      width: 100%;
+      min-width: unset;
+      aspect-ratio: unset;
+      height: 45vw;
+      max-height: 260px;
+    }}
+    .modal-body {{
+      padding: 1.25rem 1.25rem 2rem;
+      overflow-y: auto;
+    }}
+    .modal-title {{ font-size: 1.2rem; }}
   }}
 </style>
 </head>
