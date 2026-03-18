@@ -448,7 +448,7 @@ def generate_html(releases, username, added_count):
 
   .header-left .subtitle {{
     margin-top: 0.75rem;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: var(--muted);
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -456,7 +456,7 @@ def generate_html(releases, username, added_count):
 
   .header-right {{
     text-align: right;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--muted);
     line-height: 1.8;
   }}
@@ -473,7 +473,7 @@ def generate_html(releases, username, added_count):
     display: inline-block;
     background: var(--red);
     color: white;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     padding: 0.2rem 0.5rem;
     letter-spacing: 0.05em;
     margin-top: 0.5rem;
@@ -496,7 +496,7 @@ def generate_html(releases, username, added_count):
   .nav-letter {{
     color: var(--muted);
     text-decoration: none;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     letter-spacing: 0.05em;
     padding: 0.25rem 0.4rem;
     transition: color 0.15s, background 0.15s;
@@ -511,7 +511,7 @@ def generate_html(releases, username, added_count):
     color: var(--accent);
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     border: 1px solid rgba(200,169,110,0.3);
     padding: 0.2rem 0.6rem;
     transition: background 0.15s, border-color 0.15s;
@@ -533,7 +533,7 @@ def generate_html(releases, username, added_count):
     border: 1px solid var(--border);
     color: var(--muted);
     font-family: 'Mulish', sans-serif;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     letter-spacing: 0.07em;
     text-transform: uppercase;
     padding: 0.2rem 0.55rem;
@@ -569,7 +569,7 @@ def generate_html(releases, username, added_count):
     border: 1px solid var(--border);
     color: var(--text);
     font-family: 'Mulish', sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding: 0.3rem 1.2rem 0.3rem 0.5rem;
     width: 0;
     max-width: 180px;
@@ -594,7 +594,7 @@ def generate_html(releases, username, added_count):
     border: 1px solid var(--border);
     color: var(--muted);
     font-family: 'Mulish', sans-serif;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     letter-spacing: 0.07em;
     text-transform: uppercase;
     padding: 0.2rem 0.55rem;
@@ -628,7 +628,7 @@ def generate_html(releases, username, added_count):
   .search-clear.visible {{ display: block; }}
   .search-clear:hover {{ color: var(--accent); }}
   .search-count {{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color: var(--muted);
     margin-left: 0.4rem;
     white-space: nowrap;
@@ -650,7 +650,7 @@ def generate_html(releases, username, added_count):
   }}
   .letter-heading {{
     font-family: 'Ovo', serif;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: var(--accent);
     letter-spacing: 0.2em;
@@ -734,7 +734,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .album-title {{
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: var(--text);
     white-space: nowrap;
     overflow: hidden;
@@ -743,7 +743,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .album-artist {{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--accent);
     white-space: nowrap;
     overflow: hidden;
@@ -762,7 +762,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .year, .genre, .format {{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color: var(--muted);
     letter-spacing: 0.04em;
   }}
@@ -780,7 +780,7 @@ def generate_html(releases, username, added_count):
     align-items: center;
     gap: 0.3rem;
     margin-top: 0.25rem;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     color: var(--muted);
     letter-spacing: 0.03em;
     white-space: nowrap;
@@ -802,7 +802,7 @@ def generate_html(releases, username, added_count):
   footer {{
     border-top: 1px solid var(--border);
     padding: 2rem 4rem;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     color: var(--muted);
     display: flex;
     justify-content: space-between;
@@ -853,7 +853,7 @@ def generate_html(releases, username, added_count):
     border: 1px solid var(--border);
     color: #aaa;
     font-family: 'Mulish', sans-serif;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 0.6rem 1.1rem;
@@ -1031,7 +1031,7 @@ def generate_html(releases, username, added_count):
 
   .stats-heading {{
     font-family: 'Ovo', serif;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: var(--accent);
     letter-spacing: 0.2em;
@@ -1048,7 +1048,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .stat-title {{
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: var(--muted);
     letter-spacing: 0.12em;
@@ -1064,7 +1064,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .stat-label {{
-    font-size: 0.68rem;
+    font-size: 0.8rem;
     color: var(--text);
     width: 9rem;
     flex-shrink: 0;
@@ -1087,7 +1087,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .stat-count {{
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     color: var(--muted);
     width: 1.5rem;
     text-align: right;
@@ -1132,7 +1132,7 @@ def generate_html(releases, username, added_count):
     }}
     #nav-letters::-webkit-scrollbar {{ display: none; }}
     .nav-letter {{
-      font-size: 0.65rem;
+      font-size: 0.8rem;
       padding: 0.2rem 0.3rem;
       flex-shrink: 0;
     }}
