@@ -790,10 +790,10 @@ def generate_html(releases, username, added_count):
     background: rgba(0,0,0,0.4);
     border: 1px solid rgba(255,255,255,0.15);
     color: var(--text);
-    font-size: 2rem;
+    font-size: 1rem;
     cursor: pointer;
     line-height: 1;
-    padding: 0.4rem 0.75rem;
+    padding: 0.3rem 0.55rem;
     transition: background 0.15s;
     z-index: 10;
   }}
