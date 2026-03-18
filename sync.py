@@ -343,6 +343,7 @@ def generate_html(releases, username, added_count):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Meg &amp; Adrian Vinyl Collection</title>
+<link rel="icon" type="image/png" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Ovo&family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
 <style>
