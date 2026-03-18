@@ -1458,7 +1458,9 @@ function getFiltered() {{
     const title  = (r.title || '').toLowerCase();
     const firstRelease = String(r.master_year || '');
     const details = (r.vinyl_color || '').toLowerCase();
-    return artist.includes(q) || title.includes(q) || firstRelease.includes(q) || details.includes(q);
+    const styles = (r.styles || []).join(' ').toLowerCase();
+    const genres = (r.genres || []).join(' ').toLowerCase();
+    return artist.includes(q) || title.includes(q) || firstRelease.includes(q) || details.includes(q) || styles.includes(q) || genres.includes(q);
   }});
 }}
 

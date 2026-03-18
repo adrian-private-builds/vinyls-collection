@@ -812,7 +812,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 15:45</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 17:03</p>
   </div>
   <div class="header-right">
     <span class="count">528</span>
@@ -5738,7 +5738,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 15:45</span>
+  <span>Last sync: March 18, 2026 at 17:03</span>
 </footer>
 
 <!-- Modal -->
@@ -5911,7 +5911,9 @@ function getFiltered() {
     const title  = (r.title || '').toLowerCase();
     const firstRelease = String(r.master_year || '');
     const details = (r.vinyl_color || '').toLowerCase();
-    return artist.includes(q) || title.includes(q) || firstRelease.includes(q) || details.includes(q);
+    const styles = (r.styles || []).join(' ').toLowerCase();
+    const genres = (r.genres || []).join(' ').toLowerCase();
+    return artist.includes(q) || title.includes(q) || firstRelease.includes(q) || details.includes(q) || styles.includes(q) || genres.includes(q);
   });
 }
 
