@@ -1165,18 +1165,18 @@ function openModal(idx) {{
 function showModal(idx) {{
   const r = COLLECTION[idx];
   const cover = document.getElementById('modal-cover');
-  const mSrc = r.local_cover || r.thumb || '';
-  const mErr = (r.local_cover && r.thumb) ? ` onerror="this.onerror=null;this.src='${{esc(r.thumb)}}'"` : '';
+  const mSrc = r.thumb || r.local_cover || '';
   cover.classList.add('loading');
-  cover.innerHTML = mSrc
-    ? '<img src="' + esc(mSrc) + '" alt=""' + mErr + '>'
-    : '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
-  const img = cover.querySelector('img');
-  if (img) {{
-    const done = () => cover.classList.remove('loading');
-    img.complete ? done() : (img.onload = img.onerror = done);
-  }} else {{
+  if (!mSrc) {{
+    cover.innerHTML = '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
     cover.classList.remove('loading');
+  }} else {{
+    const img = new Image();
+    img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;';
+    img.alt = '';
+    img.onload = () => {{ cover.innerHTML = ''; cover.appendChild(img); cover.classList.remove('loading'); }};
+    img.onerror = () => cover.classList.remove('loading');
+    img.src = mSrc;
   }}
   document.getElementById('modal-title').textContent  = r.title;
   document.getElementById('modal-artist').textContent = r.artist;
