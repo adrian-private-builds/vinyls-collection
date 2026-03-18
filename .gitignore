@@ -1,5 +1,4 @@
 covers/
-collection.json
 sync.log
 *.pyc
 __pycache__/
