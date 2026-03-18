@@ -609,14 +609,29 @@
       font-size: clamp(2rem, 11vw, 3rem);
     }
 
-    /* Nav */
+    /* Nav — two-row layout on mobile */
     .letter-nav {
-      padding: 0.6rem 1.25rem;
-      gap: 0.15rem;
+      padding: 0.5rem 1.25rem;
+      gap: 0.4rem 0.15rem;
     }
+    .sort-controls { order: 1; flex-shrink: 0; }
+    .nav-sep { display: none; }
+    .nav-stats { order: 2; margin-left: auto; flex-shrink: 0; }
+    #nav-letters {
+      order: 3;
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      gap: 0;
+    }
+    #nav-letters::-webkit-scrollbar { display: none; }
     .nav-letter {
       font-size: 0.65rem;
       padding: 0.2rem 0.3rem;
+      flex-shrink: 0;
     }
 
     /* Content */
@@ -672,7 +687,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:44</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:48</p>
   </div>
   <div class="header-right">
     <span class="count">528</span>
@@ -5591,7 +5606,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 08:44</span>
+  <span>Last sync: March 18, 2026 at 08:48</span>
 </footer>
 
 <!-- Modal -->

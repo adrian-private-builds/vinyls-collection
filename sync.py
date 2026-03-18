@@ -948,14 +948,29 @@ def generate_html(releases, username, added_count):
       font-size: clamp(2rem, 11vw, 3rem);
     }}
 
-    /* Nav */
+    /* Nav — two-row layout on mobile */
     .letter-nav {{
-      padding: 0.6rem 1.25rem;
-      gap: 0.15rem;
+      padding: 0.5rem 1.25rem;
+      gap: 0.4rem 0.15rem;
     }}
+    .sort-controls {{ order: 1; flex-shrink: 0; }}
+    .nav-sep {{ display: none; }}
+    .nav-stats {{ order: 2; margin-left: auto; flex-shrink: 0; }}
+    #nav-letters {{
+      order: 3;
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      gap: 0;
+    }}
+    #nav-letters::-webkit-scrollbar {{ display: none; }}
     .nav-letter {{
       font-size: 0.65rem;
       padding: 0.2rem 0.3rem;
+      flex-shrink: 0;
     }}
 
     /* Content */
