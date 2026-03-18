@@ -668,6 +668,9 @@ def generate_html(releases, username, added_count):
     border-color: var(--accent);
   }}
 
+  body.modal-open .btn-random,
+  body.modal-open .btn-top {{ display: none; }}
+
   /* ── Random button (floating) ── */
   .btn-random {{
     position: fixed;
@@ -785,16 +788,17 @@ def generate_html(releases, username, added_count):
     position: absolute;
     top: 0.75rem;
     right: 0.75rem;
-    background: none;
-    border: none;
-    color: var(--muted);
-    font-size: 1.1rem;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: var(--text);
+    font-size: 1rem;
     cursor: pointer;
     line-height: 1;
-    padding: 0.25rem 0.5rem;
-    transition: color 0.15s;
+    padding: 0.3rem 0.55rem;
+    transition: background 0.15s;
+    z-index: 10;
   }}
-  .modal-close:hover {{ color: var(--text); }}
+  .modal-close:hover {{ background: rgba(0,0,0,0.7); }}
   .modal-nav-row {{
     display: flex;
     align-items: center;
@@ -946,9 +950,9 @@ def generate_html(releases, username, added_count):
     .modal-cover {{
       width: 100%;
       min-width: unset;
-      aspect-ratio: unset;
-      height: 40vw;
-      max-height: 240px;
+      aspect-ratio: 1;
+      height: auto;
+      max-height: 60vw;
       flex-shrink: 0;
     }}
     .modal-body {{
@@ -1158,6 +1162,7 @@ function showModal(idx) {{
   document.getElementById('modal-prev').disabled = _modalPos <= 0;
   document.getElementById('modal-next').disabled = _modalPos >= _displayOrder.length - 1;
   document.getElementById('modal').classList.add('open');
+  document.body.classList.add('modal-open');
   document.documentElement.style.overflow = 'hidden';
   document.body.style.overflow = 'hidden';
 }}
@@ -1171,6 +1176,7 @@ function modalNav(dir) {{
 
 function closeModal() {{
   document.getElementById('modal').classList.remove('open');
+  document.body.classList.remove('modal-open');
   document.documentElement.style.overflow = '';
   document.body.style.overflow = '';
 }}

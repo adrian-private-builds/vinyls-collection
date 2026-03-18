@@ -339,6 +339,9 @@
     border-color: var(--accent);
   }
 
+  body.modal-open .btn-random,
+  body.modal-open .btn-top { display: none; }
+
   /* ── Random button (floating) ── */
   .btn-random {
     position: fixed;
@@ -456,16 +459,17 @@
     position: absolute;
     top: 0.75rem;
     right: 0.75rem;
-    background: none;
-    border: none;
-    color: var(--muted);
-    font-size: 1.1rem;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: var(--text);
+    font-size: 1rem;
     cursor: pointer;
     line-height: 1;
-    padding: 0.25rem 0.5rem;
-    transition: color 0.15s;
+    padding: 0.3rem 0.55rem;
+    transition: background 0.15s;
+    z-index: 10;
   }
-  .modal-close:hover { color: var(--text); }
+  .modal-close:hover { background: rgba(0,0,0,0.7); }
   .modal-nav-row {
     display: flex;
     align-items: center;
@@ -617,9 +621,9 @@
     .modal-cover {
       width: 100%;
       min-width: unset;
-      aspect-ratio: unset;
-      height: 40vw;
-      max-height: 240px;
+      aspect-ratio: 1;
+      height: auto;
+      max-height: 60vw;
       flex-shrink: 0;
     }
     .modal-body {
@@ -639,7 +643,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:01</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:04</p>
   </div>
   <div class="header-right">
     <span class="count">528</span>
@@ -5557,7 +5561,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 08:01</span>
+  <span>Last sync: March 18, 2026 at 08:04</span>
 </footer>
 
 <!-- Modal -->
@@ -5718,6 +5722,7 @@ function showModal(idx) {
   document.getElementById('modal-prev').disabled = _modalPos <= 0;
   document.getElementById('modal-next').disabled = _modalPos >= _displayOrder.length - 1;
   document.getElementById('modal').classList.add('open');
+  document.body.classList.add('modal-open');
   document.documentElement.style.overflow = 'hidden';
   document.body.style.overflow = 'hidden';
 }
@@ -5731,6 +5736,7 @@ function modalNav(dir) {
 
 function closeModal() {
   document.getElementById('modal').classList.remove('open');
+  document.body.classList.remove('modal-open');
   document.documentElement.style.overflow = '';
   document.body.style.overflow = '';
 }
