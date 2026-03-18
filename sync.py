@@ -706,7 +706,7 @@ def generate_html(releases, username, added_count):
   }}
   .modal-details .label {{
     color: #777;
-    width: 5rem;
+    width: 6.5rem;
     flex-shrink: 0;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -958,7 +958,8 @@ function openModal(idx) {{
   document.getElementById('modal-title').textContent  = r.title;
   document.getElementById('modal-artist').textContent = r.artist;
   const rows = [];
-  if (r.master_year || r.year)       rows.push(['Year',   r.master_year || r.year]);
+  if (r.master_year)                 rows.push(['First Release', r.master_year]);
+  if (r.year)                        rows.push(['Release Year',  r.year]);
   if (r.genres && r.genres.length)   rows.push(['Genre',  r.genres.join(', ')]);
   if (r.formats && r.formats.length) rows.push(['Format', r.formats.join(', ')]);
   if (r.vinyl_color)                 rows.push(['Details', r.vinyl_color]);
