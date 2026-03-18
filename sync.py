@@ -937,7 +937,7 @@ def generate_html(releases, username, added_count):
       right: 1.25rem;
       padding: 0.5rem 0.9rem;
     }}
-    body.modal-open .btn-random {{ display: none; }}
+    body.modal-open > .btn-random {{ display: none; }}
     .modal-nav-random {{
       display: inline-block;
       position: static;
