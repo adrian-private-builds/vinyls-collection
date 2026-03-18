@@ -262,6 +262,47 @@ def generate_html(releases, username, added_count):
 
     badge = f'<div class="new-badge">+{added_count} new</div>' if added_count else ""
 
+    # ── Stats ────────────────────────────────────────────────────────────────
+    from collections import Counter
+
+    artist_counts = Counter(r["artist"] for r in releases)
+    genre_counts  = Counter(g for r in releases for g in r.get("genres", []))
+    year_counts   = Counter(r["master_year"] for r in releases if r.get("master_year"))
+
+    def stat_rows(counter, n=10):
+        items = counter.most_common(n)
+        if not items:
+            return ""
+        max_val = items[0][1]
+        rows = ""
+        for label, count in items:
+            pct = round(count / max_val * 100)
+            rows += f"""<div class="stat-row">
+              <span class="stat-label">{escape(str(label))}</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:{pct}%"></span></span>
+              <span class="stat-count">{count}</span>
+            </div>"""
+        return rows
+
+    stats_html = f"""
+<section class="stats">
+  <h2 class="stats-heading">Collection Stats</h2>
+  <div class="stats-grid">
+    <div class="stat-block">
+      <h3 class="stat-title">Top Artists</h3>
+      {stat_rows(artist_counts)}
+    </div>
+    <div class="stat-block">
+      <h3 class="stat-title">Top Genres</h3>
+      {stat_rows(genre_counts)}
+    </div>
+    <div class="stat-block">
+      <h3 class="stat-title">Most Popular Years</h3>
+      {stat_rows(year_counts)}
+    </div>
+  </div>
+</section>"""
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -731,6 +772,77 @@ def generate_html(releases, username, added_count):
   }}
   .modal-close:hover {{ color: var(--text); }}
 
+  /* ── Stats ── */
+  .stats {{
+    padding: 3rem 4rem 4rem;
+    border-top: 1px solid var(--border);
+  }}
+
+  .stats-heading {{
+    font-family: 'Playfair Display', serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--accent);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }}
+
+  .stats-grid {{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }}
+
+  .stat-title {{
+    font-size: 0.65rem;
+    font-weight: 400;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+  }}
+
+  .stat-row {{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.6rem;
+  }}
+
+  .stat-label {{
+    font-size: 0.68rem;
+    color: var(--text);
+    width: 9rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }}
+
+  .stat-bar-wrap {{
+    flex: 1;
+    height: 2px;
+    background: var(--border);
+  }}
+
+  .stat-bar {{
+    display: block;
+    height: 100%;
+    background: var(--accent);
+    opacity: 0.6;
+  }}
+
+  .stat-count {{
+    font-size: 0.65rem;
+    color: var(--muted);
+    width: 1.5rem;
+    text-align: right;
+    flex-shrink: 0;
+  }}
+
   @media (max-width: 700px) {{
     /* Header */
     header {{
@@ -790,6 +902,9 @@ def generate_html(releases, username, added_count):
       overflow-y: auto;
     }}
     .modal-title {{ font-size: 1.2rem; }}
+    .stats {{ padding: 2rem 1.25rem 3rem; }}
+    .stats-grid {{ grid-template-columns: 1fr; gap: 2rem; }}
+    .stat-label {{ width: 7rem; }}
   }}
 </style>
 </head>
@@ -822,6 +937,8 @@ def generate_html(releases, username, added_count):
 <main class="content" id="content">
   {albums_html}
 </main>
+
+{stats_html}
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/{escape(username)}/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/{escape(username)}/collection</a></span>

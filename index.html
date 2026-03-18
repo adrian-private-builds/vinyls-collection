@@ -467,6 +467,77 @@
   }
   .modal-close:hover { color: var(--text); }
 
+  /* ── Stats ── */
+  .stats {
+    padding: 3rem 4rem 4rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .stats-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--accent);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+
+  .stat-title {
+    font-size: 0.65rem;
+    font-weight: 400;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+  }
+
+  .stat-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .stat-label {
+    font-size: 0.68rem;
+    color: var(--text);
+    width: 9rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .stat-bar-wrap {
+    flex: 1;
+    height: 2px;
+    background: var(--border);
+  }
+
+  .stat-bar {
+    display: block;
+    height: 100%;
+    background: var(--accent);
+    opacity: 0.6;
+  }
+
+  .stat-count {
+    font-size: 0.65rem;
+    color: var(--muted);
+    width: 1.5rem;
+    text-align: right;
+    flex-shrink: 0;
+  }
+
   @media (max-width: 700px) {
     /* Header */
     header {
@@ -526,6 +597,9 @@
       overflow-y: auto;
     }
     .modal-title { font-size: 1.2rem; }
+    .stats { padding: 2rem 1.25rem 3rem; }
+    .stats-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .stat-label { width: 7rem; }
   }
 </style>
 </head>
@@ -534,7 +608,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 07:33</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 07:36</p>
   </div>
   <div class="header-right">
     <span class="count">527</span>
@@ -5302,9 +5376,148 @@
             </div></div></div>
 </main>
 
+
+<section class="stats">
+  <h2 class="stats-heading">Collection Stats</h2>
+  <div class="stats-grid">
+    <div class="stat-block">
+      <h3 class="stat-title">Top Artists</h3>
+      <div class="stat-row">
+              <span class="stat-label">King Gizzard And The Lizard Wizard</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:100%"></span></span>
+              <span class="stat-count">22</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Iron Maiden</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:50%"></span></span>
+              <span class="stat-count">11</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Metallica</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:36%"></span></span>
+              <span class="stat-count">8</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Black Sabbath</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:32%"></span></span>
+              <span class="stat-count">7</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Ghost</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:32%"></span></span>
+              <span class="stat-count">7</span>
+            </div><div class="stat-row">
+              <span class="stat-label">King Diamond</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:32%"></span></span>
+              <span class="stat-count">7</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Bathory</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:27%"></span></span>
+              <span class="stat-count">6</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Bolt Thrower</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:27%"></span></span>
+              <span class="stat-count">6</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Danzig</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:27%"></span></span>
+              <span class="stat-count">6</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Entombed</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:27%"></span></span>
+              <span class="stat-count">6</span>
+            </div>
+    </div>
+    <div class="stat-block">
+      <h3 class="stat-title">Top Genres</h3>
+      <div class="stat-row">
+              <span class="stat-label">Rock</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:100%"></span></span>
+              <span class="stat-count">481</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Electronic</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:10%"></span></span>
+              <span class="stat-count">47</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Folk, World, &amp; Country</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:5%"></span></span>
+              <span class="stat-count">26</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Pop</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:5%"></span></span>
+              <span class="stat-count">23</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Blues</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:3%"></span></span>
+              <span class="stat-count">14</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Hip Hop</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:2%"></span></span>
+              <span class="stat-count">8</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Stage &amp; Screen</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:1%"></span></span>
+              <span class="stat-count">6</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Funk / Soul</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:1%"></span></span>
+              <span class="stat-count">4</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Jazz</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:0%"></span></span>
+              <span class="stat-count">2</span>
+            </div><div class="stat-row">
+              <span class="stat-label">Classical</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:0%"></span></span>
+              <span class="stat-count">2</span>
+            </div>
+    </div>
+    <div class="stat-block">
+      <h3 class="stat-title">Most Popular Years</h3>
+      <div class="stat-row">
+              <span class="stat-label">2017</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:100%"></span></span>
+              <span class="stat-count">22</span>
+            </div><div class="stat-row">
+              <span class="stat-label">2022</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:82%"></span></span>
+              <span class="stat-count">18</span>
+            </div><div class="stat-row">
+              <span class="stat-label">2018</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:82%"></span></span>
+              <span class="stat-count">18</span>
+            </div><div class="stat-row">
+              <span class="stat-label">2019</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:77%"></span></span>
+              <span class="stat-count">17</span>
+            </div><div class="stat-row">
+              <span class="stat-label">1991</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:77%"></span></span>
+              <span class="stat-count">17</span>
+            </div><div class="stat-row">
+              <span class="stat-label">2024</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:73%"></span></span>
+              <span class="stat-count">16</span>
+            </div><div class="stat-row">
+              <span class="stat-label">2015</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:73%"></span></span>
+              <span class="stat-count">16</span>
+            </div><div class="stat-row">
+              <span class="stat-label">2023</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:64%"></span></span>
+              <span class="stat-count">14</span>
+            </div><div class="stat-row">
+              <span class="stat-label">1994</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:64%"></span></span>
+              <span class="stat-count">14</span>
+            </div><div class="stat-row">
+              <span class="stat-label">2014</span>
+              <span class="stat-bar-wrap"><span class="stat-bar" style="width:64%"></span></span>
+              <span class="stat-count">14</span>
+            </div>
+    </div>
+  </div>
+</section>
+
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 07:33</span>
+  <span>Last sync: March 18, 2026 at 07:36</span>
 </footer>
 
 <!-- Modal -->
