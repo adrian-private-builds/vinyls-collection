@@ -934,24 +934,27 @@ def generate_html(releases, username, added_count):
       padding: 0.5rem 0.9rem;
     }}
 
-    /* Modal */
-    .modal-overlay {{ padding: 0; align-items: flex-end; }}
+    /* Modal — full screen on mobile */
+    .modal-overlay {{ padding: 0; }}
     .modal {{
       flex-direction: column;
-      max-height: 92vh;
       width: 100%;
-      border-bottom: none;
+      height: 100%;
+      max-height: 100%;
+      border: none;
     }}
     .modal-cover {{
       width: 100%;
       min-width: unset;
       aspect-ratio: unset;
-      height: 45vw;
-      max-height: 260px;
+      height: 40vw;
+      max-height: 240px;
+      flex-shrink: 0;
     }}
     .modal-body {{
       padding: 1.25rem 1.25rem 2rem;
       overflow-y: auto;
+      flex: 1;
     }}
     .modal-title {{ font-size: 1.2rem; }}
     .stats {{ padding: 2rem 1.25rem 3rem; }}

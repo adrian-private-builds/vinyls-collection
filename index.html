@@ -605,24 +605,27 @@
       padding: 0.5rem 0.9rem;
     }
 
-    /* Modal */
-    .modal-overlay { padding: 0; align-items: flex-end; }
+    /* Modal — full screen on mobile */
+    .modal-overlay { padding: 0; }
     .modal {
       flex-direction: column;
-      max-height: 92vh;
       width: 100%;
-      border-bottom: none;
+      height: 100%;
+      max-height: 100%;
+      border: none;
     }
     .modal-cover {
       width: 100%;
       min-width: unset;
       aspect-ratio: unset;
-      height: 45vw;
-      max-height: 260px;
+      height: 40vw;
+      max-height: 240px;
+      flex-shrink: 0;
     }
     .modal-body {
       padding: 1.25rem 1.25rem 2rem;
       overflow-y: auto;
+      flex: 1;
     }
     .modal-title { font-size: 1.2rem; }
     .stats { padding: 2rem 1.25rem 3rem; }
@@ -636,7 +639,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 07:58</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:00</p>
   </div>
   <div class="header-right">
     <span class="count">529</span>
@@ -5563,7 +5566,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 07:58</span>
+  <span>Last sync: March 18, 2026 at 08:00</span>
 </footer>
 
 <!-- Modal -->
