@@ -1035,7 +1035,7 @@ def generate_html(releases, username, added_count):
   </div>
 </header>
 
-<button class="btn-random" onclick="openRandom()">&#9654; Random</button>
+<button class="btn-random" onclick="openRandom()">Random</button>
 <button class="btn-top" onclick="window.scrollTo({{top:0,behavior:'smooth'}})" id="btn-top"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,11 8,5 13,11"/></svg></button>
 
 <nav class="letter-nav">
@@ -1072,7 +1072,7 @@ def generate_html(releases, username, added_count):
       </div>
       <div class="modal-nav-row">
         <button class="modal-nav-btn" id="modal-prev" onclick="modalNav(-1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9,2 4,7 9,12"/></svg></button>
-        <button class="modal-nav-random btn-random" onclick="openRandom()">&#9654; Random</button>
+        <button class="modal-nav-random btn-random" onclick="openRandom()">Random</button>
         <span class="modal-pos" id="modal-pos"></span>
         <button class="modal-nav-btn" id="modal-next" onclick="modalNav(1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="5,2 10,7 5,12"/></svg></button>
       </div>
