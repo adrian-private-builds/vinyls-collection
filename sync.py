@@ -720,7 +720,9 @@ def generate_html(releases, username, added_count):
   }}
 
   .vinyl-color {{
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
     margin-top: 0.25rem;
     font-size: 0.6rem;
     color: var(--muted);
@@ -728,6 +730,13 @@ def generate_html(releases, username, added_count):
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }}
+  .vinyl-dot {{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+    border: 1px solid rgba(255,255,255,0.15);
   }}
 
   .year::after {{ content: "·"; margin-left: 0.4rem; }}
@@ -897,6 +906,13 @@ def generate_html(releases, username, added_count):
   }}
   .modal-details .value {{
     color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }}
+  .modal-details .vinyl-dot {{
+    width: 0.6rem;
+    height: 0.6rem;
   }}
   .modal-close {{
     position: absolute;
@@ -1188,6 +1204,61 @@ function artistSortKey(name) {{
     .toLowerCase().replace(/^the /, '');
 }}
 
+const _colorMap = [
+  [/\\bred\\b/i,        '#c0392b'],
+  [/\\bpink\\b/i,       '#e91e8a'],
+  [/\\bneon pink\\b/i,  '#ff6ec7'],
+  [/\\brose/i,         '#8b3a4a'],
+  [/\\borchid/i,       '#b55dba'],
+  [/\\bruby\\b/i,       '#9b111e'],
+  [/\\boxblood\\b/i,    '#6a1a21'],
+  [/\\bmagenta\\b/i,    '#c4007a'],
+  [/\\borange\\b/i,     '#e67e22'],
+  [/\\byellow\\b/i,     '#f1c40f'],
+  [/\\bcream\\b/i,       '#f5e6c8'],
+  [/\\bgold\\b/i,       '#d4a537'],
+  [/\\bbrown\\b/i,      '#7b5b3a'],
+  [/\\bgreen\\b/i,      '#27ae60'],
+  [/\\bolive\\b/i,      '#6b8e23'],
+  [/\\bforest\\b/i,     '#228b22'],
+  [/\\bcyan\\b/i,       '#00bcd4'],
+  [/\\bcuracao\\b/i,    '#00a0b0'],
+  [/\\bteal\\b/i,       '#009688'],
+  [/\\bblue\\b/i,       '#2e86c1'],
+  [/\\bsky blue\\b/i,   '#87ceeb'],
+  [/\\bpurple\\b/i,     '#8e44ad'],
+  [/\\bviolet\\b/i,     '#7c3aed'],
+  [/\\bwhite\\b/i,      '#e8e4dc'],
+  [/\\bclear\\b/i,      'rgba(220,220,220,0.35)'],
+  [/\\btransparent\\b/i,'rgba(220,220,220,0.35)'],
+  [/\\bsilver\\b/i,     '#aab2bd'],
+  [/\\bgr[ae]y\\b/i,    '#7f8c8d'],
+  [/\\bgraphite\\b/i,   '#5a5a5a'],
+  [/\\bsmoke\\b/i,      'rgba(60,60,60,0.7)'],
+  [/\\bblack\\b/i,      '#2c2c2c'],
+  [/\\bbone\\b/i,       '#e3dac9'],
+  [/\\bmarble/i,       '#bbb'],
+  [/\\bglow in the dark/i, '#b5f5b0'],
+  [/\\bneon\\b/i,       '#39ff14'],
+  [/\\bsea glass\\b/i,  '#8fbc8f'],
+  [/\\brainbow\\b/i,    'linear-gradient(90deg,#c0392b,#e67e22,#f1c40f,#27ae60,#2e86c1,#8e44ad)'],
+];
+
+function vinylCss(str) {{
+  if (!str) return null;
+  for (const [re, color] of _colorMap) {{
+    if (re.test(str)) return color;
+  }}
+  return null;
+}}
+
+function dotHtml(str) {{
+  const c = vinylCss(str);
+  if (!c) return '';
+  const style = 'background:' + c;
+  return '<span class="vinyl-dot" style="' + style + '"></span>';
+}}
+
 // ── Card renderer ─────────────────────────────────────────────────────────────
 
 function renderCard(r) {{
@@ -1201,7 +1272,7 @@ function renderCard(r) {{
   const genres    = (r.genres||[]).slice(0,2).join(', ');
   const genreHtml = genres ? '<span class="genre">' + esc(genres) + '</span>' : '';
   const fmtHtml   = '';
-  const colorHtml = r.vinyl_color ? '<span class="vinyl-color">' + esc(r.vinyl_color) + '</span>' : '';
+  const colorHtml = r.vinyl_color ? '<span class="vinyl-color">' + dotHtml(r.vinyl_color) + esc(r.vinyl_color) + '</span>' : '';
   return '<div class="album-card" data-idx="' + r._idx + '">' +
     '<div class="cover-wrap">' + coverHtml + '</div>' +
     '<div class="album-info">' +
@@ -1375,9 +1446,9 @@ function showModal(idx) {{
   if (r.year)                        rows.push(['Release Year',  r.year]);
   if (r.genres && r.genres.length)   rows.push(['Genre',  r.genres.join(', ')]);
   if (r.formats && r.formats.length) rows.push(['Format', r.formats.join(', ')]);
-  if (r.vinyl_color)                 rows.push(['Details', r.vinyl_color]);
+  if (r.vinyl_color)                 rows.push(['Details', r.vinyl_color, true]);
   document.getElementById('modal-details').innerHTML = rows
-    .map(([l, v]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + esc(v) + '</span></div>')
+    .map(([l, v, isDot]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + (isDot ? dotHtml(v) : '') + esc(v) + '</span></div>')
     .join('');
   document.getElementById('modal-pos').textContent = (_modalPos + 1) + ' / ' + _displayOrder.length;
   document.getElementById('modal-prev').disabled = _modalPos <= 0;
