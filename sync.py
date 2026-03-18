@@ -983,8 +983,12 @@ def generate_html(releases, username, added_count):
     /* Random button */
     .btn-random {{
       bottom: 1.25rem;
-      right: 1.25rem;
+      right: 1rem;
       padding: 0.5rem 0.9rem;
+    }}
+    .btn-top {{
+      bottom: 4.5rem;
+      right: 1rem;
     }}
     body.modal-open > .btn-random {{ display: none; }}
     .modal-nav-random {{
