@@ -188,6 +188,13 @@
   /* ── Album card ── */
   .album-card {
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .album-card * {
+    pointer-events: none;
   }
 
   .cover-wrap {
@@ -489,7 +496,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 07:11</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 07:13</p>
   </div>
   <div class="header-right">
     <span class="count">527</span>
@@ -5258,7 +5265,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 07:11</span>
+  <span>Last sync: March 18, 2026 at 07:13</span>
 </footer>
 
 <!-- Modal -->
@@ -5400,11 +5407,13 @@ function openModal(idx) {
     .map(([l, v]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + esc(v) + '</span></div>')
     .join('');
   document.getElementById('modal').classList.add('open');
+  document.documentElement.style.overflow = 'hidden';
   document.body.style.overflow = 'hidden';
 }
 
 function closeModal() {
   document.getElementById('modal').classList.remove('open');
+  document.documentElement.style.overflow = '';
   document.body.style.overflow = '';
 }
 
@@ -5418,14 +5427,16 @@ function openRandom() {
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 
-function bindCards() {
-  document.querySelectorAll('.album-card').forEach(card => {
-    card.addEventListener('click', () => openModal(parseInt(card.dataset.idx)));
-  });
-}
+// Single delegated listener — survives re-renders, works on iOS
+document.getElementById('content').addEventListener('click', function(e) {
+  const card = e.target.closest('.album-card');
+  if (card) openModal(parseInt(card.dataset.idx));
+});
+
+// No-op bindCards kept so applyGroups() calls don't error
+function bindCards() {}
 
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
-bindCards();
 </script>
 
 </body>

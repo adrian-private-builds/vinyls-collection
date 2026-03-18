@@ -453,6 +453,13 @@ def generate_html(releases, username, added_count):
   /* ── Album card ── */
   .album-card {{
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+  }}
+  .album-card * {{
+    pointer-events: none;
   }}
 
   .cover-wrap {{
@@ -922,11 +929,13 @@ function openModal(idx) {{
     .map(([l, v]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + esc(v) + '</span></div>')
     .join('');
   document.getElementById('modal').classList.add('open');
+  document.documentElement.style.overflow = 'hidden';
   document.body.style.overflow = 'hidden';
 }}
 
 function closeModal() {{
   document.getElementById('modal').classList.remove('open');
+  document.documentElement.style.overflow = '';
   document.body.style.overflow = '';
 }}
 
@@ -940,14 +949,16 @@ function openRandom() {{
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 
-function bindCards() {{
-  document.querySelectorAll('.album-card').forEach(card => {{
-    card.addEventListener('click', () => openModal(parseInt(card.dataset.idx)));
-  }});
-}}
+// Single delegated listener — survives re-renders, works on iOS
+document.getElementById('content').addEventListener('click', function(e) {{
+  const card = e.target.closest('.album-card');
+  if (card) openModal(parseInt(card.dataset.idx));
+}});
+
+// No-op bindCards kept so applyGroups() calls don't error
+function bindCards() {{}}
 
 document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeModal(); }});
-bindCards();
 </script>
 
 </body>
