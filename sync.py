@@ -946,7 +946,7 @@ def generate_html(releases, username, added_count):
     margin-bottom: 0.5rem;
   }}
   .modal-artist {{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: var(--accent);
     letter-spacing: 0.05em;
     margin-bottom: 1.5rem;
@@ -955,7 +955,7 @@ def generate_html(releases, username, added_count):
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--muted);
   }}
   .modal-details .row {{
@@ -966,7 +966,7 @@ def generate_html(releases, username, added_count):
     color: #777;
     width: 6.5rem;
     flex-shrink: 0;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     padding-top: 0.05rem;
   }}
   .modal-details .value {{
