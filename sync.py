@@ -668,7 +668,6 @@ def generate_html(releases, username, added_count):
     border-color: var(--accent);
   }}
 
-  body.modal-open .btn-random,
   body.modal-open .btn-top {{ display: none; }}
 
   /* ── Random button (floating) ── */
@@ -950,9 +949,8 @@ def generate_html(releases, username, added_count):
     .modal-cover {{
       width: 100%;
       min-width: unset;
-      aspect-ratio: 1;
-      height: auto;
-      max-height: 60vw;
+      height: 100vw;
+      max-height: 45vh;
       flex-shrink: 0;
     }}
     .modal-body {{
@@ -1017,6 +1015,7 @@ def generate_html(releases, username, added_count):
       </div>
       <div class="modal-nav-row">
         <button class="modal-nav-btn" id="modal-prev" onclick="modalNav(-1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9,2 4,7 9,12"/></svg></button>
+        <button class="modal-nav-btn modal-nav-random" onclick="openRandom()"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2,4h7l3,3-3,3H2M6,2l-3,2 3,2M8,8l3,2-3,2"/></svg></button>
         <span class="modal-pos" id="modal-pos"></span>
         <button class="modal-nav-btn" id="modal-next" onclick="modalNav(1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="5,2 10,7 5,12"/></svg></button>
       </div>
