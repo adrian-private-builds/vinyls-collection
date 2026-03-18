@@ -245,8 +245,7 @@ def generate_html(releases, username, added_count):
             genre_tag = f'<span class="genre">{escape(genres)}</span>' if genres else ""
             fmt = r["formats"][0] if r["formats"] else ""
             fmt_tag = f'<span class="format">{escape(fmt)}</span>' if fmt else ""
-            color = r.get("vinyl_color", "")
-            color_tag = f'<span class="vinyl-color">🖤 {escape(color)}</span>' if color else ""
+            color_tag = ""
 
             albums_html += f"""
             <div class="album-card" data-idx="{card_idx}">
@@ -834,7 +833,7 @@ function renderCard(r) {{
   const genreHtml = genres ? '<span class="genre">' + esc(genres) + '</span>' : '';
   const fmt       = (r.formats||[])[0] || '';
   const fmtHtml   = fmt ? '<span class="format">' + esc(fmt) + '</span>' : '';
-  const colorHtml = r.vinyl_color ? '<span class="vinyl-color">&#x1F5A4; ' + esc(r.vinyl_color) + '</span>' : '';
+  const colorHtml = '';
   return '<div class="album-card" data-idx="' + r._idx + '">' +
     '<div class="cover-wrap">' + coverHtml + '</div>' +
     '<div class="album-info">' +
@@ -924,7 +923,7 @@ function openModal(idx) {{
   if (r.master_year || r.year)       rows.push(['Year',   r.master_year || r.year]);
   if (r.genres && r.genres.length)   rows.push(['Genre',  r.genres.join(', ')]);
   if (r.formats && r.formats.length) rows.push(['Format', r.formats.join(', ')]);
-  if (r.vinyl_color)                 rows.push(['Vinyl',  r.vinyl_color]);
+  if (r.vinyl_color)                 rows.push(['Details', r.vinyl_color]);
   document.getElementById('modal-details').innerHTML = rows
     .map(([l, v]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + esc(v) + '</span></div>')
     .join('');
