@@ -822,13 +822,7 @@ def generate_html(releases, username, added_count):
     opacity: 0.25;
     cursor: default;
   }}
-  .modal-pos {{
-    font-size: 0.65rem;
-    color: var(--muted);
-    letter-spacing: 0.08em;
-    text-align: center;
-    flex: 1;
-  }}
+  .modal-pos {{ display: none; }}
 
   /* ── Stats ── */
   .stats {{
