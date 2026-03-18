@@ -242,6 +242,58 @@ def enrich_prices(releases):
 
     return releases
 
+# ── Vinyl color dot ───────────────────────────────────────────────────────────
+
+import re as _re
+
+_COLOR_MAP = [
+    (r'\bred\b',        '#c0392b'),
+    (r'\bpink\b',       '#e91e8a'),
+    (r'\bneon pink\b',  '#ff6ec7'),
+    (r'\brose',         '#8b3a4a'),
+    (r'\borchid',       '#b55dba'),
+    (r'\bruby\b',       '#9b111e'),
+    (r'\boxblood\b',    '#6a1a21'),
+    (r'\bmagenta\b',    '#c4007a'),
+    (r'\borange\b',     '#e67e22'),
+    (r'\byellow\b',     '#f1c40f'),
+    (r'\bcream\b',      '#f5e6c8'),
+    (r'\bgold\b',       '#d4a537'),
+    (r'\bbrown\b',      '#7b5b3a'),
+    (r'\bgreen\b',      '#27ae60'),
+    (r'\bolive\b',      '#6b8e23'),
+    (r'\bforest\b',     '#228b22'),
+    (r'\bcyan\b',       '#00bcd4'),
+    (r'\bcuracao\b',    '#00a0b0'),
+    (r'\bteal\b',       '#009688'),
+    (r'\bblue\b',       '#2e86c1'),
+    (r'\bsky blue\b',   '#87ceeb'),
+    (r'\bpurple\b',     '#8e44ad'),
+    (r'\bviolet\b',     '#7c3aed'),
+    (r'\bwhite\b',      '#e8e4dc'),
+    (r'\bclear\b',      'rgba(220,220,220,0.35)'),
+    (r'\btransparent\b','rgba(220,220,220,0.35)'),
+    (r'\bsilver\b',     '#aab2bd'),
+    (r'\bgr[ae]y\b',    '#7f8c8d'),
+    (r'\bgraphite\b',   '#5a5a5a'),
+    (r'\bsmoke\b',      'rgba(60,60,60,0.7)'),
+    (r'\bblack\b',      '#2c2c2c'),
+    (r'\bbone\b',       '#e3dac9'),
+    (r'\bmarble',       '#bbb'),
+    (r'\bglow in the dark', '#b5f5b0'),
+    (r'\bneon\b',       '#39ff14'),
+    (r'\bsea glass\b',  '#8fbc8f'),
+    (r'\brainbow\b',    'linear-gradient(90deg,#c0392b,#e67e22,#f1c40f,#27ae60,#2e86c1,#8e44ad)'),
+]
+
+def vinyl_dot_html(color_str):
+    if not color_str:
+        return ""
+    for pattern, css_color in _COLOR_MAP:
+        if _re.search(pattern, color_str, _re.IGNORECASE):
+            return f'<span class="vinyl-dot" style="background:{css_color}"></span>'
+    return ""
+
 # ── Generate HTML ─────────────────────────────────────────────────────────────
 
 def generate_html(releases, username, added_count):
@@ -298,7 +350,7 @@ def generate_html(releases, username, added_count):
             genre_tag = f'<span class="genre">{escape(genres)}</span>' if genres else ""
             fmt_tag = ""
             color = r.get("vinyl_color", "")
-            color_tag = f'<span class="vinyl-color">{escape(color)}</span>' if color else ""
+            color_tag = f'<span class="vinyl-color">{vinyl_dot_html(color)}{escape(color)}</span>' if color else ""
 
             albums_html += f"""
             <div class="album-card" data-idx="{card_idx}">
