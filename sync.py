@@ -334,7 +334,7 @@ def generate_html(releases, username, added_count):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Meg &amp; Adrian Vinyl Collection</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ovo&family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
 <style>
   :root {{
     --bg: #0e0e0e;
@@ -354,7 +354,7 @@ def generate_html(releases, username, added_count):
   body {{
     background: var(--bg);
     color: var(--text);
-    font-family: 'DM Mono', monospace;
+    font-family: 'Mulish', sans-serif;
     min-height: 100vh;
   }}
 
@@ -370,7 +370,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .header-left h1 {{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ovo', serif;
     font-size: clamp(2.5rem, 6vw, 5rem);
     font-weight: 700;
     line-height: 1;
@@ -389,7 +389,7 @@ def generate_html(releases, username, added_count):
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--muted);
-    font-family: 'DM Mono', monospace;
+    font-family: 'Mulish', sans-serif;
   }}
 
   .header-left .subtitle {{
@@ -408,7 +408,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .header-right .count {{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ovo', serif;
     font-size: 2rem;
     color: var(--accent);
     display: block;
@@ -470,7 +470,7 @@ def generate_html(releases, username, added_count):
     background: none;
     border: 1px solid var(--border);
     color: var(--muted);
-    font-family: 'DM Mono', monospace;
+    font-family: 'Mulish', sans-serif;
     font-size: 0.65rem;
     letter-spacing: 0.07em;
     text-transform: uppercase;
@@ -504,7 +504,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .letter-heading {{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ovo', serif;
     font-size: 0.75rem;
     font-weight: 400;
     color: var(--accent);
@@ -563,7 +563,7 @@ def generate_html(releases, username, added_count):
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ovo', serif;
     font-size: 3rem;
     color: var(--muted);
     background: repeating-linear-gradient(
@@ -656,7 +656,7 @@ def generate_html(releases, username, added_count):
     background: var(--surface);
     border: 1px solid var(--border);
     color: #aaa;
-    font-family: 'DM Mono', monospace;
+    font-family: 'Mulish', sans-serif;
     font-size: 1rem;
     line-height: 0;
     padding: 0.65rem 0.75rem;
@@ -687,7 +687,7 @@ def generate_html(releases, username, added_count):
     background: var(--surface);
     border: 1px solid var(--border);
     color: #aaa;
-    font-family: 'DM Mono', monospace;
+    font-family: 'Mulish', sans-serif;
     font-size: 0.65rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -764,7 +764,7 @@ def generate_html(releases, username, added_count):
     flex: 1;
   }}
   .modal-title {{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ovo', serif;
     font-size: clamp(1.2rem, 3vw, 1.8rem);
     font-weight: 700;
     line-height: 1.2;
@@ -851,7 +851,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .stats-heading {{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ovo', serif;
     font-size: 0.75rem;
     font-weight: 400;
     color: var(--accent);
