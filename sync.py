@@ -528,15 +528,25 @@ def generate_html(releases, username, added_count):
   .album-meta {{
     margin-top: 0.3rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.4rem;
     align-items: center;
+    min-width: 0;
+    overflow: hidden;
   }}
 
   .year, .genre, .format {{
     font-size: 0.6rem;
     color: var(--muted);
     letter-spacing: 0.04em;
+  }}
+
+  .genre {{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    max-width: 100%;
   }}
 
   .vinyl-color {{

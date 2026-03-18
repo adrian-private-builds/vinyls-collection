@@ -264,15 +264,25 @@
   .album-meta {
     margin-top: 0.3rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0.4rem;
     align-items: center;
+    min-width: 0;
+    overflow: hidden;
   }
 
   .year, .genre, .format {
     font-size: 0.6rem;
     color: var(--muted);
     letter-spacing: 0.04em;
+  }
+
+  .genre {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    max-width: 100%;
   }
 
   .vinyl-color {
@@ -496,7 +506,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 07:23</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 07:25</p>
   </div>
   <div class="header-right">
     <span class="count">527</span>
@@ -5265,7 +5275,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 07:23</span>
+  <span>Last sync: March 18, 2026 at 07:25</span>
 </footer>
 
 <!-- Modal -->
