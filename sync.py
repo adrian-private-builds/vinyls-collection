@@ -243,9 +243,9 @@ def generate_html(releases, username, added_count):
             year = f'<span class="year">{display_year}</span>' if display_year else ""
             genres = ", ".join(r["genres"][:2]) if r["genres"] else ""
             genre_tag = f'<span class="genre">{escape(genres)}</span>' if genres else ""
-            fmt = r["formats"][0] if r["formats"] else ""
-            fmt_tag = f'<span class="format">{escape(fmt)}</span>' if fmt else ""
-            color_tag = ""
+            fmt_tag = ""
+            color = r.get("vinyl_color", "")
+            color_tag = f'<span class="vinyl-color">{escape(color)}</span>' if color else ""
 
             albums_html += f"""
             <div class="album-card" data-idx="{card_idx}">
@@ -831,9 +831,8 @@ function renderCard(r) {{
   const yearHtml  = yr ? '<span class="year">' + yr + '</span>' : '';
   const genres    = (r.genres||[]).slice(0,2).join(', ');
   const genreHtml = genres ? '<span class="genre">' + esc(genres) + '</span>' : '';
-  const fmt       = (r.formats||[])[0] || '';
-  const fmtHtml   = fmt ? '<span class="format">' + esc(fmt) + '</span>' : '';
-  const colorHtml = '';
+  const fmtHtml   = '';
+  const colorHtml = r.vinyl_color ? '<span class="vinyl-color">' + esc(r.vinyl_color) + '</span>' : '';
   return '<div class="album-card" data-idx="' + r._idx + '">' +
     '<div class="cover-wrap">' + coverHtml + '</div>' +
     '<div class="album-info">' +
