@@ -16,7 +16,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2025-10-18T06:43:01-07:00",
     "master_year": 1995,
-    "local_cover": "covers/3554742.jpg"
+    "local_cover": "covers/3554742.jpg",
+    "median_price": 25.94
   },
   {
     "id": 27381147,
@@ -34,7 +35,8 @@
     "vinyl_color": "Violet",
     "date_added": "2025-01-07T07:10:51-08:00",
     "master_year": 2000,
-    "local_cover": "covers/27381147.jpg"
+    "local_cover": "covers/27381147.jpg",
+    "median_price": 42.53
   },
   {
     "id": 26840240,
@@ -52,7 +54,8 @@
     "vinyl_color": "Blue Clear Marbled",
     "date_added": "2024-01-10T06:08:50-08:00",
     "master_year": 2023,
-    "local_cover": "covers/26840240.jpg"
+    "local_cover": "covers/26840240.jpg",
+    "median_price": 29.99
   },
   {
     "id": 25893250,
@@ -70,7 +73,8 @@
     "vinyl_color": "",
     "date_added": "2023-01-26T08:57:49-08:00",
     "master_year": 2004,
-    "local_cover": "covers/25893250.jpg"
+    "local_cover": "covers/25893250.jpg",
+    "median_price": 39.08
   },
   {
     "id": 26046070,
@@ -88,7 +92,8 @@
     "vinyl_color": "",
     "date_added": "2023-05-12T08:38:01-07:00",
     "master_year": 2002,
-    "local_cover": "covers/26046070.jpg"
+    "local_cover": "covers/26046070.jpg",
+    "median_price": 24.02
   },
   {
     "id": 32060739,
@@ -106,7 +111,8 @@
     "vinyl_color": "",
     "date_added": "2026-01-22T08:32:36-08:00",
     "master_year": 1994,
-    "local_cover": "covers/32060739.jpg"
+    "local_cover": "covers/32060739.jpg",
+    "median_price": 68.39
   },
   {
     "id": 28015290,
@@ -124,7 +130,8 @@
     "vinyl_color": "",
     "date_added": "2023-10-28T09:54:38-07:00",
     "master_year": 2023,
-    "local_cover": "covers/28015290.jpg"
+    "local_cover": "covers/28015290.jpg",
+    "median_price": 22.87
   },
   {
     "id": 9141669,
@@ -142,7 +149,8 @@
     "vinyl_color": "180 g",
     "date_added": "2024-10-17T10:21:26-07:00",
     "master_year": 2016,
-    "local_cover": "covers/9141669.jpg"
+    "local_cover": "covers/9141669.jpg",
+    "median_price": 20.64
   },
   {
     "id": 31019512,
@@ -160,7 +168,8 @@
     "vinyl_color": "Yellow Transparent ",
     "date_added": "2024-08-31T06:12:51-07:00",
     "master_year": 2024,
-    "local_cover": "covers/31019512.jpg"
+    "local_cover": "covers/31019512.jpg",
+    "median_price": 22.0
   },
   {
     "id": 18585499,
@@ -178,7 +187,8 @@
     "vinyl_color": "",
     "date_added": "2025-01-31T07:51:36-08:00",
     "master_year": 2007,
-    "local_cover": "covers/18585499.jpg"
+    "local_cover": "covers/18585499.jpg",
+    "median_price": 22.5
   },
   {
     "id": 28769521,
@@ -196,7 +206,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2024-11-24T07:46:25-08:00",
     "master_year": 2019,
-    "local_cover": "covers/28769521.jpg"
+    "local_cover": "covers/28769521.jpg",
+    "median_price": 31.03
   },
   {
     "id": 24592160,
@@ -214,7 +225,8 @@
     "vinyl_color": "30th Anniversary",
     "date_added": "2023-08-28T09:13:25-07:00",
     "master_year": 1992,
-    "local_cover": "covers/24592160.jpg"
+    "local_cover": "covers/24592160.jpg",
+    "median_price": 27.01
   },
   {
     "id": 16841046,
@@ -232,7 +244,8 @@
     "vinyl_color": "",
     "date_added": "2023-10-13T13:10:45-07:00",
     "master_year": 1990,
-    "local_cover": "covers/16841046.jpg"
+    "local_cover": "covers/16841046.jpg",
+    "median_price": 21.84
   },
   {
     "id": 30170624,
@@ -250,7 +263,8 @@
     "vinyl_color": "",
     "date_added": "2024-04-03T05:37:15-07:00",
     "master_year": 1994,
-    "local_cover": "covers/30170624.jpg"
+    "local_cover": "covers/30170624.jpg",
+    "median_price": 25.29
   },
   {
     "id": 27138288,
@@ -268,7 +282,8 @@
     "vinyl_color": "",
     "date_added": "2024-05-23T08:46:16-07:00",
     "master_year": 2015,
-    "local_cover": "covers/27138288.jpg"
+    "local_cover": "covers/27138288.jpg",
+    "median_price": 24.4
   },
   {
     "id": 14716328,
@@ -286,7 +301,8 @@
     "vinyl_color": "Sea Glass",
     "date_added": "2022-12-05T12:14:09-08:00",
     "master_year": 2014,
-    "local_cover": "covers/14716328.jpg"
+    "local_cover": "covers/14716328.jpg",
+    "median_price": 56.74
   },
   {
     "id": 15853311,
@@ -304,7 +320,8 @@
     "vinyl_color": "",
     "date_added": "2024-04-04T04:49:29-07:00",
     "master_year": 2020,
-    "local_cover": "covers/15853311.jpg"
+    "local_cover": "covers/15853311.jpg",
+    "median_price": 17.99
   },
   {
     "id": 19208248,
@@ -322,7 +339,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-05T12:16:09-08:00",
     "master_year": 2016,
-    "local_cover": "covers/19208248.jpg"
+    "local_cover": "covers/19208248.jpg",
+    "median_price": 14.15
   },
   {
     "id": 9870456,
@@ -340,7 +358,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-26T11:43:42-08:00",
     "master_year": 2017,
-    "local_cover": "covers/9870456.jpg"
+    "local_cover": "covers/9870456.jpg",
+    "median_price": 20.0
   },
   {
     "id": 23658779,
@@ -358,7 +377,8 @@
     "vinyl_color": "180 Gram, Gatefold ",
     "date_added": "2023-11-27T12:53:01-08:00",
     "master_year": 1991,
-    "local_cover": "covers/23658779.jpg"
+    "local_cover": "covers/23658779.jpg",
+    "median_price": 228.74
   },
   {
     "id": 29071228,
@@ -376,7 +396,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2024-10-08T05:36:57-07:00",
     "master_year": 1984,
-    "local_cover": "covers/29071228.jpg"
+    "local_cover": "covers/29071228.jpg",
+    "median_price": 28.0
   },
   {
     "id": 29071675,
@@ -394,7 +415,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2024-03-23T07:50:38-07:00",
     "master_year": 1988,
-    "local_cover": "covers/29071675.jpg"
+    "local_cover": "covers/29071675.jpg",
+    "median_price": 28.0
   },
   {
     "id": 4846554,
@@ -412,7 +434,8 @@
     "vinyl_color": "Red Transparent",
     "date_added": "2022-12-16T04:31:22-08:00",
     "master_year": 1996,
-    "local_cover": "covers/4846554.jpg"
+    "local_cover": "covers/4846554.jpg",
+    "median_price": 27.99
   },
   {
     "id": 2480059,
@@ -430,7 +453,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-05T09:15:39-08:00",
     "master_year": 1990,
-    "local_cover": "covers/2480059.jpg"
+    "local_cover": "covers/2480059.jpg",
+    "median_price": 30.0
   },
   {
     "id": 4242682,
@@ -448,7 +472,8 @@
     "vinyl_color": "Red",
     "date_added": "2025-12-17T05:50:57-08:00",
     "master_year": 2003,
-    "local_cover": "covers/4242682.jpg"
+    "local_cover": "covers/4242682.jpg",
+    "median_price": 97.32
   },
   {
     "id": 6838318,
@@ -466,7 +491,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2022-12-19T06:00:11-08:00",
     "master_year": 1991,
-    "local_cover": "covers/6838318.jpg"
+    "local_cover": "covers/6838318.jpg",
+    "median_price": 20.0
   },
   {
     "id": 6860035,
@@ -484,7 +510,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2023-09-23T08:22:57-07:00",
     "master_year": 2005,
-    "local_cover": "covers/6860035.jpg"
+    "local_cover": "covers/6860035.jpg",
+    "median_price": 20.68
   },
   {
     "id": 7790160,
@@ -502,7 +529,8 @@
     "vinyl_color": "180 Gram, Gatefold",
     "date_added": "2025-12-12T10:46:45-08:00",
     "master_year": 2000,
-    "local_cover": "covers/7790160.jpg"
+    "local_cover": "covers/7790160.jpg",
+    "median_price": 34.47
   },
   {
     "id": 14186441,
@@ -520,7 +548,8 @@
     "vinyl_color": "Remix, 50th Anniversary Edition, Optimal Media Pressing, 180g",
     "date_added": "2024-03-09T05:18:25-08:00",
     "master_year": 1969,
-    "local_cover": "covers/14186441.jpg"
+    "local_cover": "covers/14186441.jpg",
+    "median_price": 22.99
   },
   {
     "id": 20599078,
@@ -538,7 +567,8 @@
     "vinyl_color": "Remix, ½ Speed Mastered",
     "date_added": "2024-04-02T07:33:12-07:00",
     "master_year": 1970,
-    "local_cover": "covers/20599078.jpg"
+    "local_cover": "covers/20599078.jpg",
+    "median_price": 10.95
   },
   {
     "id": 20830486,
@@ -558,7 +588,8 @@
     "vinyl_color": "White",
     "date_added": "2022-12-19T06:06:37-08:00",
     "master_year": 2011,
-    "local_cover": "covers/20830486.jpg"
+    "local_cover": "covers/20830486.jpg",
+    "median_price": 34.48
   },
   {
     "id": 5566568,
@@ -578,7 +609,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-19T06:02:42-08:00",
     "master_year": 2001,
-    "local_cover": "covers/5566568.jpg"
+    "local_cover": "covers/5566568.jpg",
+    "median_price": 51.72
   },
   {
     "id": 21445423,
@@ -596,7 +628,8 @@
     "vinyl_color": "Clear w/ Black Splatter",
     "date_added": "2024-02-12T09:59:43-08:00",
     "master_year": 2010,
-    "local_cover": "covers/21445423.jpg"
+    "local_cover": "covers/21445423.jpg",
+    "median_price": 26.32
   },
   {
     "id": 19986442,
@@ -615,7 +648,8 @@
     "vinyl_color": "Red",
     "date_added": "2022-12-20T06:06:38-08:00",
     "master_year": 2021,
-    "local_cover": "covers/19986442.jpg"
+    "local_cover": "covers/19986442.jpg",
+    "median_price": 40.68
   },
   {
     "id": 16102732,
@@ -633,7 +667,8 @@
     "vinyl_color": "50th Anniversary, 180g",
     "date_added": "2023-12-09T10:31:19-08:00",
     "master_year": 1970,
-    "local_cover": "covers/16102732.jpg"
+    "local_cover": "covers/16102732.jpg",
+    "median_price": 17.24
   },
   {
     "id": 16077275,
@@ -651,7 +686,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-10-22T10:17:59-07:00",
     "master_year": 1972,
-    "local_cover": "covers/16077275.jpg"
+    "local_cover": "covers/16077275.jpg",
+    "median_price": 24.14
   },
   {
     "id": 25047373,
@@ -670,7 +706,8 @@
     "vinyl_color": "",
     "date_added": "2023-02-01T04:23:16-08:00",
     "master_year": 1980,
-    "local_cover": "covers/25047373.jpg"
+    "local_cover": "covers/25047373.jpg",
+    "median_price": 30.0
   },
   {
     "id": 16102672,
@@ -688,7 +725,8 @@
     "vinyl_color": "Embossed cover",
     "date_added": "2024-04-02T07:32:13-07:00",
     "master_year": 1971,
-    "local_cover": "covers/16102672.jpg"
+    "local_cover": "covers/16102672.jpg",
+    "median_price": 25.29
   },
   {
     "id": 25212076,
@@ -706,7 +744,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-02-12T10:00:34-08:00",
     "master_year": 1981,
-    "local_cover": "covers/25212076.jpg"
+    "local_cover": "covers/25212076.jpg",
+    "median_price": 28.74
   },
   {
     "id": 16097019,
@@ -724,7 +763,8 @@
     "vinyl_color": "180g, Gatefold",
     "date_added": "2022-12-10T07:11:21-08:00",
     "master_year": 1970,
-    "local_cover": "covers/16097019.jpg"
+    "local_cover": "covers/16097019.jpg",
+    "median_price": 25.29
   },
   {
     "id": 16000348,
@@ -742,7 +782,8 @@
     "vinyl_color": "Gatefold, 180 Gram",
     "date_added": "2024-10-22T10:18:10-07:00",
     "master_year": 1973,
-    "local_cover": "covers/16000348.jpg"
+    "local_cover": "covers/16000348.jpg",
+    "median_price": 22.98
   },
   {
     "id": 12873433,
@@ -760,7 +801,8 @@
     "vinyl_color": "",
     "date_added": "2024-08-13T08:33:56-07:00",
     "master_year": 2002,
-    "local_cover": "covers/12873433.jpg"
+    "local_cover": "covers/12873433.jpg",
+    "median_price": 22.98
   },
   {
     "id": 12872781,
@@ -778,7 +820,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:27:36-08:00",
     "master_year": 1995,
-    "local_cover": "covers/12872781.jpg"
+    "local_cover": "covers/12872781.jpg",
+    "median_price": 74.68
   },
   {
     "id": 12873389,
@@ -796,7 +839,8 @@
     "vinyl_color": "",
     "date_added": "2023-02-23T13:12:17-08:00",
     "master_year": 1998,
-    "local_cover": "covers/12873389.jpg"
+    "local_cover": "covers/12873389.jpg",
+    "median_price": 137.93
   },
   {
     "id": 31380575,
@@ -814,7 +858,8 @@
     "vinyl_color": "Blue Transparent [Curacao]",
     "date_added": "2024-08-16T09:14:44-07:00",
     "master_year": 1992,
-    "local_cover": "covers/31380575.jpg"
+    "local_cover": "covers/31380575.jpg",
+    "median_price": 40.91
   },
   {
     "id": 24414557,
@@ -832,7 +877,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:28:05-08:00",
     "master_year": 2022,
-    "local_cover": "covers/24414557.jpg"
+    "local_cover": "covers/24414557.jpg",
+    "median_price": 25.0
   },
   {
     "id": 31889104,
@@ -851,7 +897,8 @@
     "vinyl_color": "Black Transparent, 180g",
     "date_added": "2024-10-22T10:17:48-07:00",
     "master_year": 2024,
-    "local_cover": "covers/31889104.jpg"
+    "local_cover": "covers/31889104.jpg",
+    "median_price": 26.44
   },
   {
     "id": 14426698,
@@ -869,7 +916,8 @@
     "vinyl_color": "",
     "date_added": "2024-11-18T08:08:56-08:00",
     "master_year": 2019,
-    "local_cover": "covers/14426698.jpg"
+    "local_cover": "covers/14426698.jpg",
+    "median_price": 45.98
   },
   {
     "id": 28259908,
@@ -888,7 +936,8 @@
     "vinyl_color": "",
     "date_added": "2026-03-17T15:15:40-07:00",
     "master_year": 2023,
-    "local_cover": "covers/28259908.jpg"
+    "local_cover": "covers/28259908.jpg",
+    "median_price": 20.2
   },
   {
     "id": 16313565,
@@ -906,7 +955,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2024-05-18T08:11:02-07:00",
     "master_year": 1981,
-    "local_cover": "covers/16313565.jpg"
+    "local_cover": "covers/16313565.jpg",
+    "median_price": 29.87
   },
   {
     "id": 30136262,
@@ -924,7 +974,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2024-08-13T08:30:47-07:00",
     "master_year": 1974,
-    "local_cover": "covers/30136262.jpg"
+    "local_cover": "covers/30136262.jpg",
+    "median_price": 28.72
   },
   {
     "id": 15290781,
@@ -944,7 +995,8 @@
     "vinyl_color": "",
     "date_added": "2024-02-24T06:44:07-08:00",
     "master_year": 2002,
-    "local_cover": "covers/15290781.jpg"
+    "local_cover": "covers/15290781.jpg",
+    "median_price": 33.33
   },
   {
     "id": 25768747,
@@ -962,7 +1014,8 @@
     "vinyl_color": "Optimal Media GmbH",
     "date_added": "2024-03-09T05:19:40-08:00",
     "master_year": 1998,
-    "local_cover": "covers/25768747.jpg"
+    "local_cover": "covers/25768747.jpg",
+    "median_price": 36.63
   },
   {
     "id": 11374466,
@@ -980,7 +1033,8 @@
     "vinyl_color": "United Record Pressing",
     "date_added": "2025-03-02T13:24:57-08:00",
     "master_year": 2000,
-    "local_cover": "covers/11374466.jpg"
+    "local_cover": "covers/11374466.jpg",
+    "median_price": 19.0
   },
   {
     "id": 24767717,
@@ -998,7 +1052,8 @@
     "vinyl_color": "Dirty Swamp Green",
     "date_added": "2024-11-24T07:48:47-08:00",
     "master_year": 2010,
-    "local_cover": "covers/24767717.jpg"
+    "local_cover": "covers/24767717.jpg",
+    "median_price": 21.26
   },
   {
     "id": 26015398,
@@ -1017,7 +1072,8 @@
     "vinyl_color": "",
     "date_added": "2024-11-02T08:17:34-07:00",
     "master_year": 2016,
-    "local_cover": "covers/26015398.jpg"
+    "local_cover": "covers/26015398.jpg",
+    "median_price": 34.39
   },
   {
     "id": 26046079,
@@ -1035,7 +1091,8 @@
     "vinyl_color": "",
     "date_added": "2025-03-03T07:27:41-08:00",
     "master_year": 1994,
-    "local_cover": "covers/26046079.jpg"
+    "local_cover": "covers/26046079.jpg",
+    "median_price": 27.74
   },
   {
     "id": 31262533,
@@ -1053,7 +1110,8 @@
     "vinyl_color": "",
     "date_added": "2025-04-07T07:27:28-07:00",
     "master_year": 1998,
-    "local_cover": "covers/31262533.jpg"
+    "local_cover": "covers/31262533.jpg",
+    "median_price": 25.29
   },
   {
     "id": 23605175,
@@ -1071,7 +1129,8 @@
     "vinyl_color": "",
     "date_added": "2025-10-01T11:59:15-07:00",
     "master_year": 1989,
-    "local_cover": "covers/23605175.jpg"
+    "local_cover": "covers/23605175.jpg",
+    "median_price": 30.0
   },
   {
     "id": 11184467,
@@ -1089,7 +1148,8 @@
     "vinyl_color": "FDR",
     "date_added": "2025-03-02T13:24:20-08:00",
     "master_year": 1992,
-    "local_cover": "covers/11184467.jpg"
+    "local_cover": "covers/11184467.jpg",
+    "median_price": 28.99
   },
   {
     "id": 29933995,
@@ -1107,7 +1167,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2025-02-22T05:59:51-08:00",
     "master_year": 2005,
-    "local_cover": "covers/29933995.jpg"
+    "local_cover": "covers/29933995.jpg",
+    "median_price": 36.93
   },
   {
     "id": 33481247,
@@ -1125,7 +1186,8 @@
     "vinyl_color": "Magma fire red/yellow",
     "date_added": "2025-06-27T09:41:39-07:00",
     "master_year": 1991,
-    "local_cover": "covers/33481247.jpg"
+    "local_cover": "covers/33481247.jpg",
+    "median_price": 34.31
   },
   {
     "id": 31725839,
@@ -1144,7 +1206,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2025-04-07T07:27:59-07:00",
     "master_year": 2010,
-    "local_cover": "covers/31725839.jpg"
+    "local_cover": "covers/31725839.jpg",
+    "median_price": 35.99
   },
   {
     "id": 9307146,
@@ -1162,7 +1225,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-05-27T08:48:23-07:00",
     "master_year": 1986,
-    "local_cover": "covers/9307146.jpg"
+    "local_cover": "covers/9307146.jpg",
+    "median_price": 18.0
   },
   {
     "id": 11061377,
@@ -1180,7 +1244,8 @@
     "vinyl_color": "180 gr",
     "date_added": "2022-11-25T10:55:03-08:00",
     "master_year": 1997,
-    "local_cover": "covers/11061377.jpg"
+    "local_cover": "covers/11061377.jpg",
+    "median_price": 28.62
   },
   {
     "id": 11052688,
@@ -1198,7 +1263,8 @@
     "vinyl_color": "",
     "date_added": "2024-04-04T04:52:26-07:00",
     "master_year": 1998,
-    "local_cover": "covers/11052688.jpg"
+    "local_cover": "covers/11052688.jpg",
+    "median_price": 25.55
   },
   {
     "id": 11052663,
@@ -1216,7 +1282,8 @@
     "vinyl_color": "180 gr",
     "date_added": "2024-05-11T06:32:48-07:00",
     "master_year": 2005,
-    "local_cover": "covers/11052663.jpg"
+    "local_cover": "covers/11052663.jpg",
+    "median_price": 25.0
   },
   {
     "id": 30957880,
@@ -1234,7 +1301,8 @@
     "vinyl_color": "Red Translucent, Gatefold",
     "date_added": "2024-11-30T01:05:39-08:00",
     "master_year": 1984,
-    "local_cover": "covers/30957880.jpg"
+    "local_cover": "covers/30957880.jpg",
+    "median_price": 33.33
   },
   {
     "id": 12215332,
@@ -1252,7 +1320,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:30:59-08:00",
     "master_year": 1995,
-    "local_cover": "covers/12215332.jpg"
+    "local_cover": "covers/12215332.jpg",
+    "median_price": 20.0
   },
   {
     "id": 6275103,
@@ -1271,7 +1340,8 @@
     "vinyl_color": "",
     "date_added": "2024-12-21T05:35:16-08:00",
     "master_year": 1984,
-    "local_cover": "covers/6275103.jpg"
+    "local_cover": "covers/6275103.jpg",
+    "median_price": 22.28
   },
   {
     "id": 16084985,
@@ -1290,7 +1360,8 @@
     "vinyl_color": "Green",
     "date_added": "2023-01-06T07:42:30-08:00",
     "master_year": 2009,
-    "local_cover": "covers/16084985.jpg"
+    "local_cover": "covers/16084985.jpg",
+    "median_price": 18.99
   },
   {
     "id": 22767434,
@@ -1309,7 +1380,8 @@
     "vinyl_color": "Purple",
     "date_added": "2022-12-30T09:22:08-08:00",
     "master_year": 2007,
-    "local_cover": "covers/22767434.jpg"
+    "local_cover": "covers/22767434.jpg",
+    "median_price": 17.5
   },
   {
     "id": 10239457,
@@ -1327,7 +1399,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-06T06:33:02-07:00",
     "master_year": 2017,
-    "local_cover": "covers/10239457.jpg"
+    "local_cover": "covers/10239457.jpg",
+    "median_price": 13.27
   },
   {
     "id": 22381039,
@@ -1346,7 +1419,8 @@
     "vinyl_color": "Crystal Yellow",
     "date_added": "2023-02-10T06:19:26-08:00",
     "master_year": 2018,
-    "local_cover": "covers/22381039.jpg"
+    "local_cover": "covers/22381039.jpg",
+    "median_price": 20.0
   },
   {
     "id": 18617446,
@@ -1365,7 +1439,8 @@
     "vinyl_color": "",
     "date_added": "2024-01-20T12:21:48-08:00",
     "master_year": 1993,
-    "local_cover": "covers/18617446.jpg"
+    "local_cover": "covers/18617446.jpg",
+    "median_price": 30.0
   },
   {
     "id": 33675246,
@@ -1383,7 +1458,8 @@
     "vinyl_color": "Green Translucent",
     "date_added": "2025-10-25T07:22:25-07:00",
     "master_year": 1991,
-    "local_cover": "covers/33675246.jpg"
+    "local_cover": "covers/33675246.jpg",
+    "median_price": 29.48
   },
   {
     "id": 5093016,
@@ -1401,7 +1477,8 @@
     "vinyl_color": "",
     "date_added": "2025-03-17T05:12:55-07:00",
     "master_year": 1996,
-    "local_cover": "covers/5093016.jpg"
+    "local_cover": "covers/5093016.jpg",
+    "median_price": 33.33
   },
   {
     "id": 29626615,
@@ -1419,7 +1496,8 @@
     "vinyl_color": "Green [Coke Bottle Green Transparent]",
     "date_added": "2024-05-03T06:17:42-07:00",
     "master_year": 1987,
-    "local_cover": "covers/29626615.jpg"
+    "local_cover": "covers/29626615.jpg",
+    "median_price": 33.33
   },
   {
     "id": 10500343,
@@ -1440,7 +1518,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-24T04:57:36-08:00",
     "master_year": 2015,
-    "local_cover": "covers/10500343.jpg"
+    "local_cover": "covers/10500343.jpg",
+    "median_price": 42.53
   },
   {
     "id": 13442363,
@@ -1458,7 +1537,8 @@
     "vinyl_color": "",
     "date_added": "2025-12-08T06:48:49-08:00",
     "master_year": 1993,
-    "local_cover": "covers/13442363.jpg"
+    "local_cover": "covers/13442363.jpg",
+    "median_price": 21.9
   },
   {
     "id": 27664872,
@@ -1476,7 +1556,8 @@
     "vinyl_color": "Curacao Blue Transparent",
     "date_added": "2025-08-23T07:59:54-07:00",
     "master_year": 1987,
-    "local_cover": "covers/27664872.jpg"
+    "local_cover": "covers/27664872.jpg",
+    "median_price": 28.67
   },
   {
     "id": 25763416,
@@ -1496,7 +1577,8 @@
     "vinyl_color": "",
     "date_added": "2025-03-13T13:50:01-07:00",
     "master_year": 1985,
-    "local_cover": "covers/25763416.jpg"
+    "local_cover": "covers/25763416.jpg",
+    "median_price": 42.5
   },
   {
     "id": 22564646,
@@ -1514,7 +1596,8 @@
     "vinyl_color": "Transparent Light Blue Vinyl with Blue Heavy Splatter",
     "date_added": "2023-01-07T01:42:49-08:00",
     "master_year": 2018,
-    "local_cover": "covers/22564646.jpg"
+    "local_cover": "covers/22564646.jpg",
+    "median_price": 40.23
   },
   {
     "id": 7407271,
@@ -1532,7 +1615,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-05-27T08:49:08-07:00",
     "master_year": 1979,
-    "local_cover": "covers/7407271.jpg"
+    "local_cover": "covers/7407271.jpg",
+    "median_price": 17.23
   },
   {
     "id": 15076536,
@@ -1551,7 +1635,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-08-01T07:16:24-07:00",
     "master_year": 2004,
-    "local_cover": "covers/15076536.jpg"
+    "local_cover": "covers/15076536.jpg",
+    "median_price": 23.99
   },
   {
     "id": 12481287,
@@ -1570,7 +1655,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-03T06:33:46-08:00",
     "master_year": 2018,
-    "local_cover": "covers/12481287.jpg"
+    "local_cover": "covers/12481287.jpg",
+    "median_price": 19.0
   },
   {
     "id": 4382663,
@@ -1588,7 +1674,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2023-01-06T07:44:34-08:00",
     "master_year": 2013,
-    "local_cover": "covers/4382663.jpg"
+    "local_cover": "covers/4382663.jpg",
+    "median_price": 13.79
   },
   {
     "id": 7082884,
@@ -1606,7 +1693,8 @@
     "vinyl_color": "",
     "date_added": "2024-09-14T12:35:17-07:00",
     "master_year": 2007,
-    "local_cover": "covers/7082884.jpg"
+    "local_cover": "covers/7082884.jpg",
+    "median_price": 20.0
   },
   {
     "id": 7868541,
@@ -1624,7 +1712,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2022-11-25T05:13:23-08:00",
     "master_year": 2015,
-    "local_cover": "covers/7868541.jpg"
+    "local_cover": "covers/7868541.jpg",
+    "median_price": 15.0
   },
   {
     "id": 11188970,
@@ -1642,7 +1731,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-19T06:03:10-08:00",
     "master_year": 2015,
-    "local_cover": "covers/11188970.jpg"
+    "local_cover": "covers/11188970.jpg",
+    "median_price": 39.99
   },
   {
     "id": 22472359,
@@ -1660,7 +1750,8 @@
     "vinyl_color": "Black & Orange",
     "date_added": "2022-11-20T05:33:12-08:00",
     "master_year": 2011,
-    "local_cover": "covers/22472359.jpg"
+    "local_cover": "covers/22472359.jpg",
+    "median_price": 20.63
   },
   {
     "id": 10449487,
@@ -1678,7 +1769,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:33:35-08:00",
     "master_year": 2017,
-    "local_cover": "covers/10449487.jpg"
+    "local_cover": "covers/10449487.jpg",
+    "median_price": 14.6
   },
   {
     "id": 13638133,
@@ -1696,7 +1788,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-23T07:59:56-08:00",
     "master_year": 2019,
-    "local_cover": "covers/13638133.jpg"
+    "local_cover": "covers/13638133.jpg",
+    "median_price": 12.0
   },
   {
     "id": 12187431,
@@ -1714,7 +1807,8 @@
     "vinyl_color": "Purple (Translucent)",
     "date_added": "2024-04-27T09:18:51-07:00",
     "master_year": 1991,
-    "local_cover": "covers/12187431.jpg"
+    "local_cover": "covers/12187431.jpg",
+    "median_price": 57.46
   },
   {
     "id": 21309001,
@@ -1732,7 +1826,8 @@
     "vinyl_color": "180g, 30th Anniversary Edition",
     "date_added": "2024-03-23T07:49:51-07:00",
     "master_year": 1991,
-    "local_cover": "covers/21309001.jpg"
+    "local_cover": "covers/21309001.jpg",
+    "median_price": 18.25
   },
   {
     "id": 22296643,
@@ -1750,7 +1845,8 @@
     "vinyl_color": "180g",
     "date_added": "2023-05-31T08:42:44-07:00",
     "master_year": 1994,
-    "local_cover": "covers/22296643.jpg"
+    "local_cover": "covers/22296643.jpg",
+    "median_price": 33.33
   },
   {
     "id": 15725065,
@@ -1769,7 +1865,8 @@
     "vinyl_color": "Gold Stone Creamery",
     "date_added": "2025-05-09T09:26:27-07:00",
     "master_year": 2020,
-    "local_cover": "covers/15725065.jpg"
+    "local_cover": "covers/15725065.jpg",
+    "median_price": 12.75
   },
   {
     "id": 24217295,
@@ -1787,7 +1884,8 @@
     "vinyl_color": "Black",
     "date_added": "2024-11-24T07:47:45-08:00",
     "master_year": 2001,
-    "local_cover": "covers/24217295.jpg"
+    "local_cover": "covers/24217295.jpg",
+    "median_price": 27.0
   },
   {
     "id": 14347363,
@@ -1805,7 +1903,8 @@
     "vinyl_color": "Red Translucent",
     "date_added": "2023-02-01T04:23:58-08:00",
     "master_year": 1998,
-    "local_cover": "covers/14347363.jpg"
+    "local_cover": "covers/14347363.jpg",
+    "median_price": 30.67
   },
   {
     "id": 14266149,
@@ -1824,7 +1923,8 @@
     "vinyl_color": "",
     "date_added": "2024-06-08T09:41:10-07:00",
     "master_year": 2013,
-    "local_cover": "covers/14266149.jpg"
+    "local_cover": "covers/14266149.jpg",
+    "median_price": 20.69
   },
   {
     "id": 6199947,
@@ -1842,7 +1942,8 @@
     "vinyl_color": "",
     "date_added": "2023-02-04T11:36:09-08:00",
     "master_year": 1976,
-    "local_cover": "covers/6199947.jpg"
+    "local_cover": "covers/6199947.jpg",
+    "median_price": 16.2
   },
   {
     "id": 20712361,
@@ -1860,7 +1961,8 @@
     "vinyl_color": "",
     "date_added": "2023-01-17T08:27:58-08:00",
     "master_year": 1993,
-    "local_cover": "covers/20712361.jpg"
+    "local_cover": "covers/20712361.jpg",
+    "median_price": 100.0
   },
   {
     "id": 19643221,
@@ -1878,7 +1980,8 @@
     "vinyl_color": "140g",
     "date_added": "2022-11-20T05:34:28-08:00",
     "master_year": 1998,
-    "local_cover": "covers/19643221.jpg"
+    "local_cover": "covers/19643221.jpg",
+    "median_price": 80.0
   },
   {
     "id": 20402047,
@@ -1896,7 +1999,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:34:49-08:00",
     "master_year": 2001,
-    "local_cover": "covers/20402047.jpg"
+    "local_cover": "covers/20402047.jpg",
+    "median_price": null
   },
   {
     "id": 22412776,
@@ -1914,7 +2018,8 @@
     "vinyl_color": "Sky Blue, Grey & White, 180g",
     "date_added": "2024-05-23T08:41:36-07:00",
     "master_year": 2022,
-    "local_cover": "covers/22412776.jpg"
+    "local_cover": "covers/22412776.jpg",
+    "median_price": 19.99
   },
   {
     "id": 24751463,
@@ -1932,7 +2037,8 @@
     "vinyl_color": "",
     "date_added": "2025-12-11T04:37:01-08:00",
     "master_year": 1985,
-    "local_cover": "covers/24751463.jpg"
+    "local_cover": "covers/24751463.jpg",
+    "median_price": 21.9
   },
   {
     "id": 27918576,
@@ -1950,7 +2056,8 @@
     "vinyl_color": "Green Translucent",
     "date_added": "2025-08-16T06:49:46-07:00",
     "master_year": 1989,
-    "local_cover": "covers/27918576.jpg"
+    "local_cover": "covers/27918576.jpg",
+    "median_price": 30.0
   },
   {
     "id": 35714569,
@@ -1968,7 +2075,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2026-02-07T06:52:40-08:00",
     "master_year": 1988,
-    "local_cover": "covers/35714569.jpg"
+    "local_cover": "covers/35714569.jpg",
+    "median_price": 30.0
   },
   {
     "id": 35713768,
@@ -1986,7 +2094,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2026-02-07T06:54:16-08:00",
     "master_year": 1994,
-    "local_cover": "covers/35713768.jpg"
+    "local_cover": "covers/35713768.jpg",
+    "median_price": 28.48
   },
   {
     "id": 9348488,
@@ -2004,7 +2113,8 @@
     "vinyl_color": "",
     "date_added": "2023-05-31T08:43:41-07:00",
     "master_year": 2002,
-    "local_cover": "covers/9348488.jpg"
+    "local_cover": "covers/9348488.jpg",
+    "median_price": null
   },
   {
     "id": 35714596,
@@ -2022,7 +2132,8 @@
     "vinyl_color": "",
     "date_added": "2026-02-07T06:52:58-08:00",
     "master_year": 1990,
-    "local_cover": "covers/35714596.jpg"
+    "local_cover": "covers/35714596.jpg",
+    "median_price": 30.0
   },
   {
     "id": 25190173,
@@ -2040,7 +2151,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2023-09-30T04:24:22-07:00",
     "master_year": 1992,
-    "local_cover": "covers/25190173.jpg"
+    "local_cover": "covers/25190173.jpg",
+    "median_price": 100.0
   },
   {
     "id": 35714521,
@@ -2058,7 +2170,8 @@
     "vinyl_color": "",
     "date_added": "2026-02-07T06:53:49-08:00",
     "master_year": 1992,
-    "local_cover": "covers/35714521.jpg"
+    "local_cover": "covers/35714521.jpg",
+    "median_price": 36.08
   },
   {
     "id": 28892941,
@@ -2076,7 +2189,8 @@
     "vinyl_color": "",
     "date_added": "2025-09-08T14:45:13-07:00",
     "master_year": 1987,
-    "local_cover": "covers/28892941.jpg"
+    "local_cover": "covers/28892941.jpg",
+    "median_price": null
   },
   {
     "id": 13818244,
@@ -2094,7 +2208,8 @@
     "vinyl_color": "",
     "date_added": "2023-01-14T06:44:27-08:00",
     "master_year": 2014,
-    "local_cover": "covers/13818244.jpg"
+    "local_cover": "covers/13818244.jpg",
+    "median_price": 19.54
   },
   {
     "id": 30379112,
@@ -2112,7 +2227,8 @@
     "vinyl_color": "Custom Tri Color Merge [Bone White, Blue Jay And Metallic Gold] With Bone White, Blue Jay And Metallic Gold Splatter",
     "date_added": "2024-10-18T12:48:39-07:00",
     "master_year": 1991,
-    "local_cover": "covers/30379112.jpg"
+    "local_cover": "covers/30379112.jpg",
+    "median_price": 19.34
   },
   {
     "id": 30381587,
@@ -2130,7 +2246,8 @@
     "vinyl_color": "Custom Tri Color Merge [Hot Pink, Bone White And Red] With Black, Gold And Brown Splatter",
     "date_added": "2024-11-09T05:41:49-08:00",
     "master_year": 1993,
-    "local_cover": "covers/30381587.jpg"
+    "local_cover": "covers/30381587.jpg",
+    "median_price": 22.99
   },
   {
     "id": 15824922,
@@ -2148,7 +2265,8 @@
     "vinyl_color": "",
     "date_added": "2024-11-29T09:25:47-08:00",
     "master_year": 1988,
-    "local_cover": "covers/15824922.jpg"
+    "local_cover": "covers/15824922.jpg",
+    "median_price": 20.0
   },
   {
     "id": 33867603,
@@ -2166,7 +2284,8 @@
     "vinyl_color": "",
     "date_added": "2025-05-13T07:49:19-07:00",
     "master_year": 1995,
-    "local_cover": "covers/33867603.jpg"
+    "local_cover": "covers/33867603.jpg",
+    "median_price": 23.22
   },
   {
     "id": 30378890,
@@ -2184,7 +2303,8 @@
     "vinyl_color": "Custom Tri Color Merge [Black, Red And Metallic Gold] With Black, Red And Metallic Gold Splatter",
     "date_added": "2024-11-29T09:25:24-08:00",
     "master_year": 1998,
-    "local_cover": "covers/30378890.jpg"
+    "local_cover": "covers/30378890.jpg",
+    "median_price": 28.0
   },
   {
     "id": 17237362,
@@ -2202,7 +2322,8 @@
     "vinyl_color": "Pink",
     "date_added": "2024-06-29T06:01:12-07:00",
     "master_year": 2021,
-    "local_cover": "covers/17237362.jpg"
+    "local_cover": "covers/17237362.jpg",
+    "median_price": 45.97
   },
   {
     "id": 11856792,
@@ -2220,7 +2341,8 @@
     "vinyl_color": "",
     "date_added": "2024-10-26T23:25:58-07:00",
     "master_year": 2018,
-    "local_cover": "covers/11856792.jpg"
+    "local_cover": "covers/11856792.jpg",
+    "median_price": null
   },
   {
     "id": 23419883,
@@ -2238,7 +2360,8 @@
     "vinyl_color": "",
     "date_added": "2025-05-26T23:09:26-07:00",
     "master_year": 2022,
-    "local_cover": "covers/23419883.jpg"
+    "local_cover": "covers/23419883.jpg",
+    "median_price": 19.53
   },
   {
     "id": 32141934,
@@ -2256,7 +2379,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-12-30T12:55:23-08:00",
     "master_year": 1972,
-    "local_cover": "covers/32141934.jpg"
+    "local_cover": "covers/32141934.jpg",
+    "median_price": 32.43
   },
   {
     "id": 13751873,
@@ -2276,7 +2400,8 @@
     "vinyl_color": "",
     "date_added": "2023-11-22T09:50:45-08:00",
     "master_year": 1999,
-    "local_cover": "covers/13751873.jpg"
+    "local_cover": "covers/13751873.jpg",
+    "median_price": 34.48
   },
   {
     "id": 27150576,
@@ -2294,7 +2419,8 @@
     "vinyl_color": "Purple",
     "date_added": "2024-07-28T04:30:01-07:00",
     "master_year": 2015,
-    "local_cover": "covers/27150576.jpg"
+    "local_cover": "covers/27150576.jpg",
+    "median_price": null
   },
   {
     "id": 24681962,
@@ -2312,7 +2438,8 @@
     "vinyl_color": "",
     "date_added": "2024-08-17T04:28:48-07:00",
     "master_year": 1980,
-    "local_cover": "covers/24681962.jpg"
+    "local_cover": "covers/24681962.jpg",
+    "median_price": 25.32
   },
   {
     "id": 17042718,
@@ -2330,7 +2457,8 @@
     "vinyl_color": "",
     "date_added": "2023-08-11T06:56:36-07:00",
     "master_year": 1983,
-    "local_cover": "covers/17042718.jpg"
+    "local_cover": "covers/17042718.jpg",
+    "median_price": 25.0
   },
   {
     "id": 17044443,
@@ -2348,7 +2476,8 @@
     "vinyl_color": "180g",
     "date_added": "2025-08-16T07:06:30-07:00",
     "master_year": 1984,
-    "local_cover": "covers/17044443.jpg"
+    "local_cover": "covers/17044443.jpg",
+    "median_price": 22.87
   },
   {
     "id": 11205690,
@@ -2366,7 +2495,8 @@
     "vinyl_color": "180 Gram, MPO Pressing",
     "date_added": "2024-01-20T07:08:37-08:00",
     "master_year": 1982,
-    "local_cover": "covers/11205690.jpg"
+    "local_cover": "covers/11205690.jpg",
+    "median_price": 10.0
   },
   {
     "id": 23512913,
@@ -2384,7 +2514,8 @@
     "vinyl_color": "180 Gram, Gatefold",
     "date_added": "2024-10-07T10:54:30-07:00",
     "master_year": 2005,
-    "local_cover": "covers/23512913.jpg"
+    "local_cover": "covers/23512913.jpg",
+    "median_price": 37.01
   },
   {
     "id": 28063734,
@@ -2402,7 +2533,8 @@
     "vinyl_color": "Cyan / Black Marbled [Transparent]",
     "date_added": "2024-04-13T06:42:16-07:00",
     "master_year": 1991,
-    "local_cover": "covers/28063734.jpg"
+    "local_cover": "covers/28063734.jpg",
+    "median_price": 25.29
   },
   {
     "id": 33039462,
@@ -2421,7 +2553,8 @@
     "vinyl_color": "Coke Green",
     "date_added": "2025-08-22T10:54:43-07:00",
     "master_year": 2018,
-    "local_cover": "covers/33039462.jpg"
+    "local_cover": "covers/33039462.jpg",
+    "median_price": 40.17
   },
   {
     "id": 22753859,
@@ -2439,7 +2572,8 @@
     "vinyl_color": "Transparent Purple",
     "date_added": "2024-07-13T07:39:29-07:00",
     "master_year": 2009,
-    "local_cover": "covers/22753859.jpg"
+    "local_cover": "covers/22753859.jpg",
+    "median_price": 10.0
   },
   {
     "id": 29286886,
@@ -2457,7 +2591,8 @@
     "vinyl_color": "",
     "date_added": "2024-04-20T06:25:20-07:00",
     "master_year": 1971,
-    "local_cover": "covers/29286886.jpg"
+    "local_cover": "covers/29286886.jpg",
+    "median_price": 21.78
   },
   {
     "id": 2548935,
@@ -2476,7 +2611,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2025-09-09T05:05:23-07:00",
     "master_year": 1967,
-    "local_cover": "covers/2548935.jpg"
+    "local_cover": "covers/2548935.jpg",
+    "median_price": 17.45
   },
   {
     "id": 26536988,
@@ -2494,7 +2630,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2023-09-24T10:43:33-07:00",
     "master_year": 1967,
-    "local_cover": "covers/26536988.jpg"
+    "local_cover": "covers/26536988.jpg",
+    "median_price": 22.99
   },
   {
     "id": 8598112,
@@ -2512,7 +2649,8 @@
     "vinyl_color": "180g",
     "date_added": "2022-11-24T04:52:46-08:00",
     "master_year": 1995,
-    "local_cover": "covers/8598112.jpg"
+    "local_cover": "covers/8598112.jpg",
+    "median_price": 27.57
   },
   {
     "id": 10729537,
@@ -2530,7 +2668,8 @@
     "vinyl_color": "",
     "date_added": "2023-03-09T14:41:51-08:00",
     "master_year": 2014,
-    "local_cover": "covers/10729537.jpg"
+    "local_cover": "covers/10729537.jpg",
+    "median_price": 36.77
   },
   {
     "id": 13247495,
@@ -2548,7 +2687,8 @@
     "vinyl_color": "Orange",
     "date_added": "2022-12-30T10:20:59-08:00",
     "master_year": 2019,
-    "local_cover": "covers/13247495.jpg"
+    "local_cover": "covers/13247495.jpg",
+    "median_price": 8.0
   },
   {
     "id": 22437967,
@@ -2566,7 +2706,8 @@
     "vinyl_color": "White",
     "date_added": "2022-12-10T07:15:14-08:00",
     "master_year": 2005,
-    "local_cover": "covers/22437967.jpg"
+    "local_cover": "covers/22437967.jpg",
+    "median_price": 34.48
   },
   {
     "id": 33238743,
@@ -2585,7 +2726,8 @@
     "vinyl_color": "21st Anniversary, Gatefold",
     "date_added": "2025-03-15T04:53:23-07:00",
     "master_year": 2003,
-    "local_cover": "covers/33238743.jpg"
+    "local_cover": "covers/33238743.jpg",
+    "median_price": 25.17
   },
   {
     "id": 31852043,
@@ -2603,7 +2745,8 @@
     "vinyl_color": "Cloudy Grey ",
     "date_added": "2024-10-12T13:13:48-07:00",
     "master_year": 2000,
-    "local_cover": "covers/31852043.jpg"
+    "local_cover": "covers/31852043.jpg",
+    "median_price": 143.68
   },
   {
     "id": 11128136,
@@ -2622,7 +2765,8 @@
     "vinyl_color": "Gatefold, 180g",
     "date_added": "2024-04-02T07:31:43-07:00",
     "master_year": 2017,
-    "local_cover": "covers/11128136.jpg"
+    "local_cover": "covers/11128136.jpg",
+    "median_price": 14.99
   },
   {
     "id": 5658377,
@@ -2641,7 +2785,8 @@
     "vinyl_color": "Gatefold, 180 gram",
     "date_added": "2025-01-18T05:45:26-08:00",
     "master_year": 2014,
-    "local_cover": "covers/5658377.jpg"
+    "local_cover": "covers/5658377.jpg",
+    "median_price": 34.37
   },
   {
     "id": 22560449,
@@ -2659,7 +2804,8 @@
     "vinyl_color": "",
     "date_added": "2024-04-15T04:04:48-07:00",
     "master_year": 1991,
-    "local_cover": "covers/22560449.jpg"
+    "local_cover": "covers/22560449.jpg",
+    "median_price": 28.0
   },
   {
     "id": 22427281,
@@ -2677,7 +2823,8 @@
     "vinyl_color": "",
     "date_added": "2024-10-26T23:27:57-07:00",
     "master_year": 1990,
-    "local_cover": "covers/22427281.jpg"
+    "local_cover": "covers/22427281.jpg",
+    "median_price": 29.99
   },
   {
     "id": 24577721,
@@ -2695,7 +2842,8 @@
     "vinyl_color": "Green [Dark]",
     "date_added": "2022-11-20T05:35:30-08:00",
     "master_year": 2001,
-    "local_cover": "covers/24577721.jpg"
+    "local_cover": "covers/24577721.jpg",
+    "median_price": 34.48
   },
   {
     "id": 23892575,
@@ -2713,7 +2861,8 @@
     "vinyl_color": "Red",
     "date_added": "2023-01-14T06:46:35-08:00",
     "master_year": 1997,
-    "local_cover": "covers/23892575.jpg"
+    "local_cover": "covers/23892575.jpg",
+    "median_price": 25.29
   },
   {
     "id": 27384555,
@@ -2731,7 +2880,8 @@
     "vinyl_color": "Clear, Slipmat",
     "date_added": "2024-06-11T10:02:04-07:00",
     "master_year": 2000,
-    "local_cover": "covers/27384555.jpg"
+    "local_cover": "covers/27384555.jpg",
+    "median_price": 34.48
   },
   {
     "id": 11174254,
@@ -2749,7 +2899,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:36:06-08:00",
     "master_year": 1993,
-    "local_cover": "covers/11174254.jpg"
+    "local_cover": "covers/11174254.jpg",
+    "median_price": 27.0
   },
   {
     "id": 22979672,
@@ -2768,7 +2919,8 @@
     "vinyl_color": "",
     "date_added": "2023-07-01T03:47:24-07:00",
     "master_year": 1998,
-    "local_cover": "covers/22979672.jpg"
+    "local_cover": "covers/22979672.jpg",
+    "median_price": 37.32
   },
   {
     "id": 16063134,
@@ -2786,7 +2938,8 @@
     "vinyl_color": "",
     "date_added": "2024-06-29T06:01:52-07:00",
     "master_year": 2004,
-    "local_cover": "covers/16063134.jpg"
+    "local_cover": "covers/16063134.jpg",
+    "median_price": 32.18
   },
   {
     "id": 21078577,
@@ -2805,7 +2958,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-10T06:39:47-07:00",
     "master_year": 2022,
-    "local_cover": "covers/21078577.jpg"
+    "local_cover": "covers/21078577.jpg",
+    "median_price": 25.29
   },
   {
     "id": 22040284,
@@ -2824,7 +2978,8 @@
     "vinyl_color": "",
     "date_added": "2023-02-01T08:28:13-08:00",
     "master_year": 1977,
-    "local_cover": "covers/22040284.jpg"
+    "local_cover": "covers/22040284.jpg",
+    "median_price": 17.24
   },
   {
     "id": 23522243,
@@ -2842,7 +2997,8 @@
     "vinyl_color": "White",
     "date_added": "2023-04-29T07:25:54-07:00",
     "master_year": 2022,
-    "local_cover": "covers/23522243.jpg"
+    "local_cover": "covers/23522243.jpg",
+    "median_price": 10.67
   },
   {
     "id": 15492475,
@@ -2861,7 +3017,8 @@
     "vinyl_color": "180g",
     "date_added": "2022-12-21T04:32:08-08:00",
     "master_year": 2015,
-    "local_cover": "covers/15492475.jpg"
+    "local_cover": "covers/15492475.jpg",
+    "median_price": 16.82
   },
   {
     "id": 24966214,
@@ -2879,7 +3036,8 @@
     "vinyl_color": "GZ Pressing",
     "date_added": "2022-12-19T06:07:54-08:00",
     "master_year": 2022,
-    "local_cover": "covers/24966214.jpg"
+    "local_cover": "covers/24966214.jpg",
+    "median_price": 14.94
   },
   {
     "id": 28194697,
@@ -2897,7 +3055,8 @@
     "vinyl_color": "Blue [Blue Screen Of Death]",
     "date_added": "2023-11-18T05:28:42-08:00",
     "master_year": 2023,
-    "local_cover": "covers/28194697.jpg"
+    "local_cover": "covers/28194697.jpg",
+    "median_price": 30.65
   },
   {
     "id": 26839208,
@@ -2918,7 +3077,8 @@
     "vinyl_color": "Black Smoke",
     "date_added": "2024-07-26T11:57:55-07:00",
     "master_year": 2019,
-    "local_cover": "covers/26839208.jpg"
+    "local_cover": "covers/26839208.jpg",
+    "median_price": 24.5
   },
   {
     "id": 31849013,
@@ -2936,7 +3096,8 @@
     "vinyl_color": "Clear w/ Black & Purple Splatter",
     "date_added": "2025-05-03T07:25:53-07:00",
     "master_year": 2024,
-    "local_cover": "covers/31849013.jpg"
+    "local_cover": "covers/31849013.jpg",
+    "median_price": 20.98
   },
   {
     "id": 5845063,
@@ -2956,7 +3117,8 @@
     "vinyl_color": "",
     "date_added": "2025-08-16T06:44:43-07:00",
     "master_year": 1988,
-    "local_cover": "covers/5845063.jpg"
+    "local_cover": "covers/5845063.jpg",
+    "median_price": null
   },
   {
     "id": 22461616,
@@ -2974,7 +3136,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:36:42-08:00",
     "master_year": 2022,
-    "local_cover": "covers/22461616.jpg"
+    "local_cover": "covers/22461616.jpg",
+    "median_price": 19.99
   },
   {
     "id": 4529587,
@@ -2992,7 +3155,8 @@
     "vinyl_color": "Red Translucent",
     "date_added": "2024-09-23T09:45:32-07:00",
     "master_year": 2013,
-    "local_cover": "covers/4529587.jpg"
+    "local_cover": "covers/4529587.jpg",
+    "median_price": 20.0
   },
   {
     "id": 7381473,
@@ -3010,7 +3174,8 @@
     "vinyl_color": "",
     "date_added": "2023-02-01T04:24:48-08:00",
     "master_year": 2015,
-    "local_cover": "covers/7381473.jpg"
+    "local_cover": "covers/7381473.jpg",
+    "median_price": 16.67
   },
   {
     "id": 30933123,
@@ -3028,7 +3193,8 @@
     "vinyl_color": "Rosewood",
     "date_added": "2024-07-17T15:11:28-07:00",
     "master_year": 2010,
-    "local_cover": "covers/30933123.jpg"
+    "local_cover": "covers/30933123.jpg",
+    "median_price": 35.44
   },
   {
     "id": 12079465,
@@ -3046,7 +3212,8 @@
     "vinyl_color": "",
     "date_added": "2023-08-23T05:58:25-07:00",
     "master_year": 2018,
-    "local_cover": "covers/12079465.jpg"
+    "local_cover": "covers/12079465.jpg",
+    "median_price": 28.74
   },
   {
     "id": 31329109,
@@ -3065,7 +3232,8 @@
     "vinyl_color": "Coke Bottle Clear",
     "date_added": "2024-12-21T22:39:58-08:00",
     "master_year": 2024,
-    "local_cover": "covers/31329109.jpg"
+    "local_cover": "covers/31329109.jpg",
+    "median_price": 20.0
   },
   {
     "id": 33790944,
@@ -3083,7 +3251,8 @@
     "vinyl_color": "Violet, Indie Exclusive",
     "date_added": "2025-05-13T07:50:12-07:00",
     "master_year": 2025,
-    "local_cover": "covers/33790944.jpg"
+    "local_cover": "covers/33790944.jpg",
+    "median_price": 17.52
   },
   {
     "id": 27235338,
@@ -3101,7 +3270,8 @@
     "vinyl_color": "Clear",
     "date_added": "2023-08-04T06:58:44-07:00",
     "master_year": 2004,
-    "local_cover": "covers/27235338.jpg"
+    "local_cover": "covers/27235338.jpg",
+    "median_price": 34.24
   },
   {
     "id": 26673044,
@@ -3119,7 +3289,8 @@
     "vinyl_color": "180g",
     "date_added": "2023-11-17T07:48:34-08:00",
     "master_year": 2022,
-    "local_cover": "covers/26673044.jpg"
+    "local_cover": "covers/26673044.jpg",
+    "median_price": 31.94
   },
   {
     "id": 31869383,
@@ -3137,7 +3308,8 @@
     "vinyl_color": "",
     "date_added": "2024-10-26T23:32:20-07:00",
     "master_year": 2024,
-    "local_cover": "covers/31869383.jpg"
+    "local_cover": "covers/31869383.jpg",
+    "median_price": null
   },
   {
     "id": 31971536,
@@ -3156,7 +3328,8 @@
     "vinyl_color": "Black & Yellow Swirl",
     "date_added": "2024-10-28T10:08:02-07:00",
     "master_year": 2024,
-    "local_cover": "covers/31971536.jpg"
+    "local_cover": "covers/31971536.jpg",
+    "median_price": 29.33
   },
   {
     "id": 18496924,
@@ -3174,7 +3347,8 @@
     "vinyl_color": "",
     "date_added": "2025-04-26T10:14:25-07:00",
     "master_year": 2021,
-    "local_cover": "covers/18496924.jpg"
+    "local_cover": "covers/18496924.jpg",
+    "median_price": 17.63
   },
   {
     "id": 18181330,
@@ -3192,7 +3366,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-08-03T02:29:00-07:00",
     "master_year": 2005,
-    "local_cover": "covers/18181330.jpg"
+    "local_cover": "covers/18181330.jpg",
+    "median_price": 63.16
   },
   {
     "id": 32562468,
@@ -3210,7 +3385,8 @@
     "vinyl_color": "Forest Green",
     "date_added": "2025-09-17T05:54:08-07:00",
     "master_year": 2012,
-    "local_cover": "covers/32562468.jpg"
+    "local_cover": "covers/32562468.jpg",
+    "median_price": 28.62
   },
   {
     "id": 8647468,
@@ -3228,7 +3404,8 @@
     "vinyl_color": "",
     "date_added": "2024-11-19T04:27:55-08:00",
     "master_year": 2016,
-    "local_cover": "covers/8647468.jpg"
+    "local_cover": "covers/8647468.jpg",
+    "median_price": 13.33
   },
   {
     "id": 18390169,
@@ -3246,7 +3423,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-11-07T09:26:41-08:00",
     "master_year": 2008,
-    "local_cover": "covers/18390169.jpg"
+    "local_cover": "covers/18390169.jpg",
+    "median_price": 36.78
   },
   {
     "id": 14668130,
@@ -3264,7 +3442,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-23T14:00:11-08:00",
     "master_year": 2020,
-    "local_cover": "covers/14668130.jpg"
+    "local_cover": "covers/14668130.jpg",
+    "median_price": null
   },
   {
     "id": 30323150,
@@ -3282,7 +3461,8 @@
     "vinyl_color": "",
     "date_added": "2024-05-02T14:03:33-07:00",
     "master_year": 2024,
-    "local_cover": "covers/30323150.jpg"
+    "local_cover": "covers/30323150.jpg",
+    "median_price": 37.92
   },
   {
     "id": 11478255,
@@ -3300,7 +3480,8 @@
     "vinyl_color": "Green",
     "date_added": "2022-11-20T14:50:22-08:00",
     "master_year": 2018,
-    "local_cover": "covers/11478255.jpg"
+    "local_cover": "covers/11478255.jpg",
+    "median_price": null
   },
   {
     "id": 10929663,
@@ -3319,7 +3500,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-19T06:09:05-08:00",
     "master_year": 2017,
-    "local_cover": "covers/10929663.jpg"
+    "local_cover": "covers/10929663.jpg",
+    "median_price": 25.86
   },
   {
     "id": 3301259,
@@ -3337,7 +3519,8 @@
     "vinyl_color": "Gatefold Cover",
     "date_added": "2022-12-19T06:00:27-08:00",
     "master_year": 2011,
-    "local_cover": "covers/3301259.jpg"
+    "local_cover": "covers/3301259.jpg",
+    "median_price": 100.0
   },
   {
     "id": 12031257,
@@ -3355,7 +3538,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2022-12-19T06:17:47-08:00",
     "master_year": 2018,
-    "local_cover": "covers/12031257.jpg"
+    "local_cover": "covers/12031257.jpg",
+    "median_price": 15.93
   },
   {
     "id": 20631295,
@@ -3373,7 +3557,8 @@
     "vinyl_color": "Green",
     "date_added": "2023-09-14T06:47:26-07:00",
     "master_year": 2021,
-    "local_cover": "covers/20631295.jpg"
+    "local_cover": "covers/20631295.jpg",
+    "median_price": 22.99
   },
   {
     "id": 28778671,
@@ -3391,7 +3576,8 @@
     "vinyl_color": "Green",
     "date_added": "2023-12-03T11:38:52-08:00",
     "master_year": 2023,
-    "local_cover": "covers/28778671.jpg"
+    "local_cover": "covers/28778671.jpg",
+    "median_price": 30.75
   },
   {
     "id": 15328315,
@@ -3409,7 +3595,8 @@
     "vinyl_color": "Black",
     "date_added": "2023-04-01T05:11:00-07:00",
     "master_year": 2019,
-    "local_cover": "covers/15328315.jpg"
+    "local_cover": "covers/15328315.jpg",
+    "median_price": 57.36
   },
   {
     "id": 12689739,
@@ -3427,7 +3614,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-06T06:41:55-07:00",
     "master_year": 2018,
-    "local_cover": "covers/12689739.jpg"
+    "local_cover": "covers/12689739.jpg",
+    "median_price": 14.38
   },
   {
     "id": 13489198,
@@ -3445,7 +3633,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-23T13:58:13-08:00",
     "master_year": 2017,
-    "local_cover": "covers/13489198.jpg"
+    "local_cover": "covers/13489198.jpg",
+    "median_price": 17.24
   },
   {
     "id": 23925818,
@@ -3463,7 +3652,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-19T06:17:16-08:00",
     "master_year": 1987,
-    "local_cover": "covers/23925818.jpg"
+    "local_cover": "covers/23925818.jpg",
+    "median_price": 23.15
   },
   {
     "id": 25337128,
@@ -3481,7 +3671,8 @@
     "vinyl_color": "180 Gram Optimal Media Pressing, Gatefold",
     "date_added": "2024-06-11T10:02:12-07:00",
     "master_year": 1991,
-    "local_cover": "covers/25337128.jpg"
+    "local_cover": "covers/25337128.jpg",
+    "median_price": 30.0
   },
   {
     "id": 10207247,
@@ -3499,7 +3690,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-08-13T08:31:40-07:00",
     "master_year": 2015,
-    "local_cover": "covers/10207247.jpg"
+    "local_cover": "covers/10207247.jpg",
+    "median_price": 21.9
   },
   {
     "id": 14632954,
@@ -3517,7 +3709,8 @@
     "vinyl_color": "",
     "date_added": "2025-02-07T04:28:29-08:00",
     "master_year": 2017,
-    "local_cover": "covers/14632954.jpg"
+    "local_cover": "covers/14632954.jpg",
+    "median_price": 39.99
   },
   {
     "id": 33786405,
@@ -3535,7 +3728,8 @@
     "vinyl_color": "Graphite Grey",
     "date_added": "2025-05-17T04:25:00-07:00",
     "master_year": 2025,
-    "local_cover": "covers/33786405.jpg"
+    "local_cover": "covers/33786405.jpg",
+    "median_price": 31.03
   },
   {
     "id": 15484530,
@@ -3553,7 +3747,8 @@
     "vinyl_color": "Purple Transparent",
     "date_added": "2022-12-01T11:34:58-08:00",
     "master_year": 2020,
-    "local_cover": "covers/15484530.jpg"
+    "local_cover": "covers/15484530.jpg",
+    "median_price": 22.99
   },
   {
     "id": 12744082,
@@ -3571,7 +3766,8 @@
     "vinyl_color": "Orange Translucent",
     "date_added": "2023-02-17T15:02:57-08:00",
     "master_year": 2018,
-    "local_cover": "covers/12744082.jpg"
+    "local_cover": "covers/12744082.jpg",
+    "median_price": 56.32
   },
   {
     "id": 17766490,
@@ -3589,7 +3785,8 @@
     "vinyl_color": "",
     "date_added": "2025-12-27T13:01:46-08:00",
     "master_year": 2020,
-    "local_cover": "covers/17766490.jpg"
+    "local_cover": "covers/17766490.jpg",
+    "median_price": 15.67
   },
   {
     "id": 19440265,
@@ -3608,7 +3805,8 @@
     "vinyl_color": "",
     "date_added": "2024-05-02T14:04:23-07:00",
     "master_year": 2017,
-    "local_cover": "covers/19440265.jpg"
+    "local_cover": "covers/19440265.jpg",
+    "median_price": 14.0
   },
   {
     "id": 22698950,
@@ -3626,7 +3824,8 @@
     "vinyl_color": "",
     "date_added": "2024-10-26T23:35:54-07:00",
     "master_year": 2022,
-    "local_cover": "covers/22698950.jpg"
+    "local_cover": "covers/22698950.jpg",
+    "median_price": 18.39
   },
   {
     "id": 7979006,
@@ -3644,7 +3843,8 @@
     "vinyl_color": "",
     "date_added": "2025-05-26T09:35:45-07:00",
     "master_year": 1962,
-    "local_cover": "covers/7979006.jpg"
+    "local_cover": "covers/7979006.jpg",
+    "median_price": 9.32
   },
   {
     "id": 8048088,
@@ -3664,7 +3864,8 @@
     "vinyl_color": "White",
     "date_added": "2024-07-13T07:37:01-07:00",
     "master_year": 2016,
-    "local_cover": "covers/8048088.jpg"
+    "local_cover": "covers/8048088.jpg",
+    "median_price": 45.98
   },
   {
     "id": 12761726,
@@ -3682,7 +3883,8 @@
     "vinyl_color": "Green [Swamp] With Orange, Bronze And Red Splatter",
     "date_added": "2022-11-29T15:01:00-08:00",
     "master_year": 2005,
-    "local_cover": "covers/12761726.jpg"
+    "local_cover": "covers/12761726.jpg",
+    "median_price": 32.5
   },
   {
     "id": 30445013,
@@ -3700,7 +3902,8 @@
     "vinyl_color": "Orchid & Sky Blue Galaxy, 180g",
     "date_added": "2024-04-20T06:27:04-07:00",
     "master_year": 2024,
-    "local_cover": "covers/30445013.jpg"
+    "local_cover": "covers/30445013.jpg",
+    "median_price": 15.0
   },
   {
     "id": 22029994,
@@ -3718,7 +3921,8 @@
     "vinyl_color": "Black Ice, 180g",
     "date_added": "2024-02-10T02:57:27-08:00",
     "master_year": 2012,
-    "local_cover": "covers/22029994.jpg"
+    "local_cover": "covers/22029994.jpg",
+    "median_price": 17.99
   },
   {
     "id": 28382236,
@@ -3736,7 +3940,8 @@
     "vinyl_color": "Green [Swamp] & Bone White Galaxy Effect Merge [Custom Galaxy Merge Edition]",
     "date_added": "2023-11-09T13:00:17-08:00",
     "master_year": 2007,
-    "local_cover": "covers/28382236.jpg"
+    "local_cover": "covers/28382236.jpg",
+    "median_price": 25.45
   },
   {
     "id": 21766555,
@@ -3754,7 +3959,8 @@
     "vinyl_color": "Ruby [Translucent], 180g",
     "date_added": "2024-02-10T02:55:16-08:00",
     "master_year": 2010,
-    "local_cover": "covers/21766555.jpg"
+    "local_cover": "covers/21766555.jpg",
+    "median_price": 23.55
   },
   {
     "id": 27629295,
@@ -3772,7 +3978,8 @@
     "vinyl_color": "Ruby & Coke Bottle Clear Ghostly, 180g",
     "date_added": "2024-06-11T09:58:19-07:00",
     "master_year": 2000,
-    "local_cover": "covers/27629295.jpg"
+    "local_cover": "covers/27629295.jpg",
+    "median_price": 34.99
   },
   {
     "id": 25047838,
@@ -3790,7 +3997,8 @@
     "vinyl_color": "",
     "date_added": "2023-01-14T06:44:43-08:00",
     "master_year": 1997,
-    "local_cover": "covers/25047838.jpg"
+    "local_cover": "covers/25047838.jpg",
+    "median_price": 22.98
   },
   {
     "id": 29606422,
@@ -3808,7 +4016,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-02-24T06:44:21-08:00",
     "master_year": 1999,
-    "local_cover": "covers/29606422.jpg"
+    "local_cover": "covers/29606422.jpg",
+    "median_price": 22.99
   },
   {
     "id": 27931986,
@@ -3826,7 +4035,8 @@
     "vinyl_color": "Cream",
     "date_added": "2023-08-14T05:11:06-07:00",
     "master_year": 2023,
-    "local_cover": "covers/27931986.jpg"
+    "local_cover": "covers/27931986.jpg",
+    "median_price": 16.99
   },
   {
     "id": 34954229,
@@ -3844,7 +4054,8 @@
     "vinyl_color": "Gold",
     "date_added": "2025-09-01T23:52:58-07:00",
     "master_year": 2025,
-    "local_cover": "covers/34954229.jpg"
+    "local_cover": "covers/34954229.jpg",
+    "median_price": 19.99
   },
   {
     "id": 33672963,
@@ -3862,7 +4073,8 @@
     "vinyl_color": "Gold & White Split",
     "date_added": "2025-08-22T10:55:16-07:00",
     "master_year": 2004,
-    "local_cover": "covers/33672963.jpg"
+    "local_cover": "covers/33672963.jpg",
+    "median_price": 23.32
   },
   {
     "id": 11476445,
@@ -3880,7 +4092,8 @@
     "vinyl_color": "",
     "date_added": "2023-05-27T08:46:26-07:00",
     "master_year": 2000,
-    "local_cover": "covers/11476445.jpg"
+    "local_cover": "covers/11476445.jpg",
+    "median_price": 22.99
   },
   {
     "id": 14721636,
@@ -3898,7 +4111,8 @@
     "vinyl_color": "GZ Media",
     "date_added": "2024-03-30T09:13:18-07:00",
     "master_year": 2017,
-    "local_cover": "covers/14721636.jpg"
+    "local_cover": "covers/14721636.jpg",
+    "median_price": 10.64
   },
   {
     "id": 25428004,
@@ -3916,7 +4130,8 @@
     "vinyl_color": "Acronymed PR Logo",
     "date_added": "2023-11-17T07:50:44-08:00",
     "master_year": 2018,
-    "local_cover": "covers/25428004.jpg"
+    "local_cover": "covers/25428004.jpg",
+    "median_price": 23.33
   },
   {
     "id": 10382943,
@@ -3934,7 +4149,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-11-18T05:29:52-08:00",
     "master_year": 1977,
-    "local_cover": "covers/10382943.jpg"
+    "local_cover": "covers/10382943.jpg",
+    "median_price": 20.69
   },
   {
     "id": 9898167,
@@ -3952,7 +4168,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2024-02-12T09:54:54-08:00",
     "master_year": 1999,
-    "local_cover": "covers/9898167.jpg"
+    "local_cover": "covers/9898167.jpg",
+    "median_price": 43.06
   },
   {
     "id": 11461176,
@@ -3972,7 +4189,8 @@
     "vinyl_color": "",
     "date_added": "2025-02-07T04:29:27-08:00",
     "master_year": 2002,
-    "local_cover": "covers/11461176.jpg"
+    "local_cover": "covers/11461176.jpg",
+    "median_price": 24.57
   },
   {
     "id": 24504038,
@@ -3990,7 +4208,8 @@
     "vinyl_color": "Red / Silver Bi-Color ",
     "date_added": "2023-10-05T10:36:20-07:00",
     "master_year": 1987,
-    "local_cover": "covers/24504038.jpg"
+    "local_cover": "covers/24504038.jpg",
+    "median_price": 28.62
   },
   {
     "id": 10463906,
@@ -4008,7 +4227,8 @@
     "vinyl_color": "180gr",
     "date_added": "2022-11-29T15:01:34-08:00",
     "master_year": 2000,
-    "local_cover": "covers/10463906.jpg"
+    "local_cover": "covers/10463906.jpg",
+    "median_price": 31.03
   },
   {
     "id": 10463951,
@@ -4026,7 +4246,8 @@
     "vinyl_color": "",
     "date_added": "2024-05-18T08:11:14-07:00",
     "master_year": 2003,
-    "local_cover": "covers/10463951.jpg"
+    "local_cover": "covers/10463951.jpg",
+    "median_price": 28.74
   },
   {
     "id": 10315981,
@@ -4044,7 +4265,8 @@
     "vinyl_color": "180g, Gatefold",
     "date_added": "2023-11-11T11:43:32-08:00",
     "master_year": 1992,
-    "local_cover": "covers/10315981.jpg"
+    "local_cover": "covers/10315981.jpg",
+    "median_price": 28.0
   },
   {
     "id": 20654722,
@@ -4062,7 +4284,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-06T06:34:46-07:00",
     "master_year": 1980,
-    "local_cover": "covers/20654722.jpg"
+    "local_cover": "covers/20654722.jpg",
+    "median_price": 20.69
   },
   {
     "id": 31499420,
@@ -4080,7 +4303,8 @@
     "vinyl_color": "",
     "date_added": "2025-09-03T02:48:03-07:00",
     "master_year": 1981,
-    "local_cover": "covers/31499420.jpg"
+    "local_cover": "covers/31499420.jpg",
+    "median_price": 13.32
   },
   {
     "id": 10301784,
@@ -4098,7 +4322,8 @@
     "vinyl_color": "180g",
     "date_added": "2025-04-26T10:16:03-07:00",
     "master_year": 1990,
-    "local_cover": "covers/10301784.jpg"
+    "local_cover": "covers/10301784.jpg",
+    "median_price": 17.68
   },
   {
     "id": 6226812,
@@ -4116,7 +4341,8 @@
     "vinyl_color": "180g, Gatefold ",
     "date_added": "2023-11-11T11:42:57-08:00",
     "master_year": 1983,
-    "local_cover": "covers/6226812.jpg"
+    "local_cover": "covers/6226812.jpg",
+    "median_price": 19.54
   },
   {
     "id": 6228397,
@@ -4134,7 +4360,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-28T12:41:58-08:00",
     "master_year": 1984,
-    "local_cover": "covers/6228397.jpg"
+    "local_cover": "covers/6228397.jpg",
+    "median_price": 22.99
   },
   {
     "id": 11104240,
@@ -4152,7 +4379,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:37:30-08:00",
     "master_year": 1988,
-    "local_cover": "covers/11104240.jpg"
+    "local_cover": "covers/11104240.jpg",
+    "median_price": 48.28
   },
   {
     "id": 6327367,
@@ -4170,7 +4398,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2024-07-17T11:48:17-07:00",
     "master_year": 1986,
-    "local_cover": "covers/6327367.jpg"
+    "local_cover": "covers/6327367.jpg",
+    "median_price": 20.69
   },
   {
     "id": 16306659,
@@ -4188,7 +4417,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-10T07:12:03-08:00",
     "master_year": 1982,
-    "local_cover": "covers/16306659.jpg"
+    "local_cover": "covers/16306659.jpg",
+    "median_price": 33.0
   },
   {
     "id": 7597701,
@@ -4206,7 +4436,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2022-12-19T06:08:19-08:00",
     "master_year": 1976,
-    "local_cover": "covers/7597701.jpg"
+    "local_cover": "covers/7597701.jpg",
+    "median_price": 11.49
   },
   {
     "id": 17640640,
@@ -4224,7 +4455,8 @@
     "vinyl_color": "",
     "date_added": "2024-09-14T12:33:58-07:00",
     "master_year": 1970,
-    "local_cover": "covers/17640640.jpg"
+    "local_cover": "covers/17640640.jpg",
+    "median_price": 13.01
   },
   {
     "id": 10889797,
@@ -4242,7 +4474,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-01-14T06:46:09-08:00",
     "master_year": 1997,
-    "local_cover": "covers/10889797.jpg"
+    "local_cover": "covers/10889797.jpg",
+    "median_price": 14.56
   },
   {
     "id": 7611376,
@@ -4261,7 +4494,8 @@
     "vinyl_color": "180 Gram, Gatefold",
     "date_added": "2024-08-09T15:30:18-07:00",
     "master_year": 1968,
-    "local_cover": "covers/7611376.jpg"
+    "local_cover": "covers/7611376.jpg",
+    "median_price": 23.33
   },
   {
     "id": 9319471,
@@ -4282,7 +4516,8 @@
     "vinyl_color": "",
     "date_added": "2025-09-21T13:31:51-07:00",
     "master_year": 2015,
-    "local_cover": "covers/9319471.jpg"
+    "local_cover": "covers/9319471.jpg",
+    "median_price": 18.67
   },
   {
     "id": 11021239,
@@ -4302,7 +4537,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-02T07:51:54-08:00",
     "master_year": 2017,
-    "local_cover": "covers/11021239.jpg"
+    "local_cover": "covers/11021239.jpg",
+    "median_price": 17.99
   },
   {
     "id": 25233664,
@@ -4320,7 +4556,8 @@
     "vinyl_color": "Blue In Blue [Vortex Blue]",
     "date_added": "2022-11-25T05:41:01-08:00",
     "master_year": 2015,
-    "local_cover": "covers/25233664.jpg"
+    "local_cover": "covers/25233664.jpg",
+    "median_price": 15.99
   },
   {
     "id": 13016075,
@@ -4338,7 +4575,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-25T05:13:05-08:00",
     "master_year": 2019,
-    "local_cover": "covers/13016075.jpg"
+    "local_cover": "covers/13016075.jpg",
+    "median_price": 40.23
   },
   {
     "id": 11048496,
@@ -4358,7 +4596,8 @@
     "vinyl_color": "",
     "date_added": "2025-08-02T08:35:00-07:00",
     "master_year": 2017,
-    "local_cover": "covers/11048496.jpg"
+    "local_cover": "covers/11048496.jpg",
+    "median_price": 24.99
   },
   {
     "id": 12803118,
@@ -4378,7 +4617,8 @@
     "vinyl_color": "",
     "date_added": "2024-09-05T04:02:35-07:00",
     "master_year": 2011,
-    "local_cover": "covers/12803118.jpg"
+    "local_cover": "covers/12803118.jpg",
+    "median_price": 34.82
   },
   {
     "id": 15840429,
@@ -4396,7 +4636,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2025-04-06T00:08:22-07:00",
     "master_year": 2002,
-    "local_cover": "covers/15840429.jpg"
+    "local_cover": "covers/15840429.jpg",
+    "median_price": 32.06
   },
   {
     "id": 8803566,
@@ -4415,7 +4656,8 @@
     "vinyl_color": "",
     "date_added": "2024-01-06T04:17:02-08:00",
     "master_year": 2002,
-    "local_cover": "covers/8803566.jpg"
+    "local_cover": "covers/8803566.jpg",
+    "median_price": 17.24
   },
   {
     "id": 29676454,
@@ -4433,7 +4675,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-08-05T13:28:05-07:00",
     "master_year": 1988,
-    "local_cover": "covers/29676454.jpg"
+    "local_cover": "covers/29676454.jpg",
+    "median_price": 34.36
   },
   {
     "id": 7132429,
@@ -4451,7 +4694,8 @@
     "vinyl_color": "180g",
     "date_added": "2023-03-29T06:29:28-07:00",
     "master_year": 1980,
-    "local_cover": "covers/7132429.jpg"
+    "local_cover": "covers/7132429.jpg",
+    "median_price": 13.78
   },
   {
     "id": 7132498,
@@ -4469,7 +4713,8 @@
     "vinyl_color": "180g, Textured Sleeve",
     "date_added": "2023-08-26T01:13:42-07:00",
     "master_year": 1979,
-    "local_cover": "covers/7132498.jpg"
+    "local_cover": "covers/7132498.jpg",
+    "median_price": 18.25
   },
   {
     "id": 26006467,
@@ -4487,7 +4732,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2024-03-18T07:32:11-07:00",
     "master_year": 1980,
-    "local_cover": "covers/26006467.jpg"
+    "local_cover": "covers/26006467.jpg",
+    "median_price": 23.0
   },
   {
     "id": 11303283,
@@ -4505,7 +4751,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-17T11:49:02-07:00",
     "master_year": 1984,
-    "local_cover": "covers/11303283.jpg"
+    "local_cover": "covers/11303283.jpg",
+    "median_price": 18.25
   },
   {
     "id": 11203096,
@@ -4523,7 +4770,8 @@
     "vinyl_color": "180g",
     "date_added": "2023-01-25T09:22:13-08:00",
     "master_year": 1990,
-    "local_cover": "covers/11203096.jpg"
+    "local_cover": "covers/11203096.jpg",
+    "median_price": 17.24
   },
   {
     "id": 11215150,
@@ -4541,7 +4789,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2023-01-06T07:43:16-08:00",
     "master_year": 1982,
-    "local_cover": "covers/11215150.jpg"
+    "local_cover": "covers/11215150.jpg",
+    "median_price": 17.82
   },
   {
     "id": 30634468,
@@ -4559,7 +4808,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-07-13T07:38:39-07:00",
     "master_year": 2007,
-    "local_cover": "covers/30634468.jpg"
+    "local_cover": "covers/30634468.jpg",
+    "median_price": 25.86
   },
   {
     "id": 12895016,
@@ -4577,7 +4827,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:38:42-08:00",
     "master_year": 2013,
-    "local_cover": "covers/12895016.jpg"
+    "local_cover": "covers/12895016.jpg",
+    "median_price": 18.39
   },
   {
     "id": 7179135,
@@ -4595,7 +4846,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:39:29-08:00",
     "master_year": 2015,
-    "local_cover": "covers/7179135.jpg"
+    "local_cover": "covers/7179135.jpg",
+    "median_price": 17.62
   },
   {
     "id": 22736402,
@@ -4613,7 +4865,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-19T06:01:22-08:00",
     "master_year": 2017,
-    "local_cover": "covers/22736402.jpg"
+    "local_cover": "covers/22736402.jpg",
+    "median_price": 13.33
   },
   {
     "id": 24493940,
@@ -4631,7 +4884,8 @@
     "vinyl_color": "White",
     "date_added": "2024-07-17T11:50:07-07:00",
     "master_year": 1992,
-    "local_cover": "covers/24493940.jpg"
+    "local_cover": "covers/24493940.jpg",
+    "median_price": null
   },
   {
     "id": 23823086,
@@ -4649,7 +4903,8 @@
     "vinyl_color": "Red, 180g.",
     "date_added": "2022-12-25T17:08:52-08:00",
     "master_year": 1989,
-    "local_cover": "covers/23823086.jpg"
+    "local_cover": "covers/23823086.jpg",
+    "median_price": null
   },
   {
     "id": 26658731,
@@ -4667,7 +4922,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-17T11:50:39-07:00",
     "master_year": 2014,
-    "local_cover": "covers/26658731.jpg"
+    "local_cover": "covers/26658731.jpg",
+    "median_price": 55.17
   },
   {
     "id": 33061320,
@@ -4685,7 +4941,8 @@
     "vinyl_color": "",
     "date_added": "2026-01-10T04:31:27-08:00",
     "master_year": 2010,
-    "local_cover": "covers/33061320.jpg"
+    "local_cover": "covers/33061320.jpg",
+    "median_price": 13.79
   },
   {
     "id": 10522015,
@@ -4704,7 +4961,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-20T14:39:20-07:00",
     "master_year": 1995,
-    "local_cover": "covers/10522015.jpg"
+    "local_cover": "covers/10522015.jpg",
+    "median_price": 14.6
   },
   {
     "id": 8624906,
@@ -4722,7 +4980,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-08-01T07:13:26-07:00",
     "master_year": 1985,
-    "local_cover": "covers/8624906.jpg"
+    "local_cover": "covers/8624906.jpg",
+    "median_price": 31.03
   },
   {
     "id": 15471981,
@@ -4740,7 +4999,8 @@
     "vinyl_color": "Black And Blue Marble",
     "date_added": "2022-12-19T06:03:59-08:00",
     "master_year": 1988,
-    "local_cover": "covers/15471981.jpg"
+    "local_cover": "covers/15471981.jpg",
+    "median_price": 26.78
   },
   {
     "id": 15144923,
@@ -4758,7 +5018,8 @@
     "vinyl_color": "180g",
     "date_added": "2022-12-16T04:29:05-08:00",
     "master_year": 1987,
-    "local_cover": "covers/15144923.jpg"
+    "local_cover": "covers/15144923.jpg",
+    "median_price": 20.69
   },
   {
     "id": 29052691,
@@ -4776,7 +5037,8 @@
     "vinyl_color": "180g",
     "date_added": "2025-11-22T05:25:19-08:00",
     "master_year": 1989,
-    "local_cover": "covers/29052691.jpg"
+    "local_cover": "covers/29052691.jpg",
+    "median_price": 25.0
   },
   {
     "id": 32152872,
@@ -4794,7 +5056,8 @@
     "vinyl_color": "Blood Red Marbled",
     "date_added": "2025-12-19T05:58:09-08:00",
     "master_year": 2000,
-    "local_cover": "covers/32152872.jpg"
+    "local_cover": "covers/32152872.jpg",
+    "median_price": 31.9
   },
   {
     "id": 15271494,
@@ -4812,7 +5075,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-06-09T16:50:11-07:00",
     "master_year": 1990,
-    "local_cover": "covers/15271494.jpg"
+    "local_cover": "covers/15271494.jpg",
+    "median_price": 21.99
   },
   {
     "id": 32152455,
@@ -4830,7 +5094,8 @@
     "vinyl_color": "Purple Red White Marbled",
     "date_added": "2025-12-19T05:57:34-08:00",
     "master_year": 1996,
-    "local_cover": "covers/32152455.jpg"
+    "local_cover": "covers/32152455.jpg",
+    "median_price": 31.9
   },
   {
     "id": 32153067,
@@ -4848,7 +5113,8 @@
     "vinyl_color": "Night Blue Pearl",
     "date_added": "2025-02-07T04:29:41-08:00",
     "master_year": 1998,
-    "local_cover": "covers/32153067.jpg"
+    "local_cover": "covers/32153067.jpg",
+    "median_price": 31.9
   },
   {
     "id": 8883026,
@@ -4867,7 +5133,8 @@
     "vinyl_color": "",
     "date_added": "2023-03-31T13:12:51-07:00",
     "master_year": 2014,
-    "local_cover": "covers/8883026.jpg"
+    "local_cover": "covers/8883026.jpg",
+    "median_price": 19.67
   },
   {
     "id": 7199424,
@@ -4886,7 +5153,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:40:09-08:00",
     "master_year": 2015,
-    "local_cover": "covers/7199424.jpg"
+    "local_cover": "covers/7199424.jpg",
+    "median_price": 16.0
   },
   {
     "id": 13539769,
@@ -4905,7 +5173,8 @@
     "vinyl_color": "Green Marbled [Toxic Landfill Edition]",
     "date_added": "2024-06-01T10:23:37-07:00",
     "master_year": 2019,
-    "local_cover": "covers/13539769.jpg"
+    "local_cover": "covers/13539769.jpg",
+    "median_price": 18.67
   },
   {
     "id": 31430312,
@@ -4923,7 +5192,8 @@
     "vinyl_color": "",
     "date_added": "2024-08-15T11:21:45-07:00",
     "master_year": 2024,
-    "local_cover": "covers/31430312.jpg"
+    "local_cover": "covers/31430312.jpg",
+    "median_price": 25.55
   },
   {
     "id": 25358479,
@@ -4941,7 +5211,8 @@
     "vinyl_color": "Blue, White, Black [Venusian Sky Edition]",
     "date_added": "2025-06-27T09:42:29-07:00",
     "master_year": 2013,
-    "local_cover": "covers/25358479.jpg"
+    "local_cover": "covers/25358479.jpg",
+    "median_price": 18.0
   },
   {
     "id": 12674210,
@@ -4959,7 +5230,8 @@
     "vinyl_color": "",
     "date_added": "2023-09-02T05:03:47-07:00",
     "master_year": 2017,
-    "local_cover": "covers/12674210.jpg"
+    "local_cover": "covers/12674210.jpg",
+    "median_price": 46.67
   },
   {
     "id": 14813051,
@@ -4977,7 +5249,8 @@
     "vinyl_color": "",
     "date_added": "2024-05-25T06:13:16-07:00",
     "master_year": 2017,
-    "local_cover": "covers/14813051.jpg"
+    "local_cover": "covers/14813051.jpg",
+    "median_price": 21.99
   },
   {
     "id": 23618177,
@@ -4995,7 +5268,8 @@
     "vinyl_color": "",
     "date_added": "2023-10-09T09:52:57-07:00",
     "master_year": 2014,
-    "local_cover": "covers/23618177.jpg"
+    "local_cover": "covers/23618177.jpg",
+    "median_price": 38.65
   },
   {
     "id": 25455349,
@@ -5013,7 +5287,8 @@
     "vinyl_color": "Recycled Black Wax",
     "date_added": "2024-06-01T10:24:17-07:00",
     "master_year": 2022,
-    "local_cover": "covers/25455349.jpg"
+    "local_cover": "covers/25455349.jpg",
+    "median_price": 32.0
   },
   {
     "id": 13992352,
@@ -5031,7 +5306,8 @@
     "vinyl_color": "Black & Red Split",
     "date_added": "2023-07-01T04:24:37-07:00",
     "master_year": 2019,
-    "local_cover": "covers/13992352.jpg"
+    "local_cover": "covers/13992352.jpg",
+    "median_price": 18.0
   },
   {
     "id": 26432468,
@@ -5051,7 +5327,8 @@
     "vinyl_color": "White [Bechamel Sauce]",
     "date_added": "2023-09-05T15:06:00-07:00",
     "master_year": 2022,
-    "local_cover": "covers/26432468.jpg"
+    "local_cover": "covers/26432468.jpg",
+    "median_price": 52.0
   },
   {
     "id": 33791178,
@@ -5069,7 +5346,8 @@
     "vinyl_color": "Lucky Rainbow Wax",
     "date_added": "2025-09-18T11:05:28-07:00",
     "master_year": 2022,
-    "local_cover": "covers/33791178.jpg"
+    "local_cover": "covers/33791178.jpg",
+    "median_price": 25.28
   },
   {
     "id": 28125418,
@@ -5087,7 +5365,8 @@
     "vinyl_color": "Neon Half & Half",
     "date_added": "2024-04-27T09:33:18-07:00",
     "master_year": 2023,
-    "local_cover": "covers/28125418.jpg"
+    "local_cover": "covers/28125418.jpg",
+    "median_price": 246.91
   },
   {
     "id": 29588503,
@@ -5105,7 +5384,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-26T02:14:00-07:00",
     "master_year": 2023,
-    "local_cover": "covers/29588503.jpg"
+    "local_cover": "covers/29588503.jpg",
+    "median_price": 165.0
   },
   {
     "id": 21153760,
@@ -5123,7 +5403,8 @@
     "vinyl_color": "Green Translucent Vinyl",
     "date_added": "2024-07-26T02:14:23-07:00",
     "master_year": 2020,
-    "local_cover": "covers/21153760.jpg"
+    "local_cover": "covers/21153760.jpg",
+    "median_price": 36.77
   },
   {
     "id": 22032949,
@@ -5141,7 +5422,8 @@
     "vinyl_color": "Yellow, Triple Gatefold",
     "date_added": "2023-12-27T07:59:34-08:00",
     "master_year": 2021,
-    "local_cover": "covers/22032949.jpg"
+    "local_cover": "covers/22032949.jpg",
+    "median_price": 24.0
   },
   {
     "id": 10467000,
@@ -5159,7 +5441,8 @@
     "vinyl_color": "",
     "date_added": "2023-08-04T06:59:32-07:00",
     "master_year": 2017,
-    "local_cover": "covers/10467000.jpg"
+    "local_cover": "covers/10467000.jpg",
+    "median_price": 22.67
   },
   {
     "id": 8452534,
@@ -5177,7 +5460,8 @@
     "vinyl_color": "",
     "date_added": "2023-07-01T04:25:13-07:00",
     "master_year": 2016,
-    "local_cover": "covers/8452534.jpg"
+    "local_cover": "covers/8452534.jpg",
+    "median_price": 28.74
   },
   {
     "id": 23663183,
@@ -5197,7 +5481,8 @@
     "vinyl_color": "",
     "date_added": "2023-11-22T09:49:49-08:00",
     "master_year": 2022,
-    "local_cover": "covers/23663183.jpg"
+    "local_cover": "covers/23663183.jpg",
+    "median_price": 53.16
   },
   {
     "id": 22220506,
@@ -5216,7 +5501,8 @@
     "vinyl_color": "",
     "date_added": "2024-01-20T07:05:53-08:00",
     "master_year": 2015,
-    "local_cover": "covers/22220506.jpg"
+    "local_cover": "covers/22220506.jpg",
+    "median_price": 22.87
   },
   {
     "id": 27606564,
@@ -5234,7 +5520,8 @@
     "vinyl_color": "Recycled Black Wax",
     "date_added": "2023-07-24T01:36:41-07:00",
     "master_year": 2023,
-    "local_cover": "covers/27606564.jpg"
+    "local_cover": "covers/27606564.jpg",
+    "median_price": 46.6
   },
   {
     "id": 11673505,
@@ -5252,7 +5539,8 @@
     "vinyl_color": "",
     "date_added": "2023-10-09T09:53:56-07:00",
     "master_year": 2017,
-    "local_cover": "covers/11673505.jpg"
+    "local_cover": "covers/11673505.jpg",
+    "median_price": 17.24
   },
   {
     "id": 23614157,
@@ -5270,7 +5558,8 @@
     "vinyl_color": "",
     "date_added": "2024-02-12T09:50:27-08:00",
     "master_year": 2015,
-    "local_cover": "covers/23614157.jpg"
+    "local_cover": "covers/23614157.jpg",
+    "median_price": 26.65
   },
   {
     "id": 28801474,
@@ -5288,7 +5577,8 @@
     "vinyl_color": "Recycled Black Wax",
     "date_added": "2024-05-03T06:17:01-07:00",
     "master_year": 2023,
-    "local_cover": "covers/28801474.jpg"
+    "local_cover": "covers/28801474.jpg",
+    "median_price": 29.77
   },
   {
     "id": 11611316,
@@ -5307,7 +5597,8 @@
     "vinyl_color": "Red Transparent",
     "date_added": "2026-02-07T06:55:15-08:00",
     "master_year": 1990,
-    "local_cover": "covers/11611316.jpg"
+    "local_cover": "covers/11611316.jpg",
+    "median_price": 40.11
   },
   {
     "id": 10409978,
@@ -5326,7 +5617,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-05-27T08:47:19-07:00",
     "master_year": 1986,
-    "local_cover": "covers/10409978.jpg"
+    "local_cover": "covers/10409978.jpg",
+    "median_price": 29.69
   },
   {
     "id": 21826828,
@@ -5344,7 +5636,8 @@
     "vinyl_color": "",
     "date_added": "2023-06-09T16:52:35-07:00",
     "master_year": 2001,
-    "local_cover": "covers/21826828.jpg"
+    "local_cover": "covers/21826828.jpg",
+    "median_price": 27.59
   },
   {
     "id": 29671117,
@@ -5362,7 +5655,8 @@
     "vinyl_color": "",
     "date_added": "2026-02-07T06:52:09-08:00",
     "master_year": 2024,
-    "local_cover": "covers/29671117.jpg"
+    "local_cover": "covers/29671117.jpg",
+    "median_price": 22.99
   },
   {
     "id": 28202089,
@@ -5380,7 +5674,8 @@
     "vinyl_color": "Opaque Orange",
     "date_added": "2023-09-08T11:10:56-07:00",
     "master_year": 2023,
-    "local_cover": "covers/28202089.jpg"
+    "local_cover": "covers/28202089.jpg",
+    "median_price": 18.5
   },
   {
     "id": 2363845,
@@ -5398,7 +5693,8 @@
     "vinyl_color": "",
     "date_added": "2023-08-04T06:58:07-07:00",
     "master_year": 2010,
-    "local_cover": "covers/2363845.jpg"
+    "local_cover": "covers/2363845.jpg",
+    "median_price": 68.85
   },
   {
     "id": 4468450,
@@ -5416,7 +5712,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2022-12-10T07:12:43-08:00",
     "master_year": 2013,
-    "local_cover": "covers/4468450.jpg"
+    "local_cover": "covers/4468450.jpg",
+    "median_price": 22.0
   },
   {
     "id": 16129782,
@@ -5434,7 +5731,8 @@
     "vinyl_color": "180g, Gatefold",
     "date_added": "2023-07-01T03:48:13-07:00",
     "master_year": 2016,
-    "local_cover": "covers/16129782.jpg"
+    "local_cover": "covers/16129782.jpg",
+    "median_price": 33.32
   },
   {
     "id": 14792643,
@@ -5454,7 +5752,8 @@
     "vinyl_color": "Gold",
     "date_added": "2022-11-20T05:42:27-08:00",
     "master_year": 2020,
-    "local_cover": "covers/14792643.jpg"
+    "local_cover": "covers/14792643.jpg",
+    "median_price": 20.0
   },
   {
     "id": 28508584,
@@ -5472,7 +5771,8 @@
     "vinyl_color": "Gold, 140g, 30th Anniversary",
     "date_added": "2023-11-22T09:48:33-08:00",
     "master_year": 1992,
-    "local_cover": "covers/28508584.jpg"
+    "local_cover": "covers/28508584.jpg",
+    "median_price": 34.48
   },
   {
     "id": 17380165,
@@ -5490,7 +5790,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-19T06:05:23-08:00",
     "master_year": 1994,
-    "local_cover": "covers/17380165.jpg"
+    "local_cover": "covers/17380165.jpg",
+    "median_price": 23.99
   },
   {
     "id": 11014936,
@@ -5508,7 +5809,8 @@
     "vinyl_color": "DMM",
     "date_added": "2024-11-24T07:44:50-08:00",
     "master_year": 1983,
-    "local_cover": "covers/11014936.jpg"
+    "local_cover": "covers/11014936.jpg",
+    "median_price": 28.62
   },
   {
     "id": 30642700,
@@ -5526,7 +5828,8 @@
     "vinyl_color": "",
     "date_added": "2024-05-15T10:54:52-07:00",
     "master_year": 1987,
-    "local_cover": "covers/30642700.jpg"
+    "local_cover": "covers/30642700.jpg",
+    "median_price": 31.49
   },
   {
     "id": 21030196,
@@ -5546,7 +5849,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2022-12-23T07:50:24-08:00",
     "master_year": 2012,
-    "local_cover": "covers/21030196.jpg"
+    "local_cover": "covers/21030196.jpg",
+    "median_price": 33.33
   },
   {
     "id": 26524775,
@@ -5565,7 +5869,8 @@
     "vinyl_color": "",
     "date_added": "2024-12-21T22:40:33-08:00",
     "master_year": 2023,
-    "local_cover": "covers/26524775.jpg"
+    "local_cover": "covers/26524775.jpg",
+    "median_price": 16.08
   },
   {
     "id": 23406356,
@@ -5584,7 +5889,8 @@
     "vinyl_color": "Pallas Pressing",
     "date_added": "2023-01-25T09:24:24-08:00",
     "master_year": 2019,
-    "local_cover": "covers/23406356.jpg"
+    "local_cover": "covers/23406356.jpg",
+    "median_price": 17.73
   },
   {
     "id": 5790430,
@@ -5602,7 +5908,8 @@
     "vinyl_color": "180g, Gatefold",
     "date_added": "2023-01-21T07:11:22-08:00",
     "master_year": 2014,
-    "local_cover": "covers/5790430.jpg"
+    "local_cover": "covers/5790430.jpg",
+    "median_price": 28.74
   },
   {
     "id": 7638768,
@@ -5620,7 +5927,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-25T17:06:39-08:00",
     "master_year": 2005,
-    "local_cover": "covers/7638768.jpg"
+    "local_cover": "covers/7638768.jpg",
+    "median_price": 17.24
   },
   {
     "id": 15653006,
@@ -5638,7 +5946,8 @@
     "vinyl_color": "180 Gram, \"A\" Sleeve Variant",
     "date_added": "2023-12-25T11:36:25-08:00",
     "master_year": 1979,
-    "local_cover": "covers/15653006.jpg"
+    "local_cover": "covers/15653006.jpg",
+    "median_price": 15.95
   },
   {
     "id": 19887778,
@@ -5656,7 +5965,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-08-31T06:13:13-07:00",
     "master_year": 1969,
-    "local_cover": "covers/19887778.jpg"
+    "local_cover": "covers/19887778.jpg",
+    "median_price": 17.13
   },
   {
     "id": 5734489,
@@ -5674,7 +5984,8 @@
     "vinyl_color": "180 g, Gatefold",
     "date_added": "2025-07-19T08:20:28-07:00",
     "master_year": 1969,
-    "local_cover": "covers/5734489.jpg"
+    "local_cover": "covers/5734489.jpg",
+    "median_price": 19.43
   },
   {
     "id": 24040166,
@@ -5692,7 +6003,8 @@
     "vinyl_color": "180g, No \"JD\" In Runouts",
     "date_added": "2023-12-25T11:37:31-08:00",
     "master_year": 1975,
-    "local_cover": "covers/24040166.jpg"
+    "local_cover": "covers/24040166.jpg",
+    "median_price": 28.62
   },
   {
     "id": 7303488,
@@ -5710,7 +6022,8 @@
     "vinyl_color": "180g, Gatefold",
     "date_added": "2023-12-25T11:38:09-08:00",
     "master_year": 1976,
-    "local_cover": "covers/7303488.jpg"
+    "local_cover": "covers/7303488.jpg",
+    "median_price": 19.54
   },
   {
     "id": 25197124,
@@ -5728,7 +6041,8 @@
     "vinyl_color": "Gatefold, 180 gram",
     "date_added": "2023-09-23T08:22:34-07:00",
     "master_year": 1971,
-    "local_cover": "covers/25197124.jpg"
+    "local_cover": "covers/25197124.jpg",
+    "median_price": 17.24
   },
   {
     "id": 12012689,
@@ -5746,7 +6060,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-02-17T06:47:22-08:00",
     "master_year": 2000,
-    "local_cover": "covers/12012689.jpg"
+    "local_cover": "covers/12012689.jpg",
+    "median_price": 25.29
   },
   {
     "id": 10952093,
@@ -5764,7 +6079,8 @@
     "vinyl_color": "",
     "date_added": "2024-05-29T11:36:21-07:00",
     "master_year": 2017,
-    "local_cover": "covers/10952093.jpg"
+    "local_cover": "covers/10952093.jpg",
+    "median_price": 13.33
   },
   {
     "id": 33665268,
@@ -5783,7 +6099,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2025-06-03T11:28:03-07:00",
     "master_year": 1999,
-    "local_cover": "covers/33665268.jpg"
+    "local_cover": "covers/33665268.jpg",
+    "median_price": 37.97
   },
   {
     "id": 3153207,
@@ -5801,7 +6118,8 @@
     "vinyl_color": "Gatefold, 180 gram",
     "date_added": "2022-12-21T04:29:43-08:00",
     "master_year": 1973,
-    "local_cover": "covers/3153207.jpg"
+    "local_cover": "covers/3153207.jpg",
+    "median_price": 31.02
   },
   {
     "id": 28262704,
@@ -5819,7 +6137,8 @@
     "vinyl_color": "",
     "date_added": "2024-11-24T07:47:27-08:00",
     "master_year": 2009,
-    "local_cover": "covers/28262704.jpg"
+    "local_cover": "covers/28262704.jpg",
+    "median_price": 31.02
   },
   {
     "id": 16504149,
@@ -5837,7 +6156,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-10-13T13:10:21-07:00",
     "master_year": 1974,
-    "local_cover": "covers/16504149.jpg"
+    "local_cover": "covers/16504149.jpg",
+    "median_price": 22.98
   },
   {
     "id": 28578640,
@@ -5855,7 +6175,8 @@
     "vinyl_color": "Black",
     "date_added": "2024-11-24T07:43:42-08:00",
     "master_year": 2023,
-    "local_cover": "covers/28578640.jpg"
+    "local_cover": "covers/28578640.jpg",
+    "median_price": 27.57
   },
   {
     "id": 26733755,
@@ -5873,7 +6194,8 @@
     "vinyl_color": "",
     "date_added": "2023-09-13T14:33:19-07:00",
     "master_year": 2011,
-    "local_cover": "covers/26733755.jpg"
+    "local_cover": "covers/26733755.jpg",
+    "median_price": 31.21
   },
   {
     "id": 6049911,
@@ -5894,7 +6216,8 @@
     "vinyl_color": "",
     "date_added": "2025-01-23T01:53:18-08:00",
     "master_year": 2003,
-    "local_cover": "covers/6049911.jpg"
+    "local_cover": "covers/6049911.jpg",
+    "median_price": 5.75
   },
   {
     "id": 25287409,
@@ -5912,7 +6235,8 @@
     "vinyl_color": "Green Transparent",
     "date_added": "2023-04-01T01:39:35-07:00",
     "master_year": 2022,
-    "local_cover": "covers/25287409.jpg"
+    "local_cover": "covers/25287409.jpg",
+    "median_price": 68.97
   },
   {
     "id": 22116670,
@@ -5930,7 +6254,8 @@
     "vinyl_color": "White",
     "date_added": "2023-05-12T08:35:39-07:00",
     "master_year": 2013,
-    "local_cover": "covers/22116670.jpg"
+    "local_cover": "covers/22116670.jpg",
+    "median_price": 21.98
   },
   {
     "id": 12426938,
@@ -5948,7 +6273,8 @@
     "vinyl_color": "",
     "date_added": "2025-02-07T04:27:29-08:00",
     "master_year": 2018,
-    "local_cover": "covers/12426938.jpg"
+    "local_cover": "covers/12426938.jpg",
+    "median_price": 18.82
   },
   {
     "id": 8989473,
@@ -5966,7 +6292,8 @@
     "vinyl_color": "Embossed Cover",
     "date_added": "2025-03-02T13:23:18-08:00",
     "master_year": 1984,
-    "local_cover": "covers/8989473.jpg"
+    "local_cover": "covers/8989473.jpg",
+    "median_price": 22.99
   },
   {
     "id": 32350185,
@@ -5984,7 +6311,8 @@
     "vinyl_color": "Bone With Black Splatter",
     "date_added": "2024-12-07T05:39:28-08:00",
     "master_year": 2024,
-    "local_cover": "covers/32350185.jpg"
+    "local_cover": "covers/32350185.jpg",
+    "median_price": 9.99
   },
   {
     "id": 15908875,
@@ -6002,7 +6330,8 @@
     "vinyl_color": "",
     "date_added": "2023-04-29T07:18:08-07:00",
     "master_year": 2020,
-    "local_cover": "covers/15908875.jpg"
+    "local_cover": "covers/15908875.jpg",
+    "median_price": 25.29
   },
   {
     "id": 31119848,
@@ -6020,7 +6349,8 @@
     "vinyl_color": "Milky Clear & Kelly Green Half & Half With White & Kelly Green Splatter, 20th Anniversary Edition",
     "date_added": "2024-07-26T11:52:05-07:00",
     "master_year": 2004,
-    "local_cover": "covers/31119848.jpg"
+    "local_cover": "covers/31119848.jpg",
+    "median_price": 40.0
   },
   {
     "id": 15007295,
@@ -6039,7 +6369,8 @@
     "vinyl_color": "White",
     "date_added": "2023-01-14T06:45:48-08:00",
     "master_year": 2020,
-    "local_cover": "covers/15007295.jpg"
+    "local_cover": "covers/15007295.jpg",
+    "median_price": 25.33
   },
   {
     "id": 21043672,
@@ -6058,7 +6389,8 @@
     "vinyl_color": "",
     "date_added": "2024-09-05T04:07:20-07:00",
     "master_year": 2021,
-    "local_cover": "covers/21043672.jpg"
+    "local_cover": "covers/21043672.jpg",
+    "median_price": 20.0
   },
   {
     "id": 19773985,
@@ -6076,7 +6408,8 @@
     "vinyl_color": "180g",
     "date_added": "2025-05-24T07:00:45-07:00",
     "master_year": 1986,
-    "local_cover": "covers/19773985.jpg"
+    "local_cover": "covers/19773985.jpg",
+    "median_price": 24.98
   },
   {
     "id": 13607804,
@@ -6094,7 +6427,8 @@
     "vinyl_color": "",
     "date_added": "2023-11-04T07:28:32-07:00",
     "master_year": 1990,
-    "local_cover": "covers/13607804.jpg"
+    "local_cover": "covers/13607804.jpg",
+    "median_price": null
   },
   {
     "id": 27114993,
@@ -6112,7 +6446,8 @@
     "vinyl_color": "",
     "date_added": "2024-06-01T10:23:24-07:00",
     "master_year": 1999,
-    "local_cover": "covers/27114993.jpg"
+    "local_cover": "covers/27114993.jpg",
+    "median_price": 25.06
   },
   {
     "id": 15418713,
@@ -6130,7 +6465,8 @@
     "vinyl_color": "180g",
     "date_added": "2023-06-09T16:51:19-07:00",
     "master_year": 1984,
-    "local_cover": "covers/15418713.jpg"
+    "local_cover": "covers/15418713.jpg",
+    "median_price": 28.62
   },
   {
     "id": 12829255,
@@ -6148,7 +6484,8 @@
     "vinyl_color": "",
     "date_added": "2023-01-29T12:40:34-08:00",
     "master_year": 1993,
-    "local_cover": "covers/12829255.jpg"
+    "local_cover": "covers/12829255.jpg",
+    "median_price": 21.83
   },
   {
     "id": 27114471,
@@ -6166,7 +6503,8 @@
     "vinyl_color": "",
     "date_added": "2024-04-16T07:38:47-07:00",
     "master_year": 1993,
-    "local_cover": "covers/27114471.jpg"
+    "local_cover": "covers/27114471.jpg",
+    "median_price": 26.43
   },
   {
     "id": 15418759,
@@ -6184,7 +6522,8 @@
     "vinyl_color": "180g",
     "date_added": "2022-11-20T05:44:40-08:00",
     "master_year": 1983,
-    "local_cover": "covers/15418759.jpg"
+    "local_cover": "covers/15418759.jpg",
+    "median_price": 29.83
   },
   {
     "id": 26664548,
@@ -6202,7 +6541,8 @@
     "vinyl_color": "180G",
     "date_added": "2023-11-22T09:50:30-08:00",
     "master_year": 1988,
-    "local_cover": "covers/26664548.jpg"
+    "local_cover": "covers/26664548.jpg",
+    "median_price": 20.24
   },
   {
     "id": 30309152,
@@ -6222,7 +6562,8 @@
     "vinyl_color": "",
     "date_added": "2024-10-12T13:14:20-07:00",
     "master_year": 1998,
-    "local_cover": "covers/30309152.jpg"
+    "local_cover": "covers/30309152.jpg",
+    "median_price": 57.41
   },
   {
     "id": 8385679,
@@ -6240,7 +6581,8 @@
     "vinyl_color": "",
     "date_added": "2023-11-22T09:49:33-08:00",
     "master_year": 1983,
-    "local_cover": "covers/8385679.jpg"
+    "local_cover": "covers/8385679.jpg",
+    "median_price": 18.0
   },
   {
     "id": 34285579,
@@ -6258,7 +6600,8 @@
     "vinyl_color": "180 g",
     "date_added": "2025-10-01T11:59:44-07:00",
     "master_year": 1996,
-    "local_cover": "covers/34285579.jpg"
+    "local_cover": "covers/34285579.jpg",
+    "median_price": 33.95
   },
   {
     "id": 25079617,
@@ -6276,7 +6619,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-21T04:29:17-08:00",
     "master_year": 1986,
-    "local_cover": "covers/25079617.jpg"
+    "local_cover": "covers/25079617.jpg",
+    "median_price": 16.06
   },
   {
     "id": 20138908,
@@ -6294,7 +6638,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2023-11-22T09:50:11-08:00",
     "master_year": 1991,
-    "local_cover": "covers/20138908.jpg"
+    "local_cover": "covers/20138908.jpg",
+    "median_price": 19.99
   },
   {
     "id": 7276073,
@@ -6312,7 +6657,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2025-05-26T09:36:02-07:00",
     "master_year": 1997,
-    "local_cover": "covers/7276073.jpg"
+    "local_cover": "covers/7276073.jpg",
+    "median_price": 35.44
   },
   {
     "id": 8385645,
@@ -6330,7 +6676,8 @@
     "vinyl_color": "",
     "date_added": "2023-01-06T07:43:41-08:00",
     "master_year": 1984,
-    "local_cover": "covers/8385645.jpg"
+    "local_cover": "covers/8385645.jpg",
+    "median_price": 19.19
   },
   {
     "id": 31752665,
@@ -6348,7 +6695,8 @@
     "vinyl_color": "Red w/ Black Marbling",
     "date_added": "2025-12-13T05:18:15-08:00",
     "master_year": 2014,
-    "local_cover": "covers/31752665.jpg"
+    "local_cover": "covers/31752665.jpg",
+    "median_price": 50.0
   },
   {
     "id": 35970739,
@@ -6370,7 +6718,8 @@
     "vinyl_color": "Blue & Red Galaxy",
     "date_added": "2026-02-07T06:55:37-08:00",
     "master_year": 2025,
-    "local_cover": "covers/35970739.jpg"
+    "local_cover": "covers/35970739.jpg",
+    "median_price": 175.0
   },
   {
     "id": 10781493,
@@ -6388,7 +6737,8 @@
     "vinyl_color": "",
     "date_added": "2024-08-01T07:17:22-07:00",
     "master_year": 1991,
-    "local_cover": "covers/10781493.jpg"
+    "local_cover": "covers/10781493.jpg",
+    "median_price": 18.36
   },
   {
     "id": 5003313,
@@ -6406,7 +6756,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-24T04:54:08-08:00",
     "master_year": 2013,
-    "local_cover": "covers/5003313.jpg"
+    "local_cover": "covers/5003313.jpg",
+    "median_price": 24.13
   },
   {
     "id": 13010838,
@@ -6424,7 +6775,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2022-11-20T05:45:31-08:00",
     "master_year": 2010,
-    "local_cover": "covers/13010838.jpg"
+    "local_cover": "covers/13010838.jpg",
+    "median_price": 27.0
   },
   {
     "id": 10775588,
@@ -6442,7 +6794,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2023-04-29T07:25:03-07:00",
     "master_year": 1991,
-    "local_cover": "covers/10775588.jpg"
+    "local_cover": "covers/10775588.jpg",
+    "median_price": 23.32
   },
   {
     "id": 33771318,
@@ -6460,7 +6813,8 @@
     "vinyl_color": "",
     "date_added": "2025-11-15T04:54:31-08:00",
     "master_year": 1995,
-    "local_cover": "covers/33771318.jpg"
+    "local_cover": "covers/33771318.jpg",
+    "median_price": 47.11
   },
   {
     "id": 20249788,
@@ -6478,7 +6832,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2025-10-14T05:04:03-07:00",
     "master_year": 1989,
-    "local_cover": "covers/20249788.jpg"
+    "local_cover": "covers/20249788.jpg",
+    "median_price": 31.02
   },
   {
     "id": 10705415,
@@ -6496,7 +6851,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2025-12-08T06:49:47-08:00",
     "master_year": 1991,
-    "local_cover": "covers/10705415.jpg"
+    "local_cover": "covers/10705415.jpg",
+    "median_price": 23.0
   },
   {
     "id": 10808746,
@@ -6514,7 +6870,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2025-10-18T06:45:29-07:00",
     "master_year": 1993,
-    "local_cover": "covers/10808746.jpg"
+    "local_cover": "covers/10808746.jpg",
+    "median_price": 27.57
   },
   {
     "id": 26148497,
@@ -6532,7 +6889,8 @@
     "vinyl_color": "",
     "date_added": "2024-08-03T06:36:41-07:00",
     "master_year": 1980,
-    "local_cover": "covers/26148497.jpg"
+    "local_cover": "covers/26148497.jpg",
+    "median_price": 14.67
   },
   {
     "id": 1522605,
@@ -6550,7 +6908,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-25T17:03:06-08:00",
     "master_year": 1993,
-    "local_cover": "covers/1522605.jpg"
+    "local_cover": "covers/1522605.jpg",
+    "median_price": 13.79
   },
   {
     "id": 20774554,
@@ -6568,7 +6927,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2022-11-26T23:20:13-08:00",
     "master_year": 2021,
-    "local_cover": "covers/20774554.jpg"
+    "local_cover": "covers/20774554.jpg",
+    "median_price": 21.33
   },
   {
     "id": 3306213,
@@ -6586,7 +6946,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-26T11:44:48-08:00",
     "master_year": 2006,
-    "local_cover": "covers/3306213.jpg"
+    "local_cover": "covers/3306213.jpg",
+    "median_price": 34.47
   },
   {
     "id": 22915754,
@@ -6604,7 +6965,8 @@
     "vinyl_color": "\"Made In France\" On Labels",
     "date_added": "2024-05-29T11:34:45-07:00",
     "master_year": 1979,
-    "local_cover": "covers/22915754.jpg"
+    "local_cover": "covers/22915754.jpg",
+    "median_price": 26.65
   },
   {
     "id": 19278502,
@@ -6622,7 +6984,8 @@
     "vinyl_color": "Coke Bottle Clear / Lemon Splash [Illuminate The Shade]",
     "date_added": "2024-03-30T09:13:53-07:00",
     "master_year": 2021,
-    "local_cover": "covers/19278502.jpg"
+    "local_cover": "covers/19278502.jpg",
+    "median_price": 9.0
   },
   {
     "id": 27125811,
@@ -6640,7 +7003,8 @@
     "vinyl_color": "Olive Green & Bone Mix [Bible Basher]",
     "date_added": "2023-11-09T12:55:35-08:00",
     "master_year": 2023,
-    "local_cover": "covers/27125811.jpg"
+    "local_cover": "covers/27125811.jpg",
+    "median_price": 22.98
   },
   {
     "id": 13386337,
@@ -6659,7 +7023,8 @@
     "vinyl_color": "Neon Orange",
     "date_added": "2023-11-22T09:52:12-08:00",
     "master_year": 2019,
-    "local_cover": "covers/13386337.jpg"
+    "local_cover": "covers/13386337.jpg",
+    "median_price": 14.99
   },
   {
     "id": 24532877,
@@ -6677,7 +7042,8 @@
     "vinyl_color": "Light Blue & Milky Clear Galaxy [Sardine Bath]",
     "date_added": "2023-09-19T13:22:40-07:00",
     "master_year": 2022,
-    "local_cover": "covers/24532877.jpg"
+    "local_cover": "covers/24532877.jpg",
+    "median_price": 10.0
   },
   {
     "id": 18803836,
@@ -6695,7 +7061,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-08-10T07:03:46-07:00",
     "master_year": 1991,
-    "local_cover": "covers/18803836.jpg"
+    "local_cover": "covers/18803836.jpg",
+    "median_price": 29.93
   },
   {
     "id": 11664483,
@@ -6713,7 +7080,8 @@
     "vinyl_color": "",
     "date_added": "2023-03-09T14:43:32-08:00",
     "master_year": 1999,
-    "local_cover": "covers/11664483.jpg"
+    "local_cover": "covers/11664483.jpg",
+    "median_price": 27.53
   },
   {
     "id": 28707547,
@@ -6732,7 +7100,8 @@
     "vinyl_color": "",
     "date_added": "2023-11-18T05:28:22-08:00",
     "master_year": 2004,
-    "local_cover": "covers/28707547.jpg"
+    "local_cover": "covers/28707547.jpg",
+    "median_price": 25.29
   },
   {
     "id": 4942095,
@@ -6750,7 +7119,8 @@
     "vinyl_color": "",
     "date_added": "2025-07-14T07:46:59-07:00",
     "master_year": 2013,
-    "local_cover": "covers/4942095.jpg"
+    "local_cover": "covers/4942095.jpg",
+    "median_price": 17.24
   },
   {
     "id": 26563196,
@@ -6769,7 +7139,8 @@
     "vinyl_color": "180g",
     "date_added": "2025-07-14T07:47:18-07:00",
     "master_year": 2005,
-    "local_cover": "covers/26563196.jpg"
+    "local_cover": "covers/26563196.jpg",
+    "median_price": 34.37
   },
   {
     "id": 14039911,
@@ -6787,7 +7158,8 @@
     "vinyl_color": "180g",
     "date_added": "2023-12-03T11:39:48-08:00",
     "master_year": 2019,
-    "local_cover": "covers/14039911.jpg"
+    "local_cover": "covers/14039911.jpg",
+    "median_price": 22.82
   },
   {
     "id": 35400076,
@@ -6805,7 +7177,8 @@
     "vinyl_color": "",
     "date_added": "2025-10-18T06:41:36-07:00",
     "master_year": 1989,
-    "local_cover": "covers/35400076.jpg"
+    "local_cover": "covers/35400076.jpg",
+    "median_price": 34.47
   },
   {
     "id": 29608504,
@@ -6823,7 +7196,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-01-28T02:23:30-08:00",
     "master_year": 2024,
-    "local_cover": "covers/29608504.jpg"
+    "local_cover": "covers/29608504.jpg",
+    "median_price": 20.57
   },
   {
     "id": 1514020,
@@ -6841,7 +7215,8 @@
     "vinyl_color": "A-1/B2; Linguaphone Pressing; Die-cuts",
     "date_added": "2025-04-06T00:10:56-07:00",
     "master_year": 1983,
-    "local_cover": "covers/1514020.jpg"
+    "local_cover": "covers/1514020.jpg",
+    "median_price": 9.32
   },
   {
     "id": 28723930,
@@ -6860,7 +7235,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-24T03:50:43-07:00",
     "master_year": 1985,
-    "local_cover": "covers/28723930.jpg"
+    "local_cover": "covers/28723930.jpg",
+    "median_price": 22.0
   },
   {
     "id": 8593485,
@@ -6879,7 +7255,8 @@
     "vinyl_color": "180gm",
     "date_added": "2024-07-24T03:47:52-07:00",
     "master_year": 1983,
-    "local_cover": "covers/8593485.jpg"
+    "local_cover": "covers/8593485.jpg",
+    "median_price": 22.67
   },
   {
     "id": 6656220,
@@ -6897,7 +7274,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-06-01T10:23:58-07:00",
     "master_year": 1994,
-    "local_cover": "covers/6656220.jpg"
+    "local_cover": "covers/6656220.jpg",
+    "median_price": 22.93
   },
   {
     "id": 6620802,
@@ -6917,7 +7295,8 @@
     "vinyl_color": "",
     "date_added": "2023-01-14T06:46:58-08:00",
     "master_year": 1996,
-    "local_cover": "covers/6620802.jpg"
+    "local_cover": "covers/6620802.jpg",
+    "median_price": 27.64
   },
   {
     "id": 24820055,
@@ -6936,7 +7315,8 @@
     "vinyl_color": "Definitive Edition, 180g",
     "date_added": "2025-01-07T07:10:33-08:00",
     "master_year": 1994,
-    "local_cover": "covers/24820055.jpg"
+    "local_cover": "covers/24820055.jpg",
+    "median_price": 45.0
   },
   {
     "id": 11400290,
@@ -6955,7 +7335,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2024-08-09T15:30:47-07:00",
     "master_year": 1994,
-    "local_cover": "covers/11400290.jpg"
+    "local_cover": "covers/11400290.jpg",
+    "median_price": 22.0
   },
   {
     "id": 28728529,
@@ -6973,7 +7354,8 @@
     "vinyl_color": "150 Gram",
     "date_added": "2023-12-09T10:30:44-08:00",
     "master_year": 2002,
-    "local_cover": "covers/28728529.jpg"
+    "local_cover": "covers/28728529.jpg",
+    "median_price": 19.98
   },
   {
     "id": 20904802,
@@ -6991,7 +7373,8 @@
     "vinyl_color": "Transparent Blue Splatter",
     "date_added": "2023-03-09T14:41:12-08:00",
     "master_year": 2018,
-    "local_cover": "covers/20904802.jpg"
+    "local_cover": "covers/20904802.jpg",
+    "median_price": 33.33
   },
   {
     "id": 16067456,
@@ -7009,7 +7392,8 @@
     "vinyl_color": "25th Anniversary ",
     "date_added": "2022-11-20T05:46:13-08:00",
     "master_year": 1995,
-    "local_cover": "covers/16067456.jpg"
+    "local_cover": "covers/16067456.jpg",
+    "median_price": 34.99
   },
   {
     "id": 24236507,
@@ -7027,7 +7411,8 @@
     "vinyl_color": "Silver Metallic, 25th Anniversary",
     "date_added": "2023-02-04T10:25:52-08:00",
     "master_year": 1997,
-    "local_cover": "covers/24236507.jpg"
+    "local_cover": "covers/24236507.jpg",
+    "median_price": 34.6
   },
   {
     "id": 5697791,
@@ -7045,7 +7430,8 @@
     "vinyl_color": "180g, Gatefold",
     "date_added": "2022-12-04T06:40:35-08:00",
     "master_year": 1994,
-    "local_cover": "covers/5697791.jpg"
+    "local_cover": "covers/5697791.jpg",
+    "median_price": 26.67
   },
   {
     "id": 13157314,
@@ -7063,7 +7449,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2024-05-28T11:52:12-07:00",
     "master_year": 2005,
-    "local_cover": "covers/13157314.jpg"
+    "local_cover": "covers/13157314.jpg",
+    "median_price": 22.98
   },
   {
     "id": 28819975,
@@ -7081,7 +7468,8 @@
     "vinyl_color": "",
     "date_added": "2023-11-18T05:29:10-08:00",
     "master_year": 1998,
-    "local_cover": "covers/28819975.jpg"
+    "local_cover": "covers/28819975.jpg",
+    "median_price": 34.0
   },
   {
     "id": 3743189,
@@ -7099,7 +7487,8 @@
     "vinyl_color": "",
     "date_added": "2024-08-13T08:30:32-07:00",
     "master_year": 2012,
-    "local_cover": "covers/3743189.jpg"
+    "local_cover": "covers/3743189.jpg",
+    "median_price": 16.0
   },
   {
     "id": 31244914,
@@ -7117,7 +7506,8 @@
     "vinyl_color": "",
     "date_added": "2024-08-16T09:14:22-07:00",
     "master_year": 2024,
-    "local_cover": "covers/31244914.jpg"
+    "local_cover": "covers/31244914.jpg",
+    "median_price": 25.73
   },
   {
     "id": 12366473,
@@ -7137,7 +7527,8 @@
     "vinyl_color": "",
     "date_added": "2023-02-01T04:25:26-08:00",
     "master_year": 2000,
-    "local_cover": "covers/12366473.jpg"
+    "local_cover": "covers/12366473.jpg",
+    "median_price": null
   },
   {
     "id": 12184123,
@@ -7155,7 +7546,8 @@
     "vinyl_color": "",
     "date_added": "2024-06-11T10:03:03-07:00",
     "master_year": 2018,
-    "local_cover": "covers/12184123.jpg"
+    "local_cover": "covers/12184123.jpg",
+    "median_price": 34.47
   },
   {
     "id": 12469182,
@@ -7173,7 +7565,8 @@
     "vinyl_color": "Gold",
     "date_added": "2024-02-12T09:48:01-08:00",
     "master_year": 2004,
-    "local_cover": "covers/12469182.jpg"
+    "local_cover": "covers/12469182.jpg",
+    "median_price": 29.99
   },
   {
     "id": 34176517,
@@ -7191,7 +7584,8 @@
     "vinyl_color": "",
     "date_added": "2025-06-07T05:10:49-07:00",
     "master_year": 1998,
-    "local_cover": "covers/34176517.jpg"
+    "local_cover": "covers/34176517.jpg",
+    "median_price": 41.38
   },
   {
     "id": 14394149,
@@ -7210,7 +7604,8 @@
     "vinyl_color": "",
     "date_added": "2024-04-27T08:24:10-07:00",
     "master_year": 2019,
-    "local_cover": "covers/14394149.jpg"
+    "local_cover": "covers/14394149.jpg",
+    "median_price": 19.37
   },
   {
     "id": 2885809,
@@ -7228,7 +7623,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2024-11-30T01:04:50-08:00",
     "master_year": 1980,
-    "local_cover": "covers/2885809.jpg"
+    "local_cover": "covers/2885809.jpg",
+    "median_price": 17.83
   },
   {
     "id": 9453883,
@@ -7246,7 +7642,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-25T17:05:51-08:00",
     "master_year": 2016,
-    "local_cover": "covers/9453883.jpg"
+    "local_cover": "covers/9453883.jpg",
+    "median_price": null
   },
   {
     "id": 32056188,
@@ -7264,7 +7661,8 @@
     "vinyl_color": "Transparent Red",
     "date_added": "2024-11-24T07:43:55-08:00",
     "master_year": 2014,
-    "local_cover": "covers/32056188.jpg"
+    "local_cover": "covers/32056188.jpg",
+    "median_price": 29.87
   },
   {
     "id": 22114387,
@@ -7284,7 +7682,8 @@
     "vinyl_color": "Black Ice Transparent",
     "date_added": "2022-12-14T14:04:11-08:00",
     "master_year": 2010,
-    "local_cover": "covers/22114387.jpg"
+    "local_cover": "covers/22114387.jpg",
+    "median_price": 28.74
   },
   {
     "id": 26718902,
@@ -7302,7 +7701,8 @@
     "vinyl_color": "White & Whiskey Brown Marbled",
     "date_added": "2025-02-27T02:14:39-08:00",
     "master_year": 1990,
-    "local_cover": "covers/26718902.jpg"
+    "local_cover": "covers/26718902.jpg",
+    "median_price": 21.0
   },
   {
     "id": 18426697,
@@ -7320,7 +7720,8 @@
     "vinyl_color": "White & Blue Marbled [White & Stronger Than Blue]",
     "date_added": "2025-02-13T23:35:30-08:00",
     "master_year": 1994,
-    "local_cover": "covers/18426697.jpg"
+    "local_cover": "covers/18426697.jpg",
+    "median_price": 15.0
   },
   {
     "id": 18426754,
@@ -7338,7 +7739,8 @@
     "vinyl_color": "White And Sandblasted Orange Marbled",
     "date_added": "2025-02-22T05:58:06-08:00",
     "master_year": 1996,
-    "local_cover": "covers/18426754.jpg"
+    "local_cover": "covers/18426754.jpg",
+    "median_price": 19.0
   },
   {
     "id": 16506648,
@@ -7356,7 +7758,8 @@
     "vinyl_color": "Gatefold Cover, 180 gram",
     "date_added": "2023-04-01T01:40:46-07:00",
     "master_year": 1992,
-    "local_cover": "covers/16506648.jpg"
+    "local_cover": "covers/16506648.jpg",
+    "median_price": 10.0
   },
   {
     "id": 11112928,
@@ -7374,7 +7777,8 @@
     "vinyl_color": "",
     "date_added": "2023-01-14T06:45:04-08:00",
     "master_year": 1991,
-    "local_cover": "covers/11112928.jpg"
+    "local_cover": "covers/11112928.jpg",
+    "median_price": 12.64
   },
   {
     "id": 34368802,
@@ -7392,7 +7796,8 @@
     "vinyl_color": "Marble",
     "date_added": "2025-06-27T09:39:19-07:00",
     "master_year": 1985,
-    "local_cover": "covers/34368802.jpg"
+    "local_cover": "covers/34368802.jpg",
+    "median_price": 27.99
   },
   {
     "id": 22888100,
@@ -7410,7 +7815,8 @@
     "vinyl_color": "Clear Glow In The Dark Vinyl",
     "date_added": "2024-11-24T07:45:47-08:00",
     "master_year": 1982,
-    "local_cover": "covers/22888100.jpg"
+    "local_cover": "covers/22888100.jpg",
+    "median_price": null
   },
   {
     "id": 19331575,
@@ -7428,7 +7834,8 @@
     "vinyl_color": "",
     "date_added": "2024-12-21T04:17:54-08:00",
     "master_year": 2014,
-    "local_cover": "covers/19331575.jpg"
+    "local_cover": "covers/19331575.jpg",
+    "median_price": 82.28
   },
   {
     "id": 19297471,
@@ -7446,7 +7853,8 @@
     "vinyl_color": "",
     "date_added": "2024-02-12T09:47:09-08:00",
     "master_year": 2021,
-    "local_cover": "covers/19297471.jpg"
+    "local_cover": "covers/19297471.jpg",
+    "median_price": 25.55
   },
   {
     "id": 8414066,
@@ -7464,7 +7872,8 @@
     "vinyl_color": "",
     "date_added": "2024-12-21T22:42:44-08:00",
     "master_year": 2016,
-    "local_cover": "covers/8414066.jpg"
+    "local_cover": "covers/8414066.jpg",
+    "median_price": 48.28
   },
   {
     "id": 12110951,
@@ -7483,7 +7892,8 @@
     "vinyl_color": "Gatefold Sleeve",
     "date_added": "2022-12-19T06:07:10-08:00",
     "master_year": 2016,
-    "local_cover": "covers/12110951.jpg"
+    "local_cover": "covers/12110951.jpg",
+    "median_price": 22.99
   },
   {
     "id": 9952651,
@@ -7503,7 +7913,8 @@
     "vinyl_color": "180gr",
     "date_added": "2023-01-16T07:51:40-08:00",
     "master_year": 2017,
-    "local_cover": "covers/9952651.jpg"
+    "local_cover": "covers/9952651.jpg",
+    "median_price": 17.93
   },
   {
     "id": 9359985,
@@ -7521,7 +7932,8 @@
     "vinyl_color": "180g, Gatefold",
     "date_added": "2024-08-31T06:13:42-07:00",
     "master_year": 1977,
-    "local_cover": "covers/9359985.jpg"
+    "local_cover": "covers/9359985.jpg",
+    "median_price": 20.0
   },
   {
     "id": 28580086,
@@ -7539,7 +7951,8 @@
     "vinyl_color": "50th Anniversary, 180 Gram",
     "date_added": "2024-01-08T12:09:18-08:00",
     "master_year": 1973,
-    "local_cover": "covers/28580086.jpg"
+    "local_cover": "covers/28580086.jpg",
+    "median_price": 24.14
   },
   {
     "id": 9180570,
@@ -7557,7 +7970,8 @@
     "vinyl_color": "180g",
     "date_added": "2023-09-28T07:56:17-07:00",
     "master_year": 1975,
-    "local_cover": "covers/9180570.jpg"
+    "local_cover": "covers/9180570.jpg",
+    "median_price": 19.54
   },
   {
     "id": 21912412,
@@ -7576,7 +7990,8 @@
     "vinyl_color": "180 grams",
     "date_added": "2022-11-20T05:46:40-08:00",
     "master_year": 2011,
-    "local_cover": "covers/21912412.jpg"
+    "local_cover": "covers/21912412.jpg",
+    "median_price": 17.23
   },
   {
     "id": 17545360,
@@ -7594,7 +8009,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-08-13T08:34:09-07:00",
     "master_year": 2000,
-    "local_cover": "covers/17545360.jpg"
+    "local_cover": "covers/17545360.jpg",
+    "median_price": 22.67
   },
   {
     "id": 14685646,
@@ -7612,7 +8028,8 @@
     "vinyl_color": "",
     "date_added": "2023-09-28T10:07:49-07:00",
     "master_year": 2017,
-    "local_cover": "covers/14685646.jpg"
+    "local_cover": "covers/14685646.jpg",
+    "median_price": 14.0
   },
   {
     "id": 5824471,
@@ -7630,7 +8047,8 @@
     "vinyl_color": "Silver Marbled Translucent",
     "date_added": "2024-01-06T04:18:12-08:00",
     "master_year": 2005,
-    "local_cover": "covers/5824471.jpg"
+    "local_cover": "covers/5824471.jpg",
+    "median_price": 25.0
   },
   {
     "id": 25894162,
@@ -7648,7 +8066,8 @@
     "vinyl_color": "180g",
     "date_added": "2023-09-08T11:11:36-07:00",
     "master_year": 1988,
-    "local_cover": "covers/25894162.jpg"
+    "local_cover": "covers/25894162.jpg",
+    "median_price": 11.2
   },
   {
     "id": 21860704,
@@ -7667,7 +8086,8 @@
     "vinyl_color": "MPO Pressing",
     "date_added": "2025-08-21T05:59:34-07:00",
     "master_year": 1995,
-    "local_cover": "covers/21860704.jpg"
+    "local_cover": "covers/21860704.jpg",
+    "median_price": 25.0
   },
   {
     "id": 13721735,
@@ -7685,7 +8105,8 @@
     "vinyl_color": "",
     "date_added": "2024-03-30T09:14:33-07:00",
     "master_year": 2019,
-    "local_cover": "covers/13721735.jpg"
+    "local_cover": "covers/13721735.jpg",
+    "median_price": 10.0
   },
   {
     "id": 16077325,
@@ -7704,7 +8125,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2022-11-20T05:47:29-08:00",
     "master_year": 1992,
-    "local_cover": "covers/16077325.jpg"
+    "local_cover": "covers/16077325.jpg",
+    "median_price": 23.85
   },
   {
     "id": 12574480,
@@ -7723,7 +8145,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-09-08T11:13:08-07:00",
     "master_year": 1999,
-    "local_cover": "covers/12574480.jpg"
+    "local_cover": "covers/12574480.jpg",
+    "median_price": 19.54
   },
   {
     "id": 30122441,
@@ -7741,7 +8164,8 @@
     "vinyl_color": "Gatefold, 180 Gram",
     "date_added": "2024-11-27T02:25:08-08:00",
     "master_year": 1976,
-    "local_cover": "covers/30122441.jpg"
+    "local_cover": "covers/30122441.jpg",
+    "median_price": 24.08
   },
   {
     "id": 11247408,
@@ -7760,7 +8184,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-01-28T10:26:32-08:00",
     "master_year": 2001,
-    "local_cover": "covers/11247408.jpg"
+    "local_cover": "covers/11247408.jpg",
+    "median_price": 35.0
   },
   {
     "id": 11247342,
@@ -7779,7 +8204,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2025-04-28T11:34:29-07:00",
     "master_year": 1997,
-    "local_cover": "covers/11247342.jpg"
+    "local_cover": "covers/11247342.jpg",
+    "median_price": 29.99
   },
   {
     "id": 36148351,
@@ -7797,7 +8223,8 @@
     "vinyl_color": "Black Ice",
     "date_added": "2026-01-13T10:01:41-08:00",
     "master_year": 2006,
-    "local_cover": "covers/36148351.jpg"
+    "local_cover": "covers/36148351.jpg",
+    "median_price": 24.99
   },
   {
     "id": 2836336,
@@ -7815,7 +8242,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-11-17T07:49:51-08:00",
     "master_year": 2011,
-    "local_cover": "covers/2836336.jpg"
+    "local_cover": "covers/2836336.jpg",
+    "median_price": 20.69
   },
   {
     "id": 30793338,
@@ -7833,7 +8261,8 @@
     "vinyl_color": "15th Anniversary ",
     "date_added": "2024-08-04T14:06:57-07:00",
     "master_year": 2008,
-    "local_cover": "covers/30793338.jpg"
+    "local_cover": "covers/30793338.jpg",
+    "median_price": 19.99
   },
   {
     "id": 5147163,
@@ -7851,7 +8280,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-25T17:04:50-08:00",
     "master_year": 1983,
-    "local_cover": "covers/5147163.jpg"
+    "local_cover": "covers/5147163.jpg",
+    "median_price": null
   },
   {
     "id": 13120264,
@@ -7871,7 +8301,8 @@
     "vinyl_color": "",
     "date_added": "2023-03-05T14:00:40-08:00",
     "master_year": 2019,
-    "local_cover": "covers/13120264.jpg"
+    "local_cover": "covers/13120264.jpg",
+    "median_price": 29.87
   },
   {
     "id": 5774458,
@@ -7892,7 +8323,8 @@
     "vinyl_color": "",
     "date_added": "2024-04-15T14:32:46-07:00",
     "master_year": 2014,
-    "local_cover": "covers/5774458.jpg"
+    "local_cover": "covers/5774458.jpg",
+    "median_price": 13.99
   },
   {
     "id": 27364386,
@@ -7911,7 +8343,8 @@
     "vinyl_color": "Dark Green",
     "date_added": "2024-10-26T23:51:43-07:00",
     "master_year": 2016,
-    "local_cover": "covers/27364386.jpg"
+    "local_cover": "covers/27364386.jpg",
+    "median_price": 28.74
   },
   {
     "id": 19433722,
@@ -7930,7 +8363,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-07-24T03:46:08-07:00",
     "master_year": 1997,
-    "local_cover": "covers/19433722.jpg"
+    "local_cover": "covers/19433722.jpg",
+    "median_price": 18.99
   },
   {
     "id": 13520832,
@@ -7949,7 +8383,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-25T17:03:51-08:00",
     "master_year": 2019,
-    "local_cover": "covers/13520832.jpg"
+    "local_cover": "covers/13520832.jpg",
+    "median_price": 4.48
   },
   {
     "id": 31316193,
@@ -7967,7 +8402,8 @@
     "vinyl_color": "Oxblood",
     "date_added": "2024-07-26T02:18:05-07:00",
     "master_year": 2014,
-    "local_cover": "covers/31316193.jpg"
+    "local_cover": "covers/31316193.jpg",
+    "median_price": 51.72
   },
   {
     "id": 8263727,
@@ -7986,7 +8422,8 @@
     "vinyl_color": "White",
     "date_added": "2022-12-01T11:34:26-08:00",
     "master_year": 2015,
-    "local_cover": "covers/8263727.jpg"
+    "local_cover": "covers/8263727.jpg",
+    "median_price": 34.48
   },
   {
     "id": 33756480,
@@ -8006,7 +8443,8 @@
     "vinyl_color": "",
     "date_added": "2025-04-26T10:14:52-07:00",
     "master_year": 2025,
-    "local_cover": "covers/33756480.jpg"
+    "local_cover": "covers/33756480.jpg",
+    "median_price": 40.23
   },
   {
     "id": 34631395,
@@ -8025,7 +8463,8 @@
     "vinyl_color": "",
     "date_added": "2025-10-27T04:38:58-07:00",
     "master_year": 2009,
-    "local_cover": "covers/34631395.jpg"
+    "local_cover": "covers/34631395.jpg",
+    "median_price": 78.05
   },
   {
     "id": 22810847,
@@ -8044,7 +8483,8 @@
     "vinyl_color": "Brown",
     "date_added": "2024-07-26T02:17:17-07:00",
     "master_year": 2008,
-    "local_cover": "covers/22810847.jpg"
+    "local_cover": "covers/22810847.jpg",
+    "median_price": 74.71
   },
   {
     "id": 26519705,
@@ -8062,7 +8502,8 @@
     "vinyl_color": "Clear & White Marbled",
     "date_added": "2026-01-03T07:05:50-08:00",
     "master_year": 1994,
-    "local_cover": "covers/26519705.jpg"
+    "local_cover": "covers/26519705.jpg",
+    "median_price": 27.59
   },
   {
     "id": 28455871,
@@ -8080,7 +8521,8 @@
     "vinyl_color": "Beer [Transparent] With White & Black Splatter",
     "date_added": "2024-09-05T09:28:13-07:00",
     "master_year": 2004,
-    "local_cover": "covers/28455871.jpg"
+    "local_cover": "covers/28455871.jpg",
+    "median_price": 22.98
   },
   {
     "id": 28258444,
@@ -8098,7 +8540,8 @@
     "vinyl_color": "White/Brown",
     "date_added": "2024-04-03T08:11:54-07:00",
     "master_year": 1996,
-    "local_cover": "covers/28258444.jpg"
+    "local_cover": "covers/28258444.jpg",
+    "median_price": 29.77
   },
   {
     "id": 10673276,
@@ -8116,7 +8559,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-01-10T06:10:41-08:00",
     "master_year": 1989,
-    "local_cover": "covers/10673276.jpg"
+    "local_cover": "covers/10673276.jpg",
+    "median_price": 25.28
   },
   {
     "id": 10673189,
@@ -8134,7 +8578,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2024-07-06T06:39:12-07:00",
     "master_year": 1988,
-    "local_cover": "covers/10673189.jpg"
+    "local_cover": "covers/10673189.jpg",
+    "median_price": 21.26
   },
   {
     "id": 10673085,
@@ -8152,7 +8597,8 @@
     "vinyl_color": "",
     "date_added": "2025-05-13T07:49:00-07:00",
     "master_year": 1987,
-    "local_cover": "covers/10673085.jpg"
+    "local_cover": "covers/10673085.jpg",
+    "median_price": 20.57
   },
   {
     "id": 32845782,
@@ -8170,7 +8616,8 @@
     "vinyl_color": "",
     "date_added": "2025-01-31T07:52:15-08:00",
     "master_year": 1994,
-    "local_cover": "covers/32845782.jpg"
+    "local_cover": "covers/32845782.jpg",
+    "median_price": 30.03
   },
   {
     "id": 8537609,
@@ -8188,7 +8635,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-08-29T01:28:32-07:00",
     "master_year": 1996,
-    "local_cover": "covers/8537609.jpg"
+    "local_cover": "covers/8537609.jpg",
+    "median_price": 20.0
   },
   {
     "id": 34050784,
@@ -8206,7 +8654,8 @@
     "vinyl_color": "Silver",
     "date_added": "2025-05-26T09:36:18-07:00",
     "master_year": 2008,
-    "local_cover": "covers/34050784.jpg"
+    "local_cover": "covers/34050784.jpg",
+    "median_price": 28.74
   },
   {
     "id": 11235539,
@@ -8224,7 +8673,8 @@
     "vinyl_color": "",
     "date_added": "2024-04-19T13:46:21-07:00",
     "master_year": 2017,
-    "local_cover": "covers/11235539.jpg"
+    "local_cover": "covers/11235539.jpg",
+    "median_price": 32.18
   },
   {
     "id": 28460977,
@@ -8242,7 +8692,8 @@
     "vinyl_color": "",
     "date_added": "2024-03-25T12:17:41-07:00",
     "master_year": 2023,
-    "local_cover": "covers/28460977.jpg"
+    "local_cover": "covers/28460977.jpg",
+    "median_price": 22.99
   },
   {
     "id": 12139124,
@@ -8262,7 +8713,8 @@
     "vinyl_color": "",
     "date_added": "2023-08-04T07:00:44-07:00",
     "master_year": 1991,
-    "local_cover": "covers/12139124.jpg"
+    "local_cover": "covers/12139124.jpg",
+    "median_price": 31.65
   },
   {
     "id": 15045012,
@@ -8281,7 +8733,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-06T06:42:07-07:00",
     "master_year": 1989,
-    "local_cover": "covers/15045012.jpg"
+    "local_cover": "covers/15045012.jpg",
+    "median_price": 27.0
   },
   {
     "id": 27944220,
@@ -8301,7 +8754,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-06T06:43:03-07:00",
     "master_year": 1993,
-    "local_cover": "covers/27944220.jpg"
+    "local_cover": "covers/27944220.jpg",
+    "median_price": 34.3
   },
   {
     "id": 18497602,
@@ -8319,7 +8773,8 @@
     "vinyl_color": "",
     "date_added": "2025-01-31T07:53:59-08:00",
     "master_year": 2007,
-    "local_cover": "covers/18497602.jpg"
+    "local_cover": "covers/18497602.jpg",
+    "median_price": 28.16
   },
   {
     "id": 9006330,
@@ -8337,7 +8792,8 @@
     "vinyl_color": "Yellow",
     "date_added": "2024-02-12T09:46:15-08:00",
     "master_year": 2014,
-    "local_cover": "covers/9006330.jpg"
+    "local_cover": "covers/9006330.jpg",
+    "median_price": 18.0
   },
   {
     "id": 10689201,
@@ -8355,7 +8811,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-25T17:09:33-08:00",
     "master_year": 1986,
-    "local_cover": "covers/10689201.jpg"
+    "local_cover": "covers/10689201.jpg",
+    "median_price": 26.44
   },
   {
     "id": 29018266,
@@ -8373,7 +8830,8 @@
     "vinyl_color": "",
     "date_added": "2024-03-25T12:16:35-07:00",
     "master_year": 2006,
-    "local_cover": "covers/29018266.jpg"
+    "local_cover": "covers/29018266.jpg",
+    "median_price": 29.89
   },
   {
     "id": 25073821,
@@ -8391,7 +8849,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-26T12:01:45-07:00",
     "master_year": 1987,
-    "local_cover": "covers/25073821.jpg"
+    "local_cover": "covers/25073821.jpg",
+    "median_price": 27.47
   },
   {
     "id": 20699173,
@@ -8409,7 +8868,8 @@
     "vinyl_color": "180g",
     "date_added": "2026-02-28T06:40:40-08:00",
     "master_year": 1984,
-    "local_cover": "covers/20699173.jpg"
+    "local_cover": "covers/20699173.jpg",
+    "median_price": 17.13
   },
   {
     "id": 20699110,
@@ -8427,7 +8887,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2026-02-28T06:41:26-08:00",
     "master_year": 1985,
-    "local_cover": "covers/20699110.jpg"
+    "local_cover": "covers/20699110.jpg",
+    "median_price": 25.79
   },
   {
     "id": 23513579,
@@ -8445,7 +8906,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2024-01-10T06:10:05-08:00",
     "master_year": 1986,
-    "local_cover": "covers/23513579.jpg"
+    "local_cover": "covers/23513579.jpg",
+    "median_price": 28.0
   },
   {
     "id": 31141985,
@@ -8463,7 +8925,8 @@
     "vinyl_color": "Orange [Transparent] w/ Yellow/Black Splatter",
     "date_added": "2024-11-29T09:26:16-08:00",
     "master_year": 2015,
-    "local_cover": "covers/31141985.jpg"
+    "local_cover": "covers/31141985.jpg",
+    "median_price": 21.9
   },
   {
     "id": 23534543,
@@ -8481,7 +8944,8 @@
     "vinyl_color": "180g",
     "date_added": "2022-12-13T13:02:29-08:00",
     "master_year": 1990,
-    "local_cover": "covers/23534543.jpg"
+    "local_cover": "covers/23534543.jpg",
+    "median_price": 26.0
   },
   {
     "id": 26853977,
@@ -8499,7 +8963,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-11-24T07:47:07-08:00",
     "master_year": 1988,
-    "local_cover": "covers/26853977.jpg"
+    "local_cover": "covers/26853977.jpg",
+    "median_price": 25.54
   },
   {
     "id": 25416709,
@@ -8517,7 +8982,8 @@
     "vinyl_color": "",
     "date_added": "2024-05-02T14:01:50-07:00",
     "master_year": 2003,
-    "local_cover": "covers/25416709.jpg"
+    "local_cover": "covers/25416709.jpg",
+    "median_price": 40.23
   },
   {
     "id": 19161829,
@@ -8535,7 +9001,8 @@
     "vinyl_color": "Green [Gras Green]",
     "date_added": "2024-01-10T06:08:02-08:00",
     "master_year": 1992,
-    "local_cover": "covers/19161829.jpg"
+    "local_cover": "covers/19161829.jpg",
+    "median_price": 34.43
   },
   {
     "id": 10778614,
@@ -8553,7 +9020,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2023-01-25T09:23:56-08:00",
     "master_year": 2008,
-    "local_cover": "covers/10778614.jpg"
+    "local_cover": "covers/10778614.jpg",
+    "median_price": 22.99
   },
   {
     "id": 7657175,
@@ -8573,7 +9041,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:49:18-08:00",
     "master_year": 2013,
-    "local_cover": "covers/7657175.jpg"
+    "local_cover": "covers/7657175.jpg",
+    "median_price": 11.99
   },
   {
     "id": 9098139,
@@ -8592,7 +9061,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:49:32-08:00",
     "master_year": 2016,
-    "local_cover": "covers/9098139.jpg"
+    "local_cover": "covers/9098139.jpg",
+    "median_price": 8.5
   },
   {
     "id": 26133773,
@@ -8610,7 +9080,8 @@
     "vinyl_color": "Gatefold",
     "date_added": "2024-06-29T06:00:57-07:00",
     "master_year": 2020,
-    "local_cover": "covers/26133773.jpg"
+    "local_cover": "covers/26133773.jpg",
+    "median_price": 70.65
   },
   {
     "id": 3715754,
@@ -8628,7 +9099,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2024-05-11T06:26:54-07:00",
     "master_year": 1984,
-    "local_cover": "covers/3715754.jpg"
+    "local_cover": "covers/3715754.jpg",
+    "median_price": 15.0
   },
   {
     "id": 3564656,
@@ -8647,7 +9119,8 @@
     "vinyl_color": "Gatefold, 180 Gram",
     "date_added": "2025-09-30T10:46:25-07:00",
     "master_year": 1986,
-    "local_cover": "covers/3564656.jpg"
+    "local_cover": "covers/3564656.jpg",
+    "median_price": 22.61
   },
   {
     "id": 16256604,
@@ -8665,7 +9138,8 @@
     "vinyl_color": "",
     "date_added": "2025-07-21T09:34:01-07:00",
     "master_year": 2020,
-    "local_cover": "covers/16256604.jpg"
+    "local_cover": "covers/16256604.jpg",
+    "median_price": 30.0
   },
   {
     "id": 21128089,
@@ -8683,7 +9157,8 @@
     "vinyl_color": "Green [Olive], 180g, 20th Anniversary Edition",
     "date_added": "2022-11-20T05:50:12-08:00",
     "master_year": 2001,
-    "local_cover": "covers/21128089.jpg"
+    "local_cover": "covers/21128089.jpg",
+    "median_price": 28.74
   },
   {
     "id": 32278470,
@@ -8702,7 +9177,8 @@
     "vinyl_color": "Red Transparent",
     "date_added": "2024-11-15T09:06:12-08:00",
     "master_year": 1992,
-    "local_cover": "covers/32278470.jpg"
+    "local_cover": "covers/32278470.jpg",
+    "median_price": 37.99
   },
   {
     "id": 34393930,
@@ -8720,7 +9196,8 @@
     "vinyl_color": "",
     "date_added": "2025-06-28T05:55:08-07:00",
     "master_year": 2025,
-    "local_cover": "covers/34393930.jpg"
+    "local_cover": "covers/34393930.jpg",
+    "median_price": 59.93
   },
   {
     "id": 25117573,
@@ -8738,7 +9215,8 @@
     "vinyl_color": "",
     "date_added": "2023-09-30T05:59:52-07:00",
     "master_year": 1984,
-    "local_cover": "covers/25117573.jpg"
+    "local_cover": "covers/25117573.jpg",
+    "median_price": null
   },
   {
     "id": 28386424,
@@ -8756,7 +9234,8 @@
     "vinyl_color": "Orange Vinyl",
     "date_added": "2024-08-13T08:31:25-07:00",
     "master_year": 1968,
-    "local_cover": "covers/28386424.jpg"
+    "local_cover": "covers/28386424.jpg",
+    "median_price": 40.23
   },
   {
     "id": 20185144,
@@ -8775,7 +9254,8 @@
     "vinyl_color": "Clear, 180 Gr",
     "date_added": "2022-12-19T06:07:26-08:00",
     "master_year": 1996,
-    "local_cover": "covers/20185144.jpg"
+    "local_cover": "covers/20185144.jpg",
+    "median_price": 27.07
   },
   {
     "id": 4797726,
@@ -8793,7 +9273,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-06-29T06:00:30-07:00",
     "master_year": 1990,
-    "local_cover": "covers/4797726.jpg"
+    "local_cover": "covers/4797726.jpg",
+    "median_price": 25.16
   },
   {
     "id": 23153837,
@@ -8811,7 +9292,8 @@
     "vinyl_color": "Red",
     "date_added": "2025-02-22T06:00:10-08:00",
     "master_year": 1983,
-    "local_cover": "covers/23153837.jpg"
+    "local_cover": "covers/23153837.jpg",
+    "median_price": 18.24
   },
   {
     "id": 22662188,
@@ -8830,7 +9312,8 @@
     "vinyl_color": "Red",
     "date_added": "2024-05-29T11:33:44-07:00",
     "master_year": 2022,
-    "local_cover": "covers/22662188.jpg"
+    "local_cover": "covers/22662188.jpg",
+    "median_price": 23.99
   },
   {
     "id": 31807892,
@@ -8848,7 +9331,8 @@
     "vinyl_color": "",
     "date_added": "2024-09-23T09:26:43-07:00",
     "master_year": 2024,
-    "local_cover": "covers/31807892.jpg"
+    "local_cover": "covers/31807892.jpg",
+    "median_price": null
   },
   {
     "id": 12251894,
@@ -8866,7 +9350,8 @@
     "vinyl_color": "",
     "date_added": "2024-09-16T12:20:33-07:00",
     "master_year": 2018,
-    "local_cover": "covers/12251894.jpg"
+    "local_cover": "covers/12251894.jpg",
+    "median_price": null
   },
   {
     "id": 9108160,
@@ -8884,7 +9369,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-24T04:53:35-08:00",
     "master_year": 2016,
-    "local_cover": "covers/9108160.jpg"
+    "local_cover": "covers/9108160.jpg",
+    "median_price": 6.67
   },
   {
     "id": 15671910,
@@ -8902,7 +9388,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-09-14T12:34:15-07:00",
     "master_year": 2018,
-    "local_cover": "covers/15671910.jpg"
+    "local_cover": "covers/15671910.jpg",
+    "median_price": 24.99
   },
   {
     "id": 1312119,
@@ -8921,7 +9408,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-04-29T07:26:53-07:00",
     "master_year": 1980,
-    "local_cover": "covers/1312119.jpg"
+    "local_cover": "covers/1312119.jpg",
+    "median_price": 14.6
   },
   {
     "id": 25365007,
@@ -8939,7 +9427,8 @@
     "vinyl_color": "Green, Gatefold",
     "date_added": "2024-09-09T04:26:40-07:00",
     "master_year": 1975,
-    "local_cover": "covers/25365007.jpg"
+    "local_cover": "covers/25365007.jpg",
+    "median_price": 13.33
   },
   {
     "id": 35637556,
@@ -8959,7 +9448,8 @@
     "vinyl_color": "Coke Bottle Clear",
     "date_added": "2026-01-03T07:03:58-08:00",
     "master_year": 1985,
-    "local_cover": "covers/35637556.jpg"
+    "local_cover": "covers/35637556.jpg",
+    "median_price": 27.53
   },
   {
     "id": 10720400,
@@ -8977,7 +9467,8 @@
     "vinyl_color": "180 gram",
     "date_added": "2025-12-29T11:30:33-08:00",
     "master_year": 2006,
-    "local_cover": "covers/10720400.jpg"
+    "local_cover": "covers/10720400.jpg",
+    "median_price": 17.24
   },
   {
     "id": 13243300,
@@ -8995,7 +9486,8 @@
     "vinyl_color": "",
     "date_added": "2024-02-10T02:52:59-08:00",
     "master_year": 2003,
-    "local_cover": "covers/13243300.jpg"
+    "local_cover": "covers/13243300.jpg",
+    "median_price": 28.89
   },
   {
     "id": 10899006,
@@ -9013,7 +9505,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-19T06:01:44-08:00",
     "master_year": 2017,
-    "local_cover": "covers/10899006.jpg"
+    "local_cover": "covers/10899006.jpg",
+    "median_price": 19.93
   },
   {
     "id": 10088709,
@@ -9031,7 +9524,8 @@
     "vinyl_color": "",
     "date_added": "2022-12-21T04:28:41-08:00",
     "master_year": 2017,
-    "local_cover": "covers/10088709.jpg"
+    "local_cover": "covers/10088709.jpg",
+    "median_price": 15.75
   },
   {
     "id": 23830427,
@@ -9050,7 +9544,8 @@
     "vinyl_color": "Smoke/Clear Vinyl",
     "date_added": "2022-11-26T11:46:40-08:00",
     "master_year": 2009,
-    "local_cover": "covers/23830427.jpg"
+    "local_cover": "covers/23830427.jpg",
+    "median_price": 36.78
   },
   {
     "id": 13637541,
@@ -9068,7 +9563,8 @@
     "vinyl_color": "180g",
     "date_added": "2024-01-20T07:07:20-08:00",
     "master_year": 1989,
-    "local_cover": "covers/13637541.jpg"
+    "local_cover": "covers/13637541.jpg",
+    "median_price": null
   },
   {
     "id": 8844291,
@@ -9086,7 +9582,8 @@
     "vinyl_color": "180 Gram",
     "date_added": "2023-08-21T09:36:51-07:00",
     "master_year": 1993,
-    "local_cover": "covers/8844291.jpg"
+    "local_cover": "covers/8844291.jpg",
+    "median_price": 30.16
   },
   {
     "id": 27771489,
@@ -9104,7 +9601,8 @@
     "vinyl_color": "Custom Quad Effect [Neon Yellow And Black]",
     "date_added": "2023-11-17T07:45:32-08:00",
     "master_year": 2008,
-    "local_cover": "covers/27771489.jpg"
+    "local_cover": "covers/27771489.jpg",
+    "median_price": 20.99
   },
   {
     "id": 15421848,
@@ -9122,7 +9620,8 @@
     "vinyl_color": "",
     "date_added": "2024-09-09T08:27:44-07:00",
     "master_year": 1984,
-    "local_cover": "covers/15421848.jpg"
+    "local_cover": "covers/15421848.jpg",
+    "median_price": 17.13
   },
   {
     "id": 30491578,
@@ -9142,7 +9641,8 @@
     "vinyl_color": "Gold",
     "date_added": "2025-07-12T12:44:33-07:00",
     "master_year": 2003,
-    "local_cover": "covers/30491578.jpg"
+    "local_cover": "covers/30491578.jpg",
+    "median_price": 25.29
   },
   {
     "id": 14356856,
@@ -9160,7 +9660,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-23T08:00:15-08:00",
     "master_year": 1998,
-    "local_cover": "covers/14356856.jpg"
+    "local_cover": "covers/14356856.jpg",
+    "median_price": 26.89
   },
   {
     "id": 11515323,
@@ -9178,7 +9679,8 @@
     "vinyl_color": "",
     "date_added": "2022-11-20T05:50:39-08:00",
     "master_year": 2018,
-    "local_cover": "covers/11515323.jpg"
+    "local_cover": "covers/11515323.jpg",
+    "median_price": 26.28
   },
   {
     "id": 3792052,
@@ -9196,7 +9698,8 @@
     "vinyl_color": "Pink Marble",
     "date_added": "2023-08-30T06:24:24-07:00",
     "master_year": 2012,
-    "local_cover": "covers/3792052.jpg"
+    "local_cover": "covers/3792052.jpg",
+    "median_price": 25.54
   },
   {
     "id": 22594745,
@@ -9214,7 +9717,8 @@
     "vinyl_color": "Red/Black Warpaint",
     "date_added": "2024-10-26T23:56:14-07:00",
     "master_year": 2011,
-    "local_cover": "covers/22594745.jpg"
+    "local_cover": "covers/22594745.jpg",
+    "median_price": 25.23
   },
   {
     "id": 22594517,
@@ -9232,7 +9736,8 @@
     "vinyl_color": "Red/Black Warpaint",
     "date_added": "2024-06-11T09:59:53-07:00",
     "master_year": 2007,
-    "local_cover": "covers/22594517.jpg"
+    "local_cover": "covers/22594517.jpg",
+    "median_price": 39.87
   },
   {
     "id": 30244169,
@@ -9250,7 +9755,8 @@
     "vinyl_color": "Green with Black Swirl - Suspended In Dusk - 30th Anniversary Edition",
     "date_added": "2024-04-03T05:40:39-07:00",
     "master_year": 1993,
-    "local_cover": "covers/30244169.jpg"
+    "local_cover": "covers/30244169.jpg",
+    "median_price": 38.0
   },
   {
     "id": 26954351,
@@ -9268,7 +9774,8 @@
     "vinyl_color": "Green Transparent",
     "date_added": "2023-05-12T08:36:27-07:00",
     "master_year": 2007,
-    "local_cover": "covers/26954351.jpg"
+    "local_cover": "covers/26954351.jpg",
+    "median_price": 32.18
   },
   {
     "id": 30404705,
@@ -9288,7 +9795,8 @@
     "vinyl_color": "Green And Black Mixed",
     "date_added": "2025-09-24T12:17:28-07:00",
     "master_year": 2003,
-    "local_cover": "covers/30404705.jpg"
+    "local_cover": "covers/30404705.jpg",
+    "median_price": 19.0
   },
   {
     "id": 31899832,
@@ -9306,7 +9814,8 @@
     "vinyl_color": "Green W/ Black Marble",
     "date_added": "2024-10-04T06:49:31-07:00",
     "master_year": 1996,
-    "local_cover": "covers/31899832.jpg"
+    "local_cover": "covers/31899832.jpg",
+    "median_price": 40.0
   },
   {
     "id": 14503872,
@@ -9324,7 +9833,8 @@
     "vinyl_color": "Green And Black Mixed, 20th Anniversary Edition, 180 Gram",
     "date_added": "2025-08-16T07:03:53-07:00",
     "master_year": 1999,
-    "local_cover": "covers/14503872.jpg"
+    "local_cover": "covers/14503872.jpg",
+    "median_price": 233.58
   },
   {
     "id": 31665344,
@@ -9342,7 +9852,8 @@
     "vinyl_color": "Neon Pink",
     "date_added": "2024-09-06T00:40:35-07:00",
     "master_year": 2001,
-    "local_cover": "covers/31665344.jpg"
+    "local_cover": "covers/31665344.jpg",
+    "median_price": 41.26
   },
   {
     "id": 20552896,
@@ -9360,7 +9871,8 @@
     "vinyl_color": "Clear / Purple, Black & White Splatter",
     "date_added": "2022-12-16T04:29:49-08:00",
     "master_year": 2011,
-    "local_cover": "covers/20552896.jpg"
+    "local_cover": "covers/20552896.jpg",
+    "median_price": 55.0
   },
   {
     "id": 34191355,
@@ -9378,7 +9890,8 @@
     "vinyl_color": "180g",
     "date_added": "2025-10-18T06:48:09-07:00",
     "master_year": 2000,
-    "local_cover": "covers/34191355.jpg"
+    "local_cover": "covers/34191355.jpg",
+    "median_price": 27.57
   },
   {
     "id": 22817261,
@@ -9396,7 +9909,8 @@
     "vinyl_color": "Pink Scroll Labels, Gatefold",
     "date_added": "2023-09-22T05:01:22-07:00",
     "master_year": 1971,
-    "local_cover": "covers/22817261.jpg"
+    "local_cover": "covers/22817261.jpg",
+    "median_price": 31.99
   },
   {
     "id": 7097828,
@@ -9415,7 +9929,8 @@
     "vinyl_color": "Gatefold, 180 Gram",
     "date_added": "2022-11-23T01:34:19-08:00",
     "master_year": 1994,
-    "local_cover": "covers/7097828.jpg"
+    "local_cover": "covers/7097828.jpg",
+    "median_price": 20.79
   },
   {
     "id": 24593237,
@@ -9433,7 +9948,8 @@
     "vinyl_color": "Silver & Black Swirl, 40th Anniversary",
     "date_added": "2024-04-27T23:28:14-07:00",
     "master_year": 1982,
-    "local_cover": "covers/24593237.jpg"
+    "local_cover": "covers/24593237.jpg",
+    "median_price": 21.83
   },
   {
     "id": 20348827,
@@ -9451,7 +9967,8 @@
     "vinyl_color": "40th Anniversary, Gold With Black Splatter",
     "date_added": "2024-04-19T13:47:40-07:00",
     "master_year": 1981,
-    "local_cover": "covers/20348827.jpg"
+    "local_cover": "covers/20348827.jpg",
+    "median_price": 21.78
   },
   {
     "id": 26965184,
@@ -9469,7 +9986,8 @@
     "vinyl_color": "GZ Pressing, 2nd pressing",
     "date_added": "2023-05-06T04:48:22-07:00",
     "master_year": 2022,
-    "local_cover": "covers/26965184.jpg"
+    "local_cover": "covers/26965184.jpg",
+    "median_price": 33.22
   },
   {
     "id": 27419754,
@@ -9487,7 +10005,8 @@
     "vinyl_color": "Clear",
     "date_added": "2023-11-22T09:49:06-08:00",
     "master_year": 2018,
-    "local_cover": "covers/27419754.jpg"
+    "local_cover": "covers/27419754.jpg",
+    "median_price": 30.26
   },
   {
     "id": 24015341,
@@ -9507,7 +10026,8 @@
     "vinyl_color": "",
     "date_added": "2024-06-29T06:01:29-07:00",
     "master_year": 2021,
-    "local_cover": "covers/24015341.jpg"
+    "local_cover": "covers/24015341.jpg",
+    "median_price": 29.16
   },
   {
     "id": 14893966,
@@ -9526,7 +10046,8 @@
     "vinyl_color": "",
     "date_added": "2024-07-06T06:40:29-07:00",
     "master_year": 2019,
-    "local_cover": "covers/14893966.jpg"
+    "local_cover": "covers/14893966.jpg",
+    "median_price": 29.87
   },
   {
     "id": 568076,
@@ -9544,7 +10065,8 @@
     "vinyl_color": "",
     "date_added": "2023-04-29T07:18:35-07:00",
     "master_year": 2002,
-    "local_cover": "covers/568076.jpg"
+    "local_cover": "covers/568076.jpg",
+    "median_price": 49.5
   },
   {
     "id": 24688364,
@@ -9562,7 +10084,8 @@
     "vinyl_color": "Glow In The Dark",
     "date_added": "2025-01-31T07:50:54-08:00",
     "master_year": 2021,
-    "local_cover": "covers/24688364.jpg"
+    "local_cover": "covers/24688364.jpg",
+    "median_price": 43.68
   },
   {
     "id": 28430650,
@@ -9580,7 +10103,8 @@
     "vinyl_color": "Clear w/Purple Splatter",
     "date_added": "2024-06-08T09:41:27-07:00",
     "master_year": 1988,
-    "local_cover": "covers/28430650.jpg"
+    "local_cover": "covers/28430650.jpg",
+    "median_price": 16.0
   },
   {
     "id": 15516690,
@@ -9598,7 +10122,8 @@
     "vinyl_color": "Marbled White / Blue",
     "date_added": "2025-10-18T06:43:48-07:00",
     "master_year": 2009,
-    "local_cover": "covers/15516690.jpg"
+    "local_cover": "covers/15516690.jpg",
+    "median_price": 33.32
   },
   {
     "id": 13645352,
@@ -9616,7 +10141,8 @@
     "vinyl_color": "",
     "date_added": "2025-10-18T06:44:46-07:00",
     "master_year": 2013,
-    "local_cover": "covers/13645352.jpg"
+    "local_cover": "covers/13645352.jpg",
+    "median_price": 35.16
   },
   {
     "id": 21382693,
@@ -9634,7 +10160,8 @@
     "vinyl_color": "",
     "date_added": "2024-05-11T06:32:31-07:00",
     "master_year": 2003,
-    "local_cover": "covers/21382693.jpg"
+    "local_cover": "covers/21382693.jpg",
+    "median_price": 28.0
   },
   {
     "id": 14730736,
@@ -9652,6 +10179,7 @@
     "vinyl_color": "180 gr., Gatefold",
     "date_added": "2024-05-02T15:03:04-07:00",
     "master_year": 1973,
-    "local_cover": "covers/14730736.jpg"
+    "local_cover": "covers/14730736.jpg",
+    "median_price": 18.25
   }
 ]

@@ -199,6 +199,49 @@ def merge_with_existing(new_releases):
 
     return new_releases, added, removed
 
+# ── Fetch median prices ──────────────────────────────────────────────────────
+
+def enrich_prices(releases):
+    # Load cached prices from previous run
+    price_cache = {}
+    if COLLECTION_FILE.exists():
+        try:
+            existing = json.loads(COLLECTION_FILE.read_text())
+            for r in existing:
+                rid = r.get("id")
+                if rid and r.get("median_price") is not None:
+                    price_cache[rid] = r["median_price"]
+        except Exception:
+            pass
+
+    to_fetch = [r for r in releases if r["id"] not in price_cache]
+
+    if to_fetch:
+        print(f"\n💰 Fetching median prices ({len(to_fetch)} releases)...")
+        for i, r in enumerate(to_fetch):
+            rid = r["id"]
+            try:
+                url = f"https://api.discogs.com/marketplace/stats/{rid}?curr_abbr=USD"
+                data = fetch_json(url)
+                median = None
+                if data.get("lowest_price") and data["lowest_price"].get("value"):
+                    median = round(data["lowest_price"]["value"], 2)
+                price_cache[rid] = median
+                if median:
+                    print(f"  [{i+1}/{len(to_fetch)}] {r['artist']} — {r['title']}: ${median}")
+                else:
+                    print(f"  [{i+1}/{len(to_fetch)}] {r['artist']} — {r['title']}: no price data")
+            except Exception as e:
+                print(f"  ⚠ {r['artist']} — {r['title']}: {e}")
+                price_cache[rid] = None
+            if i < len(to_fetch) - 1:
+                time.sleep(REQUEST_DELAY)
+
+    for r in releases:
+        r["median_price"] = price_cache.get(r["id"])
+
+    return releases
+
 # ── Generate HTML ─────────────────────────────────────────────────────────────
 
 def generate_html(releases, username, added_count):
@@ -1170,6 +1213,7 @@ def generate_html(releases, username, added_count):
   <div id="sort-controls" class="sort-controls">
     <button class="sort-btn active" data-sort="artist" onclick="setSort('artist')">A–Z</button>
     <button class="sort-btn" data-sort="year" onclick="setSort('year')">Year</button>
+    <button class="sort-btn" data-sort="price" onclick="setSort('price')">Price</button>
   </div>
   <div class="search-wrap">
     <button class="search-toggle" onclick="toggleSearch()" title="Search">Search</button>
@@ -1423,6 +1467,31 @@ function renderByYear() {{
   applyGroups(map, keys, k => k, k => 'decade-' + k.replace(/[^a-z0-9]/gi, '-'));
 }}
 
+function renderByPrice() {{
+  const source = getFiltered();
+  const sorted = [...source].sort((a, b) => {{
+    const pa = a.median_price || 0;
+    const pb = b.median_price || 0;
+    if (pa !== pb) return pb - pa;
+    return artistSortKey(a.artist).localeCompare(artistSortKey(b.artist));
+  }});
+  const map = {{}};
+  sorted.forEach(r => {{
+    const p = r.median_price;
+    let key;
+    if (!p)        key = '—';
+    else if (p >= 100) key = '$100+';
+    else if (p >= 50)  key = '$50–99';
+    else if (p >= 25)  key = '$25–49';
+    else if (p >= 10)  key = '$10–24';
+    else               key = 'Under $10';
+    (map[key] = map[key] || []).push(r);
+  }});
+  const order = ['$100+', '$50–99', '$25–49', '$10–24', 'Under $10', '—'];
+  const keys = order.filter(k => map[k]);
+  applyGroups(map, keys, k => k, k => 'price-' + k.replace(/[^a-z0-9]/gi, '-'));
+}}
+
 function setSort(mode) {{
   _currentSort = mode;
   document.querySelectorAll('.sort-btn').forEach(b =>
@@ -1432,7 +1501,9 @@ function setSort(mode) {{
 }}
 
 function rerender() {{
-  if (_currentSort === 'year') renderByYear(); else renderByArtist();
+  if (_currentSort === 'year') renderByYear();
+  else if (_currentSort === 'price') renderByPrice();
+  else renderByArtist();
 }}
 
 // ── Modal ─────────────────────────────────────────────────────────────────────
@@ -1472,6 +1543,7 @@ function showModal(idx) {{
   if (r.genres && r.genres.length)   rows.push(['Genre',  r.genres.join(', ')]);
   if (r.formats && r.formats.length) rows.push(['Format', r.formats.join(', ')]);
   if (r.vinyl_color)                 rows.push(['Details', r.vinyl_color, true]);
+  if (r.median_price)                rows.push(['Median Price', '$' + r.median_price]);
   document.getElementById('modal-details').innerHTML = rows
     .map(([l, v, isDot]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + (isDot ? dotHtml(v) : '') + esc(v) + '</span></div>')
     .join('');
@@ -1554,6 +1626,7 @@ def main():
     releases = enrich_master_years(releases)
     releases, added, removed = merge_with_existing(releases)
     releases = download_covers(releases)
+    releases = enrich_prices(releases)
 
     # Save JSON database
     COLLECTION_FILE.write_text(json.dumps(releases, indent=2, ensure_ascii=False))
