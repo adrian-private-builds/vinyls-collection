@@ -174,6 +174,85 @@
     flex-shrink: 0;
   }
 
+  .search-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    gap: 0.35rem;
+    flex-shrink: 0;
+  }
+  #search {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.7rem;
+    padding: 0.3rem 1.2rem 0.3rem 0.5rem;
+    width: 0;
+    max-width: 180px;
+    border-radius: 2px;
+    outline: none;
+    transition: width 0.2s, border-color 0.15s, opacity 0.2s;
+    opacity: 0;
+  }
+  #search.open {
+    width: 180px;
+    opacity: 1;
+  }
+  #search:focus {
+    border-color: var(--accent);
+  }
+  #search::placeholder {
+    color: var(--muted);
+    opacity: 0.6;
+  }
+  .search-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.55rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+  }
+  .search-toggle:hover:not(.active) {
+    color: var(--text);
+    border-color: #444;
+  }
+  .search-toggle.active {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: rgba(200,169,110,0.07);
+  }
+  .search-clear {
+    position: absolute;
+    right: 0.3rem;
+    background: none;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 0 0.2rem;
+    display: none;
+    line-height: 1;
+  }
+  .search-clear.visible { display: block; }
+  .search-clear:hover { color: var(--accent); }
+  .search-count {
+    font-size: 0.6rem;
+    color: var(--muted);
+    margin-left: 0.4rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
   /* ── Content ── */
   .content {
     padding: 3rem 4rem;
@@ -617,9 +696,12 @@
     }
     .sort-controls { order: 1; flex-shrink: 0; }
     .nav-sep { display: none; }
-    .nav-stats { order: 2; margin-left: auto; flex-shrink: 0; }
+    .search-wrap { order: 2; margin-left: 0; }
+    #search.open { width: 120px; max-width: 120px; }
+    .search-count { order: 3; }
+    .nav-stats { order: 4; margin-left: auto; }
     #nav-letters {
-      order: 3;
+      order: 5;
       width: 100%;
       display: flex;
       flex-wrap: nowrap;
@@ -709,6 +791,12 @@
     <button class="sort-btn active" data-sort="artist" onclick="setSort('artist')">A–Z</button>
     <button class="sort-btn" data-sort="year" onclick="setSort('year')">Year</button>
   </div>
+  <div class="search-wrap">
+    <button class="search-toggle" onclick="toggleSearch()" title="Search">Search</button>
+    <input type="text" id="search" placeholder="Search..." autocomplete="off" spellcheck="false">
+    <button class="search-clear" id="search-clear" onclick="clearSearch()">&times;</button>
+  </div>
+  <span class="search-count" id="search-count"></span>
   <span class="nav-sep"></span>
   <span id="nav-letters"><a href="#letter-#" class="nav-letter">#</a><a href="#letter-A" class="nav-letter">A</a><a href="#letter-B" class="nav-letter">B</a><a href="#letter-C" class="nav-letter">C</a><a href="#letter-D" class="nav-letter">D</a><a href="#letter-E" class="nav-letter">E</a><a href="#letter-F" class="nav-letter">F</a><a href="#letter-G" class="nav-letter">G</a><a href="#letter-H" class="nav-letter">H</a><a href="#letter-I" class="nav-letter">I</a><a href="#letter-J" class="nav-letter">J</a><a href="#letter-K" class="nav-letter">K</a><a href="#letter-L" class="nav-letter">L</a><a href="#letter-M" class="nav-letter">M</a><a href="#letter-N" class="nav-letter">N</a><a href="#letter-O" class="nav-letter">O</a><a href="#letter-P" class="nav-letter">P</a><a href="#letter-R" class="nav-letter">R</a><a href="#letter-S" class="nav-letter">S</a><a href="#letter-T" class="nav-letter">T</a><a href="#letter-U" class="nav-letter">U</a><a href="#letter-V" class="nav-letter">V</a><a href="#letter-W" class="nav-letter">W</a><a href="#letter-Z" class="nav-letter">Z</a></span>
   <a href="#stats" class="nav-letter nav-stats">Stats</a>
@@ -5694,10 +5782,68 @@ function applyGroups(map, keys, labelFn, idFn) {
   bindCards();
 }
 
+// ── Search ────────────────────────────────────────────────────────────────────
+
+let _searchQuery = '';
+let _currentSort = 'artist';
+
+function toggleSearch() {
+  const input = document.getElementById('search');
+  const btn = document.querySelector('.search-toggle');
+  const isOpen = input.classList.toggle('open');
+  btn.classList.toggle('active', isOpen);
+  if (isOpen) {
+    input.focus();
+  } else {
+    if (_searchQuery) clearSearch();
+  }
+}
+
+function clearSearch() {
+  const input = document.getElementById('search');
+  input.value = '';
+  _searchQuery = '';
+  document.getElementById('search-clear').classList.remove('visible');
+  document.getElementById('search-count').textContent = '';
+  rerender();
+}
+
+function getFiltered() {
+  if (!_searchQuery) return COLLECTION;
+  const q = _searchQuery.toLowerCase();
+  return COLLECTION.filter(r => {
+    const artist = (r.artist || '').toLowerCase();
+    const title  = (r.title || '').toLowerCase();
+    const firstRelease = String(r.master_year || '');
+    const details = (r.vinyl_color || '').toLowerCase();
+    return artist.includes(q) || title.includes(q) || firstRelease.includes(q) || details.includes(q);
+  });
+}
+
+document.getElementById('search').addEventListener('input', function() {
+  _searchQuery = this.value.trim();
+  document.getElementById('search-clear').classList.toggle('visible', _searchQuery.length > 0);
+  const filtered = getFiltered();
+  if (_searchQuery) {
+    document.getElementById('search-count').textContent = filtered.length + ' / ' + COLLECTION.length;
+  } else {
+    document.getElementById('search-count').textContent = '';
+  }
+  rerender();
+});
+
+document.getElementById('search').addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    e.stopPropagation();
+    if (_searchQuery) { clearSearch(); } else { toggleSearch(); }
+  }
+});
+
 // ── Sort modes ────────────────────────────────────────────────────────────────
 
 function renderByArtist() {
-  const sorted = [...COLLECTION].sort((a, b) => {
+  const source = getFiltered();
+  const sorted = [...source].sort((a, b) => {
     const ka = artistSortKey(a.artist), kb = artistSortKey(b.artist);
     if (ka !== kb) return ka.localeCompare(kb);
     const ya = a.master_year || a.year || 9999;
@@ -5715,7 +5861,8 @@ function renderByArtist() {
 }
 
 function renderByYear() {
-  const sorted = [...COLLECTION].sort((a, b) => {
+  const source = getFiltered();
+  const sorted = [...source].sort((a, b) => {
     const ya = a.master_year || a.year || 9999;
     const yb = b.master_year || b.year || 9999;
     return ya !== yb ? ya - yb : artistSortKey(a.artist).localeCompare(artistSortKey(b.artist));
@@ -5731,10 +5878,15 @@ function renderByYear() {
 }
 
 function setSort(mode) {
+  _currentSort = mode;
   document.querySelectorAll('.sort-btn').forEach(b =>
     b.classList.toggle('active', b.dataset.sort === mode)
   );
-  if (mode === 'year') renderByYear(); else renderByArtist();
+  rerender();
+}
+
+function rerender() {
+  if (_currentSort === 'year') renderByYear(); else renderByArtist();
 }
 
 // ── Modal ─────────────────────────────────────────────────────────────────────
