@@ -340,6 +340,7 @@
   }
 
   body.modal-open .btn-top { display: none; }
+  .modal-nav-random { display: none; }
 
   /* ── Random button (floating) ── */
   .btn-random {
@@ -607,6 +608,12 @@
       right: 1.25rem;
       padding: 0.5rem 0.9rem;
     }
+    body.modal-open .btn-random { display: none; }
+    .modal-nav-random {
+      display: inline-block;
+      position: static;
+      box-shadow: none;
+    }
 
     /* Modal — full screen on mobile */
     .modal-overlay { padding: 0; }
@@ -641,7 +648,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:08</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:14</p>
   </div>
   <div class="header-right">
     <span class="count">528</span>
@@ -5559,7 +5566,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 08:08</span>
+  <span>Last sync: March 18, 2026 at 08:14</span>
 </footer>
 
 <!-- Modal -->
@@ -5575,7 +5582,7 @@
       </div>
       <div class="modal-nav-row">
         <button class="modal-nav-btn" id="modal-prev" onclick="modalNav(-1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9,2 4,7 9,12"/></svg></button>
-        <button class="modal-nav-btn modal-nav-random" onclick="openRandom()"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2,4h7l3,3-3,3H2M6,2l-3,2 3,2M8,8l3,2-3,2"/></svg></button>
+        <button class="modal-nav-random btn-random" onclick="openRandom()">&#9654; Random</button>
         <span class="modal-pos" id="modal-pos"></span>
         <button class="modal-nav-btn" id="modal-next" onclick="modalNav(1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="5,2 10,7 5,12"/></svg></button>
       </div>

@@ -669,6 +669,7 @@ def generate_html(releases, username, added_count):
   }}
 
   body.modal-open .btn-top {{ display: none; }}
+  .modal-nav-random {{ display: none; }}
 
   /* ── Random button (floating) ── */
   .btn-random {{
@@ -936,6 +937,12 @@ def generate_html(releases, username, added_count):
       right: 1.25rem;
       padding: 0.5rem 0.9rem;
     }}
+    body.modal-open .btn-random {{ display: none; }}
+    .modal-nav-random {{
+      display: inline-block;
+      position: static;
+      box-shadow: none;
+    }}
 
     /* Modal — full screen on mobile */
     .modal-overlay {{ padding: 0; }}
@@ -1015,7 +1022,7 @@ def generate_html(releases, username, added_count):
       </div>
       <div class="modal-nav-row">
         <button class="modal-nav-btn" id="modal-prev" onclick="modalNav(-1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9,2 4,7 9,12"/></svg></button>
-        <button class="modal-nav-btn modal-nav-random" onclick="openRandom()"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2,4h7l3,3-3,3H2M6,2l-3,2 3,2M8,8l3,2-3,2"/></svg></button>
+        <button class="modal-nav-random btn-random" onclick="openRandom()">&#9654; Random</button>
         <span class="modal-pos" id="modal-pos"></span>
         <button class="modal-nav-btn" id="modal-next" onclick="modalNav(1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="5,2 10,7 5,12"/></svg></button>
       </div>
