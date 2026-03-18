@@ -795,6 +795,40 @@ def generate_html(releases, username, added_count):
     transition: color 0.15s;
   }}
   .modal-close:hover {{ color: var(--text); }}
+  .modal-nav-row {{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    gap: 1rem;
+  }}
+  .modal-nav-btn {{
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    cursor: pointer;
+    padding: 0.35rem 0.7rem;
+    line-height: 0;
+    transition: color 0.15s, border-color 0.15s;
+    flex-shrink: 0;
+  }}
+  .modal-nav-btn:hover:not(:disabled) {{
+    color: var(--accent);
+    border-color: var(--accent);
+  }}
+  .modal-nav-btn:disabled {{
+    opacity: 0.25;
+    cursor: default;
+  }}
+  .modal-pos {{
+    font-size: 0.65rem;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-align: center;
+    flex: 1;
+  }}
 
   /* ── Stats ── */
   .stats {{
@@ -980,6 +1014,11 @@ def generate_html(releases, username, added_count):
         <div class="modal-artist" id="modal-artist"></div>
         <div class="modal-details" id="modal-details"></div>
       </div>
+      <div class="modal-nav-row">
+        <button class="modal-nav-btn" id="modal-prev" onclick="modalNav(-1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9,2 4,7 9,12"/></svg></button>
+        <span class="modal-pos" id="modal-pos"></span>
+        <button class="modal-nav-btn" id="modal-next" onclick="modalNav(1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="5,2 10,7 5,12"/></svg></button>
+      </div>
     </div>
   </div>
 </div>
@@ -1088,7 +1127,18 @@ function setSort(mode) {{
 
 // ── Modal ─────────────────────────────────────────────────────────────────────
 
+let _displayOrder = [];
+let _modalPos = 0;
+
 function openModal(idx) {{
+  _displayOrder = Array.from(document.querySelectorAll('.album-card'))
+    .map(c => parseInt(c.dataset.idx));
+  _modalPos = _displayOrder.indexOf(idx);
+  if (_modalPos === -1) _modalPos = 0;
+  showModal(_displayOrder[_modalPos]);
+}}
+
+function showModal(idx) {{
   const r = COLLECTION[idx];
   const cover = document.getElementById('modal-cover');
   const mSrc = r.local_cover || r.thumb || '';
@@ -1107,9 +1157,19 @@ function openModal(idx) {{
   document.getElementById('modal-details').innerHTML = rows
     .map(([l, v]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + esc(v) + '</span></div>')
     .join('');
+  document.getElementById('modal-pos').textContent = (_modalPos + 1) + ' / ' + _displayOrder.length;
+  document.getElementById('modal-prev').disabled = _modalPos <= 0;
+  document.getElementById('modal-next').disabled = _modalPos >= _displayOrder.length - 1;
   document.getElementById('modal').classList.add('open');
   document.documentElement.style.overflow = 'hidden';
   document.body.style.overflow = 'hidden';
+}}
+
+function modalNav(dir) {{
+  const next = _modalPos + dir;
+  if (next < 0 || next >= _displayOrder.length) return;
+  _modalPos = next;
+  showModal(_displayOrder[_modalPos]);
 }}
 
 function closeModal() {{
@@ -1137,7 +1197,13 @@ document.getElementById('content').addEventListener('click', function(e) {{
 // No-op bindCards kept so applyGroups() calls don't error
 function bindCards() {{}}
 
-document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeModal(); }});
+document.addEventListener('keydown', e => {{
+  if (e.key === 'Escape') closeModal();
+  if (document.getElementById('modal').classList.contains('open')) {{
+    if (e.key === 'ArrowLeft')  modalNav(-1);
+    if (e.key === 'ArrowRight') modalNav(1);
+  }}
+}});
 
 const btnTop = document.getElementById('btn-top');
 window.addEventListener('scroll', () => {{
