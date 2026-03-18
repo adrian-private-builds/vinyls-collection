@@ -824,7 +824,7 @@ function artistSortKey(name) {{
 
 function renderCard(r) {{
   const coverSrc = r.local_cover || r.thumb || '';
-  const onerr = (r.local_cover && r.thumb) ? ' onerror="this.onerror=null;this.src=\'' + esc(r.thumb) + '\'"' : '';
+  const onerr = (r.local_cover && r.thumb) ? ` onerror="this.onerror=null;this.src='${{esc(r.thumb)}}'"` : '';
   const coverHtml = coverSrc
     ? '<img src="' + esc(coverSrc) + '" alt="' + esc(r.title) + '" loading="lazy"' + onerr + '>'
     : '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
@@ -914,7 +914,7 @@ function openModal(idx) {{
   const r = COLLECTION[idx];
   const cover = document.getElementById('modal-cover');
   const mSrc = r.local_cover || r.thumb || '';
-  const mErr = (r.local_cover && r.thumb) ? ' onerror="this.onerror=null;this.src=\'' + esc(r.thumb) + '\'"' : '';
+  const mErr = (r.local_cover && r.thumb) ? ` onerror="this.onerror=null;this.src='${{esc(r.thumb)}}'"` : '';
   cover.innerHTML = mSrc
     ? '<img src="' + esc(mSrc) + '" alt=""' + mErr + '>'
     : '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
