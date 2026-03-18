@@ -265,7 +265,31 @@ def generate_html(releases, username, added_count):
     # ── Stats ────────────────────────────────────────────────────────────────
     from collections import Counter
 
-    artist_counts = Counter(r["artist"] for r in releases)
+    # Special weights (box sets / double albums count as multiple positions)
+    _weights = {
+        ("Monster Magnet",                    "1993-2000"):        4,
+        ("Bathory",                           "Nordland I & II"):  2,
+        ("King Gizzard And The Lizard Wizard","K.G. / L.W."):      2,
+        ("King Gizzard And The Lizard Wizard","K.G.L.W"):          2,
+    }
+    # Artist aliases (count releases under canonical name)
+    _aliases = {
+        "Cavalera": "Sepultura",
+    }
+
+    def release_weight(r):
+        for (a, t_prefix), w in _weights.items():
+            if r["artist"] == a and r["title"].startswith(t_prefix):
+                return w
+        return 1
+
+    def canonical_artist(name):
+        return _aliases.get(name, name)
+
+    artist_counts = Counter()
+    for r in releases:
+        artist_counts[canonical_artist(r["artist"])] += release_weight(r)
+
     genre_counts  = Counter(g for r in releases for g in r.get("genres", []))
     year_counts   = Counter(r["master_year"] for r in releases if r.get("master_year"))
 
