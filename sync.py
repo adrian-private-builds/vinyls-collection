@@ -309,7 +309,7 @@ def generate_html(releases, username, added_count):
         return rows
 
     stats_html = f"""
-<section class="stats">
+<section class="stats" id="stats">
   <h2 class="stats-heading">Collection Stats</h2>
   <div class="stats-grid">
     <div class="stat-block">
@@ -451,6 +451,13 @@ def generate_html(releases, username, added_count):
   .nav-letter:hover {{
     color: var(--accent);
     background: rgba(200,169,110,0.08);
+  }}
+  .nav-stats {{
+    margin-left: auto;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.65rem;
   }}
 
   .sort-controls {{
@@ -1006,6 +1013,7 @@ def generate_html(releases, username, added_count):
   </div>
   <span class="nav-sep"></span>
   <span id="nav-letters">{letters_html}</span>
+  <a href="#stats" class="nav-letter nav-stats">Stats</a>
 </nav>
 
 <main class="content" id="content">

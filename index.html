@@ -123,6 +123,13 @@
     color: var(--accent);
     background: rgba(200,169,110,0.08);
   }
+  .nav-stats {
+    margin-left: auto;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+  }
 
   .sort-controls {
     display: flex;
@@ -658,7 +665,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:19</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:20</p>
   </div>
   <div class="header-right">
     <span class="count">528</span>
@@ -677,6 +684,7 @@
   </div>
   <span class="nav-sep"></span>
   <span id="nav-letters"><a href="#letter-#" class="nav-letter">#</a><a href="#letter-A" class="nav-letter">A</a><a href="#letter-B" class="nav-letter">B</a><a href="#letter-C" class="nav-letter">C</a><a href="#letter-D" class="nav-letter">D</a><a href="#letter-E" class="nav-letter">E</a><a href="#letter-F" class="nav-letter">F</a><a href="#letter-G" class="nav-letter">G</a><a href="#letter-H" class="nav-letter">H</a><a href="#letter-I" class="nav-letter">I</a><a href="#letter-J" class="nav-letter">J</a><a href="#letter-K" class="nav-letter">K</a><a href="#letter-L" class="nav-letter">L</a><a href="#letter-M" class="nav-letter">M</a><a href="#letter-N" class="nav-letter">N</a><a href="#letter-O" class="nav-letter">O</a><a href="#letter-P" class="nav-letter">P</a><a href="#letter-R" class="nav-letter">R</a><a href="#letter-S" class="nav-letter">S</a><a href="#letter-T" class="nav-letter">T</a><a href="#letter-U" class="nav-letter">U</a><a href="#letter-V" class="nav-letter">V</a><a href="#letter-W" class="nav-letter">W</a><a href="#letter-Z" class="nav-letter">Z</a></span>
+  <a href="#stats" class="nav-letter nav-stats">Stats</a>
 </nav>
 
 <main class="content" id="content">
@@ -5436,7 +5444,7 @@
 </main>
 
 
-<section class="stats">
+<section class="stats" id="stats">
   <h2 class="stats-heading">Collection Stats</h2>
   <div class="stats-grid">
     <div class="stat-block">
@@ -5576,7 +5584,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 08:19</span>
+  <span>Last sync: March 18, 2026 at 08:20</span>
 </footer>
 
 <!-- Modal -->
