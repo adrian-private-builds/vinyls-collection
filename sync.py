@@ -693,7 +693,6 @@ def generate_html(releases, username, added_count):
     aspect-ratio: 1;
     overflow: hidden;
     background: var(--surface);
-    border: 1px solid var(--border);
     margin-bottom: 0.75rem;
     position: relative;
   }}
