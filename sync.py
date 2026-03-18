@@ -91,6 +91,7 @@ def fetch_collection(username, folder_id=0):
                 "year": info.get("year", ""),
                 "thumb": info.get("cover_image") or info.get("thumb", ""),
                 "genres": info.get("genres", []),
+                "styles": info.get("styles", []),
                 "formats": [f["name"] for f in info.get("formats", [])],
                 "vinyl_color": next(
                     (f.get("text", "") for f in info.get("formats", [])
@@ -346,7 +347,8 @@ def generate_html(releases, username, added_count):
 
             display_year = r.get("master_year") or r.get("year") or ""
             year = f'<span class="year">{display_year}</span>' if display_year else ""
-            genres = ", ".join(r["genres"][:2]) if r["genres"] else ""
+            display_genres = r.get("styles") or r.get("genres") or []
+            genres = display_genres[0] if display_genres else ""
             genre_tag = f'<span class="genre">{escape(genres)}</span>' if genres else ""
             fmt_tag = ""
             color = r.get("vinyl_color", "")
@@ -395,7 +397,7 @@ def generate_html(releases, username, added_count):
     for r in releases:
         artist_counts[canonical_artist(r["artist"])] += release_weight(r)
 
-    genre_counts  = Counter(g for r in releases for g in r.get("genres", []))
+    genre_counts  = Counter(g for r in releases for g in (r.get("styles") or r.get("genres") or []))
     year_counts   = Counter(r["master_year"] for r in releases if r.get("master_year"))
 
     def stat_rows(counter, n=10):
@@ -1387,7 +1389,8 @@ function renderCard(r) {{
     : '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
   const yr = r.master_year || r.year || '';
   const yearHtml  = yr ? '<span class="year">' + yr + '</span>' : '';
-  const genres    = (r.genres||[]).slice(0,2).join(', ');
+  const genreList = (r.styles && r.styles.length ? r.styles : r.genres) || [];
+  const genres    = genreList.length ? genreList[0] : '';
   const genreHtml = genres ? '<span class="genre">' + esc(genres) + '</span>' : '';
   const fmtHtml   = '';
   const colorHtml = r.vinyl_color ? '<span class="vinyl-color">' + dotHtml(r.vinyl_color) + esc(r.vinyl_color) + '</span>' : '';
@@ -1589,10 +1592,11 @@ function showModal(idx) {{
   const rows = [];
   if (r.master_year)                 rows.push(['First Release', r.master_year]);
   if (r.year)                        rows.push(['Release Year',  r.year]);
-  if (r.genres && r.genres.length)   rows.push(['Genre',  r.genres.join(', ')]);
+  const modalGenres = (r.styles && r.styles.length ? r.styles : r.genres) || [];
+  if (modalGenres.length)            rows.push(['Genre',  modalGenres.join(', ')]);
   if (r.formats && r.formats.length) rows.push(['Format', r.formats.join(', ')]);
   if (r.vinyl_color)                 rows.push(['Details', r.vinyl_color, true]);
-  if (r.median_price)                rows.push(['Median Price', '$' + r.median_price]);
+  if (r.median_price)                rows.push(['Median Price', '$' + Math.round(r.median_price)]);
   document.getElementById('modal-details').innerHTML = rows
     .map(([l, v, isDot]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + (isDot ? dotHtml(v) : '') + esc(v) + '</span></div>')
     .join('');
