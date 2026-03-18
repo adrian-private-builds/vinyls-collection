@@ -575,6 +575,34 @@ def generate_html(releases, username, added_count):
     gap: 1rem;
   }}
 
+  /* ── Floating buttons ── */
+  .btn-top {{
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    z-index: 1001;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: #aaa;
+    font-family: 'DM Mono', monospace;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s, opacity 0.2s;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    opacity: 0;
+    pointer-events: none;
+  }}
+  .btn-top.visible {{
+    opacity: 1;
+    pointer-events: auto;
+  }}
+  .btn-top:hover {{
+    color: var(--accent);
+    border-color: var(--accent);
+  }}
+
   /* ── Random button (floating) ── */
   .btn-random {{
     position: fixed;
@@ -780,6 +808,7 @@ def generate_html(releases, username, added_count):
 </header>
 
 <button class="btn-random" onclick="openRandom()">&#9654; Random</button>
+<button class="btn-top" onclick="window.scrollTo({{top:0,behavior:'smooth'}})" id="btn-top">&#8679;</button>
 
 <nav class="letter-nav">
   <div id="sort-controls" class="sort-controls">
@@ -967,6 +996,11 @@ document.getElementById('content').addEventListener('click', function(e) {{
 function bindCards() {{}}
 
 document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeModal(); }});
+
+const btnTop = document.getElementById('btn-top');
+window.addEventListener('scroll', () => {{
+  btnTop.classList.toggle('visible', window.scrollY > 400);
+}}, {{passive: true}});
 </script>
 
 </body>
