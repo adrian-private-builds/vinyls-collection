@@ -585,9 +585,9 @@ def generate_html(releases, username, added_count):
     border: 1px solid var(--border);
     color: #aaa;
     font-family: 'DM Mono', monospace;
-    font-size: 1.1rem;
-    line-height: 1;
-    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 0;
+    padding: 0.65rem 0.75rem;
     cursor: pointer;
     transition: color 0.15s, border-color 0.15s, opacity 0.2s;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
@@ -808,7 +808,7 @@ def generate_html(releases, username, added_count):
 </header>
 
 <button class="btn-random" onclick="openRandom()">&#9654; Random</button>
-<button class="btn-top" onclick="window.scrollTo({{top:0,behavior:'smooth'}})" id="btn-top">&#8679;</button>
+<button class="btn-top" onclick="window.scrollTo({{top:0,behavior:'smooth'}})" id="btn-top"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,11 8,5 13,11"/></svg></button>
 
 <nav class="letter-nav">
   <div id="sort-controls" class="sort-controls">
