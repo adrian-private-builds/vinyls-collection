@@ -464,10 +464,18 @@ def generate_html(releases, username, added_count):
   }}
   .nav-stats {{
     margin-left: auto;
-    color: var(--muted);
+    color: var(--accent);
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-size: 0.65rem;
+    border: 1px solid rgba(200,169,110,0.3);
+    padding: 0.2rem 0.6rem;
+    transition: background 0.15s, border-color 0.15s;
+  }}
+  .nav-stats:hover {{
+    background: rgba(200,169,110,0.08);
+    border-color: var(--accent);
+    color: var(--accent);
   }}
 
   .sort-controls {{
