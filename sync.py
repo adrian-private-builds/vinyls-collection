@@ -166,6 +166,16 @@ def enrich_master_years(releases):
         mid = r.get("master_id", 0)
         r["master_year"] = (year_cache.get(mid) if mid else None) or r.get("year") or 0
 
+    # Manual overrides — keyed by release id, not master_id
+    _year_overrides = {
+        31380575: 1992,  # Blind Guardian — Somewhere Far Beyond Revisited
+        27664872: 1987,  # Cavalera — Schizophrenia
+        25117573: 1984,  # Sodom, Hellhammer — In The Sign Of Evil / Apocalyptic Raids
+    }
+    for r in releases:
+        if r["id"] in _year_overrides:
+            r["master_year"] = _year_overrides[r["id"]]
+
     return releases
 
 
