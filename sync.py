@@ -601,6 +601,10 @@ def generate_html(releases, username, added_count):
     margin-bottom: 3.5rem;
   }}
 
+  @keyframes fadeIn {{
+    from {{ opacity: 0; }}
+    to   {{ opacity: 1; }}
+  }}
   .letter-heading {{
     font-family: 'Ovo', serif;
     font-size: 0.75rem;
@@ -611,6 +615,7 @@ def generate_html(releases, username, added_count):
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--border);
+    animation: fadeIn 0.3s ease both;
   }}
 
   .album-grid {{
@@ -620,12 +625,21 @@ def generate_html(releases, username, added_count):
   }}
 
   /* ── Album card ── */
+  @keyframes cardIn {{
+    from {{ opacity: 0; transform: translateY(12px); }}
+    to   {{ opacity: 1; transform: translateY(0); }}
+  }}
   .album-card {{
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
     user-select: none;
     -webkit-user-select: none;
+    animation: cardIn 0.3s ease both;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }}
+  .album-card:hover {{
+    transform: translateY(-3px);
   }}
   .album-card * {{
     pointer-events: none;
@@ -768,13 +782,15 @@ def generate_html(releases, username, added_count):
     line-height: 0;
     padding: 0.65rem 0.75rem;
     cursor: pointer;
-    transition: color 0.15s, border-color 0.15s, opacity 0.2s;
+    transition: color 0.15s, border-color 0.15s, opacity 0.25s ease, transform 0.25s ease;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
     opacity: 0;
+    transform: translateY(8px);
     pointer-events: none;
   }}
   .btn-top.visible {{
     opacity: 1;
+    transform: translateY(0);
     pointer-events: auto;
   }}
   .btn-top:hover {{
@@ -811,7 +827,7 @@ def generate_html(releases, username, added_count):
 
   /* ── Modal ── */
   .modal-overlay {{
-    display: none;
+    display: flex;
     position: fixed;
     inset: 0;
     background: rgba(0,0,0,0.85);
@@ -820,9 +836,13 @@ def generate_html(releases, username, added_count):
     justify-content: center;
     padding: 2rem;
     backdrop-filter: blur(4px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
   }}
   .modal-overlay.open {{
-    display: flex;
+    opacity: 1;
+    pointer-events: auto;
   }}
   .modal {{
     background: var(--surface);
@@ -834,6 +854,11 @@ def generate_html(releases, username, added_count):
     position: relative;
     max-height: 90vh;
     overflow: hidden;
+    transform: scale(0.96) translateY(8px);
+    transition: transform 0.2s ease;
+  }}
+  .modal-overlay.open .modal {{
+    transform: scale(1) translateY(0);
   }}
   .modal-cover {{
     width: 340px;
