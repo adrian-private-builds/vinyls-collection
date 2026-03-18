@@ -734,6 +734,16 @@ def generate_html(releases, username, added_count):
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: opacity 0.25s ease;
+  }}
+  @keyframes shimmer {{
+    0%   {{ background-position: -200% 0; }}
+    100% {{ background-position:  200% 0; }}
+  }}
+  .modal-cover.loading {{
+    background: linear-gradient(90deg, var(--surface) 25%, #252525 50%, var(--surface) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.2s ease-in-out infinite;
   }}
   .modal-cover .cover-placeholder {{
     font-size: 6rem;
@@ -1150,9 +1160,17 @@ function showModal(idx) {{
   const cover = document.getElementById('modal-cover');
   const mSrc = r.local_cover || r.thumb || '';
   const mErr = (r.local_cover && r.thumb) ? ` onerror="this.onerror=null;this.src='${{esc(r.thumb)}}'"` : '';
+  cover.classList.add('loading');
   cover.innerHTML = mSrc
-    ? '<img src="' + esc(mSrc) + '" alt=""' + mErr + '>'
+    ? '<img src="' + esc(mSrc) + '" alt=""' + mErr + ' style="opacity:0">'
     : '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
+  const img = cover.querySelector('img');
+  if (img) {{
+    const done = () => {{ img.style.opacity = '1'; cover.classList.remove('loading'); }};
+    img.complete ? done() : (img.onload = img.onerror = done);
+  }} else {{
+    cover.classList.remove('loading');
+  }}
   document.getElementById('modal-title').textContent  = r.title;
   document.getElementById('modal-artist').textContent = r.artist;
   const rows = [];

@@ -405,6 +405,16 @@
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: opacity 0.25s ease;
+  }
+  @keyframes shimmer {
+    0%   { background-position: -200% 0; }
+    100% { background-position:  200% 0; }
+  }
+  .modal-cover.loading {
+    background: linear-gradient(90deg, var(--surface) 25%, #252525 50%, var(--surface) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.2s ease-in-out infinite;
   }
   .modal-cover .cover-placeholder {
     font-size: 6rem;
@@ -648,7 +658,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:17</p>
+    <p class="subtitle">Discogs collection · synced March 18, 2026 at 08:19</p>
   </div>
   <div class="header-right">
     <span class="count">528</span>
@@ -5566,7 +5576,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/HouseOfMraua/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/HouseOfMraua/collection</a></span>
-  <span>Last sync: March 18, 2026 at 08:17</span>
+  <span>Last sync: March 18, 2026 at 08:19</span>
 </footer>
 
 <!-- Modal -->
@@ -5710,9 +5720,17 @@ function showModal(idx) {
   const cover = document.getElementById('modal-cover');
   const mSrc = r.local_cover || r.thumb || '';
   const mErr = (r.local_cover && r.thumb) ? ` onerror="this.onerror=null;this.src='${esc(r.thumb)}'"` : '';
+  cover.classList.add('loading');
   cover.innerHTML = mSrc
-    ? '<img src="' + esc(mSrc) + '" alt=""' + mErr + '>'
+    ? '<img src="' + esc(mSrc) + '" alt=""' + mErr + ' style="opacity:0">'
     : '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
+  const img = cover.querySelector('img');
+  if (img) {
+    const done = () => { img.style.opacity = '1'; cover.classList.remove('loading'); };
+    img.complete ? done() : (img.onload = img.onerror = done);
+  } else {
+    cover.classList.remove('loading');
+  }
   document.getElementById('modal-title').textContent  = r.title;
   document.getElementById('modal-artist').textContent = r.artist;
   const rows = [];
