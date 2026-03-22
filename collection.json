@@ -3955,7 +3955,7 @@
     "date_added": "2024-10-26T23:32:20-07:00",
     "master_year": 2024,
     "local_cover": "covers/31869383.jpg",
-    "median_price": null
+    "median_price": 3134.74
   },
   {
     "id": 31971536,
@@ -4122,7 +4122,7 @@
     "date_added": "2022-11-23T14:00:11-08:00",
     "master_year": 2020,
     "local_cover": "covers/14668130.jpg",
-    "median_price": null
+    "median_price": 29.01
   },
   {
     "id": 30323150,
@@ -5082,7 +5082,7 @@
     "formats": [
       "Vinyl"
     ],
-    "vinyl_color": "",
+    "vinyl_color": "180 gram",
     "date_added": "2024-05-18T08:11:14-07:00",
     "master_year": 2003,
     "local_cover": "covers/10463951.jpg",
