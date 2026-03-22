@@ -5,6 +5,9 @@ on:
     - cron: '0 8 * * *'   # every day at 8am UTC
   workflow_dispatch:        # also allow manual trigger from GitHub UI
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -22,6 +25,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html collection.json
+          git add index.html collection.json covers/
           git diff --cached --quiet || git commit -m "chore: daily sync $(date -u '+%Y-%m-%d')"
           git push
