@@ -299,7 +299,6 @@ def vinyl_dot_html(color_str):
 
 def generate_html(releases, username, added_count):
     now = datetime.now().strftime("%B %d, %Y at %H:%M")
-    total = len(releases)
 
     _sort_chars = str.maketrans("øłØŁ", "olOL")
 
@@ -394,11 +393,16 @@ def generate_html(releases, username, added_count):
         return _aliases.get(name, name)
 
     artist_counts = Counter()
+    genre_counts  = Counter()
+    year_counts   = Counter()
     for r in releases:
-        artist_counts[canonical_artist(r["artist"])] += release_weight(r)
-
-    genre_counts  = Counter(g for r in releases for g in (r.get("styles") or r.get("genres") or []))
-    year_counts   = Counter(r["master_year"] for r in releases if r.get("master_year"))
+        w = release_weight(r)
+        artist_counts[canonical_artist(r["artist"])] += w
+        for g in (r.get("styles") or r.get("genres") or []):
+            genre_counts[g] += w
+        if r.get("master_year"):
+            year_counts[r["master_year"]] += w
+    total = sum(release_weight(r) for r in releases)
 
     def stat_rows(counter, n=10):
         items = counter.most_common(n)
