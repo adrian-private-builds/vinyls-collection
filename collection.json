@@ -6698,6 +6698,29 @@
     "median_price": 40.11
   },
   {
+    "id": 10409916,
+    "master_id": 12540,
+    "title": "Extreme Aggression",
+    "artist": "Kreator",
+    "year": 2017,
+    "thumb": "https://i.discogs.com/AXRXKY4iR-vYLHDQoxNdN5AlroUPLJVNSGpP-PqitH8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDA5/OTE2LTE0OTgxNzAx/NjktMjE2MS5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Thrash"
+    ],
+    "formats": [
+      "Vinyl",
+      "Vinyl"
+    ],
+    "vinyl_color": "180 Gram",
+    "date_added": "2026-03-24T14:14:38-07:00",
+    "master_year": 1989,
+    "local_cover": "covers/10409916.jpg",
+    "median_price": 40.7
+  },
+  {
     "id": 10409978,
     "master_id": 12527,
     "title": "Pleasure To Kill",
