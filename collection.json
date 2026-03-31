@@ -490,7 +490,7 @@
     "title": "Blood Fire Death",
     "artist": "Bathory",
     "year": 2023,
-    "thumb": "https://i.discogs.com/5-Lxfn7iuVAoXrIWT2Dm5ktlqal0laG-y5eK34qT_bI/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MDcx/Njc1LTE3MDEzNzkz/NzktNTE0OC5qcGVn.jpeg",
+    "thumb": "https://i.discogs.com/ooLzh9huf9UN91jmXftK0Rr1qUY84AdxgXBf_DBHwEM/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MDcx/Njc1LTE3NzQ5MTk5/NTEtODI3Mi5qcGVn.jpeg",
     "genres": [
       "Rock"
     ],
@@ -11603,6 +11603,29 @@
     "master_year": 1998,
     "local_cover": "covers/14356856.jpg",
     "median_price": 26.89
+  },
+  {
+    "id": 14335359,
+    "master_id": 14257,
+    "title": "Ass Cobra",
+    "artist": "Turbonegro",
+    "year": 2019,
+    "thumb": "https://i.discogs.com/imxUAez7M_SAoz115K883eqUbqc927NXOVrZvg9kxmI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MzM1/MzU5LTE1NzI0NTY5/MjQtNjI3MC5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Punk",
+      "Glam"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Yellow Translucent, 140 Gram",
+    "date_added": "2026-03-30T10:38:01-07:00",
+    "master_year": 1996,
+    "local_cover": "covers/14335359.jpg",
+    "median_price": 24.95
   },
   {
     "id": 11515323,
