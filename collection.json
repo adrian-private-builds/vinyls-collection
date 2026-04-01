@@ -3633,6 +3633,31 @@
     "median_price": 14.94
   },
   {
+    "id": 26359580,
+    "master_id": 2892001,
+    "title": "Collected",
+    "artist": "Frank Sinatra",
+    "year": 2023,
+    "thumb": "https://i.discogs.com/LPkZlilnzRPueJzjL70Um6MCaChGC7ATBmmop3R0g7E/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MzU5/NTgwLTE2NzkyMjM1/MjEtOTcxMi5qcGVn.jpeg",
+    "genres": [
+      "Jazz"
+    ],
+    "styles": [
+      "Easy Listening",
+      "Vocal",
+      "Swing",
+      "Big Band"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "180g",
+    "date_added": "2026-03-31T12:28:40-07:00",
+    "master_year": 2022,
+    "local_cover": "covers/26359580.jpg",
+    "median_price": 36.77
+  },
+  {
     "id": 28194697,
     "master_id": 3225067,
     "title": "Data Doom",
@@ -4975,6 +5000,28 @@
     "master_year": 1977,
     "local_cover": "covers/10382943.jpg",
     "median_price": 20.69
+  },
+  {
+    "id": 34908770,
+    "master_id": 88811,
+    "title": "Close To A World Below",
+    "artist": "Immolation",
+    "year": 2025,
+    "thumb": "https://i.discogs.com/_I2CtWKTJSp09XQETueT2pk0drjcQGLiGPeZiwvUjUY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0OTA4/NzcwLTE3NTYwMzkx/NTktMjYzMS5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Death Metal"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Fiery Orange Marbled",
+    "date_added": "2026-03-31T12:29:50-07:00",
+    "master_year": 2000,
+    "local_cover": "covers/34908770.jpg",
+    "median_price": 32.18
   },
   {
     "id": 9898167,
@@ -7497,6 +7544,30 @@
     "master_year": 2022,
     "local_cover": "covers/25287409.jpg",
     "median_price": 68.97
+  },
+  {
+    "id": 30630553,
+    "master_id": 52543,
+    "title": "Above",
+    "artist": "Mad Season",
+    "year": 0,
+    "thumb": "https://i.discogs.com/l8ttL0hzaeExJMVhpTPvpYSSIf3wBdoPMlNxZcqwYxo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNjMw/NTUzLTE3MTUyNDk3/MjYtOTA0NS5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Alternative Rock",
+      "Blues Rock",
+      "Grunge"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "180 gr",
+    "date_added": "2026-03-31T12:29:21-07:00",
+    "master_year": 1995,
+    "local_cover": "covers/30630553.jpg",
+    "median_price": 30.82
   },
   {
     "id": 22116670,
@@ -10031,6 +10102,29 @@
     "master_year": 2016,
     "local_cover": "covers/27364386.jpg",
     "median_price": 28.74
+  },
+  {
+    "id": 11780202,
+    "master_id": 77280,
+    "title": "Hellbilly Deluxe",
+    "artist": "Rob Zombie",
+    "year": 2018,
+    "thumb": "https://i.discogs.com/wLvNW7Rvt2RmMefnKxFbbDiFI6IR8RlhrArK_AxFLTY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNzgw/MjAyLTE1Mjg5NjY1/NzYtMTAwMi5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Industrial",
+      "Heavy Metal"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Gatefold",
+    "date_added": "2026-03-31T12:30:44-07:00",
+    "master_year": 1998,
+    "local_cover": "covers/11780202.jpg",
+    "median_price": 22.48
   },
   {
     "id": 19433722,
