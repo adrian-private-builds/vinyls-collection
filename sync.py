@@ -538,6 +538,24 @@ def generate_html(releases, username, added_count):
     line-height: 1.8;
   }}
 
+  .view-toggle-link {{
+    display: block;
+    margin-top: 0.5rem;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: 0.75rem;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }}
+  .view-toggle-link:hover {{ opacity: 1; color: var(--accent); }}
+  .view-toggle-link.active {{ opacity: 1; color: var(--accent); }}
+
   .header-right .count {{
     font-family: 'Ovo', serif;
     font-size: 2rem;
@@ -1310,6 +1328,7 @@ def generate_html(releases, username, added_count):
     <span class="count">{total}</span>
     albums
     {badge}
+    <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">covers</button>
   </div>
 </header>
 
@@ -1329,7 +1348,6 @@ def generate_html(releases, username, added_count):
     <button class="search-clear" id="search-clear" onclick="clearSearch()">&times;</button>
   </div>
   <span class="search-count" id="search-count"></span>
-  <button class="sort-btn view-toggle" id="view-toggle" onclick="toggleCoversView()" title="Toggle view">Grid</button>
   <span class="nav-sep"></span>
   <span id="nav-letters">{letters_html}</span>
   <a href="#stats" class="nav-letter nav-stats">Stats</a>
@@ -1489,8 +1507,9 @@ let _currentSort = 'artist';
 
 function toggleCoversView() {{
   const isCovers = document.body.classList.toggle('covers-only');
-  document.getElementById('view-toggle').classList.toggle('active', isCovers);
-  document.getElementById('view-toggle').textContent = isCovers ? 'Covers' : 'Grid';
+  const btn = document.getElementById('view-toggle');
+  btn.classList.toggle('active', isCovers);
+  btn.textContent = isCovers ? 'grid' : 'covers';
 }}
 
 function toggleSearch() {{
