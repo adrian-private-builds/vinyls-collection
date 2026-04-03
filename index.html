@@ -138,10 +138,9 @@
     align-items: center;
     transition: background 0.15s, color 0.15s, border-color 0.15s;
   }
-  .nav-stats:hover {
+  .nav-stats:hover, .nav-stats:focus-visible {
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
+    outline: none;
   }
 
   .sort-controls {
@@ -168,9 +167,9 @@
     border-color: var(--accent);
     background: var(--accent);
   }
-  .sort-btn:hover:not(.active) {
+  .sort-btn:hover:not(.active), .sort-btn:focus-visible:not(.active) {
     border-color: var(--accent);
-    background: rgba(200,169,110,0.08);
+    outline: none;
   }
   .nav-sep {
     width: 1px;
@@ -229,9 +228,9 @@
     gap: 0.3rem;
     transition: color 0.15s, background 0.15s, border-color 0.15s;
   }
-  .search-toggle:hover:not(.active) {
+  .search-toggle:hover:not(.active), .search-toggle:focus-visible:not(.active) {
     border-color: var(--accent);
-    background: rgba(200,169,110,0.08);
+    outline: none;
   }
   .search-toggle.active {
     color: #111;
@@ -465,10 +464,9 @@
     transform: translateY(0);
     pointer-events: auto;
   }
-  .btn-top:hover {
+  .btn-top:hover, .btn-top:focus-visible {
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
+    outline: none;
   }
 
   body.modal-open .btn-top { display: none; }
@@ -493,11 +491,9 @@
     transition: color 0.15s, border-color 0.15s, background 0.15s, box-shadow 0.15s;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
   }
-  .btn-random:hover {
+  .btn-random:hover, .btn-random:focus-visible {
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
-    box-shadow: 0 4px 24px rgba(200,169,110,0.2);
+    outline: none;
   }
 
   /* ── Modal ── */
@@ -632,10 +628,9 @@
     transition: background 0.15s, border-color 0.15s, color 0.15s;
     z-index: 10;
   }
-  .modal-close:hover {
+  .modal-close:hover, .modal-close:focus-visible {
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
+    outline: none;
   }
   .modal-nav-row {
     display: flex;
@@ -657,10 +652,9 @@
     transition: color 0.15s, border-color 0.15s, background 0.15s;
     flex-shrink: 0;
   }
-  .modal-nav-btn:hover:not(:disabled) {
+  .modal-nav-btn:hover:not(:disabled), .modal-nav-btn:focus-visible:not(:disabled) {
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
+    outline: none;
   }
   .modal-nav-btn:disabled {
     opacity: 0.25;
@@ -841,7 +835,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 03, 2026 at 17:22</p>
+    <p class="subtitle">Discogs collection · synced April 03, 2026 at 17:26</p>
   </div>
   <div class="header-right">
     <span class="count">539</span>
@@ -5822,7 +5816,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adrianprieto/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adrianprieto/collection</a></span>
-  <span>Last sync: April 03, 2026 at 17:22</span>
+  <span>Last sync: April 03, 2026 at 17:26</span>
 </footer>
 
 <!-- Modal -->

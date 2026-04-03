@@ -597,10 +597,9 @@ def generate_html(releases, username, added_count):
     align-items: center;
     transition: background 0.15s, color 0.15s, border-color 0.15s;
   }}
-  .nav-stats:hover {{
+  .nav-stats:hover, .nav-stats:focus-visible {{
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
+    outline: none;
   }}
 
   .sort-controls {{
@@ -627,9 +626,9 @@ def generate_html(releases, username, added_count):
     border-color: var(--accent);
     background: var(--accent);
   }}
-  .sort-btn:hover:not(.active) {{
+  .sort-btn:hover:not(.active), .sort-btn:focus-visible:not(.active) {{
     border-color: var(--accent);
-    background: rgba(200,169,110,0.08);
+    outline: none;
   }}
   .nav-sep {{
     width: 1px;
@@ -688,9 +687,9 @@ def generate_html(releases, username, added_count):
     gap: 0.3rem;
     transition: color 0.15s, background 0.15s, border-color 0.15s;
   }}
-  .search-toggle:hover:not(.active) {{
+  .search-toggle:hover:not(.active), .search-toggle:focus-visible:not(.active) {{
     border-color: var(--accent);
-    background: rgba(200,169,110,0.08);
+    outline: none;
   }}
   .search-toggle.active {{
     color: #111;
@@ -924,10 +923,9 @@ def generate_html(releases, username, added_count):
     transform: translateY(0);
     pointer-events: auto;
   }}
-  .btn-top:hover {{
+  .btn-top:hover, .btn-top:focus-visible {{
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
+    outline: none;
   }}
 
   body.modal-open .btn-top {{ display: none; }}
@@ -952,11 +950,9 @@ def generate_html(releases, username, added_count):
     transition: color 0.15s, border-color 0.15s, background 0.15s, box-shadow 0.15s;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
   }}
-  .btn-random:hover {{
+  .btn-random:hover, .btn-random:focus-visible {{
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
-    box-shadow: 0 4px 24px rgba(200,169,110,0.2);
+    outline: none;
   }}
 
   /* ── Modal ── */
@@ -1091,10 +1087,9 @@ def generate_html(releases, username, added_count):
     transition: background 0.15s, border-color 0.15s, color 0.15s;
     z-index: 10;
   }}
-  .modal-close:hover {{
+  .modal-close:hover, .modal-close:focus-visible {{
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
+    outline: none;
   }}
   .modal-nav-row {{
     display: flex;
@@ -1116,10 +1111,9 @@ def generate_html(releases, username, added_count):
     transition: color 0.15s, border-color 0.15s, background 0.15s;
     flex-shrink: 0;
   }}
-  .modal-nav-btn:hover:not(:disabled) {{
+  .modal-nav-btn:hover:not(:disabled), .modal-nav-btn:focus-visible:not(:disabled) {{
     border-color: var(--accent);
-    background: var(--accent);
-    color: #111;
+    outline: none;
   }}
   .modal-nav-btn:disabled {{
     opacity: 0.25;
