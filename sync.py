@@ -465,7 +465,7 @@ def generate_html(releases, username, added_count):
 <title>Meg &amp; Adrian Vinyl Collection</title>
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Ovo&family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ovo&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 <style>
   :root {{
     --bg: #0e0e0e;
@@ -485,7 +485,7 @@ def generate_html(releases, username, added_count):
   body {{
     background: var(--bg);
     color: var(--text);
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
     min-height: 100vh;
   }}
 
@@ -520,7 +520,7 @@ def generate_html(releases, username, added_count):
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--muted);
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
   }}
 
   .header-left .subtitle {{
@@ -612,7 +612,7 @@ def generate_html(releases, username, added_count):
     background: none;
     border: 1px solid rgba(200,169,110,0.45);
     color: var(--accent);
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 0.07em;
     text-transform: uppercase;
@@ -649,7 +649,7 @@ def generate_html(releases, username, added_count):
     background: var(--surface);
     border: 1px solid rgba(200,169,110,0.45);
     color: var(--text);
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
     padding: 0.3rem 1.2rem 0.3rem 0.5rem;
     min-height: 40px;
@@ -675,7 +675,7 @@ def generate_html(releases, username, added_count):
     background: none;
     border: 1px solid rgba(200,169,110,0.45);
     color: var(--accent);
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 0.07em;
     text-transform: uppercase;
@@ -907,7 +907,7 @@ def generate_html(releases, username, added_count):
     background: var(--surface);
     border: 1px solid rgba(200,169,110,0.45);
     color: var(--accent);
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1rem;
     line-height: 0;
     padding: 0.65rem 0.75rem;
@@ -941,7 +941,7 @@ def generate_html(releases, username, added_count):
     background: var(--surface);
     border: 1px solid rgba(200,169,110,0.45);
     color: var(--accent);
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
