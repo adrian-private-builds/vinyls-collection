@@ -1309,12 +1309,12 @@ def generate_html(releases, username, added_count):
   }}
 </style>
 </head>
-<body>
+<body class="covers-only">
 
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced {now} · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Hide Details</button></p>
+    <p class="subtitle">Discogs collection · synced {now} · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Show Details</button></p>
   </div>
   <div class="header-right">
     <span class="count">{total}</span>
