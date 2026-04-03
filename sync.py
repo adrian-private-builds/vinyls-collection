@@ -1269,6 +1269,7 @@ def generate_html(releases, username, added_count):
     <button class="sort-btn active" data-sort="artist" onclick="setSort('artist')">A–Z</button>
     <button class="sort-btn" data-sort="year" onclick="setSort('year')">Year</button>
     <button class="sort-btn" data-sort="price" onclick="setSort('price')">Price</button>
+    <button class="sort-btn" data-sort="added" onclick="setSort('added')">New</button>
   </div>
   <div class="search-wrap">
     <button class="search-toggle" onclick="toggleSearch()" title="Search">Search</button>
@@ -1550,6 +1551,23 @@ function renderByPrice() {{
   applyGroups(map, keys, k => k, k => 'price-' + k.replace(/[^a-z0-9]/gi, '-'));
 }}
 
+function renderByAdded() {{
+  const source = getFiltered();
+  const sorted = [...source].sort((a, b) => {{
+    const da = a.date_added || '';
+    const db = b.date_added || '';
+    if (da !== db) return db.localeCompare(da);
+    return artistSortKey(a.artist).localeCompare(artistSortKey(b.artist));
+  }});
+  const map = {{}};
+  sorted.forEach(r => {{
+    const key = r.date_added ? r.date_added.slice(0, 4) : '—';
+    (map[key] = map[key] || []).push(r);
+  }});
+  const order = Object.keys(map).sort((a, b) => b.localeCompare(a));
+  applyGroups(map, order, k => k, k => 'added-' + k.replace(/[^a-z0-9]/gi, '-'));
+}}
+
 function setSort(mode) {{
   _currentSort = mode;
   document.querySelectorAll('.sort-btn').forEach(b =>
@@ -1561,6 +1579,7 @@ function setSort(mode) {{
 function rerender() {{
   if (_currentSort === 'year') renderByYear();
   else if (_currentSort === 'price') renderByPrice();
+  else if (_currentSort === 'added') renderByAdded();
   else renderByArtist();
 }}
 
@@ -1603,6 +1622,11 @@ function showModal(idx) {{
   if (r.formats && r.formats.length) rows.push(['Format', r.formats.join(', ')]);
   if (r.vinyl_color)                 rows.push(['Details', r.vinyl_color, true]);
   if (r.median_price)                rows.push(['Median Price', '$' + Math.round(r.median_price)]);
+  if (r.date_added) {{
+    const d = new Date(r.date_added);
+    const dateStr = d.toLocaleDateString('en-US', {{ year: 'numeric', month: 'short', day: 'numeric' }});
+    rows.push(['Date Added', dateStr]);
+  }}
   document.getElementById('modal-details').innerHTML = rows
     .map(([l, v, isDot]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + (isDot ? dotHtml(v) : '') + esc(v) + '</span></div>')
     .join('');
