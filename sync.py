@@ -590,14 +590,15 @@ def generate_html(releases, username, added_count):
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-size: 0.8rem;
-    border: 1px solid var(--accent);
+    border: 1px solid rgba(200,169,110,0.45);
     padding: 0.2rem 0.6rem;
     min-height: 40px;
     display: inline-flex;
     align-items: center;
-    transition: background 0.15s, color 0.15s;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
   }}
   .nav-stats:hover {{
+    border-color: var(--accent);
     background: var(--accent);
     color: #111;
   }}
@@ -610,8 +611,8 @@ def generate_html(releases, username, added_count):
   }}
   .sort-btn {{
     background: none;
-    border: 1px solid var(--accent);
-    color: var(--muted);
+    border: 1px solid rgba(200,169,110,0.45);
+    color: var(--accent);
     font-family: 'Mulish', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 0.07em;
@@ -619,7 +620,7 @@ def generate_html(releases, username, added_count):
     padding: 0.2rem 0.55rem;
     min-height: 40px;
     cursor: pointer;
-    transition: color 0.15s, background 0.15s;
+    transition: color 0.15s, background 0.15s, border-color 0.15s;
   }}
   .sort-btn.active {{
     color: #111;
@@ -627,7 +628,7 @@ def generate_html(releases, username, added_count):
     background: var(--accent);
   }}
   .sort-btn:hover:not(.active) {{
-    color: var(--text);
+    border-color: var(--accent);
     background: rgba(200,169,110,0.08);
   }}
   .nav-sep {{
@@ -672,8 +673,8 @@ def generate_html(releases, username, added_count):
   }}
   .search-toggle {{
     background: none;
-    border: 1px solid var(--accent);
-    color: var(--muted);
+    border: 1px solid rgba(200,169,110,0.45);
+    color: var(--accent);
     font-family: 'Mulish', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 0.07em;
@@ -684,10 +685,10 @@ def generate_html(releases, username, added_count):
     display: flex;
     align-items: center;
     gap: 0.3rem;
-    transition: color 0.15s, background 0.15s;
+    transition: color 0.15s, background 0.15s, border-color 0.15s;
   }}
   .search-toggle:hover:not(.active) {{
-    color: var(--text);
+    border-color: var(--accent);
     background: rgba(200,169,110,0.08);
   }}
   .search-toggle.active {{
@@ -902,15 +903,16 @@ def generate_html(releases, username, added_count):
     bottom: 5rem;
     right: 2rem;
     z-index: 1001;
+    min-height: 40px;
     background: var(--surface);
-    border: 1px solid var(--border);
-    color: #aaa;
+    border: 1px solid rgba(200,169,110,0.45);
+    color: var(--accent);
     font-family: 'Mulish', sans-serif;
     font-size: 1rem;
     line-height: 0;
     padding: 0.65rem 0.75rem;
     cursor: pointer;
-    transition: color 0.15s, border-color 0.15s, opacity 0.25s ease, transform 0.25s ease;
+    transition: color 0.15s, border-color 0.15s, background 0.15s, opacity 0.25s ease, transform 0.25s ease;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
     opacity: 0;
     transform: translateY(8px);
@@ -922,8 +924,9 @@ def generate_html(releases, username, added_count):
     pointer-events: auto;
   }}
   .btn-top:hover {{
-    color: var(--accent);
     border-color: var(--accent);
+    background: var(--accent);
+    color: #111;
   }}
 
   body.modal-open .btn-top {{ display: none; }}
@@ -935,22 +938,24 @@ def generate_html(releases, username, added_count):
     bottom: 2rem;
     right: 2rem;
     z-index: 1001;
+    min-height: 40px;
     background: var(--surface);
-    border: 1px solid var(--border);
-    color: #aaa;
+    border: 1px solid rgba(200,169,110,0.45);
+    color: var(--accent);
     font-family: 'Mulish', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 0.6rem 1.1rem;
     cursor: pointer;
-    transition: color 0.15s, border-color 0.15s, box-shadow 0.15s;
+    transition: color 0.15s, border-color 0.15s, background 0.15s, box-shadow 0.15s;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
   }}
   .btn-random:hover {{
-    color: var(--accent);
     border-color: var(--accent);
-    box-shadow: 0 4px 24px rgba(200,169,110,0.15);
+    background: var(--accent);
+    color: #111;
+    box-shadow: 0 4px 24px rgba(200,169,110,0.2);
   }}
 
   /* ── Modal ── */
@@ -1092,17 +1097,19 @@ def generate_html(releases, username, added_count):
   }}
   .modal-nav-btn {{
     background: none;
-    border: 1px solid var(--border);
-    color: var(--muted);
+    border: 1px solid rgba(200,169,110,0.45);
+    color: var(--accent);
     cursor: pointer;
     padding: 0.35rem 0.7rem;
+    min-height: 40px;
     line-height: 0;
-    transition: color 0.15s, border-color 0.15s;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
     flex-shrink: 0;
   }}
   .modal-nav-btn:hover:not(:disabled) {{
-    color: var(--accent);
     border-color: var(--accent);
+    background: var(--accent);
+    color: #111;
   }}
   .modal-nav-btn:disabled {{
     opacity: 0.25;
