@@ -1177,6 +1177,8 @@ def generate_html(releases, username, added_count):
   }}
 
   @media (max-width: 700px) {{
+    .nav-stats {{ margin-left: 0; }}
+
     /* Header */
     header {{
       padding: 2rem 1.25rem 1.25rem;
