@@ -116,12 +116,6 @@ def download_covers(releases):
     print(f"\n🖼  Downloading covers ({len(releases)} albums)...")
 
     for i, release in enumerate(releases):
-        # Custom cover takes priority over Discogs
-        custom = _find_custom_cover(release["id"])
-        if custom:
-            release["local_cover"] = str(custom)
-            continue
-
         if not release["thumb"]:
             release["local_cover"] = ""
             continue
@@ -313,7 +307,16 @@ def vinyl_dot_html(color_str):
 
 # ── Generate HTML ─────────────────────────────────────────────────────────────
 
+def apply_custom_covers(releases):
+    """Override local_cover with custom image if one exists in covers/custom/."""
+    for r in releases:
+        custom = _find_custom_cover(r["id"])
+        if custom:
+            r["local_cover"] = str(custom)
+    return releases
+
 def generate_html(releases, username, added_count):
+    releases = apply_custom_covers(releases)
     now = datetime.now().strftime("%B %d, %Y at %H:%M")
 
     _sort_chars = str.maketrans("øłØŁ", "olOL")
