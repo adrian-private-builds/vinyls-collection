@@ -817,7 +817,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 03, 2026 at 11:08</p>
+    <p class="subtitle">Discogs collection · synced April 03, 2026 at 11:11</p>
   </div>
   <div class="header-right">
     <span class="count">539</span>
@@ -5798,7 +5798,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adrianprieto/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adrianprieto/collection</a></span>
-  <span>Last sync: April 03, 2026 at 11:08</span>
+  <span>Last sync: April 03, 2026 at 11:11</span>
 </footer>
 
 <!-- Modal -->
@@ -6104,20 +6104,43 @@ function openModal(idx) {
   showModal(_displayOrder[_modalPos]);
 }
 
+let _pendingCoverImg = null;
+
 function showModal(idx) {
   const r = COLLECTION[idx];
   const cover = document.getElementById('modal-cover');
   const mSrc = r.local_cover || r.thumb || '';
+
+  // Cancel any in-flight image load so its onload can't overwrite the new cover
+  if (_pendingCoverImg) {
+    _pendingCoverImg.onload = null;
+    _pendingCoverImg.onerror = null;
+    _pendingCoverImg = null;
+  }
+
+  cover.innerHTML = '';
   cover.classList.add('loading');
+
   if (!mSrc) {
     cover.innerHTML = '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
     cover.classList.remove('loading');
   } else {
     const img = new Image();
-    img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;';
+    img.style.cssText = 'width:100%;height:100%;object-fit:contain;display:block;';
     img.alt = '';
-    img.onload = () => { cover.innerHTML = ''; cover.appendChild(img); cover.classList.remove('loading'); };
-    img.onerror = () => cover.classList.remove('loading');
+    _pendingCoverImg = img;
+    img.onload = () => {
+      if (_pendingCoverImg !== img) return;
+      _pendingCoverImg = null;
+      cover.innerHTML = '';
+      cover.appendChild(img);
+      cover.classList.remove('loading');
+    };
+    img.onerror = () => {
+      if (_pendingCoverImg !== img) return;
+      _pendingCoverImg = null;
+      cover.classList.remove('loading');
+    };
     img.src = mSrc;
   }
   document.getElementById('modal-title').textContent  = r.title;

@@ -1620,20 +1620,43 @@ function openModal(idx) {{
   showModal(_displayOrder[_modalPos]);
 }}
 
+let _pendingCoverImg = null;
+
 function showModal(idx) {{
   const r = COLLECTION[idx];
   const cover = document.getElementById('modal-cover');
   const mSrc = r.local_cover || r.thumb || '';
+
+  // Cancel any in-flight image load so its onload can't overwrite the new cover
+  if (_pendingCoverImg) {{
+    _pendingCoverImg.onload = null;
+    _pendingCoverImg.onerror = null;
+    _pendingCoverImg = null;
+  }}
+
+  cover.innerHTML = '';
   cover.classList.add('loading');
+
   if (!mSrc) {{
     cover.innerHTML = '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
     cover.classList.remove('loading');
   }} else {{
     const img = new Image();
-    img.style.cssText = 'width:100%;height:100%;object-fit:cover;display:block;';
+    img.style.cssText = 'width:100%;height:100%;object-fit:contain;display:block;';
     img.alt = '';
-    img.onload = () => {{ cover.innerHTML = ''; cover.appendChild(img); cover.classList.remove('loading'); }};
-    img.onerror = () => cover.classList.remove('loading');
+    _pendingCoverImg = img;
+    img.onload = () => {{
+      if (_pendingCoverImg !== img) return;
+      _pendingCoverImg = null;
+      cover.innerHTML = '';
+      cover.appendChild(img);
+      cover.classList.remove('loading');
+    }};
+    img.onerror = () => {{
+      if (_pendingCoverImg !== img) return;
+      _pendingCoverImg = null;
+      cover.classList.remove('loading');
+    }};
     img.src = mSrc;
   }}
   document.getElementById('modal-title').textContent  = r.title;
