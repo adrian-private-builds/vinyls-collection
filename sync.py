@@ -1177,7 +1177,9 @@ def generate_html(releases, username, added_count):
   }}
 
   @media (max-width: 700px) {{
-    .nav-stats {{ margin-left: 0; }}
+    .nav-stats {{ margin-left: 0; order: 1; }}
+    #nav-letters {{ order: 2; }}
+    .nav-sep {{ display: none; }}
 
     /* Header */
     header {{
