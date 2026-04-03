@@ -80,19 +80,18 @@
   }
 
   .view-toggle-link {
-    display: block;
-    margin-top: 0.5rem;
+    display: inline;
     background: none;
     border: none;
     padding: 0;
     font-family: inherit;
-    font-size: 0.75rem;
+    font-size: inherit;
     color: var(--muted);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    letter-spacing: inherit;
+    text-transform: inherit;
     cursor: pointer;
     opacity: 0.6;
-    transition: opacity 0.2s;
+    transition: opacity 0.2s, color 0.2s;
   }
   .view-toggle-link:hover { opacity: 1; color: var(--accent); }
   .view-toggle-link.active { opacity: 1; color: var(--accent); }
@@ -863,13 +862,12 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 03, 2026 at 22:51</p>
+    <p class="subtitle">Discogs collection · synced April 03, 2026 at 22:53 · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">covers</button></p>
   </div>
   <div class="header-right">
     <span class="count">539</span>
     albums
     
-    <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">covers</button>
   </div>
 </header>
 
@@ -5845,7 +5843,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adrianprieto/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adrianprieto/collection</a></span>
-  <span>Last sync: April 03, 2026 at 22:51</span>
+  <span>Last sync: April 03, 2026 at 22:53</span>
 </footer>
 
 <!-- Modal -->

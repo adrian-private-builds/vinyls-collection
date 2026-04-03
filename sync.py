@@ -539,19 +539,18 @@ def generate_html(releases, username, added_count):
   }}
 
   .view-toggle-link {{
-    display: block;
-    margin-top: 0.5rem;
+    display: inline;
     background: none;
     border: none;
     padding: 0;
     font-family: inherit;
-    font-size: 0.75rem;
+    font-size: inherit;
     color: var(--muted);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    letter-spacing: inherit;
+    text-transform: inherit;
     cursor: pointer;
     opacity: 0.6;
-    transition: opacity 0.2s;
+    transition: opacity 0.2s, color 0.2s;
   }}
   .view-toggle-link:hover {{ opacity: 1; color: var(--accent); }}
   .view-toggle-link.active {{ opacity: 1; color: var(--accent); }}
@@ -1322,13 +1321,12 @@ def generate_html(releases, username, added_count):
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced {now}</p>
+    <p class="subtitle">Discogs collection · synced {now} · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">covers</button></p>
   </div>
   <div class="header-right">
     <span class="count">{total}</span>
     albums
     {badge}
-    <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">covers</button>
   </div>
 </header>
 
