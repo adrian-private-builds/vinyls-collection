@@ -109,6 +109,7 @@
     flex-wrap: wrap;
     gap: 0.25rem;
     align-items: center;
+    justify-content: flex-start;
   }
 
   .nav-letter {
@@ -125,6 +126,7 @@
     background: rgba(200,169,110,0.08);
   }
   .nav-stats {
+    margin-left: auto;
     color: var(--accent);
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -716,9 +718,7 @@
     flex-shrink: 0;
   }
 
-  @media (max-width: 900px) {
-    #nav-letters { flex-basis: 100%; }
-  }
+
 
   @media (max-width: 700px) {
     /* Header */
@@ -745,7 +745,7 @@
     .search-wrap { order: 2; margin-left: 0; }
     #search.open { width: 120px; max-width: 120px; }
     .search-count { order: 3; }
-    .nav-stats { order: 4; margin-left: auto; }
+    .nav-stats { order: 4; margin-left: 0; }
     #nav-letters {
       order: 5;
       width: 100%;
@@ -820,7 +820,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 03, 2026 at 17:09</p>
+    <p class="subtitle">Discogs collection · synced April 03, 2026 at 17:14</p>
   </div>
   <div class="header-right">
     <span class="count">539</span>
@@ -5801,7 +5801,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adrianprieto/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adrianprieto/collection</a></span>
-  <span>Last sync: April 03, 2026 at 17:09</span>
+  <span>Last sync: April 03, 2026 at 17:14</span>
 </footer>
 
 <!-- Modal -->

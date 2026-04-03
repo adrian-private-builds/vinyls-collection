@@ -568,6 +568,7 @@ def generate_html(releases, username, added_count):
     flex-wrap: wrap;
     gap: 0.25rem;
     align-items: center;
+    justify-content: flex-start;
   }}
 
   .nav-letter {{
@@ -584,6 +585,7 @@ def generate_html(releases, username, added_count):
     background: rgba(200,169,110,0.08);
   }}
   .nav-stats {{
+    margin-left: auto;
     color: var(--accent);
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1175,9 +1177,7 @@ def generate_html(releases, username, added_count):
     flex-shrink: 0;
   }}
 
-  @media (max-width: 900px) {{
-    #nav-letters {{ flex-basis: 100%; }}
-  }}
+
 
   @media (max-width: 700px) {{
     /* Header */
@@ -1204,7 +1204,7 @@ def generate_html(releases, username, added_count):
     .search-wrap {{ order: 2; margin-left: 0; }}
     #search.open {{ width: 120px; max-width: 120px; }}
     .search-count {{ order: 3; }}
-    .nav-stats {{ order: 4; margin-left: auto; }}
+    .nav-stats {{ order: 4; margin-left: 0; }}
     #nav-letters {{
       order: 5;
       width: 100%;
