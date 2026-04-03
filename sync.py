@@ -990,6 +990,7 @@ def generate_html(releases, username, added_count):
     background: var(--bg);
     flex-shrink: 0;
     overflow: hidden;
+    align-self: flex-start;
   }}
   .modal-cover img {{
     width: 100%;
