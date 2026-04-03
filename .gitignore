@@ -1,4 +1,6 @@
-covers/
+covers/*
+!covers/custom/
+!covers/custom/**
 sync.log
 *.pyc
 __pycache__/

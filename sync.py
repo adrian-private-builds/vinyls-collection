@@ -24,6 +24,7 @@ from html import escape
 
 # ── Config ────────────────────────────────────────────────────────────────────
 COVERS_DIR = Path("covers")
+CUSTOM_COVERS_DIR = Path("covers/custom")
 COLLECTION_FILE = Path("collection.json")
 HTML_FILE = Path("index.html")
 USER_AGENT = "DiscogsCollectionViewer/1.0"
@@ -111,9 +112,16 @@ def fetch_collection(username, folder_id=0):
 
 def download_covers(releases):
     COVERS_DIR.mkdir(exist_ok=True)
+    CUSTOM_COVERS_DIR.mkdir(exist_ok=True)
     print(f"\n🖼  Downloading covers ({len(releases)} albums)...")
 
     for i, release in enumerate(releases):
+        # Custom cover takes priority over Discogs
+        custom = _find_custom_cover(release["id"])
+        if custom:
+            release["local_cover"] = str(custom)
+            continue
+
         if not release["thumb"]:
             release["local_cover"] = ""
             continue
@@ -132,6 +140,14 @@ def download_covers(releases):
             release["local_cover"] = local_path
 
     return releases
+
+def _find_custom_cover(release_id):
+    """Return path to custom cover if one exists, else None."""
+    for ext in (".jpg", ".jpeg", ".png", ".webp"):
+        p = CUSTOM_COVERS_DIR / f"{release_id}{ext}"
+        if p.exists():
+            return p
+    return None
 
 # ── Fetch master (original) release years ─────────────────────────────────────
 
@@ -1599,7 +1615,7 @@ function openModal(idx) {{
 function showModal(idx) {{
   const r = COLLECTION[idx];
   const cover = document.getElementById('modal-cover');
-  const mSrc = r.thumb || r.local_cover || '';
+  const mSrc = r.local_cover || r.thumb || '';
   cover.classList.add('loading');
   if (!mSrc) {{
     cover.innerHTML = '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';

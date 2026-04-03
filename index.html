@@ -812,7 +812,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 03, 2026 at 09:00</p>
+    <p class="subtitle">Discogs collection · synced April 03, 2026 at 09:06</p>
   </div>
   <div class="header-right">
     <span class="count">539</span>
@@ -5793,7 +5793,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adrianprieto/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adrianprieto/collection</a></span>
-  <span>Last sync: April 03, 2026 at 09:00</span>
+  <span>Last sync: April 03, 2026 at 09:06</span>
 </footer>
 
 <!-- Modal -->
@@ -6102,7 +6102,7 @@ function openModal(idx) {
 function showModal(idx) {
   const r = COLLECTION[idx];
   const cover = document.getElementById('modal-cover');
-  const mSrc = r.thumb || r.local_cover || '';
+  const mSrc = r.local_cover || r.thumb || '';
   cover.classList.add('loading');
   if (!mSrc) {
     cover.innerHTML = '<div class="cover-placeholder">' + ((r.artist||'?')[0].toUpperCase()) + '</div>';
