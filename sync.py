@@ -583,8 +583,11 @@ def generate_html(releases, username, added_count):
     color: var(--accent);
     background: rgba(200,169,110,0.08);
   }}
+  .nav-spacer {{
+    flex: 1;
+    min-width: 0.25rem;
+  }}
   .nav-stats {{
-    margin-left: auto;
     color: var(--accent);
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1177,10 +1180,6 @@ def generate_html(releases, username, added_count):
   }}
 
   @media (max-width: 700px) {{
-    .nav-stats {{ margin-left: 0; order: 1; }}
-    #nav-letters {{ order: 2; }}
-    .nav-sep {{ display: none; }}
-
     /* Header */
     header {{
       padding: 2rem 1.25rem 1.25rem;
@@ -1305,9 +1304,10 @@ def generate_html(releases, username, added_count):
     <button class="search-clear" id="search-clear" onclick="clearSearch()">&times;</button>
   </div>
   <span class="search-count" id="search-count"></span>
+  <span class="nav-spacer"></span>
+  <a href="#stats" class="nav-letter nav-stats">Stats</a>
   <span class="nav-sep"></span>
   <span id="nav-letters">{letters_html}</span>
-  <a href="#stats" class="nav-letter nav-stats">Stats</a>
 </nav>
 
 <main class="content" id="content">

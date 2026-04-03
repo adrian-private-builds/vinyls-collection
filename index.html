@@ -124,8 +124,11 @@
     color: var(--accent);
     background: rgba(200,169,110,0.08);
   }
+  .nav-spacer {
+    flex: 1;
+    min-width: 0.25rem;
+  }
   .nav-stats {
-    margin-left: auto;
     color: var(--accent);
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -718,10 +721,6 @@
   }
 
   @media (max-width: 700px) {
-    .nav-stats { margin-left: 0; order: 1; }
-    #nav-letters { order: 2; }
-    .nav-sep { display: none; }
-
     /* Header */
     header {
       padding: 2rem 1.25rem 1.25rem;
@@ -821,7 +820,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 03, 2026 at 16:59</p>
+    <p class="subtitle">Discogs collection · synced April 03, 2026 at 17:03</p>
   </div>
   <div class="header-right">
     <span class="count">539</span>
@@ -846,9 +845,10 @@
     <button class="search-clear" id="search-clear" onclick="clearSearch()">&times;</button>
   </div>
   <span class="search-count" id="search-count"></span>
+  <span class="nav-spacer"></span>
+  <a href="#stats" class="nav-letter nav-stats">Stats</a>
   <span class="nav-sep"></span>
   <span id="nav-letters"><a href="#letter-#" class="nav-letter">#</a><a href="#letter-A" class="nav-letter">A</a><a href="#letter-B" class="nav-letter">B</a><a href="#letter-C" class="nav-letter">C</a><a href="#letter-D" class="nav-letter">D</a><a href="#letter-E" class="nav-letter">E</a><a href="#letter-F" class="nav-letter">F</a><a href="#letter-G" class="nav-letter">G</a><a href="#letter-H" class="nav-letter">H</a><a href="#letter-I" class="nav-letter">I</a><a href="#letter-J" class="nav-letter">J</a><a href="#letter-K" class="nav-letter">K</a><a href="#letter-L" class="nav-letter">L</a><a href="#letter-M" class="nav-letter">M</a><a href="#letter-N" class="nav-letter">N</a><a href="#letter-O" class="nav-letter">O</a><a href="#letter-P" class="nav-letter">P</a><a href="#letter-R" class="nav-letter">R</a><a href="#letter-S" class="nav-letter">S</a><a href="#letter-T" class="nav-letter">T</a><a href="#letter-U" class="nav-letter">U</a><a href="#letter-V" class="nav-letter">V</a><a href="#letter-W" class="nav-letter">W</a><a href="#letter-Z" class="nav-letter">Z</a></span>
-  <a href="#stats" class="nav-letter nav-stats">Stats</a>
 </nav>
 
 <main class="content" id="content">
@@ -5802,7 +5802,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adrianprieto/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adrianprieto/collection</a></span>
-  <span>Last sync: April 03, 2026 at 16:59</span>
+  <span>Last sync: April 03, 2026 at 17:03</span>
 </footer>
 
 <!-- Modal -->
