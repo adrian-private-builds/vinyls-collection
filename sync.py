@@ -772,6 +772,7 @@ def generate_html(releases, username, added_count):
     background: var(--surface);
     margin-bottom: 0.75rem;
     position: relative;
+    transition: transform 0.4s ease;
   }}
 
   .cover-wrap img {{
@@ -779,12 +780,15 @@ def generate_html(releases, username, added_count):
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.4s ease, filter 0.4s ease;
+    transition: filter 0.4s ease;
     filter: grayscale(15%);
   }}
 
-  .album-card:hover .cover-wrap img {{
+  .album-card:hover .cover-wrap {{
     transform: scale(1.06) rotate(2deg);
+  }}
+
+  .album-card:hover .cover-wrap img {{
     filter: grayscale(0%);
   }}
 

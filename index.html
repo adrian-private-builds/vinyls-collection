@@ -313,6 +313,7 @@
     background: var(--surface);
     margin-bottom: 0.75rem;
     position: relative;
+    transition: transform 0.4s ease;
   }
 
   .cover-wrap img {
@@ -320,12 +321,15 @@
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.4s ease, filter 0.4s ease;
+    transition: filter 0.4s ease;
     filter: grayscale(15%);
   }
 
-  .album-card:hover .cover-wrap img {
+  .album-card:hover .cover-wrap {
     transform: scale(1.06) rotate(2deg);
+  }
+
+  .album-card:hover .cover-wrap img {
     filter: grayscale(0%);
   }
 
@@ -812,7 +816,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 03, 2026 at 09:11</p>
+    <p class="subtitle">Discogs collection · synced April 03, 2026 at 09:13</p>
   </div>
   <div class="header-right">
     <span class="count">539</span>
@@ -5793,7 +5797,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adrianprieto/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adrianprieto/collection</a></span>
-  <span>Last sync: April 03, 2026 at 09:11</span>
+  <span>Last sync: April 03, 2026 at 09:13</span>
 </footer>
 
 <!-- Modal -->
