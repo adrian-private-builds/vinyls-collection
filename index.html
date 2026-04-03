@@ -335,6 +335,16 @@
     transform: scale(1.06) rotate(2deg);
   }
 
+  /* ── Covers-only view ── */
+  body.covers-only .album-info { display: none; }
+  body.covers-only .cover-wrap { margin-bottom: 0; }
+  body.covers-only .album-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.5rem;
+  }
+  body.covers-only .letter-heading { display: none; }
+  body.covers-only .letter-group { margin-bottom: 0.5rem; }
+
   .album-card:hover .cover-wrap img {
     filter: grayscale(0%);
   }
@@ -835,7 +845,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 03, 2026 at 22:45</p>
+    <p class="subtitle">Discogs collection · synced April 03, 2026 at 22:50</p>
   </div>
   <div class="header-right">
     <span class="count">539</span>
@@ -860,6 +870,7 @@
     <button class="search-clear" id="search-clear" onclick="clearSearch()">&times;</button>
   </div>
   <span class="search-count" id="search-count"></span>
+  <button class="sort-btn view-toggle" id="view-toggle" onclick="toggleCoversView()" title="Toggle view">Grid</button>
   <span class="nav-sep"></span>
   <span id="nav-letters"><a href="#letter-#" class="nav-letter">#</a><a href="#letter-A" class="nav-letter">A</a><a href="#letter-B" class="nav-letter">B</a><a href="#letter-C" class="nav-letter">C</a><a href="#letter-D" class="nav-letter">D</a><a href="#letter-E" class="nav-letter">E</a><a href="#letter-F" class="nav-letter">F</a><a href="#letter-G" class="nav-letter">G</a><a href="#letter-H" class="nav-letter">H</a><a href="#letter-I" class="nav-letter">I</a><a href="#letter-J" class="nav-letter">J</a><a href="#letter-K" class="nav-letter">K</a><a href="#letter-L" class="nav-letter">L</a><a href="#letter-M" class="nav-letter">M</a><a href="#letter-N" class="nav-letter">N</a><a href="#letter-O" class="nav-letter">O</a><a href="#letter-P" class="nav-letter">P</a><a href="#letter-R" class="nav-letter">R</a><a href="#letter-S" class="nav-letter">S</a><a href="#letter-T" class="nav-letter">T</a><a href="#letter-U" class="nav-letter">U</a><a href="#letter-V" class="nav-letter">V</a><a href="#letter-W" class="nav-letter">W</a><a href="#letter-Z" class="nav-letter">Z</a></span>
   <a href="#stats" class="nav-letter nav-stats">Stats</a>
@@ -5816,7 +5827,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adrianprieto/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adrianprieto/collection</a></span>
-  <span>Last sync: April 03, 2026 at 22:45</span>
+  <span>Last sync: April 03, 2026 at 22:50</span>
 </footer>
 
 <!-- Modal -->
@@ -5959,6 +5970,12 @@ function applyGroups(map, keys, labelFn, idFn) {
 
 let _searchQuery = '';
 let _currentSort = 'artist';
+
+function toggleCoversView() {
+  const isCovers = document.body.classList.toggle('covers-only');
+  document.getElementById('view-toggle').classList.toggle('active', isCovers);
+  document.getElementById('view-toggle').textContent = isCovers ? 'Covers' : 'Grid';
+}
 
 function toggleSearch() {
   const input = document.getElementById('search');

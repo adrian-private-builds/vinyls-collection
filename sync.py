@@ -794,6 +794,16 @@ def generate_html(releases, username, added_count):
     transform: scale(1.06) rotate(2deg);
   }}
 
+  /* ── Covers-only view ── */
+  body.covers-only .album-info {{ display: none; }}
+  body.covers-only .cover-wrap {{ margin-bottom: 0; }}
+  body.covers-only .album-grid {{
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.5rem;
+  }}
+  body.covers-only .letter-heading {{ display: none; }}
+  body.covers-only .letter-group {{ margin-bottom: 0.5rem; }}
+
   .album-card:hover .cover-wrap img {{
     filter: grayscale(0%);
   }}
@@ -1319,6 +1329,7 @@ def generate_html(releases, username, added_count):
     <button class="search-clear" id="search-clear" onclick="clearSearch()">&times;</button>
   </div>
   <span class="search-count" id="search-count"></span>
+  <button class="sort-btn view-toggle" id="view-toggle" onclick="toggleCoversView()" title="Toggle view">Grid</button>
   <span class="nav-sep"></span>
   <span id="nav-letters">{letters_html}</span>
   <a href="#stats" class="nav-letter nav-stats">Stats</a>
@@ -1475,6 +1486,12 @@ function applyGroups(map, keys, labelFn, idFn) {{
 
 let _searchQuery = '';
 let _currentSort = 'artist';
+
+function toggleCoversView() {{
+  const isCovers = document.body.classList.toggle('covers-only');
+  document.getElementById('view-toggle').classList.toggle('active', isCovers);
+  document.getElementById('view-toggle').textContent = isCovers ? 'Covers' : 'Grid';
+}}
 
 function toggleSearch() {{
   const input = document.getElementById('search');
