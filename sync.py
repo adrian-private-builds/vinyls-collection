@@ -814,12 +814,6 @@ def generate_html(releases, username, added_count):
   /* ── Covers-only view ── */
   body.covers-only .album-info {{ display: none; }}
   body.covers-only .cover-wrap {{ margin-bottom: 0; }}
-  body.covers-only .album-grid {{
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 0.5rem;
-  }}
-  body.covers-only .letter-heading {{ display: none; }}
-  body.covers-only .letter-group {{ margin-bottom: 0.5rem; }}
 
   .album-card:hover .cover-wrap img {{
     filter: grayscale(0%);
