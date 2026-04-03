@@ -784,7 +784,7 @@ def generate_html(releases, username, added_count):
   }}
 
   .album-card:hover .cover-wrap img {{
-    transform: scale(1.04);
+    transform: scale(1.06) rotate(2deg);
     filter: grayscale(0%);
   }}
 
