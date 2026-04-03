@@ -648,11 +648,12 @@ def generate_html(releases, username, added_count):
   }}
   #search {{
     background: var(--surface);
-    border: 1px solid var(--border);
+    border: 1px solid rgba(200,169,110,0.45);
     color: var(--text);
     font-family: 'Mulish', sans-serif;
     font-size: 0.8rem;
     padding: 0.3rem 1.2rem 0.3rem 0.5rem;
+    min-height: 40px;
     width: 0;
     max-width: 180px;
     border-radius: 2px;
@@ -1076,16 +1077,25 @@ def generate_html(releases, username, added_count):
     top: 0.75rem;
     right: 0.75rem;
     background: rgba(0,0,0,0.4);
-    border: 1px solid rgba(255,255,255,0.15);
-    color: var(--text);
+    border: 1px solid rgba(200,169,110,0.45);
+    color: var(--accent);
     font-size: 1rem;
     cursor: pointer;
     line-height: 1;
-    padding: 0.3rem 0.55rem;
-    transition: background 0.15s;
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
     z-index: 10;
   }}
-  .modal-close:hover {{ background: rgba(0,0,0,0.7); }}
+  .modal-close:hover {{
+    border-color: var(--accent);
+    background: var(--accent);
+    color: #111;
+  }}
   .modal-nav-row {{
     display: flex;
     align-items: center;
