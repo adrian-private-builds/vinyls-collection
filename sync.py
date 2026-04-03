@@ -552,8 +552,7 @@ def generate_html(releases, username, added_count):
     opacity: 0.6;
     transition: opacity 0.2s, color 0.2s;
   }}
-  .view-toggle-link:hover {{ opacity: 1; color: var(--accent); }}
-  .view-toggle-link.active {{ opacity: 1; color: var(--accent); }}
+  .view-toggle-link:hover {{ opacity: 1; }}
 
   .header-right .count {{
     font-family: 'Ovo', serif;
@@ -1315,7 +1314,7 @@ def generate_html(releases, username, added_count):
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced {now} · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">covers</button></p>
+    <p class="subtitle">Discogs collection · synced {now} · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Hide Details</button></p>
   </div>
   <div class="header-right">
     <span class="count">{total}</span>
@@ -1500,8 +1499,7 @@ let _currentSort = 'artist';
 function toggleCoversView() {{
   const isCovers = document.body.classList.toggle('covers-only');
   const btn = document.getElementById('view-toggle');
-  btn.classList.toggle('active', isCovers);
-  btn.textContent = isCovers ? 'grid' : 'covers';
+  btn.textContent = isCovers ? 'Show Details' : 'Hide Details';
 }}
 
 function toggleSearch() {{
