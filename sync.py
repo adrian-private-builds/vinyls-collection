@@ -994,7 +994,7 @@ def generate_html(releases, username, added_count):
   .modal-cover img {{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
   }}
   @keyframes shimmer {{
