@@ -590,14 +590,16 @@ def generate_html(releases, username, added_count):
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-size: 0.8rem;
-    border: 1px solid rgba(200,169,110,0.3);
+    border: 1px solid var(--accent);
     padding: 0.2rem 0.6rem;
-    transition: background 0.15s, border-color 0.15s;
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    transition: background 0.15s, color 0.15s;
   }}
   .nav-stats:hover {{
-    background: rgba(200,169,110,0.08);
-    border-color: var(--accent);
-    color: var(--accent);
+    background: var(--accent);
+    color: #111;
   }}
 
   .sort-controls {{
@@ -608,24 +610,25 @@ def generate_html(releases, username, added_count):
   }}
   .sort-btn {{
     background: none;
-    border: 1px solid var(--border);
+    border: 1px solid var(--accent);
     color: var(--muted);
     font-family: 'Mulish', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 0.07em;
     text-transform: uppercase;
     padding: 0.2rem 0.55rem;
+    min-height: 40px;
     cursor: pointer;
-    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    transition: color 0.15s, background 0.15s;
   }}
   .sort-btn.active {{
-    color: var(--accent);
+    color: #111;
     border-color: var(--accent);
-    background: rgba(200,169,110,0.07);
+    background: var(--accent);
   }}
   .sort-btn:hover:not(.active) {{
     color: var(--text);
-    border-color: #444;
+    background: rgba(200,169,110,0.08);
   }}
   .nav-sep {{
     width: 1px;
@@ -669,27 +672,28 @@ def generate_html(releases, username, added_count):
   }}
   .search-toggle {{
     background: none;
-    border: 1px solid var(--border);
+    border: 1px solid var(--accent);
     color: var(--muted);
     font-family: 'Mulish', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 0.07em;
     text-transform: uppercase;
     padding: 0.2rem 0.55rem;
+    min-height: 40px;
     cursor: pointer;
     display: flex;
     align-items: center;
     gap: 0.3rem;
-    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    transition: color 0.15s, background 0.15s;
   }}
   .search-toggle:hover:not(.active) {{
     color: var(--text);
-    border-color: #444;
+    background: rgba(200,169,110,0.08);
   }}
   .search-toggle.active {{
-    color: var(--accent);
+    color: #111;
     border-color: var(--accent);
-    background: rgba(200,169,110,0.07);
+    background: var(--accent);
   }}
   .search-clear {{
     position: absolute;
