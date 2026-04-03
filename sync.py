@@ -1654,8 +1654,13 @@ function showModal(idx) {{
     }};
     img.onerror = () => {{
       if (_pendingCoverImg !== img) return;
-      _pendingCoverImg = null;
-      cover.classList.remove('loading');
+      // local cover missing (e.g. gitignored) — fall back to Discogs URL
+      if (img.src !== r.thumb && r.thumb) {{
+        img.src = r.thumb;
+      }} else {{
+        _pendingCoverImg = null;
+        cover.classList.remove('loading');
+      }}
     }};
     img.src = mSrc;
   }}

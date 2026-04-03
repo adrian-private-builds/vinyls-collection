@@ -817,7 +817,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 03, 2026 at 11:11</p>
+    <p class="subtitle">Discogs collection · synced April 03, 2026 at 11:13</p>
   </div>
   <div class="header-right">
     <span class="count">539</span>
@@ -5798,7 +5798,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adrianprieto/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adrianprieto/collection</a></span>
-  <span>Last sync: April 03, 2026 at 11:11</span>
+  <span>Last sync: April 03, 2026 at 11:13</span>
 </footer>
 
 <!-- Modal -->
@@ -6138,8 +6138,13 @@ function showModal(idx) {
     };
     img.onerror = () => {
       if (_pendingCoverImg !== img) return;
-      _pendingCoverImg = null;
-      cover.classList.remove('loading');
+      // local cover missing (e.g. gitignored) — fall back to Discogs URL
+      if (img.src !== r.thumb && r.thumb) {
+        img.src = r.thumb;
+      } else {
+        _pendingCoverImg = null;
+        cover.classList.remove('loading');
+      }
     };
     img.src = mSrc;
   }
