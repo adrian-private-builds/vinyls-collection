@@ -323,6 +323,30 @@
     "median_price": 25.29
   },
   {
+    "id": 32754192,
+    "master_id": 1428968,
+    "title": "ATW",
+    "artist": "All Them Witches",
+    "year": 2024,
+    "thumb": "https://i.discogs.com/bkUWIzvWix9Xmf4IhCiqgqwk88DoBqfPVMaZpIRs9vo/rs:fit/g:sm/q:90/h:592/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNzU0/MTkyLTE3MzYzODY5/NDktNjczMS5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Blues Rock",
+      "Hard Rock",
+      "Psychedelic Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": " 140g, Blue & Orchid Marble",
+    "date_added": "2026-04-04T08:09:45-07:00",
+    "master_year": 2018,
+    "local_cover": "covers/32754192.jpg",
+    "median_price": 24.99
+  },
+  {
     "id": 27138288,
     "master_id": 919381,
     "title": "Dying Surfer Meets His Maker",
@@ -461,6 +485,28 @@
     "master_year": 1991,
     "local_cover": "covers/23658779.jpg",
     "median_price": 228.74
+  },
+  {
+    "id": 35653093,
+    "master_id": 55901,
+    "title": "By Inheritance",
+    "artist": "Artillery",
+    "year": 2025,
+    "thumb": "https://i.discogs.com/Cpt02T9Z5W_GJ4q2FFpJ8v2R2WDyAw7s97kXg2HrfpI/rs:fit/g:sm/q:90/h:600/w:583/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NjUz/MDkzLTE3NjMwNTQw/NzAtOTM3OS5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Thrash"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Purple",
+    "date_added": "2026-04-04T08:04:21-07:00",
+    "master_year": 1990,
+    "local_cover": "covers/35653093.jpg",
+    "median_price": 32.98
   },
   {
     "id": 29071228,
@@ -1605,6 +1651,29 @@
     "master_year": 1984,
     "local_cover": "covers/6275103.jpg",
     "median_price": 22.28
+  },
+  {
+    "id": 22953092,
+    "master_id": 2621483,
+    "title": "Hell & High Water",
+    "artist": "The Builders And The Butchers",
+    "year": 2022,
+    "thumb": "https://i.discogs.com/cg91_ZC7oqqRFneHpBMxYY-Yy4QWqijLq5HT9sZYB0A/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTUz/MDkyLTE2NTE3NjY2/NDMtNTk3NS5qcGVn.jpeg",
+    "genres": [
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "styles": [
+      "Folk Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-04-04T08:10:09-07:00",
+    "master_year": 2022,
+    "local_cover": "covers/22953092.jpg",
+    "median_price": 6.64
   },
   {
     "id": 16084985,
@@ -11302,7 +11371,7 @@
     "date_added": "2024-09-23T09:26:43-07:00",
     "master_year": 2024,
     "local_cover": "covers/31807892.jpg",
-    "median_price": null
+    "median_price": 22.99
   },
   {
     "id": 12251894,
