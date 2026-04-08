@@ -8193,6 +8193,30 @@
     "median_price": 50.0
   },
   {
+    "id": 36926175,
+    "master_id": 385319,
+    "title": "Satanic Royalty",
+    "artist": "Midnight",
+    "year": 2026,
+    "thumb": "",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Black Metal",
+      "Heavy Metal",
+      "Speed Metal"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Blue w/ black smoke",
+    "date_added": "2026-04-07T09:20:52-07:00",
+    "master_year": 2011,
+    "local_cover": "",
+    "median_price": 34.65
+  },
+  {
     "id": 35970739,
     "master_id": 0,
     "title": "1993-2000",
