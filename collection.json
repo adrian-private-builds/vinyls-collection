@@ -1339,6 +1339,29 @@
     "median_price": 34.39
   },
   {
+    "id": 13786747,
+    "master_id": 1573245,
+    "title": "Crimson Riders",
+    "artist": "Bokassa",
+    "year": 2019,
+    "thumb": "https://i.discogs.com/x41h2TEkygp1jiIIPuU4H4_SvWpGwhjOXKqwG9aYz-g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzg2/NzQ3LTE1NjExMDky/NjEtMjMxNC5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Punk",
+      "Stoner Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Turquoise Translucent",
+    "date_added": "2026-04-08T04:09:10-07:00",
+    "master_year": 2019,
+    "local_cover": "covers/13786747.jpg",
+    "median_price": 12.15
+  },
+  {
     "id": 26046079,
     "master_id": 73617,
     "title": "... For Victory",
