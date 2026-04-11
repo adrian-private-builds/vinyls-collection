@@ -1298,21 +1298,14 @@ def generate_html(releases, username, added_count):
       flex-shrink: 0;
     }}
     .modal-body {{
-      padding: 0;
-      overflow: hidden;
-    }}
-    .modal-body > div:first-child {{
       padding: 1.25rem 1.25rem 0;
       overflow-y: auto;
       flex: 1;
-      min-height: 0;
-    }}
-    .modal-body {{
-      justify-content: flex-start;
     }}
     .modal-nav-row {{
+      position: sticky;
+      bottom: 0;
       padding: 0.75rem 1.25rem 1.25rem;
-      flex-shrink: 0;
       border-top: 1px solid var(--border);
       background: var(--surface);
     }}
