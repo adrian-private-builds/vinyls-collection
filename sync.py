@@ -1307,10 +1307,14 @@ def generate_html(releases, username, added_count):
       flex: 1;
       min-height: 0;
     }}
+    .modal-body {{
+      justify-content: flex-start;
+    }}
     .modal-nav-row {{
       padding: 0.75rem 1.25rem 1.25rem;
       flex-shrink: 0;
       border-top: 1px solid var(--border);
+      background: var(--surface);
     }}
     .modal-title {{ font-size: 1.2rem; }}
     .stats {{ padding: 2rem 1.25rem 3rem; }}

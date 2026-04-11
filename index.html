@@ -848,10 +848,14 @@
       flex: 1;
       min-height: 0;
     }
+    .modal-body {
+      justify-content: flex-start;
+    }
     .modal-nav-row {
       padding: 0.75rem 1.25rem 1.25rem;
       flex-shrink: 0;
       border-top: 1px solid var(--border);
+      background: var(--surface);
     }
     .modal-title { font-size: 1.2rem; }
     .stats { padding: 2rem 1.25rem 3rem; }
@@ -865,7 +869,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 11, 2026 at 22:46 · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Show Details</button></p>
+    <p class="subtitle">Discogs collection · synced April 11, 2026 at 22:51 · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Show Details</button></p>
   </div>
   <div class="header-right">
     <span class="count">544</span>
@@ -5891,7 +5895,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adriandampc/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adriandampc/collection</a></span>
-  <span>Last sync: April 11, 2026 at 22:46</span>
+  <span>Last sync: April 11, 2026 at 22:51</span>
 </footer>
 
 <!-- Modal -->
