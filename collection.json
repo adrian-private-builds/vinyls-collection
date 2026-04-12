@@ -8456,6 +8456,28 @@
     "median_price": 27.57
   },
   {
+    "id": 26858069,
+    "master_id": 4651,
+    "title": "Formulas Fatal To The Flesh",
+    "artist": "Morbid Angel",
+    "year": 2023,
+    "thumb": "https://i.discogs.com/wZpDtxlo2XTn09eMt0lwDYc8TVZ9bf7gYttjSnA2nMI/rs:fit/g:sm/q:90/h:573/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODU4/MDY5LTE2OTA1NjUw/MTMtODU1Ny5wbmc.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Death Metal"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Purple",
+    "date_added": "2026-04-11T08:11:02-07:00",
+    "master_year": 1998,
+    "local_cover": "covers/26858069.jpg",
+    "median_price": 29.29
+  },
+  {
     "id": 26148497,
     "master_id": 38512,
     "title": "Ace Of Spades",
@@ -9586,7 +9608,7 @@
     "date_added": "2024-11-24T07:45:47-08:00",
     "master_year": 1982,
     "local_cover": "covers/22888100.jpg",
-    "median_price": null
+    "median_price": 29.41
   },
   {
     "id": 19331575,
