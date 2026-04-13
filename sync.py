@@ -523,8 +523,8 @@ def generate_html(releases, username, added_count):
         rows = ""
         for i, (label, count) in enumerate(items):
             pct = round(count / max_val * 100)
-            hidden = ' class="stat-row-hidden"' if i >= 10 else ""
-            rows += f"""<div class="stat-row"{hidden}>
+            cls = "stat-row stat-row-hidden" if i >= 10 else "stat-row"
+            rows += f"""<div class="{cls}">
               <span class="stat-label">{escape(str(label))}</span>
               <span class="stat-bar-wrap"><span class="stat-bar" style="width:{pct}%"></span></span>
               <span class="stat-count">{count}</span>
