@@ -5,7 +5,7 @@
     "date": "1995",
     "master_year": 1995,
     "mbid": "ce3c6103-3436-3441-9219-0447e8977e20",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "27381147": {
     "artist": "The 69 Eyes",
@@ -26,10 +26,10 @@
   "25893250": {
     "artist": "The 69 Eyes",
     "title": "Devils",
-    "date": "2004",
+    "date": "2004-10-22",
     "master_year": 2004,
     "mbid": "808caa91-f1d1-4829-ad59-6b84a6c203e8",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "26046070": {
     "artist": "The 69 Eyes",
@@ -50,10 +50,10 @@
   "28015290": {
     "artist": "Aerosmith",
     "title": "Greatest Hits",
-    "date": "2008",
+    "date": "2023",
     "master_year": 2023,
     "mbid": "fecf840e-ea5e-4867-bfac-6ff1e2109a64",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "9141669": {
     "artist": "Alcest",
@@ -130,7 +130,7 @@
   "14716328": {
     "artist": "All Them Witches",
     "title": "Lightning At The Door",
-    "date": "2013-11-05",
+    "date": "2014",
     "master_year": 2014,
     "mbid": "2d13c628-282c-4391-82a3-cc5612aa7074",
     "source": "musicbrainz"
@@ -146,7 +146,7 @@
   "19208248": {
     "artist": "All Them Witches",
     "title": "Romany Dagger Remended / Surface To Air Whistle",
-    "date": "2010-04-06",
+    "date": "2016",
     "master_year": 2016,
     "mbid": "2951021b-dde6-42f4-8b9a-0547e69e3f12",
     "source": "musicbrainz"
@@ -170,7 +170,7 @@
   "35653093": {
     "artist": "Artillery",
     "title": "By Inheritance",
-    "date": "2024-01-19",
+    "date": "1990",
     "master_year": 1990,
     "mbid": "f05e4b89-a62e-4bfb-9b67-f051b2de93cd",
     "source": "musicbrainz"
@@ -210,7 +210,7 @@
   "4242682": {
     "artist": "Bathory",
     "title": "Nordland I & II",
-    "date": "2020-07-31",
+    "date": "2003",
     "master_year": 2003,
     "mbid": "23945043-1f08-4473-ba24-0204ea280245",
     "source": "musicbrainz"
@@ -266,10 +266,10 @@
   "5566568": {
     "artist": "Black Rebel Motorcycle Club",
     "title": "B.R.M.C.",
-    "date": "1999",
+    "date": "2001-04-03",
     "master_year": 2001,
     "mbid": "c06680bd-3c9e-3496-8fdf-22dea0683355",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "21445423": {
     "artist": "Black Rebel Motorcycle Club",
@@ -293,12 +293,12 @@
     "date": "1970",
     "master_year": 1970,
     "mbid": "d38fc9a6-62bd-40bd-8162-7a4146d3e519",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "16077275": {
     "artist": "Black Sabbath",
     "title": "Black Sabbath Vol 4",
-    "date": "2012-10-15",
+    "date": "1972",
     "master_year": 1972,
     "mbid": "8e648252-d948-4ed1-a091-4cf0b83d4b8f",
     "source": "musicbrainz"
@@ -330,10 +330,10 @@
   "16097019": {
     "artist": "Black Sabbath",
     "title": "Paranoid",
-    "date": "1998",
+    "date": "1970-09-18",
     "master_year": 1970,
     "mbid": "0a4484de-f894-4629-bf81-cf30f27bd8c4",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "16000348": {
     "artist": "Black Sabbath",
@@ -370,7 +370,7 @@
   "31380575": {
     "artist": "Blind Guardian",
     "title": "Somewhere Far Beyond Revisited",
-    "date": "2024-08-02",
+    "date": "1992",
     "master_year": 1992,
     "mbid": "e530b284-0159-4812-ae2c-fcb696ccd03f",
     "source": "musicbrainz"
@@ -413,7 +413,7 @@
     "date": "1981",
     "master_year": 1981,
     "mbid": "cf3efe8c-3963-30c2-a9ba-a1b1117a5b1a",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "30136262": {
     "artist": "Blue Öyster Cult",
@@ -450,7 +450,7 @@
   "24767717": {
     "artist": "Bob Wayne",
     "title": "Outlaw Carnie",
-    "date": "2011-01-25",
+    "date": "2010",
     "master_year": 2010,
     "mbid": "e2e074d0-0eb2-408e-a0be-34c7a07c8417",
     "source": "musicbrainz"
@@ -474,10 +474,10 @@
   "26046079": {
     "artist": "Bolt Thrower",
     "title": "... For Victory",
-    "date": "2008",
+    "date": "1994-11-24",
     "master_year": 1994,
     "mbid": "05ad1949-c2a7-41b6-acfd-621b6d37f722",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "31262533": {
     "artist": "Bolt Thrower",
@@ -514,18 +514,18 @@
   "33481247": {
     "artist": "Bolt Thrower",
     "title": "Warmaster",
-    "date": "2008",
+    "date": "1991-10-26",
     "master_year": 1991,
     "mbid": "05ad1949-c2a7-41b6-acfd-621b6d37f722",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "31725839": {
     "artist": "Bon Jovi",
     "title": "Greatest Hits",
-    "date": "2008",
+    "date": "2010-10-29",
     "master_year": 2010,
     "mbid": "73a354ec-d8ee-4c1c-9840-0f8b6e171dc1",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "9307146": {
     "artist": "Bon Jovi",
@@ -538,10 +538,10 @@
   "11061377": {
     "artist": "Bruce Dickinson",
     "title": "Accident Of Birth",
-    "date": "1997",
+    "date": "1997-06-03",
     "master_year": 1997,
     "mbid": "e4c6a890-9b7f-4c3e-a07c-0637a81872ae",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "11052688": {
     "artist": "Bruce Dickinson",
@@ -562,10 +562,10 @@
   "30957880": {
     "artist": "Bruce Springsteen",
     "title": "Born In The U.S.A.",
-    "date": "1984",
+    "date": "1984-06-04",
     "master_year": 1984,
     "mbid": "6b56d7c1-b1c0-43fb-ba21-1a0b5004ce3e",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "12215332": {
     "artist": "Bruce Springsteen",
@@ -626,7 +626,7 @@
   "18617446": {
     "artist": "Carcass",
     "title": "Heartwork (Ultimate Edition)",
-    "date": "2008-09",
+    "date": "1993",
     "master_year": 1993,
     "mbid": "e09fa051-0cde-4dd1-bfb0-0e83c6b58571",
     "source": "musicbrainz"
@@ -642,10 +642,10 @@
   "5093016": {
     "artist": "Carcass",
     "title": "Swansong",
-    "date": "1995",
+    "date": "1996-06-01",
     "master_year": 1996,
     "mbid": "181cc520-3167-3828-843e-6e647b033fcc",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "29626615": {
     "artist": "Carnivore",
@@ -653,7 +653,7 @@
     "date": "1987",
     "master_year": 1987,
     "mbid": "d1c16ef4-be11-3783-b5e2-52c5d39e36ee",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "10500343": {
     "artist": "Carpenter Brut",
@@ -674,7 +674,7 @@
   "27664872": {
     "artist": "Cavalera",
     "title": "Schizophrenia",
-    "date": "2024-06-21",
+    "date": "1987",
     "master_year": 1987,
     "mbid": "6943f1a5-4a42-498c-99d1-f508445f9589",
     "source": "musicbrainz"
@@ -685,7 +685,7 @@
     "date": "1985",
     "master_year": 1985,
     "mbid": "f2f954cb-3083-3261-bef1-e97bfe80987a",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "22564646": {
     "artist": "Church Of The Cosmic Skull",
@@ -789,7 +789,7 @@
     "date": "1991",
     "master_year": 1991,
     "mbid": "98b82809-c78c-3551-88ea-456e4f908bd9",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "22296643": {
     "artist": "Corrosion Of Conformity",
@@ -826,7 +826,7 @@
   "14266149": {
     "artist": "Creedence Clearwater Revival",
     "title": "Bad Moon Rising - The Collection",
-    "date": "2001-11-01",
+    "date": "2013",
     "master_year": 2013,
     "mbid": "2ebcfcfa-7378-3416-8ef0-1c64d9314529",
     "source": "musicbrainz"
@@ -834,7 +834,7 @@
   "6199947": {
     "artist": "Creedence Clearwater Revival",
     "title": "Chronicle - The 20 Greatest Hits",
-    "date": "2001-11-01",
+    "date": "1976",
     "master_year": 1976,
     "mbid": "2ebcfcfa-7378-3416-8ef0-1c64d9314529",
     "source": "musicbrainz"
@@ -1018,7 +1018,7 @@
   "32141934": {
     "artist": "Deep Purple",
     "title": "Machine Head (2024 Remix)",
-    "date": "2011-07-08",
+    "date": "1972",
     "master_year": 1972,
     "mbid": "3d30e337-4f52-4417-a224-12744af2245e",
     "source": "musicbrainz"
@@ -1026,7 +1026,7 @@
   "13751873": {
     "artist": "Demons & Wizards",
     "title": "Demons & Wizards",
-    "date": "2000-01-11",
+    "date": "1999",
     "master_year": 1999,
     "mbid": "ec504416-ef67-374e-87ff-c686cf509dfb",
     "source": "musicbrainz"
@@ -1058,10 +1058,10 @@
   "17044443": {
     "artist": "Dio",
     "title": "The Last In Line",
-    "date": "1984",
+    "date": "1984-07-02",
     "master_year": 1984,
     "mbid": "b9e0be13-a88e-4d4a-a31a-f21c9c669915",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "11205690": {
     "artist": "Dire Straits",
@@ -1122,10 +1122,10 @@
   "26536988": {
     "artist": "The Doors",
     "title": "The Doors",
-    "date": "1996",
+    "date": "1967-01-04",
     "master_year": 1967,
     "mbid": "38eaaeec-92af-4281-afaf-88537d227b27",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "8598112": {
     "artist": "Down",
@@ -1218,7 +1218,7 @@
   "23892575": {
     "artist": "Entombed",
     "title": "To Ride, Shoot Straight And Speak The Truth",
-    "date": "2014-12",
+    "date": "1997",
     "master_year": 1997,
     "mbid": "8e383479-b57b-4c28-b042-2b0d41a83249",
     "source": "musicbrainz"
@@ -1234,10 +1234,10 @@
   "11174254": {
     "artist": "Entombed",
     "title": "Wolverine Blues",
-    "date": "1994",
+    "date": "1993-08-31",
     "master_year": 1993,
     "mbid": "11b9fb76-d172-47e7-b5b5-fddd1b8c734d",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "22979672": {
     "artist": "Everlast",
@@ -1362,10 +1362,10 @@
   "30933123": {
     "artist": "Ghost",
     "title": "Opvs Eponymovs",
-    "date": "2007",
+    "date": "2010-10-18",
     "master_year": 2010,
     "mbid": "a0aeb1f6-ba3f-3f42-8df0-daa098650872",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "12079465": {
     "artist": "Ghost",
@@ -1594,7 +1594,7 @@
   "15484530": {
     "artist": "Hank Von Helvete",
     "title": "Dead",
-    "date": "2018-11-02",
+    "date": "2020",
     "master_year": 2020,
     "mbid": "f101c777-984f-439c-b09b-745f6b2491df",
     "source": "musicbrainz"
@@ -1610,7 +1610,7 @@
   "17766490": {
     "artist": "Hank Williams",
     "title": "Hank Williams Greatest Hits",
-    "date": "1997-12-30",
+    "date": "2020",
     "master_year": 2020,
     "mbid": "11b1acdd-0e5d-3995-98ce-838d92e87745",
     "source": "musicbrainz"
@@ -1765,7 +1765,7 @@
     "date": "1977",
     "master_year": 1977,
     "mbid": "95f3753f-d78f-3092-afe7-63dbec8d814f",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "34908770": {
     "artist": "Immolation",
@@ -1797,15 +1797,15 @@
     "date": "1987",
     "master_year": 1987,
     "mbid": "da2ccf9e-2c5d-3050-aee8-7debe3504f37",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "10463906": {
     "artist": "Iron Maiden",
     "title": "Brave New World",
-    "date": "2000",
+    "date": "2000-05-29",
     "master_year": 2000,
     "mbid": "80063ce9-26e8-4d8c-959a-4faee553b758",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "10463951": {
     "artist": "Iron Maiden",
@@ -1842,10 +1842,10 @@
   "10301784": {
     "artist": "Iron Maiden",
     "title": "No Prayer For The Dying",
-    "date": "1990",
+    "date": "1990-10-01",
     "master_year": 1990,
     "mbid": "e5a34fb8-1373-4370-bd74-f522bacb17dd",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "6226812": {
     "artist": "Iron Maiden",
@@ -1893,7 +1893,7 @@
     "date": "1976",
     "master_year": 1976,
     "mbid": "a84ecb83-9622-3f9a-9759-154505443ca8",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "17640640": {
     "artist": "Jefferson Airplane",
@@ -1930,7 +1930,7 @@
   "11021239": {
     "artist": "John Carpenter",
     "title": "Anthology (Movie Themes 1974–1998)",
-    "date": "2014-02-26",
+    "date": "2017",
     "master_year": 2017,
     "mbid": "2aafeb05-41d0-4881-b994-8b6fd72d26c1",
     "source": "musicbrainz"
@@ -2010,10 +2010,10 @@
   "26006467": {
     "artist": "Judas Priest",
     "title": "British Steel",
-    "date": "2001",
+    "date": "1980-04-10",
     "master_year": 1980,
     "mbid": "0c819099-2669-488a-a1a3-33e2bb6aab25",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "11303283": {
     "artist": "Judas Priest",
@@ -2042,7 +2042,7 @@
   "30634468": {
     "artist": "Justice",
     "title": "†",
-    "date": "2010-08-21",
+    "date": "2007",
     "master_year": 2007,
     "mbid": "87fae642-39e3-4b27-86f5-16f023b47777",
     "source": "musicbrainz"
@@ -2077,12 +2077,12 @@
     "date": "1992",
     "master_year": 1992,
     "mbid": "7e69dbfc-41d9-3f61-b409-6f4317890ad4",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "23823086": {
     "artist": "Kat",
     "title": "Oddech Wymarłych Światów",
-    "date": "1988-05-10",
+    "date": "1989",
     "master_year": 1989,
     "mbid": "5f3ddca2-c001-3ab0-a5c5-8fd12631acf6",
     "source": "musicbrainz"
@@ -2106,7 +2106,7 @@
   "10522015": {
     "artist": "Kenji Kawai",
     "title": "Ghost In The Shell (Original Soundtrack)",
-    "date": "2008-03-19",
+    "date": "1995",
     "master_year": 1995,
     "mbid": "8862f1b0-65c9-4fa7-8f76-05dc1cd88301",
     "source": "musicbrainz"
@@ -2133,7 +2133,7 @@
     "date": "1987",
     "master_year": 1987,
     "mbid": "ec2dfd65-cdd8-33c1-8ebc-be36c5a686f7",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "29052691": {
     "artist": "King Diamond",
@@ -2218,7 +2218,7 @@
   "12674210": {
     "artist": "King Gizzard And The Lizard Wizard",
     "title": "Flying Microtonal Banana (Explorations Into Microtonal Tuning Volume 1)",
-    "date": "2014-07-04",
+    "date": "2017",
     "master_year": 2017,
     "mbid": "76556eeb-8773-4007-a64d-dda968cae229",
     "source": "musicbrainz"
@@ -2258,7 +2258,7 @@
   "26432468": {
     "artist": "King Gizzard And The Lizard Wizard",
     "title": "K.G. / L.W. (Explorations Into Microtonal Tuning Vol. 2 & 3)",
-    "date": "2014-07-04",
+    "date": "2022",
     "master_year": 2022,
     "mbid": "76556eeb-8773-4007-a64d-dda968cae229",
     "source": "musicbrainz"
@@ -2274,7 +2274,7 @@
   "28125418": {
     "artist": "King Gizzard And The Lizard Wizard",
     "title": "Live At Red Rocks 2022",
-    "date": "2020-10-21",
+    "date": "2023",
     "master_year": 2023,
     "mbid": "469ae101-1bf5-4c88-bd80-3d21fcadb065",
     "source": "musicbrainz"
@@ -2298,7 +2298,7 @@
   "22032949": {
     "artist": "King Gizzard And The Lizard Wizard",
     "title": "Live In Sydney '21 (Live At The Enmore Theatre)",
-    "date": "2022-03-09",
+    "date": "2021",
     "master_year": 2021,
     "mbid": "ee0c5833-bd22-47d9-8a22-0f93d0de8221",
     "source": "musicbrainz"
@@ -2466,10 +2466,10 @@
   "11014936": {
     "artist": "Lady Pank",
     "title": "Lady Pank",
-    "date": "1983",
+    "date": "1983-06-20",
     "master_year": 1983,
     "mbid": "b36870ea-cdbb-3200-9e10-51270d333255",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "30642700": {
     "artist": "Laibach",
@@ -2482,7 +2482,7 @@
   "21030196": {
     "artist": "Lana Del Rey",
     "title": "Born To Die",
-    "date": "2011-12-30",
+    "date": "2012",
     "master_year": 2012,
     "mbid": "094bb9d4-bb3e-4771-82c0-99f39cf3150b",
     "source": "musicbrainz"
@@ -2490,7 +2490,7 @@
   "26524775": {
     "artist": "Lana Del Rey",
     "title": "Did You Know That There's A Tunnel Under Ocean Blvd",
-    "date": "2022-12-07",
+    "date": "2023",
     "master_year": 2023,
     "mbid": "c2030bca-b125-43e1-a406-a0fe67c784d8",
     "source": "musicbrainz"
@@ -2498,7 +2498,7 @@
   "23406356": {
     "artist": "Lana Del Rey",
     "title": "NFR!",
-    "date": "2023-02-05",
+    "date": "2019",
     "master_year": 2019,
     "mbid": "b4671765-9cf2-4d3d-8161-614178e2b718",
     "source": "musicbrainz"
@@ -2530,7 +2530,7 @@
   "19887778": {
     "artist": "Led Zeppelin",
     "title": "Led Zeppelin",
-    "date": "2018-09-27",
+    "date": "1969",
     "master_year": 1969,
     "mbid": "07e182ae-6567-4bc4-90f0-73619c942d73",
     "source": "musicbrainz"
@@ -2562,7 +2562,7 @@
   "25197124": {
     "artist": "Led Zeppelin",
     "title": "Untitled",
-    "date": "2018-09-27",
+    "date": "1971",
     "master_year": 1971,
     "mbid": "07e182ae-6567-4bc4-90f0-73619c942d73",
     "source": "musicbrainz"
@@ -2570,10 +2570,10 @@
   "12012689": {
     "artist": "Lenny Kravitz",
     "title": "Greatest Hits",
-    "date": "2008",
+    "date": "2000-10-24",
     "master_year": 2000,
     "mbid": "8822cb71-5754-462e-8478-1d8b485c84f8",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "10952093": {
     "artist": "Liam Gallagher",
@@ -2626,7 +2626,7 @@
   "26733755": {
     "artist": "M.O.O.N.",
     "title": "Moon EP",
-    "date": "2013-05-27",
+    "date": "2011",
     "master_year": 2011,
     "mbid": "58059870-55ce-4264-aecd-a4564b3fce92",
     "source": "musicbrainz"
@@ -2658,7 +2658,7 @@
   "22116670": {
     "artist": "Magic Sword",
     "title": "Magic Sword Vol. 1",
-    "date": "2024-01-12",
+    "date": "2013",
     "master_year": 2013,
     "mbid": "bb31b626-1f2b-4a3f-8b01-9e47e978863d",
     "source": "musicbrainz"
@@ -2677,7 +2677,7 @@
     "date": "1984",
     "master_year": 1984,
     "mbid": "07ecedf1-6af6-3fee-b794-60946f503def",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "32350185": {
     "artist": "Marilyn Manson",
@@ -2773,15 +2773,15 @@
     "date": "1983",
     "master_year": 1983,
     "mbid": "fec621f5-1a4c-3de0-99ee-a70ea75e76c2",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "26664548": {
     "artist": "Metallica",
     "title": "...And Justice For All",
-    "date": "1988",
+    "date": "1988-09-07",
     "master_year": 1988,
     "mbid": "bd14f98a-8c45-4a0d-b148-17cbc96740aa",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "30309152": {
     "artist": "Metallica",
@@ -2810,18 +2810,18 @@
   "25079617": {
     "artist": "Metallica",
     "title": "Master Of Puppets",
-    "date": "1986",
+    "date": "1986-03-03",
     "master_year": 1986,
     "mbid": "cd526fb3-27a6-465e-810b-ab9653cbe84e",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "20138908": {
     "artist": "Metallica",
     "title": "Metallica",
-    "date": "1996",
+    "date": "1991-08-12",
     "master_year": 1991,
     "mbid": "dd4b2235-a53c-4da5-b2f9-6d438b3a6229",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "7276073": {
     "artist": "Metallica",
@@ -2842,7 +2842,7 @@
   "31752665": {
     "artist": "The Midnight",
     "title": "Days Of Thunder",
-    "date": "2016-08-01",
+    "date": "2014",
     "master_year": 2014,
     "mbid": "51195fea-aea1-45b0-a80d-d0284af04df0",
     "source": "musicbrainz"
@@ -2858,7 +2858,7 @@
   "35970739": {
     "artist": "Monster Magnet",
     "title": "1993-2000",
-    "date": "2002-10-04",
+    "date": "2025",
     "master_year": 2025,
     "mbid": "4a428b89-179d-4b48-a470-c17d8c88a2e6",
     "source": "musicbrainz"
@@ -2869,7 +2869,7 @@
     "date": "1991",
     "master_year": 1991,
     "mbid": "6d252fc2-2996-312d-bd8e-023996fbf537",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "5003313": {
     "artist": "Monster Magnet",
@@ -2938,10 +2938,10 @@
   "26148497": {
     "artist": "Motörhead",
     "title": "Ace Of Spades",
-    "date": "1999",
+    "date": "1980-10-17",
     "master_year": 1980,
     "mbid": "5a72e9b3-5075-3671-9750-8f3fa6e0d2f8",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "1522605": {
     "artist": "Motörhead",
@@ -3026,7 +3026,7 @@
   "28707547": {
     "artist": "New Model Army",
     "title": "Best Of Live",
-    "date": "2006-05",
+    "date": "2004",
     "master_year": 2004,
     "mbid": "edd5ec77-f82e-364c-acbf-1fc6e3d5bbd0",
     "source": "musicbrainz"
@@ -3130,15 +3130,15 @@
   "28728529": {
     "artist": "Nirvana",
     "title": "Nirvana",
-    "date": "1980",
+    "date": "2002-10-29",
     "master_year": 2002,
     "mbid": "5cf19294-46e4-3941-9cad-f714f4ef5c24",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "20904802": {
     "artist": "Noon",
     "title": "Algorytm",
-    "date": "2013-10-29",
+    "date": "2018",
     "master_year": 2018,
     "mbid": "c75a91b7-3407-44b1-8bae-143e9f3d923f",
     "source": "musicbrainz"
@@ -3146,10 +3146,10 @@
   "16067456": {
     "artist": "Oasis",
     "title": "(What's The Story) Morning Glory?",
-    "date": "1995",
+    "date": "1995-10-02",
     "master_year": 1995,
     "mbid": "a051a601-6e66-4b70-8a84-636604f3be81",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "24236507": {
     "artist": "Oasis",
@@ -3274,10 +3274,10 @@
   "26718902": {
     "artist": "Pantera",
     "title": "Cowboys From Hell",
-    "date": "1994",
+    "date": "1990-07-24",
     "master_year": 1990,
     "mbid": "e3a21f38-64a2-4383-a73c-adccd534769e",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "18426697": {
     "artist": "Pantera",
@@ -3314,10 +3314,10 @@
   "34368802": {
     "artist": "Pentagram",
     "title": "Relentless",
-    "date": "1984",
+    "date": "1985",
     "master_year": 1985,
     "mbid": "9c415e00-1b88-43df-847c-1e0e4f3c02f0",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "22888100": {
     "artist": "Perfect",
@@ -3325,7 +3325,7 @@
     "date": "1982",
     "master_year": 1982,
     "mbid": "aa580551-f69e-3531-b348-ccc4b40583d1",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "19331575": {
     "artist": "Perturbator",
@@ -3386,10 +3386,10 @@
   "9180570": {
     "artist": "Pink Floyd",
     "title": "Wish You Were Here",
-    "date": "2013",
+    "date": "1975-09-12",
     "master_year": 1975,
     "mbid": "aec8c2eb-0639-436f-99db-9974781f241c",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "21912412": {
     "artist": "PJ Harvey",
@@ -3418,7 +3418,7 @@
   "5824471": {
     "artist": "The Prodigy",
     "title": "Their Law - The Singles 1990-2005",
-    "date": "2018-02-16",
+    "date": "2005",
     "master_year": 2005,
     "mbid": "bc0bf40b-e328-46a0-8116-ff0aab8be0c0",
     "source": "musicbrainz"
@@ -3450,7 +3450,7 @@
   "16077325": {
     "artist": "Rage Against The Machine",
     "title": "Rage Against The Machine",
-    "date": "1991-12",
+    "date": "1992",
     "master_year": 1992,
     "mbid": "55399028-fe94-48c7-867a-3ad4fae84569",
     "source": "musicbrainz"
@@ -3474,7 +3474,7 @@
   "11247408": {
     "artist": "Rammstein",
     "title": "Mutter",
-    "date": "2002-03-25",
+    "date": "2001",
     "master_year": 2001,
     "mbid": "657c6bae-6c61-335d-a6d1-5e542d777f1d",
     "source": "musicbrainz"
@@ -3490,7 +3490,7 @@
   "36148351": {
     "artist": "Ramones",
     "title": "Greatest Hits",
-    "date": "1999-07-20",
+    "date": "2006",
     "master_year": 2006,
     "mbid": "014d5ad0-b3e8-3e26-9bde-52d5570918dd",
     "source": "musicbrainz"
@@ -3514,7 +3514,7 @@
   "5147163": {
     "artist": "Republika",
     "title": "Nowe Sytuacje ",
-    "date": "1982-09",
+    "date": "1983",
     "master_year": 1983,
     "mbid": "2473b55b-0817-3bc5-9c61-e35d70b46bfa",
     "source": "musicbrainz"
@@ -3586,18 +3586,18 @@
   "33756480": {
     "artist": "Rome",
     "title": "Anthology 2016 - 2025",
-    "date": "1987",
+    "date": "2025",
     "master_year": 2025,
     "mbid": "ddae5cbd-4a3e-3da5-ac92-137efde119f4",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "34631395": {
     "artist": "Rome",
     "title": "Flowers From Exile - Revisited",
-    "date": "1987",
+    "date": "2009",
     "master_year": 2009,
     "mbid": "ddae5cbd-4a3e-3da5-ac92-137efde119f4",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "22810847": {
     "artist": "Rome",
@@ -3645,12 +3645,12 @@
     "date": "1988",
     "master_year": 1988,
     "mbid": "bec44390-d7da-4cda-8497-8bd4b5d838ae",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "10673085": {
     "artist": "Running Wild",
     "title": "Under Jolly Roger",
-    "date": "2017-07-19",
+    "date": "1987",
     "master_year": 1987,
     "mbid": "890c4684-ad72-48e3-a66e-e0f8dc8a4c70",
     "source": "musicbrainz"
@@ -3698,7 +3698,7 @@
   "12139124": {
     "artist": "Sepultura",
     "title": "Arise",
-    "date": "1992-02-24",
+    "date": "1991",
     "master_year": 1991,
     "mbid": "5fc9ba9d-bc39-38fc-a479-eadbf0f3a933",
     "source": "musicbrainz"
@@ -3765,7 +3765,7 @@
     "date": "1984",
     "master_year": 1984,
     "mbid": "bcd5be5d-defa-341b-9546-8c16c4e14cf0",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "20699110": {
     "artist": "Slayer",
@@ -3794,18 +3794,18 @@
   "23534543": {
     "artist": "Slayer",
     "title": "Seasons In The Abyss",
-    "date": "1990",
+    "date": "1990-10-09",
     "master_year": 1990,
     "mbid": "8a38a60c-d5ea-3c57-907b-c3bae54247bb",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "26853977": {
     "artist": "Slayer",
     "title": "South Of Heaven",
-    "date": "1988",
+    "date": "1988-07-05",
     "master_year": 1988,
     "mbid": "759a282a-d3e0-4936-beda-a075b9e1cdea",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "25416709": {
     "artist": "Sleep",
@@ -3906,7 +3906,7 @@
   "25117573": {
     "artist": "Sodom, Hellhammer",
     "title": "In The Sign Of Evil / Apocalyptic Raids",
-    "date": "2005-11-07",
+    "date": "1984",
     "master_year": 1984,
     "mbid": "c5401a39-6e36-3b32-a874-1bb0b697f902",
     "source": "musicbrainz"
@@ -3954,7 +3954,7 @@
   "31807892": {
     "artist": "Supercomfortable",
     "title": "Resilience",
-    "date": "2016-06",
+    "date": "2024",
     "master_year": 2024,
     "mbid": "b117bf64-6991-4a7c-bbb3-ed4c8b020408",
     "source": "musicbrainz"
@@ -3962,7 +3962,7 @@
   "12251894": {
     "artist": "Supercomfortable",
     "title": "Supercomfortable",
-    "date": "2016-06",
+    "date": "2018",
     "master_year": 2018,
     "mbid": "b117bf64-6991-4a7c-bbb3-ed4c8b020408",
     "source": "musicbrainz"
@@ -4018,7 +4018,7 @@
   "13243300": {
     "artist": "Thulsa Doom",
     "title": "... And Then Take You To A Place Where Jars Are Kept",
-    "date": "2006-04-25",
+    "date": "2003",
     "master_year": 2003,
     "mbid": "ed5803cf-4e0e-307d-9418-c889c787a2c2",
     "source": "musicbrainz"
@@ -4058,10 +4058,10 @@
   "8844291": {
     "artist": "Tom Petty And The Heartbreakers",
     "title": "Greatest Hits",
-    "date": "2010",
+    "date": "1993-11-16",
     "master_year": 1993,
     "mbid": "6991ee67-214f-49e2-a890-5febae7e17b0",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "27771489": {
     "artist": "Toxic Holocaust",
@@ -4074,10 +4074,10 @@
   "15421848": {
     "artist": "Trouble",
     "title": "Psalm 9",
-    "date": "1991",
+    "date": "1984",
     "master_year": 1984,
     "mbid": "20846efe-75de-4a51-8f0f-1f5a142108b5",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "30491578": {
     "artist": "The Turbo A.C.'s",
@@ -4085,7 +4085,7 @@
     "date": "2003",
     "master_year": 2003,
     "mbid": "dbb9db9a-83f7-36cb-8bf7-14bcfcd148b4",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "14356856": {
     "artist": "Turbonegro",
@@ -4178,7 +4178,7 @@
   "31665344": {
     "artist": "Ulver",
     "title": "Perdition City (Music To An Interior Film)",
-    "date": "2000-03-26",
+    "date": "2001",
     "master_year": 2001,
     "mbid": "1ff0d748-4297-3f44-b049-220098e12668",
     "source": "musicbrainz"
@@ -4210,7 +4210,7 @@
   "7097828": {
     "artist": "Vangelis",
     "title": "Blade Runner",
-    "date": "1993-12",
+    "date": "1994",
     "master_year": 1994,
     "mbid": "f393097a-b567-3253-9bdf-df353ee3e9e1",
     "source": "musicbrainz"
@@ -4221,12 +4221,12 @@
     "date": "1982",
     "master_year": 1982,
     "mbid": "84df033e-49e6-30aa-8331-11e4c0e161b6",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "20348827": {
     "artist": "Venom",
     "title": "Welcome To Hell",
-    "date": "2024-08-23",
+    "date": "1981",
     "master_year": 1981,
     "mbid": "1f07171f-33df-4c06-a932-4ea6a3a2ca8c",
     "source": "musicbrainz"
@@ -4266,10 +4266,10 @@
   "568076": {
     "artist": "The Vines",
     "title": "Highly Evolved",
-    "date": "2002",
+    "date": "2002-07-14",
     "master_year": 2002,
     "mbid": "bee3f75f-a8cc-3d6f-b098-9c3308b03492",
-    "source": "musicbrainz"
+    "source": "musicbrainz-releases"
   },
   "24688364": {
     "artist": "The Vintage Caravan",
