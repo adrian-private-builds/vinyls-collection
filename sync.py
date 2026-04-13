@@ -324,10 +324,15 @@ def generate_html(releases, username, added_count):
     dates_lookup = {}
     if Path("release_dates.json").exists():
         _rd = json.loads(Path("release_dates.json").read_text())
-        # Only keep full dates (YYYY-MM-DD), not year-only
-        dates_lookup = {int(k): v["date"] for k, v in _rd.items() if v.get("date") and len(v["date"]) > 4}
+        dates_lookup = {int(k): v for k, v in _rd.items()}
     for r in releases:
-        r["release_date"] = dates_lookup.get(r["id"], "")
+        rd = dates_lookup.get(r["id"], {})
+        # dates[] array (may have multiple); fall back to [date] if no array yet
+        all_dates = rd.get("dates") or ([rd["date"]] if rd.get("date") else [])
+        # Only expose full dates (YYYY-MM-DD or YYYY-MM) in release_dates field
+        r["release_dates"] = [d for d in all_dates if len(d) > 4]
+        # Single field for backward compat (last full date, or empty)
+        r["release_date"] = r["release_dates"][-1] if r["release_dates"] else ""
 
     _sort_chars = str.maketrans("øłØŁ", "olOL")
 
@@ -417,23 +422,30 @@ def generate_html(releases, username, added_count):
     today_birthdays = []
     upcoming_birthdays = []  # list of (offset_days, release, date_str)
 
+    seen_birthdays = set()
     for r in sorted_releases:
         rd = dates_data.get(str(r["id"]))
-        if not rd or not rd.get("date"):
+        if not rd:
             continue
-        md = mm_dd(rd["date"])
-        if not md:
-            continue
-        month, day = md
-        for offset in range(4):
-            target = today + timedelta(days=offset)
-            if target.month == month and target.day == day:
-                entry = (r, rd["date"], idx_by_id[r["id"]])
-                if offset == 0:
-                    today_birthdays.append(entry)
-                else:
-                    upcoming_birthdays.append((offset, *entry))
-                break
+        all_dates = rd.get("dates") or ([rd["date"]] if rd.get("date") else [])
+        for date_str in all_dates:
+            md = mm_dd(date_str)
+            if not md:
+                continue
+            month, day = md
+            for offset in range(4):
+                target = today + timedelta(days=offset)
+                if target.month == month and target.day == day:
+                    key = (r["id"], offset)
+                    if key in seen_birthdays:
+                        break
+                    seen_birthdays.add(key)
+                    entry = (r, date_str, idx_by_id[r["id"]])
+                    if offset == 0:
+                        today_birthdays.append(entry)
+                    else:
+                        upcoming_birthdays.append((offset, *entry))
+                    break
 
     def birthday_cover_html(r, idx):
         cover = r.get("local_cover", "")
@@ -1930,10 +1942,22 @@ function showModal(idx) {{
   document.getElementById('modal-title').textContent  = r.title;
   document.getElementById('modal-artist').textContent = r.artist;
   const rows = [];
-  if (r.release_date) {{
-    const rd = new Date(r.release_date + 'T00:00:00');
-    const rdStr = rd.getFullYear() + ' ' + rd.toLocaleDateString('en-US', {{ month: 'short', day: 'numeric' }});
-    rows.push(['First Release', rdStr]);
+  if (r.release_dates && r.release_dates.length) {{
+    r.release_dates.forEach(function(ds, i) {{
+      const parts = ds.split('-');
+      let label = i === 0 ? 'First Release' : '';
+      let str;
+      if (parts.length === 3) {{
+        const dt = new Date(ds + 'T00:00:00');
+        str = dt.getFullYear() + ' ' + dt.toLocaleDateString('en-US', {{ month: 'short', day: 'numeric' }});
+      }} else if (parts.length === 2) {{
+        const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        str = parts[0] + ' ' + monthNames[parseInt(parts[1]) - 1];
+      }} else {{
+        str = ds;
+      }}
+      rows.push([label, str]);
+    }});
   }} else if (r.master_year) {{
     rows.push(['First Release', r.master_year]);
   }}
