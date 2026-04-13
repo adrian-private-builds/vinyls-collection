@@ -1305,8 +1305,11 @@ def generate_html(releases, username, added_count):
 
   /* ── Birthdays ── */
   .bday-section {{
+    margin-top: 3rem;
+    padding-top: 2.5rem;
     margin-bottom: 2.5rem;
     padding-bottom: 2.5rem;
+    border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
   }}
   .bday-section .stat-title {{
