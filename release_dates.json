@@ -353,10 +353,13 @@
   "25212076": {
     "artist": "Black Sabbath",
     "title": "Mob Rules",
-    "date": "1981-11",
+    "date": "1981-11-04",
     "master_year": 1981,
     "mbid": "23c714de-7830-4a16-a7a8-d6e91b34704d",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1981-11-04"
+    ]
   },
   "16097019": {
     "artist": "Black Sabbath",
