@@ -320,6 +320,15 @@ def generate_html(releases, username, added_count):
     now = datetime.now().strftime("%B %d, %Y at %H:%M")
     today = datetime.now()
 
+    # Attach release_date from release_dates.json to each release
+    dates_lookup = {}
+    if Path("release_dates.json").exists():
+        _rd = json.loads(Path("release_dates.json").read_text())
+        # Only keep full dates (YYYY-MM-DD), not year-only
+        dates_lookup = {int(k): v["date"] for k, v in _rd.items() if v.get("date") and len(v["date"]) > 4}
+    for r in releases:
+        r["release_date"] = dates_lookup.get(r["id"], "")
+
     _sort_chars = str.maketrans("øłØŁ", "olOL")
 
     def artist_sort_key(name):
@@ -393,6 +402,7 @@ def generate_html(releases, username, added_count):
     if Path("release_dates.json").exists():
         dates_data = json.loads(Path("release_dates.json").read_text())
 
+
     # Build idx lookup: release id -> card_idx (re-derive from sorted order)
     idx_by_id = {r["id"]: i for i, r in enumerate(sorted_releases)}
 
@@ -446,6 +456,8 @@ def generate_html(releases, username, added_count):
     else:
         today_section = '<p class="bday-empty">No releases today.</p>'
 
+    upcoming_birthdays.sort(key=lambda x: x[0])
+
     if upcoming_birthdays:
         upcoming_items = ""
         for offset, r, date_str, idx in upcoming_birthdays:
@@ -457,7 +469,7 @@ def generate_html(releases, username, added_count):
         upcoming_section = '<p class="bday-empty">Nothing in the next 3 days.</p>'
 
     birthdays_html = f'''<div class="bday-section">
-  <h3 class="stat-title">🎂 Released Today</h3>
+  <h3 class="stat-title">Released Today</h3>
   {today_section}
   <h3 class="stat-title bday-upcoming-heading">Coming Up</h3>
   {upcoming_section}
@@ -517,7 +529,6 @@ def generate_html(releases, username, added_count):
     stats_html = f"""
 <section class="stats" id="stats">
   <h2 class="stats-heading">Collection Stats</h2>
-  {birthdays_html}
   <div class="stats-grid">
     <div class="stat-block">
       <h3 class="stat-title">Top Artists</h3>
@@ -532,6 +543,7 @@ def generate_html(releases, username, added_count):
       {stat_rows(year_counts)}
     </div>
   </div>
+  {birthdays_html}
 </section>"""
 
     html = f"""<!DOCTYPE html>
@@ -1882,6 +1894,11 @@ function showModal(idx) {{
   document.getElementById('modal-artist').textContent = r.artist;
   const rows = [];
   if (r.master_year)                 rows.push(['First Release', r.master_year]);
+  if (r.release_date) {{
+    const rd = new Date(r.release_date + 'T00:00:00');
+    const rdStr = rd.toLocaleDateString('en-US', {{ month: 'short', day: 'numeric' }}) + ', ' + rd.getFullYear();
+    rows.push(['Release Date', rdStr]);
+  }}
   if (r.year)                        rows.push(['Release Year',  r.year]);
   const modalGenres = (r.styles && r.styles.length ? r.styles : r.genres) || [];
   if (modalGenres.length)            rows.push(['Genre',  modalGenres.join(', ')]);
