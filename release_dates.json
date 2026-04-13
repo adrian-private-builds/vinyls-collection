@@ -528,10 +528,13 @@
   "31262533": {
     "artist": "Bolt Thrower",
     "title": "Mercenary",
-    "date": "1998-09",
+    "date": "1998-11-10",
     "master_year": 1998,
     "mbid": "cf0e3779-f0b4-36ef-a9b8-3fd93a9fef87",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1998-11-10"
+    ]
   },
   "23605175": {
     "artist": "Bolt Thrower",
