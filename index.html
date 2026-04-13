@@ -971,7 +971,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 13, 2026 at 23:32 · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Show Details</button></p>
+    <p class="subtitle">Discogs collection · synced April 13, 2026 at 23:33 · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Show Details</button></p>
   </div>
   <div class="header-right">
     <span class="count">545</span>
@@ -6132,7 +6132,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adriandampc/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adriandampc/collection</a></span>
-  <span>Last sync: April 13, 2026 at 23:32</span>
+  <span>Last sync: April 13, 2026 at 23:33</span>
 </footer>
 
 <!-- Modal -->
@@ -6505,14 +6505,14 @@ function showModal(idx) {
       let str;
       if (parts.length === 3) {
         const dt = new Date(ds + 'T00:00:00');
-        str = dt.getFullYear() + ' ' + dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        str = dt.getFullYear() + '<span style="color:#777"> ' + dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) + '</span>';
       } else if (parts.length === 2) {
         const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-        str = parts[0] + ' ' + monthNames[parseInt(parts[1]) - 1];
+        str = parts[0] + '<span style="color:#777"> ' + monthNames[parseInt(parts[1]) - 1] + '</span>';
       } else {
         str = ds;
       }
-      rows.push([label, str]);
+      rows.push([label, str, false, true]);
     });
   } else if (r.master_year) {
     rows.push(['First Release', r.master_year]);
@@ -6529,7 +6529,7 @@ function showModal(idx) {
     rows.push(['Date Added', dateStr]);
   }
   document.getElementById('modal-details').innerHTML = rows
-    .map(([l, v, isDot]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + (isDot ? dotHtml(v) : '') + esc(v) + '</span></div>')
+    .map(([l, v, isDot, isRaw]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + (isDot ? dotHtml(v) : '') + (isRaw ? v : esc(v)) + '</span></div>')
     .join('');
   document.getElementById('modal-pos').textContent = (_modalPos + 1) + ' / ' + _displayOrder.length;
   document.getElementById('modal-prev').disabled = _modalPos <= 0;

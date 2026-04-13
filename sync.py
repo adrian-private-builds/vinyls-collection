@@ -1949,14 +1949,14 @@ function showModal(idx) {{
       let str;
       if (parts.length === 3) {{
         const dt = new Date(ds + 'T00:00:00');
-        str = dt.getFullYear() + ' ' + dt.toLocaleDateString('en-US', {{ month: 'short', day: 'numeric' }});
+        str = dt.getFullYear() + '<span style="color:#777"> ' + dt.toLocaleDateString('en-US', {{ month: 'short', day: 'numeric' }}) + '</span>';
       }} else if (parts.length === 2) {{
         const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-        str = parts[0] + ' ' + monthNames[parseInt(parts[1]) - 1];
+        str = parts[0] + '<span style="color:#777"> ' + monthNames[parseInt(parts[1]) - 1] + '</span>';
       }} else {{
         str = ds;
       }}
-      rows.push([label, str]);
+      rows.push([label, str, false, true]);
     }});
   }} else if (r.master_year) {{
     rows.push(['First Release', r.master_year]);
@@ -1973,7 +1973,7 @@ function showModal(idx) {{
     rows.push(['Date Added', dateStr]);
   }}
   document.getElementById('modal-details').innerHTML = rows
-    .map(([l, v, isDot]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + (isDot ? dotHtml(v) : '') + esc(v) + '</span></div>')
+    .map(([l, v, isDot, isRaw]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + (isDot ? dotHtml(v) : '') + (isRaw ? v : esc(v)) + '</span></div>')
     .join('');
   document.getElementById('modal-pos').textContent = (_modalPos + 1) + ' / ' + _displayOrder.length;
   document.getElementById('modal-prev').disabled = _modalPos <= 0;
