@@ -544,10 +544,13 @@
   "11184467": {
     "artist": "Bolt Thrower",
     "title": "The IVth Crusade",
-    "date": "1992-10",
+    "date": "1992-11-09",
     "master_year": 1992,
     "mbid": "b619bb90-3898-3550-ab32-a61ce6749a23",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1992-11-09"
+    ]
   },
   "29933995": {
     "artist": "Bolt Thrower",
