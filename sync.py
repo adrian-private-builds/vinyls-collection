@@ -511,20 +511,27 @@ def generate_html(releases, username, added_count):
             year_counts[r["master_year"]] += w
     total = sum(release_weight(r) for r in releases)
 
-    def stat_rows(counter, n=10):
+    _stat_block_id = [0]
+
+    def stat_rows(counter, n=20):
         items = counter.most_common(n)
         if not items:
             return ""
         max_val = items[0][1]
+        block_id = f"stat-more-{_stat_block_id[0]}"
+        _stat_block_id[0] += 1
         rows = ""
-        for label, count in items:
+        for i, (label, count) in enumerate(items):
             pct = round(count / max_val * 100)
-            rows += f"""<div class="stat-row">
+            hidden = ' class="stat-row-hidden"' if i >= 10 else ""
+            rows += f"""<div class="stat-row"{hidden}>
               <span class="stat-label">{escape(str(label))}</span>
               <span class="stat-bar-wrap"><span class="stat-bar" style="width:{pct}%"></span></span>
               <span class="stat-count">{count}</span>
             </div>"""
-        return rows
+        if len(items) > 10:
+            rows += f'<button class="stat-show-more" data-target="{block_id}" onclick="toggleStatMore(this)">Show more</button>'
+        return f'<div id="{block_id}">{rows}</div>'
 
     stats_html = f"""
 <section class="stats" id="stats">
@@ -1301,6 +1308,26 @@ def generate_html(releases, username, added_count):
     flex-shrink: 0;
   }}
 
+  .stat-row-hidden {{
+    display: none;
+  }}
+
+  .stat-show-more {{
+    margin-top: 0.6rem;
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-size: 0.75rem;
+    cursor: pointer;
+    padding: 0;
+    letter-spacing: 0.05em;
+    opacity: 0.7;
+    transition: opacity 0.15s;
+  }}
+  .stat-show-more:hover {{
+    opacity: 1;
+  }}
+
 
 
   /* ── Birthdays ── */
@@ -1680,6 +1707,13 @@ function applyGroups(map, keys, labelFn, idFn) {{
 
 let _searchQuery = '';
 let _currentSort = 'artist';
+
+function toggleStatMore(btn) {{
+  const block = document.getElementById(btn.dataset.target);
+  const hidden = block.querySelectorAll('.stat-row-hidden');
+  hidden.forEach(r => r.style.display = 'flex');
+  btn.remove();
+}}
 
 function toggleCoversView() {{
   const isCovers = document.body.classList.toggle('covers-only');
