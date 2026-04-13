@@ -18,7 +18,7 @@ import time
 import os
 import urllib.request
 import urllib.error
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from html import escape
 
@@ -318,6 +318,7 @@ def apply_custom_covers(releases):
 def generate_html(releases, username, added_count):
     releases = apply_custom_covers(releases)
     now = datetime.now().strftime("%B %d, %Y at %H:%M")
+    today = datetime.now()
 
     _sort_chars = str.maketrans("øłØŁ", "olOL")
 
@@ -387,6 +388,81 @@ def generate_html(releases, username, added_count):
 
     badge = f'<div class="new-badge">+{added_count} new</div>' if added_count else ""
 
+    # ── Birthdays ─────────────────────────────────────────────────────────────
+    dates_data = {}
+    if Path("release_dates.json").exists():
+        dates_data = json.loads(Path("release_dates.json").read_text())
+
+    # Build idx lookup: release id -> card_idx (re-derive from sorted order)
+    idx_by_id = {r["id"]: i for i, r in enumerate(sorted_releases)}
+
+    def mm_dd(date_str):
+        """Return (month, day) tuple from 'YYYY-MM-DD' or None if not full date."""
+        parts = date_str.split("-") if date_str else []
+        if len(parts) == 3:
+            return (int(parts[1]), int(parts[2]))
+        return None
+
+    # Build birthday candidates for today + next 3 days
+    today_birthdays = []
+    upcoming_birthdays = []  # list of (offset_days, release, date_str)
+
+    for r in sorted_releases:
+        rd = dates_data.get(str(r["id"]))
+        if not rd or not rd.get("date"):
+            continue
+        md = mm_dd(rd["date"])
+        if not md:
+            continue
+        month, day = md
+        for offset in range(4):
+            target = today + timedelta(days=offset)
+            if target.month == month and target.day == day:
+                entry = (r, rd["date"], idx_by_id[r["id"]])
+                if offset == 0:
+                    today_birthdays.append(entry)
+                else:
+                    upcoming_birthdays.append((offset, *entry))
+                break
+
+    def birthday_cover_html(r, idx):
+        cover = r.get("local_cover", "")
+        if cover:
+            fallback = escape(r.get("thumb", ""))
+            onerror = f' onerror="this.onerror=null;this.src=\'{fallback}\'"' if fallback else ""
+            img = f'<img src="{escape(cover)}" alt="{escape(r["title"])}" loading="lazy"{onerror}>'
+        elif r.get("thumb"):
+            img = f'<img src="{escape(r["thumb"])}" alt="{escape(r["title"])}" loading="lazy">'
+        else:
+            img = f'<div class="cover-placeholder">{escape(r["artist"][0].upper())}</div>'
+        return f'''<div class="bday-card" onclick="openModal({idx})" title="{escape(r["artist"])} — {escape(r["title"])}">
+          <div class="cover-wrap">{img}</div>
+          <div class="bday-label"><span class="bday-title">{escape(r["title"])}</span><span class="bday-artist">{escape(r["artist"])}</span></div>
+        </div>'''
+
+    if today_birthdays:
+        today_cards = "".join(birthday_cover_html(r, idx) for r, date_str, idx in today_birthdays)
+        today_section = f'<div class="bday-covers">{today_cards}</div>'
+    else:
+        today_section = '<p class="bday-empty">No releases today.</p>'
+
+    if upcoming_birthdays:
+        upcoming_items = ""
+        for offset, r, date_str, idx in upcoming_birthdays:
+            target = today + timedelta(days=offset)
+            day_label = target.strftime("%b %d")
+            upcoming_items += f'<div class="bday-upcoming-row" onclick="openModal({idx})"><span class="bday-upcoming-date">{day_label}</span><span class="bday-upcoming-title">{escape(r["artist"])} — {escape(r["title"])}</span><span class="bday-upcoming-year">({date_str[:4]})</span></div>'
+        upcoming_section = f'<div class="bday-upcoming">{upcoming_items}</div>'
+    else:
+        upcoming_section = '<p class="bday-empty">Nothing in the next 3 days.</p>'
+
+    birthdays_html = f'''<div class="bday-section">
+  <h3 class="stat-title">🎂 Released Today</h3>
+  {today_section}
+  <h3 class="stat-title bday-upcoming-heading">Coming Up</h3>
+  {upcoming_section}
+</div>'''
+
     # ── Stats ────────────────────────────────────────────────────────────────
     from collections import Counter
 
@@ -441,6 +517,7 @@ def generate_html(releases, username, added_count):
     stats_html = f"""
 <section class="stats" id="stats">
   <h2 class="stats-heading">Collection Stats</h2>
+  {birthdays_html}
   <div class="stats-grid">
     <div class="stat-block">
       <h3 class="stat-title">Top Artists</h3>
@@ -1213,6 +1290,92 @@ def generate_html(releases, username, added_count):
   }}
 
 
+
+  /* ── Birthdays ── */
+  .bday-section {{
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--border);
+  }}
+  .bday-section .stat-title {{
+    margin-bottom: 1rem;
+  }}
+  .bday-upcoming-heading {{
+    margin-top: 1.5rem;
+  }}
+  .bday-covers {{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }}
+  .bday-card {{
+    width: 120px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }}
+  .bday-card .cover-wrap {{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0.4rem;
+    transition: transform 0.25s ease;
+  }}
+  .bday-card:hover .cover-wrap {{
+    transform: scale(1.05);
+  }}
+  .bday-label {{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }}
+  .bday-title {{
+    font-size: 0.75rem;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }}
+  .bday-artist {{
+    font-size: 0.7rem;
+    color: var(--muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }}
+  .bday-upcoming {{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }}
+  .bday-upcoming-row {{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.82rem;
+    cursor: pointer;
+    padding: 0.2rem 0;
+    transition: color 0.15s;
+  }}
+  .bday-upcoming-row:hover {{
+    color: var(--accent);
+  }}
+  .bday-upcoming-date {{
+    color: var(--accent);
+    width: 3.5rem;
+    flex-shrink: 0;
+    font-size: 0.75rem;
+  }}
+  .bday-upcoming-title {{
+    flex: 1;
+  }}
+  .bday-upcoming-year {{
+    color: var(--muted);
+    font-size: 0.75rem;
+    flex-shrink: 0;
+  }}
+  .bday-empty {{
+    font-size: 0.82rem;
+    color: var(--muted);
+  }}
 
   @media (max-width: 700px) {{
     /* Header */

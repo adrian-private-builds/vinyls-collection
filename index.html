@@ -755,6 +755,92 @@
 
 
 
+  /* ── Birthdays ── */
+  .bday-section {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .bday-section .stat-title {
+    margin-bottom: 1rem;
+  }
+  .bday-upcoming-heading {
+    margin-top: 1.5rem;
+  }
+  .bday-covers {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .bday-card {
+    width: 120px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .bday-card .cover-wrap {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 0.4rem;
+    transition: transform 0.25s ease;
+  }
+  .bday-card:hover .cover-wrap {
+    transform: scale(1.05);
+  }
+  .bday-label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .bday-title {
+    font-size: 0.75rem;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bday-artist {
+    font-size: 0.7rem;
+    color: var(--muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bday-upcoming {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .bday-upcoming-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.82rem;
+    cursor: pointer;
+    padding: 0.2rem 0;
+    transition: color 0.15s;
+  }
+  .bday-upcoming-row:hover {
+    color: var(--accent);
+  }
+  .bday-upcoming-date {
+    color: var(--accent);
+    width: 3.5rem;
+    flex-shrink: 0;
+    font-size: 0.75rem;
+  }
+  .bday-upcoming-title {
+    flex: 1;
+  }
+  .bday-upcoming-year {
+    color: var(--muted);
+    font-size: 0.75rem;
+    flex-shrink: 0;
+  }
+  .bday-empty {
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+
   @media (max-width: 700px) {
     /* Header */
     header {
@@ -862,7 +948,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 12, 2026 at 13:32 · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Show Details</button></p>
+    <p class="subtitle">Discogs collection · synced April 13, 2026 at 08:49 · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Show Details</button></p>
   </div>
   <div class="header-right">
     <span class="count">545</span>
@@ -5759,6 +5845,12 @@
 
 <section class="stats" id="stats">
   <h2 class="stats-heading">Collection Stats</h2>
+  <div class="bday-section">
+  <h3 class="stat-title">🎂 Released Today</h3>
+  <p class="bday-empty">No releases today.</p>
+  <h3 class="stat-title bday-upcoming-heading">Coming Up</h3>
+  <div class="bday-upcoming"><div class="bday-upcoming-row" onclick="openModal(2)"><span class="bday-upcoming-date">Apr 16</span><span class="bday-upcoming-title">The 69 Eyes — Paris Kills</span><span class="bday-upcoming-year">(2002)</span></div><div class="bday-upcoming-row" onclick="openModal(24)"><span class="bday-upcoming-date">Apr 16</span><span class="bday-upcoming-title">Bathory — Hammerheart</span><span class="bday-upcoming-year">(1990)</span></div><div class="bday-upcoming-row" onclick="openModal(326)"><span class="bday-upcoming-date">Apr 15</span><span class="bday-upcoming-title">Lynyrd Skynyrd — Second Helping</span><span class="bday-upcoming-year">(1974)</span></div><div class="bday-upcoming-row" onclick="openModal(387)"><span class="bday-upcoming-date">Apr 15</span><span class="bday-upcoming-title">Nick Cave &amp; The Bad Seeds — Let Love In</span><span class="bday-upcoming-year">(1994)</span></div><div class="bday-upcoming-row" onclick="openModal(534)"><span class="bday-upcoming-date">Apr 16</span><span class="bday-upcoming-title">The Vintage Caravan — Monuments</span><span class="bday-upcoming-year">(2021)</span></div></div>
+</div>
   <div class="stats-grid">
     <div class="stat-block">
       <h3 class="stat-title">Top Artists</h3>
@@ -5897,7 +5989,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adriandampc/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adriandampc/collection</a></span>
-  <span>Last sync: April 12, 2026 at 13:32</span>
+  <span>Last sync: April 13, 2026 at 08:49</span>
 </footer>
 
 <!-- Modal -->
