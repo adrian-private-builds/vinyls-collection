@@ -1930,11 +1930,12 @@ function showModal(idx) {{
   document.getElementById('modal-title').textContent  = r.title;
   document.getElementById('modal-artist').textContent = r.artist;
   const rows = [];
-  if (r.master_year)                 rows.push(['First Release', r.master_year]);
   if (r.release_date) {{
     const rd = new Date(r.release_date + 'T00:00:00');
     const rdStr = rd.toLocaleDateString('en-US', {{ month: 'short', day: 'numeric' }}) + ', ' + rd.getFullYear();
-    rows.push(['Release Date', rdStr]);
+    rows.push(['First Release', rdStr]);
+  }} else if (r.master_year) {{
+    rows.push(['First Release', r.master_year]);
   }}
   if (r.year)                        rows.push(['Release Year',  r.year]);
   const modalGenres = (r.styles && r.styles.length ? r.styles : r.genres) || [];

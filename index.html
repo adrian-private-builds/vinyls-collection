@@ -971,7 +971,7 @@
 <header>
   <div class="header-left">
     <h1><em>Meg &amp; Adrian</em><br><span class="h1-sub">Vinyl Collection</span></h1>
-    <p class="subtitle">Discogs collection · synced April 13, 2026 at 09:05 · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Show Details</button></p>
+    <p class="subtitle">Discogs collection · synced April 13, 2026 at 09:48 · <button id="view-toggle" class="view-toggle-link" onclick="toggleCoversView()">Show Details</button></p>
   </div>
   <div class="header-right">
     <span class="count">545</span>
@@ -6132,7 +6132,7 @@
 
 <footer>
   <span>Generated from <a href="https://www.discogs.com/user/adriandampc/collection" style="color:var(--accent);text-decoration:none">discogs.com/user/adriandampc/collection</a></span>
-  <span>Last sync: April 13, 2026 at 09:05</span>
+  <span>Last sync: April 13, 2026 at 09:48</span>
 </footer>
 
 <!-- Modal -->
@@ -6498,11 +6498,12 @@ function showModal(idx) {
   document.getElementById('modal-title').textContent  = r.title;
   document.getElementById('modal-artist').textContent = r.artist;
   const rows = [];
-  if (r.master_year)                 rows.push(['First Release', r.master_year]);
   if (r.release_date) {
     const rd = new Date(r.release_date + 'T00:00:00');
     const rdStr = rd.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) + ', ' + rd.getFullYear();
-    rows.push(['Release Date', rdStr]);
+    rows.push(['First Release', rdStr]);
+  } else if (r.master_year) {
+    rows.push(['First Release', r.master_year]);
   }
   if (r.year)                        rows.push(['Release Year',  r.year]);
   const modalGenres = (r.styles && r.styles.length ? r.styles : r.genres) || [];
