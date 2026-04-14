@@ -459,7 +459,6 @@ def generate_html(releases, username, added_count):
             img = f'<div class="cover-placeholder">{escape(r["artist"][0].upper())}</div>'
         return f'''<div class="bday-card" onclick="openModal({idx})" title="{escape(r["artist"])} — {escape(r["title"])}">
           <div class="cover-wrap">{img}</div>
-          <div class="bday-label"><span class="bday-title">{escape(r["title"])}</span><span class="bday-artist">{escape(r["artist"])}</span></div>
         </div>'''
 
     if today_birthdays:
