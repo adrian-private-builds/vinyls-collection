@@ -307,6 +307,17 @@ def vinyl_dot_html(color_str):
 
 # ── Generate HTML ─────────────────────────────────────────────────────────────
 
+# Permanent artist name fixes (Discogs name → correct display name), keyed by release ID
+_ARTIST_FIXES = {
+    6049911: "M83",  # Discogs stores as "M"
+}
+
+def apply_artist_fixes(releases):
+    for r in releases:
+        if r["id"] in _ARTIST_FIXES:
+            r["artist"] = _ARTIST_FIXES[r["id"]]
+    return releases
+
 def apply_custom_covers(releases):
     """Override local_cover with custom image if one exists in covers/custom/."""
     for r in releases:
@@ -2050,6 +2061,7 @@ def main():
     DISCOGS_TOKEN = token_arg or os.environ.get("DISCOGS_TOKEN", "")
 
     releases = fetch_collection(username, folder_id)
+    releases = apply_artist_fixes(releases)
     releases = enrich_master_years(releases)
     releases, added, removed = merge_with_existing(releases)
     releases = download_covers(releases)
