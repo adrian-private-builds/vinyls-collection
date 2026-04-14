@@ -155,12 +155,12 @@
   "19208248": {
     "artist": "All Them Witches",
     "title": "Romany Dagger Remended / Surface To Air Whistle",
-    "date": "2016",
+    "date": "2015-10-30",
     "master_year": 2016,
     "mbid": "2951021b-dde6-42f4-8b9a-0547e69e3f12",
     "source": "musicbrainz",
     "dates": [
-      "2016"
+      "2015-10-30"
     ]
   },
   "9870456": {
@@ -461,10 +461,13 @@
   "30136262": {
     "artist": "Blue Öyster Cult",
     "title": "Secret Treaties",
-    "date": "1974-04",
+    "date": "1974-04-05",
     "master_year": 1974,
     "mbid": "aa882981-3a9a-375f-a3f3-a8898e4f57ae",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1974-04-05"
+    ]
   },
   "15290781": {
     "artist": "Boards Of Canada",
@@ -689,10 +692,13 @@
   "33675246": {
     "artist": "Carcass",
     "title": "Necroticism - Descanting The Insalubrious",
-    "date": "1991-10",
+    "date": "1991-10-30",
     "master_year": 1991,
     "mbid": "8fb7386e-efb6-3c55-8ee1-c80d14267080",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1991-10-30"
+    ]
   },
   "5093016": {
     "artist": "Carcass",
@@ -743,12 +749,12 @@
   "25763416": {
     "artist": "Celtic Frost",
     "title": "To Mega Therion",
-    "date": "1985-10",
+    "date": "1985-10-27",
     "master_year": 1985,
     "mbid": "f2f954cb-3083-3261-bef1-e97bfe80987a",
     "source": "musicbrainz-releases",
     "dates": [
-      "1985-10"
+      "1985-10-27"
     ]
   },
   "22564646": {
@@ -762,10 +768,13 @@
   "7407271": {
     "artist": "The Clash",
     "title": "London Calling",
-    "date": "1979-12",
+    "date": "1979-12-14",
     "master_year": 1979,
     "mbid": "68cd609c-112c-3240-b6e4-9daa51e1f0a7",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1979-12-14"
+    ]
   },
   "15076536": {
     "artist": "Clutch",
@@ -947,10 +956,13 @@
   "24751463": {
     "artist": "The Cult",
     "title": "Love",
-    "date": "1985-08",
+    "date": "1985-10-18",
     "master_year": 1985,
     "mbid": "e7d22464-a11e-3ff1-8d97-4af3f0c1aeb2",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1985-10-18"
+    ]
   },
   "27918576": {
     "artist": "The Cult",
@@ -1185,10 +1197,13 @@
   "29286886": {
     "artist": "The Doors",
     "title": "L.A. Woman",
-    "date": "1971-04",
+    "date": "1971-04-19",
     "master_year": 1971,
     "mbid": "7be633bd-d1f6-3d89-8939-803ae0ed0de8",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1971-04-19"
+    ]
   },
   "2548935": {
     "artist": "The Doors",
@@ -1284,10 +1299,13 @@
   "22427281": {
     "artist": "Entombed",
     "title": "Left Hand Path",
-    "date": "1990-06",
+    "date": "1990-06-04",
     "master_year": 1990,
     "mbid": "3f5ce50c-78a7-30f8-8a03-34b3d7aea9b9",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1990-06-04"
+    ]
   },
   "24577721": {
     "artist": "Entombed",
@@ -1755,10 +1773,13 @@
   "12761726": {
     "artist": "High On Fire",
     "title": "Blessed Black Wings",
-    "date": "2005-01",
+    "date": "2005-02-01",
     "master_year": 2005,
     "mbid": "1ec5c67e-b185-35c3-9848-61065d281346",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "2005-02-01"
+    ]
   },
   "30445013": {
     "artist": "High On Fire",
@@ -1902,12 +1923,12 @@
   "24504038": {
     "artist": "Infernäl Mäjesty",
     "title": "None Shall Defy",
-    "date": "1987-04",
+    "date": "1987-09",
     "master_year": 1987,
     "mbid": "da2ccf9e-2c5d-3050-aee8-7debe3504f37",
     "source": "musicbrainz-releases",
     "dates": [
-      "1987-04"
+      "1987-09"
     ]
   },
   "10463906": {
@@ -2268,12 +2289,12 @@
   "15144923": {
     "artist": "King Diamond",
     "title": "Abigail",
-    "date": "1987-10",
+    "date": "1987-05-29",
     "master_year": 1987,
     "mbid": "ec2dfd65-cdd8-33c1-8ebc-be36c5a686f7",
     "source": "musicbrainz-releases",
     "dates": [
-      "1987-10"
+      "1987-05-29"
     ]
   },
   "29052691": {
@@ -2295,10 +2316,13 @@
   "15271494": {
     "artist": "King Diamond",
     "title": "The Eye",
-    "date": "1990-10",
+    "date": "1990-10-30",
     "master_year": 1990,
     "mbid": "da8b8edb-0111-3ad7-97ac-250032b7c09c",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1990-10-30"
+    ]
   },
   "32152455": {
     "artist": "King Diamond",
@@ -2422,12 +2446,12 @@
   "28125418": {
     "artist": "King Gizzard And The Lizard Wizard",
     "title": "Live At Red Rocks 2022",
-    "date": "2023",
+    "date": "2023-01-24",
     "master_year": 2023,
     "mbid": "469ae101-1bf5-4c88-bd80-3d21fcadb065",
     "source": "musicbrainz",
     "dates": [
-      "2023"
+      "2023-01-24"
     ]
   },
   "29588503": {
@@ -2728,10 +2752,13 @@
   "25197124": {
     "artist": "Led Zeppelin",
     "title": "Untitled",
-    "date": "1971",
+    "date": "1971-11-08",
     "master_year": 1971,
     "mbid": "07e182ae-6567-4bc4-90f0-73619c942d73",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1971-11-08"
+    ]
   },
   "12012689": {
     "artist": "Lenny Kravitz",
@@ -2803,10 +2830,13 @@
   "6049911": {
     "artist": "M",
     "title": "Dead Cities, Red Seas & Lost Ghosts",
-    "date": "2003-04",
+    "date": "2003-04-14",
     "master_year": 2003,
     "mbid": "528afc2e-39d4-3e78-bb88-40aeb08bd122",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "2003-04-14"
+    ]
   },
   "25287409": {
     "artist": "Machine Head",
@@ -3072,10 +3102,13 @@
   "13010838": {
     "artist": "Monster Magnet",
     "title": "Mastermind",
-    "date": "2010-09",
+    "date": "2010-10-25",
     "master_year": 2010,
     "mbid": "07a1271f-b51d-4182-a5f1-56b0d0ca4587",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "2010-10-25"
+    ]
   },
   "10775588": {
     "artist": "Monster Magnet",
@@ -3096,10 +3129,13 @@
   "20249788": {
     "artist": "Morbid Angel",
     "title": "Altars Of Madness",
-    "date": "1989-09",
+    "date": "1989-05-12",
     "master_year": 1989,
     "mbid": "e5be441e-53ec-376a-b261-426e8f06e144",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1989-05-12"
+    ]
   },
   "10705415": {
     "artist": "Morbid Angel",
@@ -3160,10 +3196,13 @@
   "22915754": {
     "artist": "Motörhead",
     "title": "Overkill",
-    "date": "1979-02",
+    "date": "1979-03-16",
     "master_year": 1979,
     "mbid": "6b07471d-4926-381c-8030-1731439a7019",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1979-03-16"
+    ]
   },
   "19278502": {
     "artist": "The Murlocs",
@@ -3251,10 +3290,13 @@
   "35400076": {
     "artist": "New Model Army",
     "title": "Thunder And Consolation",
-    "date": "1989-02",
+    "date": "1989-02-06",
     "master_year": 1989,
     "mbid": "7541de59-b751-3b6a-98ff-1d3c61da706f",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1989-02-06"
+    ]
   },
   "29608504": {
     "artist": "New Model Army",
@@ -3283,10 +3325,13 @@
   "8593485": {
     "artist": "New Order",
     "title": "Power, Corruption & Lies",
-    "date": "1983-05",
+    "date": "1983-05-02",
     "master_year": 1983,
     "mbid": "16cc9dfc-594d-3fb9-b789-3e1bfcb6f9f8",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1983-05-02"
+    ]
   },
   "6656220": {
     "artist": "Nick Cave & The Bad Seeds",
@@ -3331,12 +3376,12 @@
   "20904802": {
     "artist": "Noon",
     "title": "Algorytm",
-    "date": "2018",
+    "date": "2018-04-20",
     "master_year": 2018,
     "mbid": "c75a91b7-3407-44b1-8bae-143e9f3d923f",
     "source": "musicbrainz",
     "dates": [
-      "2018"
+      "2018-04-20"
     ]
   },
   "16067456": {
@@ -3666,10 +3711,13 @@
   "12574480": {
     "artist": "Rage Against The Machine",
     "title": "The Battle Of Los Angeles",
-    "date": "1999-09",
+    "date": "1999-11-02",
     "master_year": 1999,
     "mbid": "25e72bf4-09fc-3e66-9d31-9247d91b4819",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1999-11-02"
+    ]
   },
   "30122441": {
     "artist": "Rainbow",
@@ -3720,20 +3768,23 @@
   "30793338": {
     "artist": "Red Fang",
     "title": "Red Fang ",
-    "date": "2008-10",
+    "date": "2009-03-10",
     "master_year": 2008,
     "mbid": "578d57fc-88de-3027-b3dc-3315c403a9ad",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "2009-03-10"
+    ]
   },
   "5147163": {
     "artist": "Republika",
     "title": "Nowe Sytuacje ",
-    "date": "1983",
+    "date": "1983-07-04",
     "master_year": 1983,
     "mbid": "2473b55b-0817-3bc5-9c61-e35d70b46bfa",
     "source": "musicbrainz",
     "dates": [
-      "1983"
+      "1983-07-04"
     ]
   },
   "13120264": {
@@ -3787,10 +3838,13 @@
   "31316193": {
     "artist": "Rome",
     "title": "A Passage To Rhodesia",
-    "date": "2014-07",
+    "date": "2014-08-02",
     "master_year": 2014,
     "mbid": "decdca5c-e3c4-4195-94fc-317b4eeb51cc",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "2014-08-02"
+    ]
   },
   "8263727": {
     "artist": "Rome",
@@ -3803,23 +3857,23 @@
   "33756480": {
     "artist": "Rome",
     "title": "Anthology 2016 - 2025",
-    "date": "2025",
+    "date": "2025-04-24",
     "master_year": 2025,
     "mbid": "ddae5cbd-4a3e-3da5-ac92-137efde119f4",
     "source": "musicbrainz-releases",
     "dates": [
-      "2025"
+      "2025-04-24"
     ]
   },
   "34631395": {
     "artist": "Rome",
     "title": "Flowers From Exile - Revisited",
-    "date": "2009",
+    "date": "2009-06-26",
     "master_year": 2009,
     "mbid": "ddae5cbd-4a3e-3da5-ac92-137efde119f4",
     "source": "musicbrainz-releases",
     "dates": [
-      "2009"
+      "2009-06-26"
     ]
   },
   "22810847": {
@@ -3994,21 +4048,24 @@
   "20699173": {
     "artist": "Slayer",
     "title": "Haunting The Chapel",
-    "date": "1984-08",
+    "date": "1984-07-04",
     "master_year": 1984,
     "mbid": "bcd5be5d-defa-341b-9546-8c16c4e14cf0",
     "source": "musicbrainz-releases",
     "dates": [
-      "1984-08"
+      "1984-07-04"
     ]
   },
   "20699110": {
     "artist": "Slayer",
     "title": "Hell Awaits",
-    "date": "1985-05",
+    "date": "1985-04-08",
     "master_year": 1985,
     "mbid": "f3000d1b-935c-3872-a1c5-4c5aae663b33",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1985-04-08"
+    ]
   },
   "23513579": {
     "artist": "Slayer",
@@ -4053,10 +4110,13 @@
   "19161829": {
     "artist": "Sleep",
     "title": "Sleep's Holy Mountain",
-    "date": "1992-11",
+    "date": "1992-11-01",
     "master_year": 1992,
     "mbid": "8fef03e2-e48d-3d09-a324-e39056eb2575",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1992-11-01"
+    ]
   },
   "10778614": {
     "artist": "Slim Cessna's Auto Club",
