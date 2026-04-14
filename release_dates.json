@@ -4129,23 +4129,23 @@
   "7657175": {
     "artist": "Slim Cessna's Auto Club",
     "title": "SCAC 102 An Introduction For Young And Old Europe",
-    "date": "2015",
+    "date": "2013-05-04",
     "master_year": 2013,
     "mbid": "e7bd291f-4486-4357-bb58-6d96edbc1883",
     "source": "musicbrainz",
     "dates": [
-      "2015"
+      "2013-05-04"
     ]
   },
   "9098139": {
     "artist": "Slim Cessna's Auto Club",
     "title": "The Commandments According To Slim Cessna's Auto Club",
-    "date": "2001",
+    "date": "2016-09-02",
     "master_year": 2016,
     "mbid": "ea6006e1-a487-3a19-a783-bacbafd1abc1",
     "source": "musicbrainz",
     "dates": [
-      "2001"
+      "2016-09-02"
     ]
   },
   "26133773": {
@@ -4251,12 +4251,12 @@
   "22662188": {
     "artist": "Suicide",
     "title": "Surrender",
-    "date": "1988",
+    "date": "2022-04-08",
     "master_year": 2022,
     "mbid": "9761517a-56bb-35e9-bad3-658142ad3659",
     "source": "musicbrainz",
     "dates": [
-      "1988"
+      "2022-04-08"
     ]
   },
   "31807892": {
@@ -4308,10 +4308,13 @@
   "25365007": {
     "artist": "Tangerine Dream",
     "title": "Rubycon",
-    "date": "1975-03",
+    "date": "1975-03-21",
     "master_year": 1975,
     "mbid": "96c98370-1390-33ec-9bc6-ed15e16c3e25",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1975-03-21"
+    ]
   },
   "35637556": {
     "artist": "Tears For Fears",
@@ -4343,12 +4346,12 @@
   "10899006": {
     "artist": "Thulsa Doom",
     "title": "A Keen Eye For The Obvious",
-    "date": "2017",
+    "date": "2017-09-22",
     "master_year": 2017,
     "mbid": "8d8b1bcf-6983-49a7-b1da-51a6fb967bae",
     "source": "musicbrainz",
     "dates": [
-      "2017"
+      "2017-09-22"
     ]
   },
   "10088709": {
@@ -4394,12 +4397,12 @@
   "15421848": {
     "artist": "Trouble",
     "title": "Psalm 9",
-    "date": "1984-08",
+    "date": "1984-03-10",
     "master_year": 1984,
     "mbid": "20846efe-75de-4a51-8f0f-1f5a142108b5",
     "source": "musicbrainz-releases",
     "dates": [
-      "1984-08"
+      "1984-03-10"
     ]
   },
   "30491578": {
@@ -4531,20 +4534,23 @@
   "22817261": {
     "artist": "Van Der Graaf Generator",
     "title": "Pawn Hearts",
-    "date": "1971-10",
+    "date": "1971-11-12",
     "master_year": 1971,
     "mbid": "d5afa3d7-a3b6-3b95-a812-8416dd292b9b",
-    "source": "musicbrainz"
+    "source": "musicbrainz",
+    "dates": [
+      "1971-11-12"
+    ]
   },
   "7097828": {
     "artist": "Vangelis",
     "title": "Blade Runner",
-    "date": "1994",
+    "date": "1994-06-06",
     "master_year": 1994,
     "mbid": "f393097a-b567-3253-9bdf-df353ee3e9e1",
     "source": "musicbrainz",
     "dates": [
-      "1994"
+      "1994-06-06"
     ]
   },
   "24593237": {
@@ -4561,12 +4567,12 @@
   "20348827": {
     "artist": "Venom",
     "title": "Welcome To Hell",
-    "date": "1981-12",
+    "date": "1981-12-02",
     "master_year": 1981,
     "mbid": "1f07171f-33df-4c06-a932-4ea6a3a2ca8c",
     "source": "musicbrainz",
     "dates": [
-      "1981-12"
+      "1981-12-02"
     ]
   },
   "26965184": {
