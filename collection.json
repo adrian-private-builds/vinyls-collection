@@ -1858,6 +1858,28 @@
     "median_price": 33.33
   },
   {
+    "id": 36025654,
+    "master_id": 106029,
+    "title": "Carnivore",
+    "artist": "Carnivore",
+    "year": 2025,
+    "thumb": "https://i.discogs.com/gaHrmeYcUpnYJ4a6e9wISoTkDWxXhK5d3dJC-G4kFns/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MDI1/NjU0LTE3NjY3ODgz/ODItNTUyNy5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Crossover Thrash"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Red with Black Splatter",
+    "date_added": "2026-04-28T09:54:04-07:00",
+    "master_year": 1985,
+    "local_cover": "covers/36025654.jpg",
+    "median_price": 22.93
+  },
+  {
     "id": 29626615,
     "master_id": 106032,
     "title": "Retaliation.",
@@ -2483,7 +2505,7 @@
     "date_added": "2022-11-20T05:34:49-08:00",
     "master_year": 2001,
     "local_cover": "covers/20402047.jpg",
-    "median_price": null
+    "median_price": 99.99
   },
   {
     "id": 22412776,
@@ -9060,7 +9082,7 @@
     "title": "Nirvana",
     "artist": "Nirvana",
     "year": 2023,
-    "thumb": "https://i.discogs.com/RvZyPCai_mRJJL69MG0W_SPYhBi4VIqhW_yAqSeirdM/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NzI4/NTI5LTE3NzAzODE4/NDYtOTYwNy5qcGVn.jpeg",
+    "thumb": "https://i.discogs.com/4hTFE46IX1npLmTHo2sHewmmuHmcawmOoUGzM6nxvUg/rs:fit/g:sm/q:90/h:500/w:496/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NzI4/NTI5LTE3Nzc0MjU1/NDgtODgzNS5wbmc.jpeg",
     "genres": [
       "Rock"
     ],
@@ -11738,7 +11760,7 @@
     "formats": [
       "Vinyl"
     ],
-    "vinyl_color": "Smoke/Clear Vinyl",
+    "vinyl_color": "Smoke/Clear",
     "date_added": "2022-11-26T11:46:40-08:00",
     "master_year": 2009,
     "local_cover": "covers/23830427.jpg",
