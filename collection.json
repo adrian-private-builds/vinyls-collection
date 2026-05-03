@@ -12117,6 +12117,32 @@
     "median_price": 40.0
   },
   {
+    "id": 31929973,
+    "master_id": 27492,
+    "title": "Slow, Deep And Hard",
+    "artist": "Type O Negative",
+    "year": 2024,
+    "thumb": "https://i.discogs.com/DO7hZ6qRYJq8PUzbNGBgw4orr9JorLn7cqZibrgRS40/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTI5/OTczLTE3NDEzODMy/MzEtNjk5OS5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Doom Metal",
+      "Hardcore",
+      "Heavy Metal",
+      "Goth Rock",
+      "Gothic Metal"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Green & Black Marble",
+    "date_added": "2026-05-02T10:14:13-07:00",
+    "master_year": 1991,
+    "local_cover": "covers/31929973.jpg",
+    "median_price": 22.0
+  },
+  {
     "id": 14503872,
     "master_id": 27590,
     "title": "World Coming Down",
