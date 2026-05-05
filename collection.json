@@ -2714,6 +2714,29 @@
     "median_price": 36.08
   },
   {
+    "id": 33950805,
+    "master_id": 34081,
+    "title": "Time Out",
+    "artist": "The Dave Brubeck Quartet",
+    "year": 2024,
+    "thumb": "https://i.discogs.com/1h8BFFMrnTXX8_OAAksT_VrX3EGeosIz5vxaNbHnqfA/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzOTUw/ODA1LTE3NDY5Njc1/MzYtNDY0MS5qcGVn.jpeg",
+    "genres": [
+      "Jazz"
+    ],
+    "styles": [
+      "Bop",
+      "Cool Jazz"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "180 gram",
+    "date_added": "2026-05-04T12:29:11-07:00",
+    "master_year": 1959,
+    "local_cover": "covers/33950805.jpg",
+    "median_price": 17.65
+  },
+  {
     "id": 28892941,
     "master_id": 31844,
     "title": "Give Me Convenience Or Give Me Death",
@@ -11043,6 +11066,28 @@
     "median_price": 26.0
   },
   {
+    "id": 31993628,
+    "master_id": 7778,
+    "title": "Show No Mercy",
+    "artist": "Slayer",
+    "year": 2024,
+    "thumb": "https://i.discogs.com/Dw9NSj_vVz_zM69zpgC_VS73x76JY90DBrhZb22q3pU/rs:fit/g:sm/q:90/h:518/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTkz/NjI4LTE3Mjg5NDcy/NTAtNTM3MC5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Thrash"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-05-04T12:27:42-07:00",
+    "master_year": 1983,
+    "local_cover": "covers/31993628.jpg",
+    "median_price": 29.4
+  },
+  {
     "id": 26853977,
     "master_id": 7710,
     "title": "South Of Heaven",
@@ -12517,6 +12562,31 @@
     "master_year": 2009,
     "local_cover": "covers/15516690.jpg",
     "median_price": 33.32
+  },
+  {
+    "id": 12934743,
+    "master_id": 1070586,
+    "title": "Runaljod - Ragnarok",
+    "artist": "Wardruna",
+    "year": 2018,
+    "thumb": "https://i.discogs.com/2m1l3lyurMt4XiyXxuQkT95ZhHhAq8i1II0_iW0GElw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTM0/NzQzLTE2NTU0ODc0/NDctODc2MC5qcGVn.jpeg",
+    "genres": [
+      "Non-Music",
+      "Folk, World, & Country"
+    ],
+    "styles": [
+      "Nordic",
+      "Poetry",
+      "Rune Singing"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-05-04T12:26:53-07:00",
+    "master_year": 2016,
+    "local_cover": "covers/12934743.jpg",
+    "median_price": 22.97
   },
   {
     "id": 13645352,
