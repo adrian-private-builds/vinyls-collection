@@ -16,8 +16,10 @@ import sys
 import json
 import time
 import os
+import re
 import urllib.request
 import urllib.error
+from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 from html import escape
@@ -142,6 +144,16 @@ def _find_custom_cover(release_id):
         if p.exists():
             return p
     return None
+
+def _slug_normalize(s):
+    s = re.sub(r"^the\s+", "", s.lower())
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+def _slug_matches(filename_stem, artist, title):
+    combined = _slug_normalize(artist) + "-" + _slug_normalize(title)
+    combined_counts = Counter(combined.split("-"))
+    fname_counts = Counter(filename_stem.split("-"))
+    return all(combined_counts.get(w, 0) >= n for w, n in fname_counts.items())
 
 # ── Fetch master (original) release years ─────────────────────────────────────
 
@@ -320,8 +332,18 @@ def apply_artist_fixes(releases):
 
 def apply_custom_covers(releases):
     """Override local_cover with custom image if one exists in covers/custom/."""
+    slug_files = [
+        p for p in CUSTOM_COVERS_DIR.iterdir()
+        if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp") and not p.stem.isdigit()
+    ]
     for r in releases:
         custom = _find_custom_cover(r["id"])
+        if not custom and slug_files:
+            artist, title = r.get("artist", ""), r.get("title", "")
+            for p in slug_files:
+                if _slug_matches(p.stem, artist, title):
+                    custom = p
+                    break
         if custom:
             r["local_cover"] = str(custom)
     return releases
@@ -330,6 +352,13 @@ def generate_html(releases, username, added_count):
     releases = apply_custom_covers(releases)
     now = datetime.now().strftime("%B %d, %Y at %H:%M")
     today = datetime.now()
+
+    # Attach tracklist from tracklists.json to each release
+    tracklists_data = {}
+    if Path("tracklists.json").exists():
+        tracklists_data = json.loads(Path("tracklists.json").read_text())
+    for r in releases:
+        r["tracklist"] = tracklists_data.get(str(r["id"]), [])
 
     # Attach release_date from release_dates.json to each release
     dates_lookup = {}
@@ -1206,6 +1235,70 @@ def generate_html(releases, username, added_count):
     width: 0.6rem;
     height: 0.6rem;
   }}
+
+  /* ── Tracklist ── */
+  .modal-tracklist {{
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+  }}
+  .tracklist-lp {{
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+  }}
+  .tracklist-lp:first-child {{
+    margin-top: 0;
+  }}
+  .tracklist-heading {{
+    font-size: 0.75rem;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 1.25rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.8;
+  }}
+  .tracklist-heading:first-child {{
+    margin-top: 0;
+  }}
+  .tracklist-side {{
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 0.9rem;
+    margin-bottom: 0.3rem;
+  }}
+  .tracklist-side:first-child {{
+    margin-top: 0;
+  }}
+  .tracklist-track {{
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.18rem 0;
+    color: var(--text);
+  }}
+  .tracklist-pos {{
+    color: var(--muted);
+    font-size: 0.72rem;
+    width: 2rem;
+    flex-shrink: 0;
+  }}
+  .tracklist-title {{
+    flex: 1;
+  }}
+  .tracklist-dur {{
+    color: var(--muted);
+    font-size: 0.72rem;
+    flex-shrink: 0;
+  }}
   .modal-close {{
     position: absolute;
     top: 0.75rem;
@@ -1599,6 +1692,7 @@ def generate_html(releases, username, added_count):
         <div class="modal-title" id="modal-title"></div>
         <div class="modal-artist" id="modal-artist"></div>
         <div class="modal-details" id="modal-details"></div>
+        <div class="modal-tracklist" id="modal-tracklist" style="display:none"></div>
       </div>
       <div class="modal-nav-row">
         <button class="modal-nav-btn" id="modal-prev" onclick="modalNav(-1)"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9,2 4,7 9,12"/></svg></button>
@@ -1985,6 +2079,36 @@ function showModal(idx) {{
   document.getElementById('modal-details').innerHTML = rows
     .map(([l, v, isDot, isRaw]) => '<div class="row"><span class="label">' + l + '</span><span class="value">' + (isDot ? dotHtml(v) : '') + (isRaw ? v : esc(v)) + '</span></div>')
     .join('');
+  // Tracklist
+  const tlEl = document.getElementById('modal-tracklist');
+  if (r.tracklist && r.tracklist.length) {{
+    let tlHtml = '';
+    let lastLp = null;
+    r.tracklist.forEach(function(item) {{
+      if (item.h !== undefined) {{
+        tlHtml += '<div class="tracklist-heading">' + esc(item.h) + '</div>';
+      }} else if (item.s !== undefined) {{
+        if (item.lp !== undefined && item.lp !== lastLp) {{
+          lastLp = item.lp;
+          tlHtml += '<div class="tracklist-lp">LP ' + item.lp + '</div>';
+        }}
+        if (item.s) tlHtml += '<div class="tracklist-side">' + esc(item.s) + '</div>';
+        (item.t || []).forEach(function(t) {{
+          tlHtml += '<div class="tracklist-track">' +
+            '<span class="tracklist-pos">' + esc(t[0]) + '</span>' +
+            '<span class="tracklist-title">' + esc(t[1]) + '</span>' +
+            (t[2] ? '<span class="tracklist-dur">' + esc(t[2]) + '</span>' : '') +
+            '</div>';
+        }});
+      }}
+    }});
+    tlEl.innerHTML = tlHtml;
+    tlEl.style.display = '';
+  }} else {{
+    tlEl.innerHTML = '';
+    tlEl.style.display = 'none';
+  }}
+
   document.getElementById('modal-pos').textContent = (_modalPos + 1) + ' / ' + _displayOrder.length;
   document.getElementById('modal-prev').disabled = _modalPos <= 0;
   document.getElementById('modal-next').disabled = _modalPos >= _displayOrder.length - 1;
