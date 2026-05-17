@@ -252,6 +252,31 @@
     "median_price": 31.03
   },
   {
+    "id": 12319088,
+    "master_id": 53039,
+    "title": "Brutal Planet",
+    "artist": "Alice Cooper",
+    "year": 2018,
+    "thumb": "https://i.discogs.com/LzfP8nCDYtTeK4ocBhqY5wNzqU8t04pesmvGMtsqEHQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzE5/MDg4LTE1MzYxMTEz/MzMtNzAyOC5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Heavy Metal",
+      "Hard Rock"
+    ],
+    "formats": [
+      "Vinyl",
+      "CD",
+      "All Media"
+    ],
+    "vinyl_color": "180g",
+    "date_added": "2026-05-16T07:31:56-07:00",
+    "master_year": 2000,
+    "local_cover": "covers/12319088.jpg",
+    "median_price": 23.24
+  },
+  {
     "id": 24592160,
     "master_id": 21666,
     "title": "Dirt",
@@ -5737,6 +5762,31 @@
     "master_year": 2002,
     "local_cover": "covers/15840429.jpg",
     "median_price": 32.06
+  },
+  {
+    "id": 18612106,
+    "master_id": 229704,
+    "title": "American VI: Ain't No Grave",
+    "artist": "Johnny Cash",
+    "year": 0,
+    "thumb": "https://i.discogs.com/RtJZY4kQWxXr5RWMdRWC1u1KU4nlB_zpY35tdllOd8k/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NjEy/MTA2LTE2MjAzMDYy/MjktOTY1MS5qcGVn.jpeg",
+    "genres": [
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "styles": [
+      "Country",
+      "Acoustic",
+      "Folk Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "180g",
+    "date_added": "2026-05-16T07:31:34-07:00",
+    "master_year": 2010,
+    "local_cover": "covers/18612106.jpg",
+    "median_price": 25.0
   },
   {
     "id": 8803566,
