@@ -5789,6 +5789,28 @@
     "median_price": 25.0
   },
   {
+    "id": 31072073,
+    "master_id": 3527021,
+    "title": "Songwriter",
+    "artist": "Johnny Cash",
+    "year": 2024,
+    "thumb": "https://i.discogs.com/cohL5ZZiq7AcR4hvIKH_bGqmAzeW55368Nr2tcobvcc/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDcy/MDczLTE3MTk1NzM0/NDUtMjcwNS5qcGVn.jpeg",
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "styles": [
+      "Country"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Black And White Swirl",
+    "date_added": "2026-05-30T07:01:27-07:00",
+    "master_year": 2024,
+    "local_cover": "covers/31072073.jpg",
+    "median_price": 19.0
+  },
+  {
     "id": 8803566,
     "master_id": 185733,
     "title": "The Essential Johnny Cash",
