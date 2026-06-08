@@ -3196,6 +3196,28 @@
     "median_price": 25.29
   },
   {
+    "id": 32968638,
+    "master_id": 29047,
+    "title": "The Somberlain",
+    "artist": "Dissection",
+    "year": 2025,
+    "thumb": "https://i.discogs.com/vs6XpXoHVt5q7YjNDTXVNfQUgOzsmW37F34mXn_hePU/rs:fit/g:sm/q:90/h:552/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTY4/NjM4LTE3MzgyNzA0/MDEtMjI3MC5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Black Metal"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Purple",
+    "date_added": "2026-06-07T12:46:34-07:00",
+    "master_year": 1993,
+    "local_cover": "covers/32968638.jpg",
+    "median_price": 49.41
+  },
+  {
     "id": 33039462,
     "master_id": 1356188,
     "title": "The Don",
