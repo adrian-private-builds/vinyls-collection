@@ -7591,6 +7591,33 @@
     "median_price": 13.33
   },
   {
+    "id": 28939996,
+    "master_id": 65448,
+    "title": "Chocolate Starfish And The Hot Dog Flavored Water",
+    "artist": "Limp Bizkit",
+    "year": 2023,
+    "thumb": "https://i.discogs.com/j9CIpggjRqmBRqazGkolBFfbBxmaGTtFOOnnS05eVsU/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4OTM5/OTk2LTE3MDI1MDgw/MTEtMjA0NC5qcGVn.jpeg",
+    "genres": [
+      "Hip Hop",
+      "Rock"
+    ],
+    "styles": [
+      "Nu Metal",
+      "Alternative Metal",
+      "Hardcore Hip-Hop"
+    ],
+    "formats": [
+      "Vinyl",
+      "Vinyl",
+      "All Media"
+    ],
+    "vinyl_color": "Gray [Mudgray]",
+    "date_added": "2026-06-12T13:08:30-07:00",
+    "master_year": 2000,
+    "local_cover": "covers/28939996.jpg",
+    "median_price": 35.0
+  },
+  {
     "id": 33665268,
     "master_id": 66028,
     "title": "Significant Other",
