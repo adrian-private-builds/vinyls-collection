@@ -6292,7 +6292,7 @@
     "title": "Conspiracy",
     "artist": "King Diamond",
     "year": 2023,
-    "thumb": "https://i.discogs.com/OCTrsTSCo33fp1T9ZTzQ5DfxgCWI29kNertcvBReGME/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MDUy/NjkxLTE3MDEyMDky/MDItMTUyMi5qcGVn.jpeg",
+    "thumb": "https://i.discogs.com/3yON8TLpvfihzPR4_9HuxKfoZ2sGbMSrwsAOnbnOY-A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MDUy/NjkxLTE3ODEzODA3/OTUtNTYyNS5qcGVn.jpeg",
     "genres": [
       "Rock"
     ],
@@ -11052,6 +11052,29 @@
     "master_year": 2006,
     "local_cover": "covers/29018266.jpg",
     "median_price": 29.89
+  },
+  {
+    "id": 34446664,
+    "master_id": 2795,
+    "title": "First And Last And Always",
+    "artist": "The Sisters Of Mercy",
+    "year": 2025,
+    "thumb": "https://i.discogs.com/Dh5amy1lKJEGtJK5OBEM5JILBeHK6VZxlSGGr3i4TKo/rs:fit/g:sm/q:90/h:600/w:573/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NDQ2/NjY0LTE3NzI0NjQy/NDYtOTIzOC5qcGVn.jpeg",
+    "genres": [
+      "Electronic",
+      "Rock"
+    ],
+    "styles": [
+      "Goth Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Red And Black Marble, 40th Anniversary, Gatefold",
+    "date_added": "2026-06-13T11:43:33-07:00",
+    "master_year": 1985,
+    "local_cover": "covers/34446664.jpg",
+    "median_price": 24.99
   },
   {
     "id": 25073821,
