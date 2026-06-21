@@ -2588,7 +2588,8 @@
       "Rock"
     ],
     "styles": [
-      "Alternative Rock"
+      "Alternative Rock",
+      "Hard Rock"
     ],
     "formats": [
       "Vinyl"
@@ -3201,7 +3202,7 @@
     "title": "The Somberlain",
     "artist": "Dissection",
     "year": 2025,
-    "thumb": "https://i.discogs.com/vs6XpXoHVt5q7YjNDTXVNfQUgOzsmW37F34mXn_hePU/rs:fit/g:sm/q:90/h:552/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTY4/NjM4LTE3MzgyNzA0/MDEtMjI3MC5qcGVn.jpeg",
+    "thumb": "https://i.discogs.com/s7BJAmtOUvTLnD63FBWnYs82LgH7wQuk4oXCAHykRdo/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyOTY4/NjM4LTE3ODE5NzUw/MzMtNzg0Mi5qcGVn.jpeg",
     "genres": [
       "Rock"
     ],
@@ -8061,6 +8062,28 @@
     "master_year": 1990,
     "local_cover": "covers/13607804.jpg",
     "median_price": null
+  },
+  {
+    "id": 36350134,
+    "master_id": 32937,
+    "title": "Rust In Peace",
+    "artist": "Megadeth",
+    "year": 0,
+    "thumb": "https://i.discogs.com/xuWMbZTEDRLMYwOrMEOob6WCzc5OD8vfcoKJAG4Firo/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MzUw/MTM0LTE3Njk3MDUw/NjItOTE0Ni5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Thrash"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "180g",
+    "date_added": "2026-06-20T05:37:42-07:00",
+    "master_year": 1990,
+    "local_cover": "covers/36350134.jpg",
+    "median_price": 33.0
   },
   {
     "id": 27114993,
