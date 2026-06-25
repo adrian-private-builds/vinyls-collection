@@ -5764,6 +5764,30 @@
     "median_price": 34.82
   },
   {
+    "id": 31105937,
+    "master_id": 55383,
+    "title": "Indiana Jones And The Raiders Of The Lost Ark (Original Motion Picture Soundtrack)",
+    "artist": "John Williams",
+    "year": 2024,
+    "thumb": "https://i.discogs.com/zYtD9nbMBhIOIVDPvdgIDCIAka2pzfiPItrWfncHkeg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMTA1/OTM3LTE3MjAwNTg0/NjItNzE1Ni5qcGVn.jpeg",
+    "genres": [
+      "Stage & Screen"
+    ],
+    "styles": [
+      "Score",
+      "Soundtrack",
+      "Neo-Romantic"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "180g, Gatefold",
+    "date_added": "2026-06-24T08:51:28-07:00",
+    "master_year": 1981,
+    "local_cover": "covers/31105937.jpg",
+    "median_price": 29.55
+  },
+  {
     "id": 15840429,
     "master_id": 27768,
     "title": "American IV: The Man Comes Around",
@@ -12023,6 +12047,29 @@
     "master_year": 2009,
     "local_cover": "covers/23830427.jpg",
     "median_price": 36.78
+  },
+  {
+    "id": 30077596,
+    "master_id": 87755,
+    "title": "Simply The Best",
+    "artist": "Tina Turner",
+    "year": 2024,
+    "thumb": "https://i.discogs.com/y8quAiy9nIvwc3S8BGSlndVUrETdOv5wn_EoP-GlyFs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDc3/NTk2LTE3MTA0OTg5/NjctNDMwMi5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Pop Rock",
+      "Classic Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Blue",
+    "date_added": "2026-06-24T08:51:00-07:00",
+    "master_year": 1991,
+    "local_cover": "covers/30077596.jpg",
+    "median_price": 25.0
   },
   {
     "id": 13637541,
