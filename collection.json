@@ -10168,6 +10168,29 @@
     "median_price": 25.0
   },
   {
+    "id": 30669100,
+    "master_id": 3239,
+    "title": "Songs For The Deaf",
+    "artist": "Queens Of The Stone Age",
+    "year": 2019,
+    "thumb": "https://i.discogs.com/AOkTn7RK9vqZWB-AALSQEbYfkm7mkgd0thsN3beBeuE/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNjY5/MTAwLTE3MTU2MTg5/NTgtNTg0MS5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Stoner Rock",
+      "Hard Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Gatefold",
+    "date_added": "2026-07-09T10:06:40-07:00",
+    "master_year": 2002,
+    "local_cover": "covers/30669100.jpg",
+    "median_price": 35.0
+  },
+  {
     "id": 13721735,
     "master_id": 1565074,
     "title": "Help Us Stranger",
