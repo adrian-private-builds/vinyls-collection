@@ -4089,7 +4089,13 @@
     "genres": [
       "Rock"
     ],
-    "styles": [],
+    "styles": [
+      "Alternative Metal",
+      "Arena Rock",
+      "Hard Rock",
+      "Heavy Metal",
+      "Pop Rock"
+    ],
     "formats": [
       "Vinyl"
     ],
