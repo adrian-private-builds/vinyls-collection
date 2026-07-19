@@ -2487,6 +2487,28 @@
     "median_price": 100.0
   },
   {
+    "id": 22280029,
+    "master_id": 230366,
+    "title": "Equilibrium",
+    "artist": "Crowbar",
+    "year": 2022,
+    "thumb": "https://i.discogs.com/rMfcc-s0b3IS0ks80JgkbxFc-xABK5KRav3wq5mh_m4/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyMjgw/MDI5LTE2NTA0NTY3/ODctMjIxNy5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Sludge Metal"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-07-18T04:53:20-07:00",
+    "master_year": 2000,
+    "local_cover": "covers/22280029.jpg",
+    "median_price": 33.22
+  },
+  {
     "id": 19643221,
     "master_id": 173335,
     "title": "Odd Fellows Rest",
