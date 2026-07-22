@@ -348,12 +348,12 @@
     "median_price": 25.29
   },
   {
-    "id": 32754192,
+    "id": 32410065,
     "master_id": 1428968,
     "title": "ATW",
     "artist": "All Them Witches",
     "year": 2024,
-    "thumb": "https://i.discogs.com/bkUWIzvWix9Xmf4IhCiqgqwk88DoBqfPVMaZpIRs9vo/rs:fit/g:sm/q:90/h:592/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNzU0/MTkyLTE3MzYzODY5/NDktNjczMS5qcGVn.jpeg",
+    "thumb": "https://i.discogs.com/EQ9kHShT8BWyz8tjRLyHQZtxIyIU4O5vqMGMJE60cKo/rs:fit/g:sm/q:90/h:553/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNDEw/MDY1LTE3NTM0ODQ3/NTItMjU3MC5qcGVn.jpeg",
     "genres": [
       "Rock"
     ],
@@ -368,8 +368,8 @@
     "vinyl_color": " 140g, Blue & Orchid Marble",
     "date_added": "2026-04-04T08:09:45-07:00",
     "master_year": 2018,
-    "local_cover": "covers/32754192.jpg",
-    "median_price": 24.99
+    "local_cover": "covers/32410065.jpg",
+    "median_price": 25.99
   },
   {
     "id": 27138288,
