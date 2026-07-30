@@ -2025,6 +2025,30 @@
     "median_price": 42.5
   },
   {
+    "id": 10149505,
+    "master_id": 61298,
+    "title": "Lie, The Love and Terror Cult",
+    "artist": "Charles Manson",
+    "year": 2017,
+    "thumb": "https://i.discogs.com/kOmPZqfnv9s39uFlGJRompG5qOtn5P3dWt67-d8z6CM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMTQ5/NTA1LTE1MTAwMDA2/NzItMzY4NS5qcGVn.jpeg",
+    "genres": [
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "styles": [
+      "Acoustic",
+      "Folk"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Red Translucent",
+    "date_added": "2026-07-29T12:44:00-07:00",
+    "master_year": 1970,
+    "local_cover": "covers/10149505.jpg",
+    "median_price": 100.0
+  },
+  {
     "id": 22564646,
     "master_id": 1377471,
     "title": "Science Fiction",
@@ -10765,6 +10789,30 @@
     "median_price": 22.98
   },
   {
+    "id": 29301172,
+    "master_id": 12598,
+    "title": "Thy Mighty Contract",
+    "artist": "Rotting Christ",
+    "year": 2023,
+    "thumb": "https://i.discogs.com/DodeP-bpRbmQ0OJGJfHwdkMuEdym0mxjXOip-WbShcE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MzAx/MTcyLTE3MDcyMzI2/OTktNDgxMy5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Black Metal"
+    ],
+    "formats": [
+      "Vinyl",
+      "Vinyl",
+      "All Media"
+    ],
+    "vinyl_color": "Red",
+    "date_added": "2026-07-30T01:32:41-07:00",
+    "master_year": 1993,
+    "local_cover": "covers/29301172.jpg",
+    "median_price": 30.67
+  },
+  {
     "id": 28258444,
     "master_id": 12617,
     "title": "Triarchy Of The Lost Lovers",
@@ -12847,7 +12895,7 @@
     "formats": [
       "Vinyl"
     ],
-    "vinyl_color": "Clear w/Purple Splatter",
+    "vinyl_color": "Clear With Purple Splatter",
     "date_added": "2024-06-08T09:41:27-07:00",
     "master_year": 1988,
     "local_cover": "covers/28430650.jpg",
