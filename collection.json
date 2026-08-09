@@ -11248,6 +11248,29 @@
     "median_price": 27.47
   },
   {
+    "id": 12129846,
+    "master_id": 3128,
+    "title": "Greatest Hits Volume One - A Slight Case Of Overbombing",
+    "artist": "The Sisters Of Mercy",
+    "year": 2018,
+    "thumb": "https://i.discogs.com/Gt1Y5U4hZif_wj23_43GwvsjohgHF7JE1OjVo9h7Gdo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTI5/ODQ2LTE3MzI1MjM5/MjQtODYxMC5qcGVn.jpeg",
+    "genres": [
+      "Electronic",
+      "Rock"
+    ],
+    "styles": [
+      "Goth Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Gatefold Sleeve",
+    "date_added": "2026-08-08T10:32:59-07:00",
+    "master_year": 1993,
+    "local_cover": "covers/12129846.jpg",
+    "median_price": 27.99
+  },
+  {
     "id": 20699173,
     "master_id": 7763,
     "title": "Haunting The Chapel",
@@ -11727,6 +11750,28 @@
     "master_year": 1968,
     "local_cover": "covers/28386424.jpg",
     "median_price": 40.23
+  },
+  {
+    "id": 31522751,
+    "master_id": 455904,
+    "title": "Seven Thunders Roar",
+    "artist": "Stoned Jesus",
+    "year": 2024,
+    "thumb": "https://i.discogs.com/MwqouA80aXHpd7I2T7fVadPaFqzxye8c8NaioNJ9wug/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNTIy/NzUxLTE3MjQxMTMy/ODctNDk0Ni5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Stoner Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-08-08T10:33:43-07:00",
+    "master_year": 2012,
+    "local_cover": "covers/31522751.jpg",
+    "median_price": 34.99
   },
   {
     "id": 20185144,
@@ -12427,6 +12472,28 @@
     "master_year": 2007,
     "local_cover": "covers/22594517.jpg",
     "median_price": 39.87
+  },
+  {
+    "id": 10659254,
+    "master_id": 1225443,
+    "title": "Purgatory",
+    "artist": "Tyler Childers",
+    "year": 2017,
+    "thumb": "https://i.discogs.com/XURHs58w3hUElIdz3MXnSj-jpcYKETR8Pjf6qBFZQnc/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjU5/MjU0LTE1MDE4NjM5/NDUtMTY5OS5qcGVn.jpeg",
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "styles": [
+      "Country"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "180 Gram",
+    "date_added": "2026-08-08T10:32:08-07:00",
+    "master_year": 2017,
+    "local_cover": "covers/10659254.jpg",
+    "median_price": 19.7
   },
   {
     "id": 30244169,
