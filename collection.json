@@ -4525,6 +4525,29 @@
     "median_price": 22.99
   },
   {
+    "id": 38394525,
+    "master_id": 4341138,
+    "title": "Necropolitan",
+    "artist": "Green Lung",
+    "year": 2026,
+    "thumb": "https://i.discogs.com/6h45DZlHb-Ol7Rb2se-aFT2Cy0v8-WvEdUViIaw-fF4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4Mzk0/NTI1LTE3ODkxNDA0/MzItNDg2NC5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Doom Metal",
+      "Stoner Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Purple",
+    "date_added": "2026-09-16T11:20:28-07:00",
+    "master_year": 2026,
+    "local_cover": "covers/38394525.jpg",
+    "median_price": 32.0
+  },
+  {
     "id": 28778671,
     "master_id": 3295300,
     "title": "This Heathen Land ",
