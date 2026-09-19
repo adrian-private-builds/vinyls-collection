@@ -1191,7 +1191,8 @@
     ],
     "styles": [
       "Ambient",
-      "Death Metal"
+      "Death Metal",
+      "Progressive Metal"
     ],
     "formats": [
       "Vinyl"
@@ -6118,7 +6119,7 @@
     "master_id": 35065,
     "title": "†",
     "artist": "Justice",
-    "year": 2023,
+    "year": 2022,
     "thumb": "https://i.discogs.com/RGaeL8pMNp1G1qnW5GdpTdgSXbkxpYqw1AduEotkAhk/rs:fit/g:sm/q:90/h:594/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNjM0/NDY4LTE3MTY1MzMx/MjYtNzM2NC5qcGVn.jpeg",
     "genres": [
       "Electronic"
@@ -7054,6 +7055,30 @@
     "master_year": 2023,
     "local_cover": "covers/28801474.jpg",
     "median_price": 29.77
+  },
+  {
+    "id": 36616714,
+    "master_id": 329282,
+    "title": "Hewers Of Wood And Drawers Of Water",
+    "artist": "Kiss The Anus Of A Black Cat",
+    "year": 2026,
+    "thumb": "",
+    "genres": [
+      "Rock",
+      "Folk, World, & Country"
+    ],
+    "styles": [
+      "Folk",
+      "Neofolk"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-09-18T11:10:26-07:00",
+    "master_year": 2010,
+    "local_cover": "",
+    "median_price": 30.06
   },
   {
     "id": 11611316,
@@ -9714,7 +9739,7 @@
     "date_added": "2022-12-25T17:05:51-08:00",
     "master_year": 2016,
     "local_cover": "covers/9453883.jpg",
-    "median_price": null
+    "median_price": 46.53
   },
   {
     "id": 32056188,
@@ -10652,7 +10677,7 @@
     "id": 31316193,
     "master_id": 800716,
     "title": "A Passage To Rhodesia",
-    "artist": "Rome",
+    "artist": "ROME",
     "year": 2024,
     "thumb": "https://i.discogs.com/q60s_jYkPLFUMAyyQRuUai-Nx7w8t23wzFPLXjCIvuE/rs:fit/g:sm/q:90/h:571/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMzE2/MTkzLTE3MjE5MjU4/NjgtNTM5NC5qcGVn.jpeg",
     "genres": [
@@ -10674,7 +10699,7 @@
     "id": 8263727,
     "master_id": 974081,
     "title": "Anthology 2005-2015",
-    "artist": "Rome",
+    "artist": "ROME",
     "year": 2016,
     "thumb": "https://i.discogs.com/UJIyX6F5azJMxnmtwGKQdLBVcD9Eln38tWridmNxDng/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyNjM3/MjctMTU3MzM5ODAy/Mi05OTg5LmpwZWc.jpeg",
     "genres": [
@@ -10698,7 +10723,7 @@
     "id": 33756480,
     "master_id": 3829287,
     "title": "Anthology 2016 - 2025",
-    "artist": "Rome",
+    "artist": "ROME",
     "year": 2025,
     "thumb": "https://i.discogs.com/ZPvYavWg63MKxtci06yVpY0Y8-niHT-1ymHcQwOGAZs/rs:fit/g:sm/q:90/h:388/w:358/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNzU2/NDgwLTE3NDUxNDMx/NjktNTA5NC5qcGVn.jpeg",
     "genres": [
@@ -10723,7 +10748,7 @@
     "id": 34631395,
     "master_id": 813919,
     "title": "Flowers From Exile - Revisited",
-    "artist": "Rome",
+    "artist": "ROME",
     "year": 2025,
     "thumb": "https://i.discogs.com/6ePbAml5dzUPrcddzYS0eHI6PbQuwzGWbRmMbjxax7k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NjMx/Mzk1LTE3NTMzODE4/ODEtNTk1OC5qcGVn.jpeg",
     "genres": [
@@ -10746,7 +10771,7 @@
     "id": 22810847,
     "master_id": 315723,
     "title": "Masse Mensch Material",
-    "artist": "Rome",
+    "artist": "ROME",
     "year": 2022,
     "thumb": "https://i.discogs.com/Ncsp-ZqMp836TUmv369tMrIuZvIJzbpNqclUs0bs87o/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyODEw/ODQ3LTE2NDk1ODI3/NDctOTU3Mi5qcGVn.jpeg",
     "genres": [
