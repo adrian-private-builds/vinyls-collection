@@ -4737,6 +4737,30 @@
     "median_price": 39.99
   },
   {
+    "id": 36351343,
+    "master_id": 4114810,
+    "title": "Panorama",
+    "artist": "Hällas",
+    "year": 2026,
+    "thumb": "https://i.discogs.com/KzdU_XBoVdf7yQ9upUiVy6kN9YFxdLpk6J-qwj7sfcc/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MzUx/MzQzLTE3Njk5NDk0/MzItODIwNC5wbmc.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Prog Rock",
+      "Space Rock",
+      "Hard Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-09-23T09:18:47-07:00",
+    "master_year": 2026,
+    "local_cover": "covers/36351343.jpg",
+    "median_price": 25.28
+  },
+  {
     "id": 33786405,
     "master_id": 3822993,
     "title": "Satanic Panic Attack",
