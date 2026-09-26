@@ -12781,6 +12781,29 @@
     "median_price": 55.0
   },
   {
+    "id": 38462742,
+    "master_id": 4345761,
+    "title": "Shapes Of Midnight",
+    "artist": "Uncle Acid & The Deadbeats",
+    "year": 2026,
+    "thumb": "https://i.discogs.com/i5B8GBqsd-038lcLWJ4ZwpaVAkkha1VUcuqo9ESZQ5c/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NDYy/NzQyLTE3ODk3NDIx/NzUtNTE2OS5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Psychedelic Rock",
+      "Stoner Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-09-26T04:11:20-07:00",
+    "master_year": 2026,
+    "local_cover": "covers/38462742.jpg",
+    "median_price": 68.18
+  },
+  {
     "id": 34191355,
     "master_id": 29669,
     "title": "Litany",
