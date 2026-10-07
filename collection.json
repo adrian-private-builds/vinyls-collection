@@ -3179,6 +3179,29 @@
     "median_price": 22.87
   },
   {
+    "id": 29667238,
+    "master_id": 23684,
+    "title": "Brothers In Arms",
+    "artist": "Dire Straits",
+    "year": 2022,
+    "thumb": "https://i.discogs.com/Py8FxYRJUfAykUBtx_WOdqfBgfDgDdwPLfdrBxOLTGk/rs:fit/g:sm/q:90/h:578/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NjY3/MjM4LTE3MDY4MjY1/MjMtNTI5OC5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "AOR",
+      "Blues Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "180 Gram",
+    "date_added": "2026-10-06T13:06:24-07:00",
+    "master_year": 1985,
+    "local_cover": "covers/29667238.jpg",
+    "median_price": 29.52
+  },
+  {
     "id": 11205690,
     "master_id": 23798,
     "title": "Love Over Gold",
@@ -11199,6 +11222,28 @@
     "master_year": 1993,
     "local_cover": "covers/27944220.jpg",
     "median_price": 34.3
+  },
+  {
+    "id": 38532591,
+    "master_id": 57974,
+    "title": "Roots",
+    "artist": "Sepultura",
+    "year": 2026,
+    "thumb": "https://i.discogs.com/EkYWkk5l3e7B0FR2GLz22LWve5-CIthUMK9ljwtalAA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTMy/NTkxLTE3OTAzNjc1/NzAtMjc4MC5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Groove Metal"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-10-06T13:07:11-07:00",
+    "master_year": 1996,
+    "local_cover": "covers/38532591.jpg",
+    "median_price": 30.33
   },
   {
     "id": 18497602,
