@@ -4481,6 +4481,30 @@
     "median_price": 25.86
   },
   {
+    "id": 38658123,
+    "master_id": 4368495,
+    "title": "Fever",
+    "artist": "Graveyard",
+    "year": 2026,
+    "thumb": "https://i.discogs.com/J_g_fO0ZKouztkHIBwTm-Xjc0D6OIPG-zMNllScsec0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NjU4/MTIzLTE3OTE1NjA1/NTQtMjA0MS5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Hard Rock",
+      "Psychedelic Rock",
+      "Stoner Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Oxblood",
+    "date_added": "2026-10-10T06:15:05-07:00",
+    "master_year": 2026,
+    "local_cover": "covers/38658123.jpg",
+    "median_price": 32.57
+  },
+  {
     "id": 3301259,
     "master_id": 323599,
     "title": "Hisingen Blues",
@@ -12776,6 +12800,29 @@
     "master_year": 1999,
     "local_cover": "covers/14503872.jpg",
     "median_price": 233.58
+  },
+  {
+    "id": 29530060,
+    "master_id": 10297,
+    "title": "Bergtatt - Et Eeventyr I 5 Capitler",
+    "artist": "Ulver",
+    "year": 2024,
+    "thumb": "https://i.discogs.com/zr0VMv7o0lhg950s38MfnJgdp1m6C34EFb-asW-MgpA/rs:fit/g:sm/q:90/h:570/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NTMw/MDYwLTE3MDU2MTgw/ODctOTMzNi5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Black Metal",
+      "Folk Metal"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Red [Deep Blood Red], 180g",
+    "date_added": "2026-10-10T06:16:07-07:00",
+    "master_year": 1995,
+    "local_cover": "covers/29530060.jpg",
+    "median_price": 31.46
   },
   {
     "id": 31665344,
