@@ -4764,6 +4764,30 @@
     "median_price": 30.0
   },
   {
+    "id": 25128898,
+    "master_id": 9586,
+    "title": "Use Your Illusion II",
+    "artist": "Guns N' Roses",
+    "year": 2022,
+    "thumb": "https://i.discogs.com/zAxCriGMxVVQGEkV9Lj0DHCqrV_N_egLTEqNCoZ0RQU/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTI4/ODk4LTE2NzE0MzE0/MTUtNzY2Ny5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Rock & Roll",
+      "Hard Rock",
+      "Classic Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Gatefold, 180g",
+    "date_added": "2026-11-07T05:49:28-08:00",
+    "master_year": 1991,
+    "local_cover": "covers/25128898.jpg",
+    "median_price": 24.44
+  },
+  {
     "id": 10207247,
     "master_id": 963690,
     "title": "GUNSHIP",
@@ -5982,6 +6006,29 @@
     "master_year": 1981,
     "local_cover": "covers/31105937.jpg",
     "median_price": 29.55
+  },
+  {
+    "id": 22678220,
+    "master_id": 27760,
+    "title": "American III: Solitary Man",
+    "artist": "Johnny Cash",
+    "year": 0,
+    "thumb": "https://i.discogs.com/lkh_ztDWzVhywIjn--HF3RLpXlQMNO-B_gWTaYqi1SU/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNjc4/MjIwLTE2NTEzNDQ0/NDktMTY2MC5qcGVn.jpeg",
+    "genres": [
+      "Folk, World, & Country"
+    ],
+    "styles": [
+      "Country",
+      "Country Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-11-07T05:48:57-08:00",
+    "master_year": 2000,
+    "local_cover": "covers/22678220.jpg",
+    "median_price": 35.56
   },
   {
     "id": 15840429,
@@ -8774,6 +8821,30 @@
     "median_price": 27.0
   },
   {
+    "id": 37451034,
+    "master_id": 11826,
+    "title": "Powertrip",
+    "artist": "Monster Magnet",
+    "year": 2026,
+    "thumb": "https://i.discogs.com/MLWxRlKL9PdAVr8PIKp96zh4THI8FzZ9b_wpQ0GUfCY/rs:fit/g:sm/q:90/h:555/w:555/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3NDUx/MDM0LTE3Nzk4MjM1/MTQtMzQwMS5wbmc.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Space Rock",
+      "Psychedelic Rock",
+      "Hard Rock"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "",
+    "date_added": "2026-11-07T05:48:32-08:00",
+    "master_year": 1998,
+    "local_cover": "covers/37451034.jpg",
+    "median_price": 29.98
+  },
+  {
     "id": 10775588,
     "master_id": 11766,
     "title": "Spine Of God",
@@ -10172,7 +10243,7 @@
     "formats": [
       "Vinyl"
     ],
-    "vinyl_color": "Gatefold Sleeve",
+    "vinyl_color": "Gatefold",
     "date_added": "2022-12-19T06:07:10-08:00",
     "master_year": 2016,
     "local_cover": "covers/12110951.jpg",
