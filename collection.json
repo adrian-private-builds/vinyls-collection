@@ -188,6 +188,29 @@
     "median_price": 22.87
   },
   {
+    "id": 36819829,
+    "master_id": 237280,
+    "title": "Ecailles De Lune",
+    "artist": "Alcest",
+    "year": 2026,
+    "thumb": "https://i.discogs.com/H8yF1Odez1AHTfHPCU-PfDtbL5XUMShhnUPpoz3bfTs/rs:fit/g:sm/q:90/h:463/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODE5/ODI5LTE3NzQ1NzY3/MjgtNDIwNC5qcGVn.jpeg",
+    "genres": [
+      "Rock"
+    ],
+    "styles": [
+      "Post-Metal",
+      "Blackgaze"
+    ],
+    "formats": [
+      "Vinyl"
+    ],
+    "vinyl_color": "Blue With Black And White Marble",
+    "date_added": "2026-11-18T05:11:07-08:00",
+    "master_year": 2010,
+    "local_cover": "covers/36819829.jpg",
+    "median_price": 25.98
+  },
+  {
     "id": 9141669,
     "master_id": 1065867,
     "title": "Kodama",
